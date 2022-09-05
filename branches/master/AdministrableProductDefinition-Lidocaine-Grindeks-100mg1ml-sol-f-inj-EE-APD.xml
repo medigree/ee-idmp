@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AdministrableProductDefinition xmlns="http://hl7.org/fhir">
+  <id value="Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-APD"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: AdministrableProductDefinition</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource AdministrableProductDefinition "Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-APD" </p></div><p><b>status</b>: active</p><p><b>formOf</b>: <a href="MedicinalProductDefinition-Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-MPD.html">MedicinalProductDefinition/Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-MPD</a></p><p><b>administrableDoseForm</b>: Solution for injection <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000000004#100000073863)</span></p><p><b>unitOfPresentation</b>: Ampoule <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000000014#200000002164)</span></p><p><b>producedFrom</b>: <a href="ManufacturedItemDefinition-Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-MID.html">ManufacturedItemDefinition/Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-MID</a></p><blockquote><p><b>routeOfAdministration</b></p><p><b>code</b>: Epidural use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073345#100000073572)</span></p></blockquote><blockquote><p><b>routeOfAdministration</b></p><p><b>code</b>: Intramuscular use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073345#100000073600)</span></p></blockquote></div>
+  </text>
+  <status value="active"/>
+  <formOf>
+    <reference value="MedicinalProductDefinition/Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-MPD"/>
+  </formOf>
+  <administrableDoseForm>
+    <coding>
+      <system value="https://spor.ema.europa.eu/v1/lists/200000000004"/>
+      <code value="100000073863"/>
+      <display value="Solution for injection"/>
+    </coding>
+  </administrableDoseForm>
+  <unitOfPresentation>
+    <coding>
+      <system value="https://spor.ema.europa.eu/v1/lists/200000000014"/>
+      <code value="200000002164"/>
+      <display value="Ampoule"/>
+    </coding>
+  </unitOfPresentation>
+  <producedFrom>
+    <reference value="ManufacturedItemDefinition/Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-MID"/>
+  </producedFrom>
+  <routeOfAdministration>
+    <code>
+      <coding>
+        <system value="https://spor.ema.europa.eu/v1/lists/100000073345"/>
+        <code value="100000073572"/>
+        <display value="Epidural use"/>
+      </coding>
+    </code>
+  </routeOfAdministration>
+  <routeOfAdministration>
+    <code>
+      <coding>
+        <system value="https://spor.ema.europa.eu/v1/lists/100000073345"/>
+        <code value="100000073600"/>
+        <display value="Intramuscular use"/>
+      </coding>
+    </code>
+  </routeOfAdministration>
+</AdministrableProductDefinition>

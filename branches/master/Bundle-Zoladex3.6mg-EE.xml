@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="Zoladex3.6mg-EE"/>
+  <meta>
+    <versionId value="1"/>
+    <lastUpdated value="2022-08-23T06:28:30.427+00:00"/>
+  </meta>
+  <type value="transaction"/>
+  <entry>
+    <resource>
+      <MedicinalProductDefinition>
+        <id value="Zoladex-3.6mg-Implant-EE-MPD"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: MedicinalProductDefinition</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource MedicinalProductDefinition "Zoladex-3.6mg-Implant-EE-MPD" </p></div><p><b>identifier</b>: id: 0000000000020, id: EE-100014112-12130</p><p><b>domain</b>: Human use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000000004#100000000021)</span></p><p><b>status</b>: Current <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000005003#200000005004; <a href="http://build.fhir.org/codesystem-publication-status.html">PublicationStatus</a>#active "Active")</span></p><p><b>legalStatusOfSupply</b>: Medicinal Product subject to medical prescription <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072051#100000072084)</span></p><p><b>additionalMonitoringIndicator</b>: False <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (additionalMonitoringIndicator#False)</span></p><p><b>classification</b>: Goserelin  <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000093533#100000096783; <a href="http://terminology.hl7.org/3.0.0/CodeSystem-atc.html">WHO ATC</a>#L02AE03)</span></p><blockquote><p><b>name</b></p><p><b>productName</b>: Zoladex, 3,6 mg implantaat</p><blockquote><p><b>namePart</b></p><p><b>part</b>: Zoladex</p><p><b>type</b>: Invented name part <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000000#220000000002)</span></p></blockquote><blockquote><p><b>namePart</b></p><p><b>part</b>: 3.6 mg</p><p><b>type</b>: Strength part <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000000#220000000004)</span></p></blockquote><blockquote><p><b>namePart</b></p><p><b>part</b>: implantaat</p><p><b>type</b>: Pharmaceutical dose form part <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000000#220000000005)</span></p></blockquote><h3>CountryLanguages</h3><table class="grid"><tr><td>-</td><td><b>Country</b></td><td><b>Language</b></td></tr><tr><td>*</td><td>Republic of Estonia <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000000002#100000000388)</span></td><td>Estonian <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072057#100000072172)</span></td></tr></table></blockquote></div>
+        </text>
+        <extension url="http://ema.europa.eu/fhir/extension/authorisedDoseForm">
+          <valueCoding>
+            <system value="https://spor.ema.europa.eu/v1/lists/200000000004"/>
+            <code value="100000073874"/>
+            <display value="Implant"/>
+          </valueCoding>
+        </extension>
+        <identifier>
+          <system value="http://ema.europa.eu/fhir/pmsId"/>
+          <value value="0000000000020"/>
+        </identifier>
+        <identifier>
+          <system value="http://ema.europa.eu/fhir/mpId"/>
+          <value value="EE-100014112-12130"/>
+        </identifier>
+        <domain>
+          <coding>
+            <system value="https://spor.ema.europa.eu/v1/lists/100000000004"/>
+            <code value="100000000021"/>
+            <display value="Human use"/>
+          </coding>
+        </domain>
+        <status>
+          <coding>
+            <system value="https://spor.ema.europa.eu/v1/lists/200000005003"/>
+            <code value="200000005004"/>
+            <display value="Current"/>
+          </coding>
+          <coding>
+            <system value="http://hl7.org/fhir/publication-status"/>
+            <code value="active"/>
+            <display value="Active"/>
+          </coding>
+        </status>
+        <legalStatusOfSupply>
+          <coding>
+            <system value="https://spor.ema.europa.eu/v1/lists/100000072051"/>
+            <code value="100000072084"/>
+            <display value="Medicinal Product subject to medical prescription"/>
+          </coding>
+        </legalStatusOfSupply>
+        <additionalMonitoringIndicator>
+          <coding>
+            <system value="http://ema.europa.eu/fhir/additionalMonitoringIndicator"/>
+            <code value="False"/>
+            <display value="False"/>
+          </coding>
+        </additionalMonitoringIndicator>
+        <classification>
+          <coding>
+            <system value="https://spor.ema.europa.eu/v1/lists/100000093533"/>
+            <code value="100000096783"/>
+            <display value="Goserelin "/>
+          </coding>
+          <coding>
+            <system value="http://www.whocc.no/atc"/>
+            <code value="L02AE03"/>
+            <display value="Goserelin "/>
+          </coding>
+        </classification>
+        <name>
+          <productName value="Zoladex, 3,6 mg implantaat"/>
+          <namePart>
+            <part value="Zoladex"/>
+            <type>
+              <coding>
+                <system value="https://spor.ema.europa.eu/v1/lists/220000000000"/>
+                <code value="220000000002"/>
+                <display value="Invented name part"/>
+              </coding>
+            </type>
+          </namePart>
+          <namePart>
+            <part value="3.6 mg"/>
+            <type>
+              <coding>
+                <system value="https://spor.ema.europa.eu/v1/lists/220000000000"/>
+                <code value="220000000004"/>
+                <display value="Strength part"/>
+              </coding>
+            </type>
+          </namePart>
+          <namePart>
+            <part value="implantaat"/>
+            <type>
+              <coding>
+                <system value="https://spor.ema.europa.eu/v1/lists/220000000000"/>
+                <code value="220000000005"/>
+                <display value="Pharmaceutical dose form part"/>
+              </coding>
+            </type>
+          </namePart>
+          <countryLanguage>
+            <country>
+              <coding>
+                <system value="https://spor.ema.europa.eu/v1/lists/100000000002"/>
+                <code value="100000000388"/>
+                <display value="Republic of Estonia"/>
+              </coding>
+            </country>
+            <language>
+              <coding>
+                <system value="https://spor.ema.europa.eu/v1/lists/100000072057"/>
+                <code value="100000072172"/>
+                <display value="Estonian"/>
+              </coding>
+            </language>
+          </countryLanguage>
+        </name>
+      </MedicinalProductDefinition>
+    </resource>
+    <request>
+      <method value="PUT"/>
+      <url value="MedicinalProductDefinition/Zoladex-3.6mg-Implant-EE-MPD"/>
+    </request>
+  </entry>
+  <entry>
+    <resource>
+      <RegulatedAuthorization>
+        <id value="Zoladex-3.6mg-Implant-EE-RA"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: RegulatedAuthorization</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource RegulatedAuthorization "Zoladex-3.6mg-Implant-EE-RA" </p></div><p><b>identifier</b>: id: 062494</p><p><b>subject</b>: <a href="#MedicinalProductDefinition_Zoladex-3.6mg-Implant-EE-MPD">See above (MedicinalProductDefinition/Zoladex-3.6mg-Implant-EE-MPD)</a></p><p><b>type</b>: Marketing Authorisation <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000060#220000000061)</span></p><p><b>region</b>: Republic of Estonia <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000000002#100000000388)</span></p><p><b>status</b>: Valid - Renewed/Varied <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072049#200000017708)</span></p><p><b>statusDate</b>: 2014-06-27</p><p><b>holder</b>: <span>: AstraZeneca AB</span></p></div>
+        </text>
+        <identifier>
+          <system value="http://ema.europa.eu/fhir/marketingAuthorizationNumber"/>
+          <value value="062494"/>
+        </identifier>
+        <subject>
+          <reference value="MedicinalProductDefinition/Zoladex-3.6mg-Implant-EE-MPD"/>
+        </subject>
+        <type>
+          <coding>
+            <system value="https://spor.ema.europa.eu/v1/lists/220000000060"/>
+            <code value="220000000061"/>
+            <display value="Marketing Authorisation"/>
+          </coding>
+        </type>
+        <region>
+          <coding>
+            <system value="https://spor.ema.europa.eu/v1/lists/100000000002"/>
+            <code value="100000000388"/>
+            <display value="Republic of Estonia"/>
+          </coding>
+        </region>
+        <status>
+          <coding>
+            <system value="https://spor.ema.europa.eu/v1/lists/100000072049"/>
+            <code value="200000017708"/>
+            <display value="Valid - Renewed/Varied"/>
+          </coding>
+        </status>
+        <statusDate value="2014-06-27"/>
+        <holder>
+          <identifier>
+            <system value="https://spor.ema.europa.eu/v1/locations"/>
+            <value value="LOC-100014112"/>
+          </identifier>
+          <display value="AstraZeneca AB"/>
+        </holder>
+      </RegulatedAuthorization>
+    </resource>
+    <request>
+      <method value="PUT"/>
+      <url value="RegulatedAuthorization/Zoladex-3.6mg-Implant-EE-RA"/>
+    </request>
+  </entry>
+  <entry>
+    <resource>
+      <AdministrableProductDefinition>
+        <id value="Zoladex-3.6mg-Implant-EE-APD"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: AdministrableProductDefinition</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource AdministrableProductDefinition "Zoladex-3.6mg-Implant-EE-APD" </p></div><p><b>status</b>: active</p><p><b>formOf</b>: <a href="#MedicinalProductDefinition_Zoladex-3.6mg-Implant-EE-MPD">See above (MedicinalProductDefinition/Zoladex-3.6mg-Implant-EE-MPD)</a></p><p><b>administrableDoseForm</b>: Implant <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000000004#100000073874)</span></p><p><b>unitOfPresentation</b>: Implant <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000000014#200000002124)</span></p><p><b>producedFrom</b>: <a href="#ManufacturedItemDefinition_Zoladex-3.6mg-Implant-EE-MID">See above (ManufacturedItemDefinition/Zoladex-3.6mg-Implant-EE-MID)</a></p><h3>RouteOfAdministrations</h3><table class="grid"><tr><td>-</td><td><b>Code</b></td></tr><tr><td>*</td><td>Subcutaneous use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073345#100000073633)</span></td></tr></table></div>
+        </text>
+        <status value="active"/>
+        <formOf>
+          <reference value="MedicinalProductDefinition/Zoladex-3.6mg-Implant-EE-MPD"/>
+        </formOf>
+        <administrableDoseForm>
+          <coding>
+            <system value="https://spor.ema.europa.eu/v1/lists/200000000004"/>
+            <code value="100000073874"/>
+            <display value="Implant"/>
+          </coding>
+        </administrableDoseForm>
+        <unitOfPresentation>
+          <coding>
+            <system value="https://spor.ema.europa.eu/v1/lists/200000000014"/>
+            <code value="200000002124"/>
+            <display value="Implant"/>
+          </coding>
+        </unitOfPresentation>
+        <producedFrom>
+          <reference value="ManufacturedItemDefinition/Zoladex-3.6mg-Implant-EE-MID"/>
+        </producedFrom>
+        <routeOfAdministration>
+          <code>
+            <coding>
+              <system value="https://spor.ema.europa.eu/v1/lists/100000073345"/>
+              <code value="100000073633"/>
+              <display value="Subcutaneous use"/>
+            </coding>
+          </code>
+        </routeOfAdministration>
+      </AdministrableProductDefinition>
+    </resource>
+    <request>
+      <method value="PUT"/>
+      <url value="AdministrableProductDefinition/Zoladex-3.6mg-Implant-EE-APD"/>
+    </request>
+  </entry>
+  <entry>
+    <resource>
+      <ManufacturedItemDefinition>
+        <id value="Zoladex-3.6mg-Implant-EE-MID"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: ManufacturedItemDefinition</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource ManufacturedItemDefinition "Zoladex-3.6mg-Implant-EE-MID" </p></div><p><b>status</b>: active</p><p><b>manufacturedDoseForm</b>: Implant <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000000004#100000073874)</span></p><p><b>unitOfPresentation</b>: Implant <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000000014#200000002124)</span></p></div>
+        </text>
+        <status value="active"/>
+        <manufacturedDoseForm>
+          <coding>
+            <system value="https://spor.ema.europa.eu/v1/lists/200000000004"/>
+            <code value="100000073874"/>
+            <display value="Implant"/>
+          </coding>
+        </manufacturedDoseForm>
+        <unitOfPresentation>
+          <coding>
+            <system value="https://spor.ema.europa.eu/v1/lists/200000000014"/>
+            <code value="200000002124"/>
+            <display value="Implant"/>
+          </coding>
+        </unitOfPresentation>
+      </ManufacturedItemDefinition>
+    </resource>
+    <request>
+      <method value="PUT"/>
+      <url value="ManufacturedItemDefinition/Zoladex-3.6mg-Implant-EE-MID"/>
+    </request>
+  </entry>
+  <entry>
+    <resource>
+      <Ingredient>
+        <id value="Zoladex-3.6mg-Implant-EE-I"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Ingredient</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Ingredient "Zoladex-3.6mg-Implant-EE-I" </p></div><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href="#MedicinalProductDefinition_Zoladex-3.6mg-Implant-EE-MPD">See above (MedicinalProductDefinition/Zoladex-3.6mg-Implant-EE-MPD)</a></li><li><a href="#ManufacturedItemDefinition_Zoladex-3.6mg-Implant-EE-MID">See above (ManufacturedItemDefinition/Zoladex-3.6mg-Implant-EE-MID)</a></li><li><a href="#AdministrableProductDefinition_Zoladex-3.6mg-Implant-EE-APD">See above (AdministrableProductDefinition/Zoladex-3.6mg-Implant-EE-APD)</a></li></ul><p><b>role</b>: Active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072050#100000072072)</span></p><blockquote><p><b>substance</b></p></blockquote><p><b style="color: maroon">Exception generating Narrative: null</b></p></div>
+        </text>
+        <status value="active"/>
+        <for>
+          <reference value="MedicinalProductDefinition/Zoladex-3.6mg-Implant-EE-MPD"/>
+        </for>
+        <for>
+          <reference value="ManufacturedItemDefinition/Zoladex-3.6mg-Implant-EE-MID"/>
+        </for>
+        <for>
+          <reference value="AdministrableProductDefinition/Zoladex-3.6mg-Implant-EE-APD"/>
+        </for>
+        <role>
+          <coding>
+            <system value="https://spor.ema.europa.eu/v1/lists/100000072050"/>
+            <code value="100000072072"/>
+            <display value="Active"/>
+          </coding>
+        </role>
+        <substance>
+          <code>
+            <concept>
+              <coding>
+                <system value="https://spor.ema.europa.eu/v2/SubstanceDefinition"/>
+                <code value="100000084238"/>
+                <display value="Goserelin"/>
+              </coding>
+            </concept>
+          </code>
+          <strength>
+            <presentationRatio>
+              <numerator>
+                <value value="3.6"/>
+                <comparator>
+                  <extension url="http://ema.europa.eu/fhir/extension/comparator">
+                    <valueCoding>
+                      <system value="https://spor.ema.europa.eu/v1/lists/100000000008"/>
+                      <code value="100000000049"/>
+                      <display value="equal to"/>
+                    </valueCoding>
+                  </extension>
+                </comparator>
+                <unit value="milligram(s)"/>
+                <system value="https://spor.ema.europa.eu/v1/lists/100000110633"/>
+                <code value="100000110655"/>
+              </numerator>
+              <denominator>
+                <value value="1"/>
+                <unit value="Implant"/>
+                <system value="https://spor.ema.europa.eu/v1/lists/200000000014"/>
+                <code value="200000002124"/>
+              </denominator>
+            </presentationRatio>
+          </strength>
+        </substance>
+      </Ingredient>
+    </resource>
+    <request>
+      <method value="PUT"/>
+      <url value="Ingredient/Zoladex-3.6mg-Implant-EE-I"/>
+    </request>
+  </entry>
+  <entry>
+    <resource>
+      <PackagedProductDefinition>
+        <id value="Zoladex-3.6mg-Implant-EE-PPD-1002621"/>
+        <text>
+          <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: PackagedProductDefinition</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource PackagedProductDefinition "Zoladex-3.6mg-Implant-EE-PPD-1002621" </p></div><p><b>Extension Definition for PackagedProductDefinition.containedItemQuantity for Version 5.0</b>: 1 Syringe<span style="background: LightGoldenRodYellow"> (Details: http://spor.ema.europa.eu/v1/lists/200000000014 code 200000002150 = '200000002150')</span></p><p><b>identifier</b>: id: EE-EE-100014112-12130-1002621</p><p><b>packageFor</b>: <a href="#MedicinalProductDefinition_Zoladex-3.6mg-Implant-EE-MPD">See above (MedicinalProductDefinition/Zoladex-3.6mg-Implant-EE-MPD)</a></p><p><b>description</b>: Üht implantaati sisaldav Safe System nõela kaitsva kattega süstel.</p><blockquote><p><b>package</b></p><p><b>type</b>: Box <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073346#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000003199#200000003529)</span></p><blockquote><p><b>package</b></p><p><b>type</b>: Pre-filled syringe <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073346#100000073544)</span></p><p><b>quantity</b>: 1</p></blockquote></blockquote></div>
+        </text>
+        <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-PackagedProductDefinition.containedItemQuantity">
+          <valueQuantity>
+            <value value="1"/>
+            <unit value="Syringe"/>
+            <system value="http://spor.ema.europa.eu/v1/lists/200000000014"/>
+            <code value="200000002150"/>
+          </valueQuantity>
+        </extension>
+        <identifier>
+          <system value="http://ema.europa.eu/example/pcid"/>
+          <value value="EE-EE-100014112-12130-1002621"/>
+        </identifier>
+        <packageFor>
+          <reference value="MedicinalProductDefinition/Zoladex-3.6mg-Implant-EE-MPD"/>
+        </packageFor>
+        <description value="Üht implantaati sisaldav Safe System nõela kaitsva kattega süstel.">
+          <extension url="http://ema.europa.eu/fhir/extension/language">
+            <valueCoding>
+              <system value="https://spor.ema.europa.eu/v1/lists/100000072057"/>
+              <code value="100000072172"/>
+              <display value="Estonian"/>
+            </valueCoding>
+          </extension>
+        </description>
+        <marketingStatus>
+          <country>
+            <coding>
+              <system value="https://spor.ema.europa.eu/v1/lists/100000000002"/>
+              <code value="100000000388"/>
+              <display value="Republic of Estonia"/>
+            </coding>
+          </country>
+          <status>
+            <coding>
+              <system value="https://spor.ema.europa.eu/v1/lists/100000072052"/>
+              <code value="100000072083"/>
+              <display value="Marketed"/>
+            </coding>
+          </status>
+        </marketingStatus>
+        <package>
+          <type>
+            <coding>
+              <system value="https://spor.ema.europa.eu/v1/lists/100000073346"/>
+              <code value="100000073498"/>
+              <display value="Box"/>
+            </coding>
+          </type>
+          <quantity value="1"/>
+          <material>
+            <coding>
+              <system value="https://spor.ema.europa.eu/v1/lists/200000003199"/>
+              <code value="200000003529"/>
+              <display value="Cardboard"/>
+            </coding>
+          </material>
+          <package>
+            <type>
+              <coding>
+                <system value="https://spor.ema.europa.eu/v1/lists/100000073346"/>
+                <code value="100000073544"/>
+                <display value="Pre-filled syringe"/>
+              </coding>
+            </type>
+            <quantity value="1"/>
+            <containedItem>
+              <item>
+                <reference>
+                  <reference value="ManufacturedItemDefinition/Zoladex-3.6mg-Implant-EE-MID"/>
+                </reference>
+              </item>
+              <amount>
+                <value value="1"/>
+              </amount>
+            </containedItem>
+          </package>
+        </package>
+      </PackagedProductDefinition>
+    </resource>
+    <request>
+      <method value="PUT"/>
+      <url value="PackagedProductDefinition/Zoladex-3.6mg-Implant-EE-PPD-1002621"/>
+    </request>
+  </entry>
+</Bundle>

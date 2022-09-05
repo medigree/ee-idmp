@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PackagedProductDefinition xmlns="http://hl7.org/fhir">
+  <id value="Diclofenac-Mylan-180mg-Med-plaster-EE-PPD-1788419"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: PackagedProductDefinition</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource PackagedProductDefinition "Diclofenac-Mylan-180mg-Med-plaster-EE-PPD-1788419" </p></div><p><b>Extension Definition for PackagedProductDefinition.containedItemQuantity for Version 5.0</b>: 5 Plaster<span style="background: LightGoldenRodYellow"> (Details: http://spor.ema.europa.eu/v1/lists/200000000014 code 200000002140 = '200000002140')</span></p><p><b>identifier</b>: id: EE-100022866-36016-1788419</p><p><b>packageFor</b>: <a href="MedicinalProductDefinition-Diclofenac-Mylan-180mg-Med-plaster-EE-MPD.html">MedicinalProductDefinition/Diclofenac-Mylan-180mg-Med-plaster-EE-MPD</a></p><p><b>description</b>: Suletava ümbrise materjal on paber/PE/alumiinium/etüleen ja metüülakrüülhappe kopolümeer. Ümbrises on 5 ravimplaastrit. Pakendi suurus: 5 või 10 ravimplaastrit karbis.</p><blockquote><p><b>package</b></p><p><b>type</b>: Box <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073346#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000003199#200000003529)</span></p><blockquote><p><b>package</b></p><p><b>type</b>: Pouch <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073346#100000073540)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Paper <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000003199#200000003207)</span>, PolyEthylene <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000003199#200000003214)</span>, Ethylene meta-acrylic acid <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000003199#200000012521)</span>, Aluminium <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000003199#200000003200)</span></p></blockquote></blockquote></div>
+  </text>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-PackagedProductDefinition.containedItemQuantity">
+    <valueQuantity>
+      <value value="5"/>
+      <unit value="Plaster"/>
+      <system value="http://spor.ema.europa.eu/v1/lists/200000000014"/>
+      <code value="200000002140"/>
+    </valueQuantity>
+  </extension>
+  <identifier>
+    <system value="http://ema.europa.eu/example/pcid"/>
+    <value value="EE-100022866-36016-1788419"/>
+  </identifier>
+  <packageFor>
+    <reference value="MedicinalProductDefinition/Diclofenac-Mylan-180mg-Med-plaster-EE-MPD"/>
+  </packageFor>
+  <description value="Suletava ümbrise materjal on paber/PE/alumiinium/etüleen ja metüülakrüülhappe kopolümeer. Ümbrises on 5 ravimplaastrit. Pakendi suurus: 5 või 10 ravimplaastrit karbis.">
+    <extension url="http://ema.europa.eu/fhir/extension/language">
+      <valueCoding>
+        <system value="https://spor.ema.europa.eu/v1/lists/100000072057"/>
+        <code value="100000072172"/>
+        <display value="Estonian"/>
+      </valueCoding>
+    </extension>
+  </description>
+  <marketingStatus>
+    <country>
+      <coding>
+        <system value="https://spor.ema.europa.eu/v1/lists/100000000002"/>
+        <code value="100000000388"/>
+        <display value="Republic of Estonia"/>
+      </coding>
+    </country>
+    <status>
+      <coding>
+        <system value="https://spor.ema.europa.eu/v1/lists/100000072052"/>
+        <code value="100000072083"/>
+        <display value="Marketed"/>
+      </coding>
+    </status>
+  </marketingStatus>
+  <package>
+    <type>
+      <coding>
+        <system value="https://spor.ema.europa.eu/v1/lists/100000073346"/>
+        <code value="100000073498"/>
+        <display value="Box"/>
+      </coding>
+    </type>
+    <quantity value="1"/>
+    <material>
+      <coding>
+        <system value="https://spor.ema.europa.eu/v1/lists/200000003199"/>
+        <code value="200000003529"/>
+        <display value="Cardboard"/>
+      </coding>
+    </material>
+    <package>
+      <type>
+        <coding>
+          <system value="https://spor.ema.europa.eu/v1/lists/100000073346"/>
+          <code value="100000073540"/>
+          <display value="Pouch"/>
+        </coding>
+      </type>
+      <quantity value="1"/>
+      <material>
+        <coding>
+          <system value="https://spor.ema.europa.eu/v1/lists/200000003199"/>
+          <code value="200000003207"/>
+          <display value="Paper"/>
+        </coding>
+      </material>
+      <material>
+        <coding>
+          <system value="https://spor.ema.europa.eu/v1/lists/200000003199"/>
+          <code value="200000003214"/>
+          <display value="PolyEthylene"/>
+        </coding>
+      </material>
+      <material>
+        <coding>
+          <system value="https://spor.ema.europa.eu/v1/lists/200000003199"/>
+          <code value="200000012521"/>
+          <display value="Ethylene meta-acrylic acid"/>
+        </coding>
+      </material>
+      <material>
+        <coding>
+          <system value="https://spor.ema.europa.eu/v1/lists/200000003199"/>
+          <code value="200000003200"/>
+          <display value="Aluminium"/>
+        </coding>
+      </material>
+      <containedItem>
+        <item>
+          <reference>
+            <reference value="ManufacturedItemDefinition/Diclofenac-Mylan-180mg-Med-plaster-EE-MID"/>
+          </reference>
+        </item>
+        <amount>
+          <value value="5"/>
+          <unit value="Plaster"/>
+          <system value="https://spor.ema.europa.eu/v1/lists/200000000014"/>
+          <code value="200000002140"/>
+        </amount>
+      </containedItem>
+    </package>
+  </package>
+</PackagedProductDefinition>

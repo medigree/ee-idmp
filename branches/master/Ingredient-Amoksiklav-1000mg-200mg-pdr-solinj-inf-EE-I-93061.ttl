@@ -1,0 +1,122 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://medigree.net/fhir/ee/idmp/Ingredient/Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-I-93061> a fhir:Ingredient;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-I-93061"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient \"Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-I-93061\" </p></div><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"MedicinalProductDefinition-Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-MPD.html\">MedicinalProductDefinition/Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-MPD</a></li><li><a href=\"ManufacturedItemDefinition-Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-MID.html\">ManufacturedItemDefinition/Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-MID</a></li><li><a href=\"AdministrableProductDefinition-Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-APD.html\">AdministrableProductDefinition/Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-APD</a></li></ul><p><b>role</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072050#100000072072)</span></p><blockquote><p><b>substance</b></p><blockquote><p><b>strength</b></p><p><b>presentation</b>: </p></blockquote></blockquote><p><b style=\"color: maroon\">Exception generating Narrative: null</b></p></div>"
+  ];
+  fhir:Ingredient.status [ fhir:value "active"];
+  fhir:Ingredient.for [
+     fhir:index 0;
+     fhir:link <http://medigree.net/fhir/ee/idmp/MedicinalProductDefinition/Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-MPD>;
+     fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-MPD" ]
+  ], [
+     fhir:index 1;
+     fhir:link <http://medigree.net/fhir/ee/idmp/ManufacturedItemDefinition/Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-MID>;
+     fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-MID" ]
+  ], [
+     fhir:index 2;
+     fhir:link <http://medigree.net/fhir/ee/idmp/AdministrableProductDefinition/Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-APD>;
+     fhir:Reference.reference [ fhir:value "AdministrableProductDefinition/Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-APD" ]
+  ];
+  fhir:Ingredient.role [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000072050" ];
+       fhir:Coding.code [ fhir:value "100000072072" ];
+       fhir:Coding.display [ fhir:value "Active" ]
+     ]
+  ];
+  fhir:Ingredient.substance [
+     fhir:Ingredient.substance.code [
+       fhir:CodeableReference.concept [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v2/SubstanceDefinition" ];
+           fhir:Coding.code [ fhir:value "100000093061" ];
+           fhir:Coding.display [ fhir:value "Potassium clavulanate" ]
+         ]
+       ]
+     ];
+     fhir:Ingredient.substance.strength [
+       fhir:index 0;
+       fhir:Ingredient.substance.strength.presentationRatio [
+         fhir:Ratio.numerator [
+           fhir:Quantity.value [ fhir:value "200"^^xsd:decimal ];
+           fhir:Quantity.comparator [
+             fhir:Element.extension [
+               fhir:index 0;
+               fhir:Extension.url [ fhir:value "http://ema.europa.eu/fhir/extension/comparator" ];
+               fhir:Extension.valueCoding [
+                 fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000000008" ];
+                 fhir:Coding.code [ fhir:value "100000000051" ];
+                 fhir:Coding.display [ fhir:value "more than" ]
+               ]
+             ]
+           ];
+           fhir:Quantity.unit [ fhir:value "milligram(s)" ];
+           fhir:Quantity.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000110633" ];
+           fhir:Quantity.code [ fhir:value "100000110655" ]
+         ];
+         fhir:Ratio.denominator [
+           fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ];
+           fhir:Quantity.unit [ fhir:value "vial" ];
+           fhir:Quantity.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/200000000014" ];
+           fhir:Quantity.code [ fhir:value "200000002158" ]
+         ]
+       ];
+       fhir:Ingredient.substance.strength.referenceStrength [
+         fhir:index 0;
+         fhir:Ingredient.substance.strength.referenceStrength.substance [
+           fhir:CodeableReference.concept [
+             fhir:CodeableConcept.coding [
+               fhir:index 0;
+               fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v2/SubstanceDefinition" ];
+               fhir:Coding.code [ fhir:value "100000089842" ];
+               fhir:Coding.display [ fhir:value "CLAVULANIC ACID" ]
+             ]
+           ]
+         ];
+         fhir:Ingredient.substance.strength.referenceStrength.strengthRatio [
+           fhir:Ratio.numerator [
+             fhir:Quantity.value [ fhir:value "200"^^xsd:decimal ];
+             fhir:Quantity.comparator [
+               fhir:Element.extension [
+                 fhir:index 0;
+                 fhir:Extension.url [ fhir:value "http://ema.europa.eu/fhir/extension/comparator" ];
+                 fhir:Extension.valueCoding [
+                   fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000000008" ];
+                   fhir:Coding.code [ fhir:value "100000000049" ];
+                   fhir:Coding.display [ fhir:value "equal to" ]
+                 ]
+               ]
+             ];
+             fhir:Quantity.unit [ fhir:value "milligram(s)" ];
+             fhir:Quantity.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000110633" ];
+             fhir:Quantity.code [ fhir:value "100000110655" ]
+           ];
+           fhir:Ratio.denominator [
+             fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ];
+             fhir:Quantity.unit [ fhir:value "Vial" ];
+             fhir:Quantity.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/200000000014" ];
+             fhir:Quantity.code [ fhir:value "200000002158" ]
+           ]
+         ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://medigree.net/fhir/ee/idmp/Ingredient/Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-I-93061.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

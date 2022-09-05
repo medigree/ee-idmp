@@ -1,0 +1,56 @@
+{
+  "resourceType": "RegulatedAuthorization",
+  "id": "Metfogamma850-850mg-f-c-tb-EE-RA",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: RegulatedAuthorization</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource RegulatedAuthorization \"Metfogamma850-850mg-f-c-tb-EE-RA\" </p></div><p><b>identifier</b>: id: 490805</p><p><b>subject</b>: <a href=\"MedicinalProductDefinition-Metfogamma850-850mg-f-c-tb-EE-MPD.html\">MedicinalProductDefinition/Metfogamma850-850mg-f-c-tb-EE-MPD</a></p><p><b>type</b>: Marketing Authorisation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000060#220000000061)</span></p><p><b>region</b>: Republic of Estonia <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000002#100000000388)</span></p><p><b>status</b>: Valid - Renewed/Varied <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072049#200000017708)</span></p><p><b>statusDate</b>: 2010-06-29</p><p><b>holder</b>: <span>: Wörwag Pharma GmbH &amp; Co.KG</span></p></div>"
+  },
+  "identifier": [
+    {
+      "system": "http://ema.europa.eu/fhir/marketingAuthorizationNumber",
+      "value": "490805"
+    }
+  ],
+  "subject": [
+    {
+      "reference": "MedicinalProductDefinition/Metfogamma850-850mg-f-c-tb-EE-MPD"
+    }
+  ],
+  "type": {
+    "coding": [
+      {
+        "system": "https://spor.ema.europa.eu/v1/lists/220000000060",
+        "code": "220000000061",
+        "display": "Marketing Authorisation"
+      }
+    ]
+  },
+  "region": [
+    {
+      "coding": [
+        {
+          "system": "https://spor.ema.europa.eu/v1/lists/100000000002",
+          "code": "100000000388",
+          "display": "Republic of Estonia"
+        }
+      ]
+    }
+  ],
+  "status": {
+    "coding": [
+      {
+        "system": "https://spor.ema.europa.eu/v1/lists/100000072049",
+        "code": "200000017708",
+        "display": "Valid - Renewed/Varied"
+      }
+    ]
+  },
+  "statusDate": "2010-06-29",
+  "holder": {
+    "identifier": {
+      "system": "https://spor.ema.europa.eu/v1/locations",
+      "value": "LOC-100054619"
+    },
+    "display": "Wörwag Pharma GmbH & Co.KG"
+  }
+}

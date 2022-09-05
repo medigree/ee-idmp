@@ -1,0 +1,125 @@
+{
+  "resourceType": "PackagedProductDefinition",
+  "id": "Kadcyla-100mg-Pdr-fr-conc-for-solinj-EE-PPD-1633339",
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PackagedProductDefinition</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition \"Kadcyla-100mg-Pdr-fr-conc-for-solinj-EE-PPD-1633339\" </p></div><p><b>Extension Definition for PackagedProductDefinition.containedItemQuantity for Version 5.0</b>: 1 vial<span style=\"background: LightGoldenRodYellow\"> (Details: http://spor.ema.europa.eu/v1/lists/200000000014 code 200000002158 = '200000002158')</span></p><p><b>identifier</b>: id: EE-100010587-30651-1633339</p><p><b>packageFor</b>: <a href=\"MedicinalProductDefinition-Kadcyla-100mg-Pdr-fr-conc-for-solinj-EE-MPD.html\">MedicinalProductDefinition/Kadcyla-100mg-Pdr-fr-conc-for-solinj-EE-MPD</a></p><p><b>description</b>: Kadcyla on pakendatud 15 ml (100 mg) I tüüpi klaasist viaali, mis on suletud fluorovaiguga lamineeritud halli butüülkummist korgi, alumiiniumsulguri ja valge plastmassist eemaldatava kattega</p><blockquote><p><b>package</b></p><p><b>type</b>: Box <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003529)</span></p><blockquote><p><b>package</b></p><p><b>type</b>: vial <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#200000002158)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Glass type I <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003204)</span></p></blockquote></blockquote></div>"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-PackagedProductDefinition.containedItemQuantity",
+      "valueQuantity": {
+        "value": 1,
+        "unit": "vial",
+        "system": "http://spor.ema.europa.eu/v1/lists/200000000014",
+        "code": "200000002158"
+      }
+    }
+  ],
+  "identifier": [
+    {
+      "system": "http://ema.europa.eu/example/pcid",
+      "value": "EE-100010587-30651-1633339"
+    }
+  ],
+  "packageFor": [
+    {
+      "reference": "MedicinalProductDefinition/Kadcyla-100mg-Pdr-fr-conc-for-solinj-EE-MPD"
+    }
+  ],
+  "description": "Kadcyla on pakendatud 15 ml (100 mg) I tüüpi klaasist viaali, mis on suletud fluorovaiguga lamineeritud halli butüülkummist korgi, alumiiniumsulguri ja valge plastmassist eemaldatava kattega",
+  "_description": {
+    "extension": [
+      {
+        "url": "http://ema.europa.eu/fhir/extension/language",
+        "valueCoding": {
+          "system": "https://spor.ema.europa.eu/v1/lists/100000072057",
+          "code": "100000072172",
+          "display": "Estonian"
+        }
+      }
+    ]
+  },
+  "marketingStatus": [
+    {
+      "country": {
+        "coding": [
+          {
+            "system": "https://spor.ema.europa.eu/v1/lists/100000000002",
+            "code": "100000000388",
+            "display": "Republic of Estonia"
+          }
+        ]
+      },
+      "status": {
+        "coding": [
+          {
+            "system": "https://spor.ema.europa.eu/v1/lists/100000072052",
+            "code": "100000072083",
+            "display": "Marketed"
+          }
+        ]
+      }
+    }
+  ],
+  "package": {
+    "type": {
+      "coding": [
+        {
+          "system": "https://spor.ema.europa.eu/v1/lists/100000073346",
+          "code": "100000073498",
+          "display": "Box"
+        }
+      ]
+    },
+    "quantity": 1,
+    "material": [
+      {
+        "coding": [
+          {
+            "system": "https://spor.ema.europa.eu/v1/lists/200000003199",
+            "code": "200000003529",
+            "display": "Cardboard"
+          }
+        ]
+      }
+    ],
+    "package": [
+      {
+        "type": {
+          "coding": [
+            {
+              "system": "https://spor.ema.europa.eu/v1/lists/100000073346",
+              "code": "200000002158",
+              "display": "vial"
+            }
+          ]
+        },
+        "quantity": 1,
+        "material": [
+          {
+            "coding": [
+              {
+                "system": "https://spor.ema.europa.eu/v1/lists/200000003199",
+                "code": "200000003204",
+                "display": "Glass type I"
+              }
+            ]
+          }
+        ],
+        "containedItem": [
+          {
+            "item": {
+              "reference": {
+                "reference": "ManufacturedItemDefinition/Kadcyla-100mg-Pdr-fr-conc-for-solinj-EE-MID"
+              }
+            },
+            "amount": {
+              "value": 1
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

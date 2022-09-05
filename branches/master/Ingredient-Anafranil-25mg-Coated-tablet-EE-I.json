@@ -1,0 +1,113 @@
+{
+  "resourceType": "Ingredient",
+  "id": "Anafranil-25mg-Coated-tablet-EE-I",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient \"Anafranil-25mg-Coated-tablet-EE-I\" </p></div><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"MedicinalProductDefinition-Anafranil-25mg-Coated-tablet-EE-MPD.html\">MedicinalProductDefinition/Anafranil-25mg-Coated-tablet-EE-MPD</a></li><li><a href=\"ManufacturedItemDefinition-Anafranil-25mg-Coated-tablet-EE-MID.html\">ManufacturedItemDefinition/Anafranil-25mg-Coated-tablet-EE-MID</a></li><li><a href=\"AdministrableProductDefinition-Anafranil-25mg-Coated-tablet-EE-APD.html\">AdministrableProductDefinition/Anafranil-25mg-Coated-tablet-EE-APD</a></li></ul><p><b>role</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072050#100000072072)</span></p><blockquote><p><b>substance</b></p><blockquote><p><b>strength</b></p><p><b>presentation</b>: </p></blockquote></blockquote><p><b style=\"color: maroon\">Exception generating Narrative: null</b></p></div>"
+  },
+  "status": "active",
+  "for": [
+    {
+      "reference": "MedicinalProductDefinition/Anafranil-25mg-Coated-tablet-EE-MPD"
+    },
+    {
+      "reference": "ManufacturedItemDefinition/Anafranil-25mg-Coated-tablet-EE-MID"
+    },
+    {
+      "reference": "AdministrableProductDefinition/Anafranil-25mg-Coated-tablet-EE-APD"
+    }
+  ],
+  "role": {
+    "coding": [
+      {
+        "system": "https://spor.ema.europa.eu/v1/lists/100000072050",
+        "code": "100000072072",
+        "display": "Active"
+      }
+    ]
+  },
+  "substance": {
+    "code": {
+      "concept": {
+        "coding": [
+          {
+            "system": "https://spor.ema.europa.eu/v2/SubstanceDefinition",
+            "code": "100000162540",
+            "display": "CLOMIPRAMINE HYDROCHLORIDE"
+          }
+        ]
+      }
+    },
+    "strength": [
+      {
+        "presentationRatio": {
+          "numerator": {
+            "value": 25,
+            "_comparator": {
+              "extension": [
+                {
+                  "url": "http://ema.europa.eu/fhir/extension/comparator",
+                  "valueCoding": {
+                    "system": "https://spor.ema.europa.eu/v1/lists/100000000008",
+                    "code": "100000000049",
+                    "display": "equal to"
+                  }
+                }
+              ]
+            },
+            "unit": "milligram(s)",
+            "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+            "code": "100000110655"
+          },
+          "denominator": {
+            "value": 1,
+            "unit": "Tablet",
+            "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+            "code": "200000002152"
+          }
+        },
+        "referenceStrength": [
+          {
+            "substance": {
+              "concept": {
+                "coding": [
+                  {
+                    "system": "https://spor.ema.europa.eu/v2/SubstanceDefinition",
+                    "code": "100000084546",
+                    "display": "Clomipramine"
+                  }
+                ]
+              }
+            },
+            "strengthRatio": {
+              "numerator": {
+                "value": 25,
+                "_comparator": {
+                  "extension": [
+                    {
+                      "url": "http://ema.europa.eu/fhir/extension/comparator",
+                      "valueCoding": {
+                        "system": "https://spor.ema.europa.eu/v1/lists/100000000008",
+                        "code": "100000000049",
+                        "display": "equal to"
+                      }
+                    }
+                  ]
+                },
+                "unit": "milligram(s)",
+                "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+                "code": "100000110655"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "tablet",
+                "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+                "code": "200000002152"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

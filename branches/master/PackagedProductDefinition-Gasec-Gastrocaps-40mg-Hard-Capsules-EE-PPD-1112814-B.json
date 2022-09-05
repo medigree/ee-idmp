@@ -1,0 +1,125 @@
+{
+  "resourceType": "PackagedProductDefinition",
+  "id": "Gasec-Gastrocaps-40mg-Hard-Capsules-EE-PPD-1112814-B",
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PackagedProductDefinition</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition \"Gasec-Gastrocaps-40mg-Hard-Capsules-EE-PPD-1112814-B\" </p></div><p><b>Extension Definition for PackagedProductDefinition.containedItemQuantity for Version 5.0</b>: 14 Capsule<span style=\"background: LightGoldenRodYellow\"> (Details: http://spor.ema.europa.eu/v1/lists/200000000014 code 200000002113 = '200000002113')</span></p><p><b>identifier</b>: id: EE-100003164-15710-1112814-B</p><p><b>packageFor</b>: <a href=\"MedicinalProductDefinition-Gasec-Gastrocaps-40mg-Hard-Capsules-EE-MPD.html\">MedicinalProductDefinition/Gasec-Gastrocaps-40mg-Hard-Capsules-EE-MPD</a></p><p><b>description</b>: Kapslid on saadaval alumiinium/alumiinium blisterpakendites või keeratavate korkidega kõrgtihedusega  polüetüleenpudelites (HDPE pudelid).</p><blockquote><p><b>package</b></p><p><b>type</b>: Box <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003529)</span></p><blockquote><p><b>package</b></p><p><b>type</b>: Bottle <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073497)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: High Density PolyEthylene <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003215)</span></p></blockquote></blockquote></div>"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-PackagedProductDefinition.containedItemQuantity",
+      "valueQuantity": {
+        "value": 14,
+        "unit": "Capsule",
+        "system": "http://spor.ema.europa.eu/v1/lists/200000000014",
+        "code": "200000002113"
+      }
+    }
+  ],
+  "identifier": [
+    {
+      "system": "http://ema.europa.eu/example/pcid",
+      "value": "EE-100003164-15710-1112814-B"
+    }
+  ],
+  "packageFor": [
+    {
+      "reference": "MedicinalProductDefinition/Gasec-Gastrocaps-40mg-Hard-Capsules-EE-MPD"
+    }
+  ],
+  "description": "Kapslid on saadaval alumiinium/alumiinium blisterpakendites või keeratavate korkidega kõrgtihedusega  polüetüleenpudelites (HDPE pudelid).",
+  "_description": {
+    "extension": [
+      {
+        "url": "http://ema.europa.eu/fhir/extension/language",
+        "valueCoding": {
+          "system": "https://spor.ema.europa.eu/v1/lists/100000072057",
+          "code": "100000072172",
+          "display": "Estonian"
+        }
+      }
+    ]
+  },
+  "marketingStatus": [
+    {
+      "country": {
+        "coding": [
+          {
+            "system": "https://spor.ema.europa.eu/v1/lists/100000000002",
+            "code": "100000000388",
+            "display": "Republic of Estonia"
+          }
+        ]
+      },
+      "status": {
+        "coding": [
+          {
+            "system": "https://spor.ema.europa.eu/v1/lists/100000072052",
+            "code": "100000072083",
+            "display": "Marketed"
+          }
+        ]
+      }
+    }
+  ],
+  "package": {
+    "type": {
+      "coding": [
+        {
+          "system": "https://spor.ema.europa.eu/v1/lists/100000073346",
+          "code": "100000073498",
+          "display": "Box"
+        }
+      ]
+    },
+    "quantity": 1,
+    "material": [
+      {
+        "coding": [
+          {
+            "system": "https://spor.ema.europa.eu/v1/lists/200000003199",
+            "code": "200000003529",
+            "display": "Cardboard"
+          }
+        ]
+      }
+    ],
+    "package": [
+      {
+        "type": {
+          "coding": [
+            {
+              "system": "https://spor.ema.europa.eu/v1/lists/100000073346",
+              "code": "100000073497",
+              "display": "Bottle"
+            }
+          ]
+        },
+        "quantity": 1,
+        "material": [
+          {
+            "coding": [
+              {
+                "system": "https://spor.ema.europa.eu/v1/lists/200000003199",
+                "code": "200000003215",
+                "display": "High Density PolyEthylene"
+              }
+            ]
+          }
+        ],
+        "containedItem": [
+          {
+            "item": {
+              "reference": {
+                "reference": "ManufacturedItemDefinition/Gasec-Gastrocaps-40mg-Hard-Capsules-EE-MID"
+              }
+            },
+            "amount": {
+              "value": 14
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,3912 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "ee.fhir.idmp",
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>EEIDMP</h2><p>The official URL for this implementation guide is: </p><pre>http://medigree.net/fhir/ee/idmp/ImplementationGuide/ee.fhir.idmp</pre><div><p>EE-IDMP</p>\n</div></div>"
+  },
+  "url": "http://medigree.net/fhir/ee/idmp/ImplementationGuide/ee.fhir.idmp",
+  "version": "0.1.0",
+  "name": "EEIDMP",
+  "title": "EE-IDMP",
+  "status": "draft",
+  "date": "2022-09-05T10:08:29+00:00",
+  "publisher": "Medigree",
+  "contact": [
+    {
+      "name": "Medigree",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://medigree.net"
+        }
+      ]
+    }
+  ],
+  "description": "EE-IDMP",
+  "packageId": "ee.fhir.idmp",
+  "license": "CC0-1.0",
+  "fhirVersion": [
+    "5.0.0-snapshot1"
+  ],
+  "dependsOn": [
+    {
+      "id": "hl7tx",
+      "uri": "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
+      "packageId": "hl7.terminology.r5",
+      "version": "3.0.0"
+    }
+  ],
+  "definition": {
+    "resource": [
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "AdministrableProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "AdministrableProductDefinition/Agen-10mg-Tablet-EE-APD"
+        },
+        "name": "Agen-10mg-Tablet-EE-APD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/Agen-10mg-Tablet-EE-I"
+        },
+        "name": "Agen-10mg-Tablet-EE-I",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ManufacturedItemDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ManufacturedItemDefinition/Agen-10mg-Tablet-EE-MID"
+        },
+        "name": "Agen-10mg-Tablet-EE-MID",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicinalProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "MedicinalProductDefinition/Agen-10mg-Tablet-EE-MPD"
+        },
+        "name": "Agen-10mg-Tablet-EE-MPD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/Agen-10mg-Tablet-EE-PPD-1109900-A"
+        },
+        "name": "Agen-10mg-Tablet-EE-PPD-1109900-A",
+        "description": "Tabletid on pakendatud PVC/PVDC/Al blistritesse (valged) või PVC/Al blistritesse (valged).",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/Agen-10mg-Tablet-EE-PPD-1109900-B"
+        },
+        "name": "Agen-10mg-Tablet-EE-PPD-1109900-B",
+        "description": "Tabletid on pakendatud PVC/PVDC/Al blistritesse (valged) või PVC/Al blistritesse (valged).",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "RegulatedAuthorization"
+          }
+        ],
+        "reference": {
+          "reference": "RegulatedAuthorization/Agen-10mg-Tablet-EE-RA"
+        },
+        "name": "Agen-10mg-Tablet-EE-RA",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "AdministrableProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "AdministrableProductDefinition/Agen-5mg-Tablet-EE-APD"
+        },
+        "name": "Agen-5mg-Tablet-EE-APD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/Agen-5mg-Tablet-EE-I"
+        },
+        "name": "Agen-5mg-Tablet-EE-I",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ManufacturedItemDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ManufacturedItemDefinition/Agen-5mg-Tablet-EE-MID"
+        },
+        "name": "Agen-5mg-Tablet-EE-MID",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicinalProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD"
+        },
+        "name": "Agen-5mg-Tablet-EE-MPD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-A"
+        },
+        "name": "Agen-5mg-Tablet-EE-PPD-1109887-A",
+        "description": "Tabletid on pakendatud PVC/PVDC/Al blistritesse (valged) või PVC/Al blistritesse (valged).",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-B"
+        },
+        "name": "Agen-5mg-Tablet-EE-PPD-1109887-B",
+        "description": "Tabletid on pakendatud PVC/PVDC/Al blistritesse (valged) või PVC/Al blistritesse (valged).",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "RegulatedAuthorization"
+          }
+        ],
+        "reference": {
+          "reference": "RegulatedAuthorization/Agen-5mg-Tablet-EE-RA"
+        },
+        "name": "Agen-5mg-Tablet-EE-RA",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/Agen10mg-EE"
+        },
+        "name": "Agen10mg-EE",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/Agen5mg-EE"
+        },
+        "name": "Agen5mg-EE",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/Amoksiklav-1000mg-200mg-EE"
+        },
+        "name": "Amoksiklav-1000mg-200mg-EE",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "AdministrableProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "AdministrableProductDefinition/Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-APD"
+        },
+        "name": "Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-APD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-I-90113"
+        },
+        "name": "Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-I-90113",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-I-93061"
+        },
+        "name": "Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-I-93061",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ManufacturedItemDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ManufacturedItemDefinition/Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-MID"
+        },
+        "name": "Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-MID",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicinalProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "MedicinalProductDefinition/Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-MPD"
+        },
+        "name": "Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-MPD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-PPD"
+        },
+        "name": "Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-PPD",
+        "description": "Amoksiklav'i süste-/infusioonilahuse pulber on pakendatud värvitust klaasist viaalidesse ning suletud  kummikorgi ja alumiiniumist korgikaitsega.  Viaalid on pakendatud karpi. 5 viaali karbis.",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "RegulatedAuthorization"
+          }
+        ],
+        "reference": {
+          "reference": "RegulatedAuthorization/Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-RA"
+        },
+        "name": "Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-RA",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "AdministrableProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "AdministrableProductDefinition/Amoxicillin-ratiopharm-750mg-f-c-tb-EE-APD"
+        },
+        "name": "Amoxicillin-ratiopharm-750mg-f-c-tb-EE-APD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/Amoxicillin-ratiopharm-750mg-f-c-tb-EE-I"
+        },
+        "name": "Amoxicillin-ratiopharm-750mg-f-c-tb-EE-I",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ManufacturedItemDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ManufacturedItemDefinition/Amoxicillin-ratiopharm-750mg-f-c-tb-EE-MID"
+        },
+        "name": "Amoxicillin-ratiopharm-750mg-f-c-tb-EE-MID",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicinalProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "MedicinalProductDefinition/Amoxicillin-ratiopharm-750mg-f-c-tb-EE-MPD"
+        },
+        "name": "Amoxicillin-ratiopharm-750mg-f-c-tb-EE-MPD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/Amoxicillin-ratiopharm-750mg-f-c-tb-EE-PPD-1000450"
+        },
+        "name": "Amoxicillin-ratiopharm-750mg-f-c-tb-EE-PPD-1000450",
+        "description": "PVC/PVDC blister, mis sisaldab 10 õhukese polümeerikattega tabletti.",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "RegulatedAuthorization"
+          }
+        ],
+        "reference": {
+          "reference": "RegulatedAuthorization/Amoxicillin-ratiopharm-750mg-f-c-tb-EE-RA"
+        },
+        "name": "Amoxicillin-ratiopharm-750mg-f-c-tb-EE-RA",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/Amoxicillinratiopharm750mg"
+        },
+        "name": "Amoxicillinratiopharm750mg",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "AdministrableProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "AdministrableProductDefinition/Anafranil-25mg-Coated-tablet-EE-APD"
+        },
+        "name": "Anafranil-25mg-Coated-tablet-EE-APD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/Anafranil-25mg-Coated-tablet-EE-I"
+        },
+        "name": "Anafranil-25mg-Coated-tablet-EE-I",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ManufacturedItemDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ManufacturedItemDefinition/Anafranil-25mg-Coated-tablet-EE-MID"
+        },
+        "name": "Anafranil-25mg-Coated-tablet-EE-MID",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicinalProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "MedicinalProductDefinition/Anafranil-25mg-Coated-tablet-EE-MPD"
+        },
+        "name": "Anafranil-25mg-Coated-tablet-EE-MPD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/Anafranil-25mg-Coated-tablet-EE-PPD-1001462"
+        },
+        "name": "Anafranil-25mg-Coated-tablet-EE-PPD-1001462",
+        "description": "PVC/PE/PVDC/Alumiinium blisterpakend. 10 mg ja 25 mg kaetud tabletid: 30 tabletti pakendis.",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "RegulatedAuthorization"
+          }
+        ],
+        "reference": {
+          "reference": "RegulatedAuthorization/Anafranil-25mg-Coated-tablet-EE-RA"
+        },
+        "name": "Anafranil-25mg-Coated-tablet-EE-RA",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/Anafranil25mg-EE"
+        },
+        "name": "Anafranil25mg-EE",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "AdministrableProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "AdministrableProductDefinition/Betaklav-500mg-125mg-f-c-tb-EE-APD"
+        },
+        "name": "Betaklav-500mg-125mg-f-c-tb-EE-APD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/Betaklav-500mg-125mg-f-c-tb-EE-I-100000092629"
+        },
+        "name": "Betaklav-500mg-125mg-f-c-tb-EE-I-100000092629",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/Betaklav-500mg-125mg-f-c-tb-EE-I-100000093061"
+        },
+        "name": "Betaklav-500mg-125mg-f-c-tb-EE-I-100000093061",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ManufacturedItemDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ManufacturedItemDefinition/Betaklav-500mg-125mg-f-c-tb-EE-MID"
+        },
+        "name": "Betaklav-500mg-125mg-f-c-tb-EE-MID",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicinalProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "MedicinalProductDefinition/Betaklav-500mg-125mg-f-c-tb-EE-MPD"
+        },
+        "name": "Betaklav-500mg-125mg-f-c-tb-EE-MPD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/Betaklav-500mg-125mg-f-c-tb-EE-PPD-1635117"
+        },
+        "name": "Betaklav-500mg-125mg-f-c-tb-EE-PPD-1635117",
+        "description": "Ribapakend (Al/Al) 10 õhukese polümeerikattega tabletti karbis",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/Betaklav-500mg-125mg-f-c-tb-EE-PPD-1635139"
+        },
+        "name": "Betaklav-500mg-125mg-f-c-tb-EE-PPD-1635139",
+        "description": "Blisterpakend (OPA/Al/PVC foil/Al foil) 14 õhukese polümeerikattega tabletti karbis",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/Betaklav-500mg-125mg-f-c-tb-EE-PPD-1635207"
+        },
+        "name": "Betaklav-500mg-125mg-f-c-tb-EE-PPD-1635207",
+        "description": "Ribapakend (Al/Al) 500 õhukese polümeerikattega tabletti karbis",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "RegulatedAuthorization"
+          }
+        ],
+        "reference": {
+          "reference": "RegulatedAuthorization/Betaklav-500mg-125mg-f-c-tb-EE-RA"
+        },
+        "name": "Betaklav-500mg-125mg-f-c-tb-EE-RA",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/Betaklav500-125-EE"
+        },
+        "name": "Betaklav500-125-EE",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/Calcigran-Forte-500mg-400IU-EE"
+        },
+        "name": "Calcigran-Forte-500mg-400IU-EE",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "AdministrableProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "AdministrableProductDefinition/Calcigran-Forte-500mg-400IU-chewable-tablet-EE-APD"
+        },
+        "name": "Calcigran-Forte-500mg-400IU-chewable-tablet-EE-APD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/Calcigran-Forte-500mg-400IU-chewable-tablet-EE-I-100000091518"
+        },
+        "name": "Calcigran-Forte-500mg-400IU-chewable-tablet-EE-I-100000091518",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/Calcigran-Forte-500mg-400IU-chewable-tablet-EE-I-100000129222"
+        },
+        "name": "Calcigran-Forte-500mg-400IU-chewable-tablet-EE-I-100000129222",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ManufacturedItemDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ManufacturedItemDefinition/Calcigran-Forte-500mg-400IU-chewable-tablet-EE-MID"
+        },
+        "name": "Calcigran-Forte-500mg-400IU-chewable-tablet-EE-MID",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicinalProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "MedicinalProductDefinition/Calcigran-Forte-500mg-400IU-chewable-tablet-EE-MPD"
+        },
+        "name": "Calcigran-Forte-500mg-400IU-chewable-tablet-EE-MPD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/Calcigran-Forte-500mg-400IU-chewable-tablet-EE-PPD-1392016"
+        },
+        "name": "Calcigran-Forte-500mg-400IU-chewable-tablet-EE-PPD-1392016",
+        "description": "HDPE purk väliskarbis.",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "RegulatedAuthorization"
+          }
+        ],
+        "reference": {
+          "reference": "RegulatedAuthorization/Calcigran-Forte-500mg-400IU-chewable-tablet-EE-RA"
+        },
+        "name": "Calcigran-Forte-500mg-400IU-chewable-tablet-EE-RA",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/Canesten500mg-EE"
+        },
+        "name": "Canesten500mg-EE",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "AdministrableProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "AdministrableProductDefinition/Canesten500mg-Vaginal-Soft-Capsule-EE-APD"
+        },
+        "name": "Canesten500mg-Vaginal-Soft-Capsule-EE-APD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/Canesten500mg-Vaginal-Soft-Capsule-EE-I"
+        },
+        "name": "Canesten500mg-Vaginal-Soft-Capsule-EE-I",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ManufacturedItemDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ManufacturedItemDefinition/Canesten500mg-Vaginal-Soft-Capsule-EE-MID"
+        },
+        "name": "Canesten500mg-Vaginal-Soft-Capsule-EE-MID",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicinalProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "MedicinalProductDefinition/Canesten500mg-Vaginal-Soft-Capsule-EE-MPD"
+        },
+        "name": "Canesten500mg-Vaginal-Soft-Capsule-EE-MPD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/Canesten500mg-Vaginal-Soft-Capsule-EE-PPD-1670644"
+        },
+        "name": "Canesten500mg-Vaginal-Soft-Capsule-EE-PPD-1670644",
+        "description": "Üks vaginaalpehmekapsel on blistris, mis koosneb läbipaistvast kolmekordsest PVC/PVdC/PVC laminaatkilest ja on suletud alumiiniumfooliumist kattega. Blister ja polüpropüleenist aplikaator on pakendatud kartongkarpi.",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "RegulatedAuthorization"
+          }
+        ],
+        "reference": {
+          "reference": "RegulatedAuthorization/Canesten500mg-Vaginal-Soft-Capsule-EE-RA"
+        },
+        "name": "Canesten500mg-Vaginal-Soft-Capsule-EE-RA",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "AdministrableProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "AdministrableProductDefinition/Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-APD"
+        },
+        "name": "Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-APD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-I"
+        },
+        "name": "Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-I",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ManufacturedItemDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ManufacturedItemDefinition/Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-MID"
+        },
+        "name": "Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-MID",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicinalProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "MedicinalProductDefinition/Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-MPD"
+        },
+        "name": "Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-MPD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-PPD-1033647"
+        },
+        "name": "Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-PPD-1033647",
+        "description": "Alumiiniumtuub välispakendis. Tuub, mis sisaldab 20 g vaginaalkreemi ja 3 vaginaalseks kasutamiseks ette nähtud ühekordset aplikaatorit.",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "RegulatedAuthorization"
+          }
+        ],
+        "reference": {
+          "reference": "RegulatedAuthorization/Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-RA"
+        },
+        "name": "Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-RA",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicinalProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "MedicinalProductDefinition/CanifugCremolum-100mg-10mg1g-Cream-Pessary-EE-MPD"
+        },
+        "name": "CanifugCremolum-100mg-10mg1g-Cream-Pessary-EE-MPD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/CanifugCremolum-100mg-10mg1g-Cream-Pessary-EE-PPD-1033692"
+        },
+        "name": "CanifugCremolum-100mg-10mg1g-Cream-Pessary-EE-PPD-1033692",
+        "description": "Alu/PE-fooliumist valmistatud ribapakend, mis on asetatud väliskarpi. Kreem on alumiiniumtuubis ja omakorda pappkarbis. Kombineeritud pakend sisaldab: 6 vaginaalsuposiiti ja 20 g kreemi",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "RegulatedAuthorization"
+          }
+        ],
+        "reference": {
+          "reference": "RegulatedAuthorization/CanifugCremolum-100mg-10mg1g-Cream-Pessary-EE-RA"
+        },
+        "name": "CanifugCremolum-100mg-10mg1g-Cream-Pessary-EE-RA",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "AdministrableProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "AdministrableProductDefinition/CanifugCremolum-100mg-Pessary-EE-APD"
+        },
+        "name": "CanifugCremolum-100mg-Pessary-EE-APD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/CanifugCremolum-100mg-Pessary-EE-I"
+        },
+        "name": "CanifugCremolum-100mg-Pessary-EE-I",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ManufacturedItemDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ManufacturedItemDefinition/CanifugCremolum-100mg-Pessary-EE-MID"
+        },
+        "name": "CanifugCremolum-100mg-Pessary-EE-MID",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "AdministrableProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "AdministrableProductDefinition/CanifugCremolum-10mg1g-Cream-EE-APD"
+        },
+        "name": "CanifugCremolum-10mg1g-Cream-EE-APD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/CanifugCremolum-10mg1g-Cream-EE-I"
+        },
+        "name": "CanifugCremolum-10mg1g-Cream-EE-I",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ManufacturedItemDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ManufacturedItemDefinition/CanifugCremolum-10mg1g-Cream-EE-MID"
+        },
+        "name": "CanifugCremolum-10mg1g-Cream-EE-MID",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/CanifugCremolum100mg10mg1g-EE"
+        },
+        "name": "CanifugCremolum100mg10mg1g-EE",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/CanifugVaginalCreme2g100g-EE"
+        },
+        "name": "CanifugVaginalCreme2g100g-EE",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "AdministrableProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "AdministrableProductDefinition/Carbalex-200mg-Tablet-EE-APD"
+        },
+        "name": "Carbalex-200mg-Tablet-EE-APD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/Carbalex-200mg-Tablet-EE-I"
+        },
+        "name": "Carbalex-200mg-Tablet-EE-I",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ManufacturedItemDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ManufacturedItemDefinition/Carbalex-200mg-Tablet-EE-MID"
+        },
+        "name": "Carbalex-200mg-Tablet-EE-MID",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicinalProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "MedicinalProductDefinition/Carbalex-200mg-Tablet-EE-MPD"
+        },
+        "name": "Carbalex-200mg-Tablet-EE-MPD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/Carbalex-200mg-Tablet-EE-PPD-1042311"
+        },
+        "name": "Carbalex-200mg-Tablet-EE-PPD-1042311",
+        "description": "50 tabletti blisterpakendis (PVC-Alu).",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "RegulatedAuthorization"
+          }
+        ],
+        "reference": {
+          "reference": "RegulatedAuthorization/Carbalex-200mg-Tablet-EE-RA"
+        },
+        "name": "Carbalex-200mg-Tablet-EE-RA",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/Carbalex200mg-EE"
+        },
+        "name": "Carbalex200mg-EE",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "AdministrableProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "AdministrableProductDefinition/Cefuroxime-MIP-1500mg-Pdr-solinj-inf-EE-APD"
+        },
+        "name": "Cefuroxime-MIP-1500mg-Pdr-solinj-inf-EE-APD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/Cefuroxime-MIP-1500mg-Pdr-solinj-inf-EE-I"
+        },
+        "name": "Cefuroxime-MIP-1500mg-Pdr-solinj-inf-EE-I",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ManufacturedItemDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ManufacturedItemDefinition/Cefuroxime-MIP-1500mg-Pdr-solinj-inf-EE-MID"
+        },
+        "name": "Cefuroxime-MIP-1500mg-Pdr-solinj-inf-EE-MID",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/Cefuroxime-MIP-1500mg-Pdr-solinj-inf-EE-PPD-1529940"
+        },
+        "name": "Cefuroxime-MIP-1500mg-Pdr-solinj-inf-EE-PPD-1529940",
+        "description": "I tüüpi klaasist viaal, mis on suletud klorobutüülkummist korgi ning flip-off kattega, 1 viaal",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/Cefuroxime-MIP-1500mg-Pdr-solinj-inf-EE-PPD-1529962"
+        },
+        "name": "Cefuroxime-MIP-1500mg-Pdr-solinj-inf-EE-PPD-1529962",
+        "description": "I tüüpi klaasist viaal, mis on suletud klorobutüülkummist korgi ning flip-off kattega, 1 viaal",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "RegulatedAuthorization"
+          }
+        ],
+        "reference": {
+          "reference": "RegulatedAuthorization/Cefuroxime-MIP-1500mg-Pdr-solinj-inf-EE-RA"
+        },
+        "name": "Cefuroxime-MIP-1500mg-Pdr-solinj-inf-EE-RA",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicinalProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "MedicinalProductDefinition/Cefuroxime-MIP-1500mg-pdr-solinj-inf-EE-MPD"
+        },
+        "name": "Cefuroxime-MIP-1500mg-pdr-solinj-inf-EE-MPD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/Cefuroxime-MIP1500-EE"
+        },
+        "name": "Cefuroxime-MIP1500-EE",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/Clexane-60mg-0.6ml-EE"
+        },
+        "name": "Clexane-60mg-0.6ml-EE",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "AdministrableProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "AdministrableProductDefinition/Clexane-60mg-0.6ml-solinj-EE-APD"
+        },
+        "name": "Clexane-60mg-0.6ml-solinj-EE-APD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/Clexane-60mg-0.6ml-solinj-EE-I"
+        },
+        "name": "Clexane-60mg-0.6ml-solinj-EE-I",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ManufacturedItemDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ManufacturedItemDefinition/Clexane-60mg-0.6ml-solinj-EE-MID"
+        },
+        "name": "Clexane-60mg-0.6ml-solinj-EE-MID",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicinalProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "MedicinalProductDefinition/Clexane-60mg-0.6ml-solinj-EE-MPD"
+        },
+        "name": "Clexane-60mg-0.6ml-solinj-EE-MPD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/Clexane-60mg-0.6ml-solinj-EE-PPD-1065552"
+        },
+        "name": "Clexane-60mg-0.6ml-solinj-EE-PPD-1065552",
+        "description": "CLEXANE 6000 RÜ (60 mg)/0,6 ml: süstelahus süstlites (I tüüpi klaas), mis on varustatud kummikorgiga (klorobutüül ja bromobutüül) ning süstimisnõelaga (automaatse ohutussüsteemiga ERIS või PREVENTIS või ilma).",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "RegulatedAuthorization"
+          }
+        ],
+        "reference": {
+          "reference": "RegulatedAuthorization/Clexane-60mg-0.6ml-solinj-EE-RA"
+        },
+        "name": "Clexane-60mg-0.6ml-solinj-EE-RA",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "AdministrableProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "AdministrableProductDefinition/Diclac-10mg1g-Gel-EE-APD"
+        },
+        "name": "Diclac-10mg1g-Gel-EE-APD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/Diclac-10mg1g-Gel-EE-I"
+        },
+        "name": "Diclac-10mg1g-Gel-EE-I",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ManufacturedItemDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ManufacturedItemDefinition/Diclac-10mg1g-Gel-EE-MID"
+        },
+        "name": "Diclac-10mg1g-Gel-EE-MID",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicinalProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "MedicinalProductDefinition/Diclac-10mg1g-Gel-EE-MPD"
+        },
+        "name": "Diclac-10mg1g-Gel-EE-MPD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/Diclac-10mg1g-Gel-EE-PPD-1153257"
+        },
+        "name": "Diclac-10mg1g-Gel-EE-PPD-1153257",
+        "description": "Tuub sisaldab 25 g, 50 g või 100 g geeli.",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/Diclac-10mg1g-Gel-EE-PPD-1153268"
+        },
+        "name": "Diclac-10mg1g-Gel-EE-PPD-1153268",
+        "description": "Tuub sisaldab 25 g, 50 g või 100 g geeli.",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "RegulatedAuthorization"
+          }
+        ],
+        "reference": {
+          "reference": "RegulatedAuthorization/Diclac-10mg1g-Gel-EE-RA"
+        },
+        "name": "Diclac-10mg1g-Gel-EE-RA",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/Diclac10mg1g-EE"
+        },
+        "name": "Diclac10mg1g-EE",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "AdministrableProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "AdministrableProductDefinition/Diclofenac-Mylan-180mg-Med-plaster-EE-APD"
+        },
+        "name": "Diclofenac-Mylan-180mg-Med-plaster-EE-APD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/Diclofenac-Mylan-180mg-Med-plaster-EE-I"
+        },
+        "name": "Diclofenac-Mylan-180mg-Med-plaster-EE-I",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ManufacturedItemDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ManufacturedItemDefinition/Diclofenac-Mylan-180mg-Med-plaster-EE-MID"
+        },
+        "name": "Diclofenac-Mylan-180mg-Med-plaster-EE-MID",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicinalProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "MedicinalProductDefinition/Diclofenac-Mylan-180mg-Med-plaster-EE-MPD"
+        },
+        "name": "Diclofenac-Mylan-180mg-Med-plaster-EE-MPD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/Diclofenac-Mylan-180mg-Med-plaster-EE-PPD-1788419"
+        },
+        "name": "Diclofenac-Mylan-180mg-Med-plaster-EE-PPD-1788419",
+        "description": "Suletava ümbrise materjal on paber/PE/alumiinium/etüleen ja metüülakrüülhappe kopolümeer. Ümbrises on 5 ravimplaastrit. Pakendi suurus: 5 või 10 ravimplaastrit karbis.",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/Diclofenac-Mylan-180mg-Med-plaster-EE-PPD-1788420"
+        },
+        "name": "Diclofenac-Mylan-180mg-Med-plaster-EE-PPD-1788420",
+        "description": "Suletava ümbrise materjal on paber/PE/alumiinium/etüleen ja metüülakrüülhappe kopolümeer. Ümbrises on 5 ravimplaastrit. Pakendi suurus: 5 või 10 ravimplaastrit karbis.",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "RegulatedAuthorization"
+          }
+        ],
+        "reference": {
+          "reference": "RegulatedAuthorization/Diclofenac-Mylan-180mg-Med-plaster-EE-RA"
+        },
+        "name": "Diclofenac-Mylan-180mg-Med-plaster-EE-RA",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/DiclofenacMylan180mg-EE"
+        },
+        "name": "DiclofenacMylan180mg-EE",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "AdministrableProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "AdministrableProductDefinition/Enalapril-Vitabalans-5mg-Tablet-EE-APD"
+        },
+        "name": "Enalapril-Vitabalans-5mg-Tablet-EE-APD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/Enalapril-Vitabalans-5mg-Tablet-EE-I"
+        },
+        "name": "Enalapril-Vitabalans-5mg-Tablet-EE-I",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ManufacturedItemDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ManufacturedItemDefinition/Enalapril-Vitabalans-5mg-Tablet-EE-MID"
+        },
+        "name": "Enalapril-Vitabalans-5mg-Tablet-EE-MID",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicinalProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "MedicinalProductDefinition/Enalapril-Vitabalans-5mg-Tablet-EE-MPD"
+        },
+        "name": "Enalapril-Vitabalans-5mg-Tablet-EE-MPD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/Enalapril-Vitabalans-5mg-Tablet-EE-PPD-1359918"
+        },
+        "name": "Enalapril-Vitabalans-5mg-Tablet-EE-PPD-1359918",
+        "description": "28, 30, 56, 60, 98, 100 tabletti blistris (Al/Al).",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/Enalapril-Vitabalans-5mg-Tablet-EE-PPD-1359952"
+        },
+        "name": "Enalapril-Vitabalans-5mg-Tablet-EE-PPD-1359952",
+        "description": "28, 30, 56, 60, 98, 100 tabletti blistris (Al/Al).",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "RegulatedAuthorization"
+          }
+        ],
+        "reference": {
+          "reference": "RegulatedAuthorization/Enalapril-Vitabalans-5mg-Tablet-EE-RA"
+        },
+        "name": "Enalapril-Vitabalans-5mg-Tablet-EE-RA",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/EnalaprilVitabalans5mg-EE"
+        },
+        "name": "EnalaprilVitabalans5mg-EE",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "AdministrableProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "AdministrableProductDefinition/Gasec-Gastrocaps-40mg-Hard-Capsules-EE-APD"
+        },
+        "name": "Gasec-Gastrocaps-40mg-Hard-Capsules-EE-APD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/Gasec-Gastrocaps-40mg-Hard-Capsules-EE-I"
+        },
+        "name": "Gasec-Gastrocaps-40mg-Hard-Capsules-EE-I",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ManufacturedItemDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ManufacturedItemDefinition/Gasec-Gastrocaps-40mg-Hard-Capsules-EE-MID"
+        },
+        "name": "Gasec-Gastrocaps-40mg-Hard-Capsules-EE-MID",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicinalProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "MedicinalProductDefinition/Gasec-Gastrocaps-40mg-Hard-Capsules-EE-MPD"
+        },
+        "name": "Gasec-Gastrocaps-40mg-Hard-Capsules-EE-MPD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/Gasec-Gastrocaps-40mg-Hard-Capsules-EE-PPD-1112814-A"
+        },
+        "name": "Gasec-Gastrocaps-40mg-Hard-Capsules-EE-PPD-1112814-A",
+        "description": "Kapslid on saadaval alumiinium/alumiinium blisterpakendites või keeratavate korkidega kõrgtihedusega  polüetüleenpudelites (HDPE pudelid).",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/Gasec-Gastrocaps-40mg-Hard-Capsules-EE-PPD-1112814-B"
+        },
+        "name": "Gasec-Gastrocaps-40mg-Hard-Capsules-EE-PPD-1112814-B",
+        "description": "Kapslid on saadaval alumiinium/alumiinium blisterpakendites või keeratavate korkidega kõrgtihedusega  polüetüleenpudelites (HDPE pudelid).",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/Gasec-Gastrocaps-40mg-Hard-Capsules-EE-PPD-1112825-A"
+        },
+        "name": "Gasec-Gastrocaps-40mg-Hard-Capsules-EE-PPD-1112825-A",
+        "description": "Kapslid on saadaval alumiinium/alumiinium blisterpakendites või keeratavate korkidega kõrgtihedusega  polüetüleenpudelites (HDPE pudelid).",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/Gasec-Gastrocaps-40mg-Hard-Capsules-EE-PPD-1112825-B"
+        },
+        "name": "Gasec-Gastrocaps-40mg-Hard-Capsules-EE-PPD-1112825-B",
+        "description": "Kapslid on saadaval alumiinium/alumiinium blisterpakendites või keeratavate korkidega kõrgtihedusega  polüetüleenpudelites (HDPE pudelid).",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "RegulatedAuthorization"
+          }
+        ],
+        "reference": {
+          "reference": "RegulatedAuthorization/Gasec-Gastrocaps-40mg-Hard-Capsules-EE-RA"
+        },
+        "name": "Gasec-Gastrocaps-40mg-Hard-Capsules-EE-RA",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/GasecGastrocaps40mg-EE"
+        },
+        "name": "GasecGastrocaps40mg-EE",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "AdministrableProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "AdministrableProductDefinition/Hydrocortisone-DAK-10mg1g-Ointment-EE-APD"
+        },
+        "name": "Hydrocortisone-DAK-10mg1g-Ointment-EE-APD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/Hydrocortisone-DAK-10mg1g-Ointment-EE-I"
+        },
+        "name": "Hydrocortisone-DAK-10mg1g-Ointment-EE-I",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ManufacturedItemDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ManufacturedItemDefinition/Hydrocortisone-DAK-10mg1g-Ointment-EE-MID"
+        },
+        "name": "Hydrocortisone-DAK-10mg1g-Ointment-EE-MID",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicinalProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "MedicinalProductDefinition/Hydrocortisone-DAK-10mg1g-Ointment-EE-MPD"
+        },
+        "name": "Hydrocortisone-DAK-10mg1g-Ointment-EE-MPD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/Hydrocortisone-DAK-10mg1g-Ointment-EE-PPD-1137013"
+        },
+        "name": "Hydrocortisone-DAK-10mg1g-Ointment-EE-PPD-1137013",
+        "description": "30 g salvi alumiiniumtuubis.",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "RegulatedAuthorization"
+          }
+        ],
+        "reference": {
+          "reference": "RegulatedAuthorization/Hydrocortisone-DAK-10mg1g-Ointment-EE-RA"
+        },
+        "name": "Hydrocortisone-DAK-10mg1g-Ointment-EE-RA",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/HydrocortisoneDAK-10mg1g-EE"
+        },
+        "name": "HydrocortisoneDAK-10mg1g-EE",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/Kadcyla-100mg-EE"
+        },
+        "name": "Kadcyla-100mg-EE",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "AdministrableProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "AdministrableProductDefinition/Kadcyla-100mg-Pdr-fr-conc-for-solinj-EE-APD"
+        },
+        "name": "Kadcyla-100mg-Pdr-fr-conc-for-solinj-EE-APD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/Kadcyla-100mg-Pdr-fr-conc-for-solinj-EE-I"
+        },
+        "name": "Kadcyla-100mg-Pdr-fr-conc-for-solinj-EE-I",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ManufacturedItemDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ManufacturedItemDefinition/Kadcyla-100mg-Pdr-fr-conc-for-solinj-EE-MID"
+        },
+        "name": "Kadcyla-100mg-Pdr-fr-conc-for-solinj-EE-MID",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicinalProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "MedicinalProductDefinition/Kadcyla-100mg-Pdr-fr-conc-for-solinj-EE-MPD"
+        },
+        "name": "Kadcyla-100mg-Pdr-fr-conc-for-solinj-EE-MPD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/Kadcyla-100mg-Pdr-fr-conc-for-solinj-EE-PPD-1633339"
+        },
+        "name": "Kadcyla-100mg-Pdr-fr-conc-for-solinj-EE-PPD-1633339",
+        "description": "Kadcyla on pakendatud 15 ml (100 mg) I tüüpi klaasist viaali, mis on suletud fluorovaiguga lamineeritud halli butüülkummist korgi, alumiiniumsulguri ja valge plastmassist eemaldatava kattega",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "RegulatedAuthorization"
+          }
+        ],
+        "reference": {
+          "reference": "RegulatedAuthorization/Kadcyla-100mg-Pdr-fr-conc-for-solinj-EE-RA"
+        },
+        "name": "Kadcyla-100mg-Pdr-fr-conc-for-solinj-EE-RA",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "AdministrableProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "AdministrableProductDefinition/Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-APD"
+        },
+        "name": "Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-APD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-I"
+        },
+        "name": "Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-I",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ManufacturedItemDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ManufacturedItemDefinition/Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-MID"
+        },
+        "name": "Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-MID",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicinalProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "MedicinalProductDefinition/Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-MPD"
+        },
+        "name": "Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-MPD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-PPD-1018774"
+        },
+        "name": "Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-PPD-1018774",
+        "description": "5 ml klaasampullid, 5 ampulli alusel. 2 alust pakendis.  Pakendi suurus: 10 ampulli.",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "RegulatedAuthorization"
+          }
+        ],
+        "reference": {
+          "reference": "RegulatedAuthorization/Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-RA"
+        },
+        "name": "Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-RA",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/Lidocaine-Grindeks100mg1ml-EE"
+        },
+        "name": "Lidocaine-Grindeks100mg1ml-EE",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/MXL-30mg-EE"
+        },
+        "name": "MXL-30mg-EE",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "AdministrableProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "AdministrableProductDefinition/MXL-30mg-prol-rel-hard-cap-EE-APD"
+        },
+        "name": "MXL-30mg-prol-rel-hard-cap-EE-APD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/MXL-30mg-prol-rel-hard-cap-EE-I"
+        },
+        "name": "MXL-30mg-prol-rel-hard-cap-EE-I",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ManufacturedItemDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ManufacturedItemDefinition/MXL-30mg-prol-rel-hard-cap-EE-MID"
+        },
+        "name": "MXL-30mg-prol-rel-hard-cap-EE-MID",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicinalProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "MedicinalProductDefinition/MXL-30mg-prol-rel-hard-cap-EE-MPD"
+        },
+        "name": "MXL-30mg-prol-rel-hard-cap-EE-MPD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/MXL-30mg-prol-rel-hard-cap-EE-PPD-1080403-a"
+        },
+        "name": "MXL-30mg-prol-rel-hard-cap-EE-PPD-1080403-a",
+        "description": "Polüetüleenkorgiga suletud polüpropüleenpakend.",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/MXL-30mg-prol-rel-hard-cap-EE-PPD-1080403-b"
+        },
+        "name": "MXL-30mg-prol-rel-hard-cap-EE-PPD-1080403-b",
+        "description": "PVdC-kihiga (> 40 gsm) kaetud PVC (250 um) blisterpakend alumiiniumfooliumis. Blisterpakendid on paigutatud kartongkarpidesse.",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/MXL-30mg-prol-rel-hard-cap-EE-PPD-1339422-a"
+        },
+        "name": "MXL-30mg-prol-rel-hard-cap-EE-PPD-1339422-a",
+        "description": "Polüetüleenkorgiga suletud polüpropüleenpakend.",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/MXL-30mg-prol-rel-hard-cap-EE-PPD-1339422-b"
+        },
+        "name": "MXL-30mg-prol-rel-hard-cap-EE-PPD-1339422-b",
+        "description": "PVdC-kihiga (> 40 gsm) kaetud PVC (250 um) blisterpakend alumiiniumfooliumis. Blisterpakendid on paigutatud kartongkarpidesse.",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "RegulatedAuthorization"
+          }
+        ],
+        "reference": {
+          "reference": "RegulatedAuthorization/MXL-30mg-prol-rel-hard-cap-EE-RA"
+        },
+        "name": "MXL-30mg-prol-rel-hard-cap-EE-RA",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/Metfogamma850-850mg-EE"
+        },
+        "name": "Metfogamma850-850mg-EE",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "AdministrableProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "AdministrableProductDefinition/Metfogamma850-850mg-f-c-tb-EE-APD"
+        },
+        "name": "Metfogamma850-850mg-f-c-tb-EE-APD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/Metfogamma850-850mg-f-c-tb-EE-I"
+        },
+        "name": "Metfogamma850-850mg-f-c-tb-EE-I",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ManufacturedItemDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ManufacturedItemDefinition/Metfogamma850-850mg-f-c-tb-EE-MID"
+        },
+        "name": "Metfogamma850-850mg-f-c-tb-EE-MID",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicinalProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "MedicinalProductDefinition/Metfogamma850-850mg-f-c-tb-EE-MPD"
+        },
+        "name": "Metfogamma850-850mg-f-c-tb-EE-MPD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/Metfogamma850-850mg-f-c-tb-EE-PPD-1111251"
+        },
+        "name": "Metfogamma850-850mg-f-c-tb-EE-PPD-1111251",
+        "description": "PVC/Al blister",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/Metfogamma850-850mg-f-c-tb-EE-PPD-1111262"
+        },
+        "name": "Metfogamma850-850mg-f-c-tb-EE-PPD-1111262",
+        "description": "PVC/Al blister",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "RegulatedAuthorization"
+          }
+        ],
+        "reference": {
+          "reference": "RegulatedAuthorization/Metfogamma850-850mg-f-c-tb-EE-RA"
+        },
+        "name": "Metfogamma850-850mg-f-c-tb-EE-RA",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "AdministrableProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "AdministrableProductDefinition/Paracetamol-Kabi-10mg-1ml-solinj-EE-APD-1424034"
+        },
+        "name": "Paracetamol-Kabi-10mg-1ml-solinj-EE-APD-1424034",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "AdministrableProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "AdministrableProductDefinition/Paracetamol-Kabi-10mg-1ml-solinj-EE-APD-1424056"
+        },
+        "name": "Paracetamol-Kabi-10mg-1ml-solinj-EE-APD-1424056",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "AdministrableProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "AdministrableProductDefinition/Paracetamol-Kabi-10mg-1ml-solinj-EE-APD-1799905"
+        },
+        "name": "Paracetamol-Kabi-10mg-1ml-solinj-EE-APD-1799905",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/Paracetamol-Kabi-10mg-1ml-solinj-EE-I"
+        },
+        "name": "Paracetamol-Kabi-10mg-1ml-solinj-EE-I",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ManufacturedItemDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ManufacturedItemDefinition/Paracetamol-Kabi-10mg-1ml-solinj-EE-MID-1424034"
+        },
+        "name": "Paracetamol-Kabi-10mg-1ml-solinj-EE-MID-1424034",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ManufacturedItemDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ManufacturedItemDefinition/Paracetamol-Kabi-10mg-1ml-solinj-EE-MID-1424056"
+        },
+        "name": "Paracetamol-Kabi-10mg-1ml-solinj-EE-MID-1424056",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ManufacturedItemDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ManufacturedItemDefinition/Paracetamol-Kabi-10mg-1ml-solinj-EE-MID-1799905"
+        },
+        "name": "Paracetamol-Kabi-10mg-1ml-solinj-EE-MID-1799905",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicinalProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "MedicinalProductDefinition/Paracetamol-Kabi-10mg-1ml-solinj-EE-MPD"
+        },
+        "name": "Paracetamol-Kabi-10mg-1ml-solinj-EE-MPD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/Paracetamol-Kabi-10mg-1ml-solinj-EE-PPD-1424034"
+        },
+        "name": "Paracetamol-Kabi-10mg-1ml-solinj-EE-PPD-1424034",
+        "description": "50 ml ja 100 ml II tüüpi klaasist viaalid, mis on suletud bromobutüülkorgi ja alumiinium/plastik  äratõmmatava korgiga.",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/Paracetamol-Kabi-10mg-1ml-solinj-EE-PPD-1424056"
+        },
+        "name": "Paracetamol-Kabi-10mg-1ml-solinj-EE-PPD-1424056",
+        "description": "50 ml ja 100 ml plastkotid, millel on manustamisport (infusiooniport) ja lisamisport (süsteport); kotid koosnevad polüolefiinist sisekihist ja alumiiniumisisaldusega kattekihist ning sisaldavad hapnikuabsorbenti. Kotid on suletud polüisopreenist korgi ja polüpropüleenist kaanega.",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/Paracetamol-Kabi-10mg-1ml-solinj-EE-PPD-1799905"
+        },
+        "name": "Paracetamol-Kabi-10mg-1ml-solinj-EE-PPD-1799905",
+        "description": "10 ml I tüüpi värvitust klaasist ampullid.",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "RegulatedAuthorization"
+          }
+        ],
+        "reference": {
+          "reference": "RegulatedAuthorization/Paracetamol-Kabi-10mg-1ml-solinj-EE-RA"
+        },
+        "name": "Paracetamol-Kabi-10mg-1ml-solinj-EE-RA",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/Paracetamol-Kabi10mg-1ml-EE"
+        },
+        "name": "Paracetamol-Kabi10mg-1ml-EE",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "AdministrableProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "AdministrableProductDefinition/Prokanazol-100mg-Hard-capsule-EE-APD"
+        },
+        "name": "Prokanazol-100mg-Hard-capsule-EE-APD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/Prokanazol-100mg-Hard-capsule-EE-I"
+        },
+        "name": "Prokanazol-100mg-Hard-capsule-EE-I",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ManufacturedItemDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ManufacturedItemDefinition/Prokanazol-100mg-Hard-capsule-EE-MID"
+        },
+        "name": "Prokanazol-100mg-Hard-capsule-EE-MID",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicinalProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "MedicinalProductDefinition/Prokanazol-100mg-Hard-capsule-EE-MPD"
+        },
+        "name": "Prokanazol-100mg-Hard-capsule-EE-MPD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/Prokanazol-100mg-Hard-capsule-EE-PPD-1164035"
+        },
+        "name": "Prokanazol-100mg-Hard-capsule-EE-PPD-1164035",
+        "description": "Termovormitud alumiiniumblister. Pakendis 4, 14, 18, 28 või 30 kapslit. Kõik pakendi suurused ei pruugi olla müügil.",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/Prokanazol-100mg-Hard-capsule-EE-PPD-1164057"
+        },
+        "name": "Prokanazol-100mg-Hard-capsule-EE-PPD-1164057",
+        "description": "Termovormitud alumiiniumblister. Pakendis 4, 14, 18, 28 või 30 kapslit. Kõik pakendi suurused ei pruugi olla müügil.",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "RegulatedAuthorization"
+          }
+        ],
+        "reference": {
+          "reference": "RegulatedAuthorization/Prokanazol-100mg-Hard-capsule-EE-RA"
+        },
+        "name": "Prokanazol-100mg-Hard-capsule-EE-RA",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/Prokanazol100mg-EE"
+        },
+        "name": "Prokanazol100mg-EE",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/Qlaira"
+        },
+        "name": "Qlaira",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "AdministrableProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "AdministrableProductDefinition/Qlaira-f-c-tb-EE-APD-dark-red"
+        },
+        "name": "Qlaira-f-c-tb-EE-APD-dark-red",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "AdministrableProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "AdministrableProductDefinition/Qlaira-f-c-tb-EE-APD-dark-yellow"
+        },
+        "name": "Qlaira-f-c-tb-EE-APD-dark-yellow",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "AdministrableProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "AdministrableProductDefinition/Qlaira-f-c-tb-EE-APD-light-yellow"
+        },
+        "name": "Qlaira-f-c-tb-EE-APD-light-yellow",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "AdministrableProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "AdministrableProductDefinition/Qlaira-f-c-tb-EE-APD-medium-red"
+        },
+        "name": "Qlaira-f-c-tb-EE-APD-medium-red",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "AdministrableProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "AdministrableProductDefinition/Qlaira-f-c-tb-EE-APD-white"
+        },
+        "name": "Qlaira-f-c-tb-EE-APD-white",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/Qlaira-f-c-tb-EE-I-dark-red"
+        },
+        "name": "Qlaira-f-c-tb-EE-I-dark-red",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/Qlaira-f-c-tb-EE-I-dark-yellow"
+        },
+        "name": "Qlaira-f-c-tb-EE-I-dark-yellow",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/Qlaira-f-c-tb-EE-I-light-yellow-A"
+        },
+        "name": "Qlaira-f-c-tb-EE-I-light-yellow-A",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/Qlaira-f-c-tb-EE-I-light-yellow-B"
+        },
+        "name": "Qlaira-f-c-tb-EE-I-light-yellow-B",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/Qlaira-f-c-tb-EE-I-medium-red-A"
+        },
+        "name": "Qlaira-f-c-tb-EE-I-medium-red-A",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/Qlaira-f-c-tb-EE-I-medium-red-B"
+        },
+        "name": "Qlaira-f-c-tb-EE-I-medium-red-B",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/Qlaira-f-c-tb-EE-I-white"
+        },
+        "name": "Qlaira-f-c-tb-EE-I-white",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ManufacturedItemDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ManufacturedItemDefinition/Qlaira-f-c-tb-EE-MID-dark-red"
+        },
+        "name": "Qlaira-f-c-tb-EE-MID-dark-red",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ManufacturedItemDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ManufacturedItemDefinition/Qlaira-f-c-tb-EE-MID-dark-yellow"
+        },
+        "name": "Qlaira-f-c-tb-EE-MID-dark-yellow",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ManufacturedItemDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ManufacturedItemDefinition/Qlaira-f-c-tb-EE-MID-light-yellow"
+        },
+        "name": "Qlaira-f-c-tb-EE-MID-light-yellow",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ManufacturedItemDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ManufacturedItemDefinition/Qlaira-f-c-tb-EE-MID-medium-red"
+        },
+        "name": "Qlaira-f-c-tb-EE-MID-medium-red",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ManufacturedItemDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ManufacturedItemDefinition/Qlaira-f-c-tb-EE-MID-white"
+        },
+        "name": "Qlaira-f-c-tb-EE-MID-white",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicinalProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "MedicinalProductDefinition/Qlaira-f-c-tb-EE-MPD"
+        },
+        "name": "Qlaira-f-c-tb-EE-MPD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/Qlaira-f-c-tb-EE-PPD-1322660"
+        },
+        "name": "Qlaira-f-c-tb-EE-PPD-1322660",
+        "description": "Läbipaistev PVC/alumiinium blister kartongist voldikpakendis.",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "RegulatedAuthorization"
+          }
+        ],
+        "reference": {
+          "reference": "RegulatedAuthorization/Qlaira-f-c-tb-EE-RA"
+        },
+        "name": "Qlaira-f-c-tb-EE-RA",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "AdministrableProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "AdministrableProductDefinition/Sandimmun-Neoral-25mg-Soft-Capsule-EE-APD"
+        },
+        "name": "Sandimmun-Neoral-25mg-Soft-Capsule-EE-APD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/Sandimmun-Neoral-25mg-Soft-Capsule-EE-I"
+        },
+        "name": "Sandimmun-Neoral-25mg-Soft-Capsule-EE-I",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ManufacturedItemDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ManufacturedItemDefinition/Sandimmun-Neoral-25mg-Soft-Capsule-EE-MID"
+        },
+        "name": "Sandimmun-Neoral-25mg-Soft-Capsule-EE-MID",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicinalProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "MedicinalProductDefinition/Sandimmun-Neoral-25mg-Soft-Capsule-EE-MPD"
+        },
+        "name": "Sandimmun-Neoral-25mg-Soft-Capsule-EE-MPD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/Sandimmun-Neoral-25mg-Soft-Capsule-EE-PPD-1008526"
+        },
+        "name": "Sandimmun-Neoral-25mg-Soft-Capsule-EE-PPD-1008526",
+        "description": "Kahepoolsest alumiiniumist blisterpakendid, mis koosnevad polüamiid/alumiinium/polüvinüülkloriidist (PA/alu/PVC) alumisel poolel ja alumiiniumfooliumist ülemisel poolel.25 mg, 50 mg või 100 mg pehmekapslid: 50 tk blisterpakendis.",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "RegulatedAuthorization"
+          }
+        ],
+        "reference": {
+          "reference": "RegulatedAuthorization/Sandimmun-Neoral-25mg-Soft-Capsule-EE-RA"
+        },
+        "name": "Sandimmun-Neoral-25mg-Soft-Capsule-EE-RA",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/SandimmunNeoral25mg-EE"
+        },
+        "name": "SandimmunNeoral25mg-EE",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "AdministrableProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "AdministrableProductDefinition/Simvacor-10mg-f-c-tb-EE-APD"
+        },
+        "name": "Simvacor-10mg-f-c-tb-EE-APD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/Simvacor-10mg-f-c-tb-EE-I"
+        },
+        "name": "Simvacor-10mg-f-c-tb-EE-I",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ManufacturedItemDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ManufacturedItemDefinition/Simvacor-10mg-f-c-tb-EE-MID"
+        },
+        "name": "Simvacor-10mg-f-c-tb-EE-MID",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicinalProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "MedicinalProductDefinition/Simvacor-10mg-f-c-tb-EE-MPD"
+        },
+        "name": "Simvacor-10mg-f-c-tb-EE-MPD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/Simvacor-10mg-f-c-tb-EE-PPD-1080166-A"
+        },
+        "name": "Simvacor-10mg-f-c-tb-EE-PPD-1080166-A",
+        "description": "Blister (Al/PVC) - pakendi suurused: 30 õhukese polümeerikattega tabletti.",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/Simvacor-10mg-f-c-tb-EE-PPD-1080166-B"
+        },
+        "name": "Simvacor-10mg-f-c-tb-EE-PPD-1080166-B",
+        "description": "Polüetüleenist tabletipurk sulguriga - pakendi suurused: 30 õhukese polümeerikattega tabletti.",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "RegulatedAuthorization"
+          }
+        ],
+        "reference": {
+          "reference": "RegulatedAuthorization/Simvacor-10mg-f-c-tb-EE-RA"
+        },
+        "name": "Simvacor-10mg-f-c-tb-EE-RA",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/Simvacor10mg-EE"
+        },
+        "name": "Simvacor10mg-EE",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/Taflotan-0.015mg-1ml-EE"
+        },
+        "name": "Taflotan-0.015mg-1ml-EE",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "AdministrableProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "AdministrableProductDefinition/Taflotan-0.015mg-1ml-eye-drops-solution-EE-APD"
+        },
+        "name": "Taflotan-0.015mg-1ml-eye-drops-solution-EE-APD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/Taflotan-0.015mg-1ml-eye-drops-solution-EE-I"
+        },
+        "name": "Taflotan-0.015mg-1ml-eye-drops-solution-EE-I",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ManufacturedItemDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ManufacturedItemDefinition/Taflotan-0.015mg-1ml-eye-drops-solution-EE-MID"
+        },
+        "name": "Taflotan-0.015mg-1ml-eye-drops-solution-EE-MID",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicinalProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "MedicinalProductDefinition/Taflotan-0.015mg-1ml-eye-drops-solution-EE-MPD"
+        },
+        "name": "Taflotan-0.015mg-1ml-eye-drops-solution-EE-MPD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/Taflotan-0.015mg-1ml-eye-drops-solution-EE-PPD-1753703"
+        },
+        "name": "Taflotan-0.015mg-1ml-eye-drops-solution-EE-PPD-1753703",
+        "description": "Läbipaistvad väikese tihedusega polüetüleenpudelid (LDPE) valge Aptari tilgutiga (polüetüleen, polüpropüleen, tsükliline olefiin-kopolümeer), mis on kaetud sinise polüetüleenkorgiga. Iga pudel  sisaldab 3 ml, 5 ml või 7 ml lahust.",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "RegulatedAuthorization"
+          }
+        ],
+        "reference": {
+          "reference": "RegulatedAuthorization/Taflotan-0.015mg-1ml-eye-drops-solution-EE-RA"
+        },
+        "name": "Taflotan-0.015mg-1ml-eye-drops-solution-EE-RA",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "AdministrableProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "AdministrableProductDefinition/Toujeo-300units-ml-solinj-pen-EE-APD"
+        },
+        "name": "Toujeo-300units-ml-solinj-pen-EE-APD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/Toujeo-300units-ml-solinj-pen-EE-I"
+        },
+        "name": "Toujeo-300units-ml-solinj-pen-EE-I",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ManufacturedItemDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ManufacturedItemDefinition/Toujeo-300units-ml-solinj-pen-EE-MID"
+        },
+        "name": "Toujeo-300units-ml-solinj-pen-EE-MID",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicinalProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "MedicinalProductDefinition/Toujeo-300units-ml-solinj-pen-EE-MPD"
+        },
+        "name": "Toujeo-300units-ml-solinj-pen-EE-MPD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/Toujeo-300units-ml-solinj-pen-EE-PPD-1684043"
+        },
+        "name": "Toujeo-300units-ml-solinj-pen-EE-PPD-1684043",
+        "description": "Kolbampull (I tüüpi värvitu klaas) halli värvi kolvi (broombutüülkumm), pealdisega (alumiiniumäärik) ja korgiga (polüisopreenlaminaat ja broombutüülkumm). Kolbampull on  paigaldatud mittetäidetavasse pen-süstlisse. Üks kolbampull sisaldab 1,5 ml lahust.",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "RegulatedAuthorization"
+          }
+        ],
+        "reference": {
+          "reference": "RegulatedAuthorization/Toujeo-300units-ml-solinj-pen-EE-RA"
+        },
+        "name": "Toujeo-300units-ml-solinj-pen-EE-RA",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/Toujeo300U-ml-SoloStar-EE"
+        },
+        "name": "Toujeo300U-ml-SoloStar-EE",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/Tramadol-KRKA-100mg-EE"
+        },
+        "name": "Tramadol-KRKA-100mg-EE",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "AdministrableProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "AdministrableProductDefinition/Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-APD"
+        },
+        "name": "Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-APD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-I"
+        },
+        "name": "Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-I",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ManufacturedItemDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ManufacturedItemDefinition/Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-MID"
+        },
+        "name": "Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-MID",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicinalProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "MedicinalProductDefinition/Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-MPD"
+        },
+        "name": "Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-MPD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-PPD-1043525"
+        },
+        "name": "Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-PPD-1043525",
+        "description": "100 mg toimeainet prolongeeritult vabastavad tabletid Al/PVC blisterpakendis - 30 tk.",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "RegulatedAuthorization"
+          }
+        ],
+        "reference": {
+          "reference": "RegulatedAuthorization/Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-RA"
+        },
+        "name": "Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-RA",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "AdministrableProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "AdministrableProductDefinition/Valocordin-Diazepam-10mg-1ml-Oral-drps-sol-EE-APD"
+        },
+        "name": "Valocordin-Diazepam-10mg-1ml-Oral-drps-sol-EE-APD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/Valocordin-Diazepam-10mg-1ml-Oral-drps-sol-EE-I"
+        },
+        "name": "Valocordin-Diazepam-10mg-1ml-Oral-drps-sol-EE-I",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ManufacturedItemDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ManufacturedItemDefinition/Valocordin-Diazepam-10mg-1ml-Oral-drps-sol-EE-MID"
+        },
+        "name": "Valocordin-Diazepam-10mg-1ml-Oral-drps-sol-EE-MID",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicinalProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "MedicinalProductDefinition/Valocordin-Diazepam-10mg-1ml-Oral-drps-sol-EE-MPD"
+        },
+        "name": "Valocordin-Diazepam-10mg-1ml-Oral-drps-sol-EE-MPD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/Valocordin-Diazepam-10mg-1ml-Oral-drps-sol-EE-PPD-1001462"
+        },
+        "name": "Valocordin-Diazepam-10mg-1ml-Oral-drps-sol-EE-PPD-1001462",
+        "description": "Ümar, kollakast klaasist pudel, mis sisaldab 25 ml lahust.",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "RegulatedAuthorization"
+          }
+        ],
+        "reference": {
+          "reference": "RegulatedAuthorization/Valocordin-Diazepam-10mg-1ml-Oral-drps-sol-EE-RA"
+        },
+        "name": "Valocordin-Diazepam-10mg-1ml-Oral-drps-sol-EE-RA",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/ValocordinDiazepam10mg1ml-EE"
+        },
+        "name": "ValocordinDiazepam10mg1ml-EE",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/Vendal-retard-60mg-EE"
+        },
+        "name": "Vendal-retard-60mg-EE",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "AdministrableProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "AdministrableProductDefinition/Vendal-retard-60mg-Prolonged-release-tablet-EE-APD"
+        },
+        "name": "Vendal-retard-60mg-Prolonged-release-tablet-EE-APD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/Vendal-retard-60mg-Prolonged-release-tablet-EE-I"
+        },
+        "name": "Vendal-retard-60mg-Prolonged-release-tablet-EE-I",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ManufacturedItemDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ManufacturedItemDefinition/Vendal-retard-60mg-Prolonged-release-tablet-EE-MID"
+        },
+        "name": "Vendal-retard-60mg-Prolonged-release-tablet-EE-MID",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicinalProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "MedicinalProductDefinition/Vendal-retard-60mg-Prolonged-release-tablet-EE-MPD"
+        },
+        "name": "Vendal-retard-60mg-Prolonged-release-tablet-EE-MPD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/Vendal-retard-60mg-Prolonged-release-tablet-EE-PPD-1035739"
+        },
+        "name": "Vendal-retard-60mg-Prolonged-release-tablet-EE-PPD-1035739",
+        "description": "Pakendi tüüp: blister (PVC ja alumiiniumfoolium). Pakendi suurus: karbis 30 tabletti.",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "RegulatedAuthorization"
+          }
+        ],
+        "reference": {
+          "reference": "RegulatedAuthorization/Vendal-retard-60mg-Prolonged-release-tablet-EE-RA"
+        },
+        "name": "Vendal-retard-60mg-Prolonged-release-tablet-EE-RA",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "AdministrableProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "AdministrableProductDefinition/Ventolin-100mcg-Press-inh-susp-EE-APD"
+        },
+        "name": "Ventolin-100mcg-Press-inh-susp-EE-APD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/Ventolin-100mcg-Press-inh-susp-EE-I"
+        },
+        "name": "Ventolin-100mcg-Press-inh-susp-EE-I",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ManufacturedItemDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ManufacturedItemDefinition/Ventolin-100mcg-Press-inh-susp-EE-MID"
+        },
+        "name": "Ventolin-100mcg-Press-inh-susp-EE-MID",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicinalProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "MedicinalProductDefinition/Ventolin-100mcg-Press-inh-susp-EE-MPD"
+        },
+        "name": "Ventolin-100mcg-Press-inh-susp-EE-MPD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/Ventolin-100mcg-Press-inh-susp-EE-PPD-1005512"
+        },
+        "name": "Ventolin-100mcg-Press-inh-susp-EE-PPD-1005512",
+        "description": "Annustatud inhalatsiooniaerosoolis on 200 annust alumiiniumballoonis, mis asetub spetsiaalselt disainitud suletava huulikuga inhalaatori sisse.",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "RegulatedAuthorization"
+          }
+        ],
+        "reference": {
+          "reference": "RegulatedAuthorization/Ventolin-100mcg-Press-inh-susp-EE-RA"
+        },
+        "name": "Ventolin-100mcg-Press-inh-susp-EE-RA",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/Ventolin100mcg-EE"
+        },
+        "name": "Ventolin100mcg-EE",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "AdministrableProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "AdministrableProductDefinition/Zoladex-3.6mg-Implant-EE-APD"
+        },
+        "name": "Zoladex-3.6mg-Implant-EE-APD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/Zoladex-3.6mg-Implant-EE-I"
+        },
+        "name": "Zoladex-3.6mg-Implant-EE-I",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ManufacturedItemDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ManufacturedItemDefinition/Zoladex-3.6mg-Implant-EE-MID"
+        },
+        "name": "Zoladex-3.6mg-Implant-EE-MID",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicinalProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "MedicinalProductDefinition/Zoladex-3.6mg-Implant-EE-MPD"
+        },
+        "name": "Zoladex-3.6mg-Implant-EE-MPD",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/Zoladex-3.6mg-Implant-EE-PPD-1002621"
+        },
+        "name": "Zoladex-3.6mg-Implant-EE-PPD-1002621",
+        "description": "Üht implantaati sisaldav Safe System nõela kaitsva kattega süstel.",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "RegulatedAuthorization"
+          }
+        ],
+        "reference": {
+          "reference": "RegulatedAuthorization/Zoladex-3.6mg-Implant-EE-RA"
+        },
+        "name": "Zoladex-3.6mg-Implant-EE-RA",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/Zoladex3.6mg-EE"
+        },
+        "name": "Zoladex3.6mg-EE",
+        "exampleBoolean": true
+      }
+    ],
+    "page": {
+      "nameUrl": "toc.html",
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": [
+        {
+          "nameUrl": "index.html",
+          "title": "Home",
+          "generation": "markdown"
+        }
+      ]
+    },
+    "parameter": [
+      {
+        "code": "copyrightyear",
+        "value": "2022+"
+      },
+      {
+        "code": "releaselabel",
+        "value": "ci-build"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/capabilities"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/examples"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/extensions"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/models"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/operations"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/profiles"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/resources"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/vocabulary"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/maps"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/testing"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/history"
+      },
+      {
+        "code": "path-resource",
+        "value": "fsh-generated/resources"
+      },
+      {
+        "code": "path-pages",
+        "value": "template/config"
+      },
+      {
+        "code": "path-pages",
+        "value": "input/images"
+      },
+      {
+        "code": "path-liquid",
+        "value": "template/liquid"
+      },
+      {
+        "code": "path-liquid",
+        "value": "input/liquid"
+      },
+      {
+        "code": "path-qa",
+        "value": "temp/qa"
+      },
+      {
+        "code": "path-temp",
+        "value": "temp/pages"
+      },
+      {
+        "code": "path-output",
+        "value": "output"
+      },
+      {
+        "code": "path-tx-cache",
+        "value": "input-cache/txcache"
+      },
+      {
+        "code": "path-suppressed-warnings",
+        "value": "input/ignoreWarnings.txt"
+      },
+      {
+        "code": "path-history",
+        "value": "http://medigree.net/fhir/ee/idmp/history.html"
+      },
+      {
+        "code": "template-html",
+        "value": "template-page.html"
+      },
+      {
+        "code": "template-md",
+        "value": "template-page-md.html"
+      },
+      {
+        "code": "apply-contact",
+        "value": "true"
+      },
+      {
+        "code": "apply-context",
+        "value": "true"
+      },
+      {
+        "code": "apply-copyright",
+        "value": "true"
+      },
+      {
+        "code": "apply-jurisdiction",
+        "value": "true"
+      },
+      {
+        "code": "apply-license",
+        "value": "true"
+      },
+      {
+        "code": "apply-publisher",
+        "value": "true"
+      },
+      {
+        "code": "apply-version",
+        "value": "true"
+      },
+      {
+        "code": "active-tables",
+        "value": "true"
+      },
+      {
+        "code": "fmm-definition",
+        "value": "http://hl7.org/fhir/versions.html#maturity"
+      },
+      {
+        "code": "propagate-status",
+        "value": "true"
+      },
+      {
+        "code": "excludelogbinaryformat",
+        "value": "true"
+      }
+    ]
+  }
+}

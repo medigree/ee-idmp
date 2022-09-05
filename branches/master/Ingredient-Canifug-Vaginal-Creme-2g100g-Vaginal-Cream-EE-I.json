@@ -1,0 +1,100 @@
+{
+  "resourceType": "Ingredient",
+  "id": "Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-I",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient \"Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-I\" </p></div><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"MedicinalProductDefinition-Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-MPD.html\">MedicinalProductDefinition/Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-MPD</a></li><li><a href=\"ManufacturedItemDefinition-Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-MID.html\">ManufacturedItemDefinition/Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-MID</a></li><li><a href=\"AdministrableProductDefinition-Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-APD.html\">AdministrableProductDefinition/Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-APD</a></li></ul><p><b>role</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072050#100000072072)</span></p><blockquote><p><b>substance</b></p><blockquote><p><b>strength</b></p><p><b>concentration</b>: </p></blockquote></blockquote><p><b style=\"color: maroon\">Exception generating Narrative: null</b></p></div>"
+  },
+  "status": "active",
+  "for": [
+    {
+      "reference": "MedicinalProductDefinition/Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-MPD"
+    },
+    {
+      "reference": "ManufacturedItemDefinition/Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-MID"
+    },
+    {
+      "reference": "AdministrableProductDefinition/Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-APD"
+    }
+  ],
+  "role": {
+    "coding": [
+      {
+        "system": "https://spor.ema.europa.eu/v1/lists/100000072050",
+        "code": "100000072072",
+        "display": "Active"
+      }
+    ]
+  },
+  "substance": {
+    "code": {
+      "concept": {
+        "coding": [
+          {
+            "system": "https://spor.ema.europa.eu/v2/SubstanceDefinition",
+            "code": "100000092074",
+            "display": "CLOTRIMAZOLE"
+          }
+        ]
+      }
+    },
+    "strength": [
+      {
+        "concentrationRatio": {
+          "numerator": {
+            "value": 2,
+            "_comparator": {
+              "extension": [
+                {
+                  "url": "http://ema.europa.eu/fhir/extension/comparator",
+                  "valueCoding": {
+                    "system": "https://spor.ema.europa.eu/v1/lists/100000000008",
+                    "code": "100000000049",
+                    "display": "equal to"
+                  }
+                }
+              ]
+            },
+            "unit": "milligram(s)",
+            "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+            "code": "100000110655"
+          },
+          "denominator": {
+            "value": 1,
+            "unit": "gram(s)",
+            "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+            "code": "100000110654"
+          }
+        }
+      },
+      {
+        "presentationRatio": {
+          "numerator": {
+            "value": 40,
+            "_comparator": {
+              "extension": [
+                {
+                  "url": "http://ema.europa.eu/fhir/extension/comparator",
+                  "valueCoding": {
+                    "system": "https://spor.ema.europa.eu/v1/lists/100000000008",
+                    "code": "100000000049",
+                    "display": "equal to"
+                  }
+                }
+              ]
+            },
+            "unit": "milligram(s)",
+            "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+            "code": "100000110655"
+          },
+          "denominator": {
+            "value": 1,
+            "unit": "Tube",
+            "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+            "code": "200000002156"
+          }
+        }
+      }
+    ]
+  }
+}

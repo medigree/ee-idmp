@@ -1,0 +1,2492 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <title>EE.FHIR.IDMP\Artifacts Summary - FHIR v5.0.0-snapshot1</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link rel="stylesheet" href="fhir.css"/>
+
+      <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+
+      <!-- Project extras -->
+    <link rel="stylesheet" href="assets/css/project.css"/>
+    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
+    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
+  	<link rel="stylesheet" href="assets/css/prism.css"/>
+      <!-- Placeholder for child template CSS declarations -->
+<link rel="stylesheet" href="assets/css/hl7-be.css"/>
+  <!-- Placeholder for child template CSS declarations -->
+<link rel="stylesheet" href="assets/css/colors.css"/>
+
+    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+  <!-- Questionnaire: -->
+    <link rel="stylesheet" href="assets/css/lforms.min.css"/>
+
+
+
+
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- [if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif] -->
+
+      <!-- Favicons -->
+    <link sizes="144x144" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
+    <link sizes="114x114" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
+    <link sizes="72x72" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"2"}
+    h3,h4,h5,h6{--heading-prefix:"2.0"}</style>
+    <div id="segment-header" class="segment">    <!-- segment-header -->
+      <div class="container">    <!-- container -->
+          <!-- Placeholder for child template header declarations -->
+
+        <div id="ig-nav">
+          <a no-external="true" id="hl7-logo" href="https://hl7-be.github.io">
+            <img src="assets/images/hl7be-logo-header.png" alt="HL7 Belgium" height="65"/>
+          </a>
+        </div>
+        <div id="fhir-nav">
+          <a no-external="true" id="fhir-logo" href="http://hl7.org/fhir"><img src="assets/images/fhir-logo-www.png" alt="Visit the FHIR website" height="50"/> </a>
+        </div>
+        <div id="ig-search">
+          <a no-external="true" id="hl7-search-lnk" href="http://hl7.org/fhir/search.cfm"><img src="assets/images/search.png" alt="Search FHIR"/></a>
+        </div>
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">EE-IDMP</span><br/>0.1.0 - ci-build</p>
+        </div>
+      </div>   <!-- /container -->
+    </div>    <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">    <!-- container -->
+          <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+            <!-- status-bar -->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a href="http://build.fhir.org/index.html" class="navbar-brand hidden">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <ul class="nav navbar-nav">
+	<li>
+		<a href="index.html">IG Home</a>
+	</li>
+	<li>
+		<a href="toc.html">Table of Contents</a>
+	</li>
+  <!-- <li class="dropdown">
+		<a data-toggle="dropdown" href="#" class="dropdown-toggle">Background<b class="caret"></b>
+		</a>
+
+	</li>
+	<li class="dropdown">
+		<a data-toggle="dropdown" href="#" class="dropdown-toggle">Functional Description<b class="caret"></b>
+		</a>
+
+	</li> -->
+	<li class="dropdown">
+		<a data-toggle="dropdown" href="#" class="dropdown-toggle">Specifications<b class="caret"></b>
+		</a>
+		<ul class="dropdown-menu">
+			<li>
+				<a href="artifacts.html">Artifact Index</a>
+			</li>
+		</ul>
+	</li>
+	<li class="dropdown">
+		<a data-toggle="dropdown" href="#" class="dropdown-toggle">Implementation<b class="caret"></b></a>
+		<ul class="dropdown-menu">
+			<li><a name="l195">​</a><a href="downloads.html">Downloads</a></li>
+		</ul>
+	</li>
+</ul>      
+            </div>    <!-- /.nav-collapse -->
+          </div>    <!-- /.container -->
+        </nav>    <!-- /.navbar -->
+        <!-- /HEADER CONTENT -->
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-navbar -->
+      <!-- status-bar -->
+    
+    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
+      <div class="container">    <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><b>Artifacts Summary</b></li>
+          
+        </ul>
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">    <!-- segment-content -->
+      <div class="container">    <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+    <!-- ReleaseHeader --><p id="publish-box">EE-IDMP - Local Development build (v0.1.0). See the <a href="http://medigree.net/fhir/ee/idmp/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+  <h2>Artifacts Summary</h2>
+  
+  
+  
+    <!-- DO NOT EDIT THIS FILE - It is generated and any changes made will be overwritten --><div class="markdown-toc">
+   <p>Contents:</p>
+   <ul>
+      <li>
+         <a href="#1">Example: Example Instances</a>
+      </li>
+   </ul>
+</div>
+<div>
+   <p>This page provides a list of the FHIR artifacts defined as part of this implementation guide.</p>
+   <a name="1"> </a>
+   <h3>Example: Example Instances </h3>
+   <p>
+    <p>These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-Agen-10mg-Tablet-EE-APD.html" title="AdministrableProductDefinition/Agen-10mg-Tablet-EE-APD">Agen-10mg-Tablet-EE-APD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-Agen-10mg-Tablet-EE-I.html" title="Ingredient/Agen-10mg-Tablet-EE-I">Agen-10mg-Tablet-EE-I</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-Agen-10mg-Tablet-EE-MID.html" title="ManufacturedItemDefinition/Agen-10mg-Tablet-EE-MID">Agen-10mg-Tablet-EE-MID</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicinalProductDefinition-Agen-10mg-Tablet-EE-MPD.html" title="MedicinalProductDefinition/Agen-10mg-Tablet-EE-MPD">Agen-10mg-Tablet-EE-MPD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-Agen-10mg-Tablet-EE-PPD-1109900-A.html" title="PackagedProductDefinition/Agen-10mg-Tablet-EE-PPD-1109900-A">Agen-10mg-Tablet-EE-PPD-1109900-A</a>
+               </td>
+               <td>
+<p>Tabletid on pakendatud PVC/PVDC/Al blistritesse (valged) või PVC/Al blistritesse (valged).</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-Agen-10mg-Tablet-EE-PPD-1109900-B.html" title="PackagedProductDefinition/Agen-10mg-Tablet-EE-PPD-1109900-B">Agen-10mg-Tablet-EE-PPD-1109900-B</a>
+               </td>
+               <td>
+<p>Tabletid on pakendatud PVC/PVDC/Al blistritesse (valged) või PVC/Al blistritesse (valged).</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="RegulatedAuthorization-Agen-10mg-Tablet-EE-RA.html" title="RegulatedAuthorization/Agen-10mg-Tablet-EE-RA">Agen-10mg-Tablet-EE-RA</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-Agen-5mg-Tablet-EE-APD.html" title="AdministrableProductDefinition/Agen-5mg-Tablet-EE-APD">Agen-5mg-Tablet-EE-APD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-Agen-5mg-Tablet-EE-I.html" title="Ingredient/Agen-5mg-Tablet-EE-I">Agen-5mg-Tablet-EE-I</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-Agen-5mg-Tablet-EE-MID.html" title="ManufacturedItemDefinition/Agen-5mg-Tablet-EE-MID">Agen-5mg-Tablet-EE-MID</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicinalProductDefinition-Agen-5mg-Tablet-EE-MPD.html" title="MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD">Agen-5mg-Tablet-EE-MPD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-Agen-5mg-Tablet-EE-PPD-1109887-A.html" title="PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-A">Agen-5mg-Tablet-EE-PPD-1109887-A</a>
+               </td>
+               <td>
+<p>Tabletid on pakendatud PVC/PVDC/Al blistritesse (valged) või PVC/Al blistritesse (valged).</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-Agen-5mg-Tablet-EE-PPD-1109887-B.html" title="PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-B">Agen-5mg-Tablet-EE-PPD-1109887-B</a>
+               </td>
+               <td>
+<p>Tabletid on pakendatud PVC/PVDC/Al blistritesse (valged) või PVC/Al blistritesse (valged).</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="RegulatedAuthorization-Agen-5mg-Tablet-EE-RA.html" title="RegulatedAuthorization/Agen-5mg-Tablet-EE-RA">Agen-5mg-Tablet-EE-RA</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-Agen10mg-EE.html" title="Bundle/Agen10mg-EE">Agen10mg-EE</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-Agen5mg-EE.html" title="Bundle/Agen5mg-EE">Agen5mg-EE</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-Amoksiklav-1000mg-200mg-EE.html" title="Bundle/Amoksiklav-1000mg-200mg-EE">Amoksiklav-1000mg-200mg-EE</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-APD.html" title="AdministrableProductDefinition/Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-APD">Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-APD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-I-90113.html" title="Ingredient/Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-I-90113">Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-I-90113</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-I-93061.html" title="Ingredient/Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-I-93061">Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-I-93061</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-MID.html" title="ManufacturedItemDefinition/Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-MID">Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-MID</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicinalProductDefinition-Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-MPD.html" title="MedicinalProductDefinition/Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-MPD">Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-MPD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-PPD.html" title="PackagedProductDefinition/Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-PPD">Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-PPD</a>
+               </td>
+               <td>
+<p>Amoksiklav’i süste-/infusioonilahuse pulber on pakendatud värvitust klaasist viaalidesse ning suletud  kummikorgi ja alumiiniumist korgikaitsega.  Viaalid on pakendatud karpi. 5 viaali karbis.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="RegulatedAuthorization-Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-RA.html" title="RegulatedAuthorization/Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-RA">Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-RA</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-Amoxicillin-ratiopharm-750mg-f-c-tb-EE-APD.html" title="AdministrableProductDefinition/Amoxicillin-ratiopharm-750mg-f-c-tb-EE-APD">Amoxicillin-ratiopharm-750mg-f-c-tb-EE-APD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-Amoxicillin-ratiopharm-750mg-f-c-tb-EE-I.html" title="Ingredient/Amoxicillin-ratiopharm-750mg-f-c-tb-EE-I">Amoxicillin-ratiopharm-750mg-f-c-tb-EE-I</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-Amoxicillin-ratiopharm-750mg-f-c-tb-EE-MID.html" title="ManufacturedItemDefinition/Amoxicillin-ratiopharm-750mg-f-c-tb-EE-MID">Amoxicillin-ratiopharm-750mg-f-c-tb-EE-MID</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicinalProductDefinition-Amoxicillin-ratiopharm-750mg-f-c-tb-EE-MPD.html" title="MedicinalProductDefinition/Amoxicillin-ratiopharm-750mg-f-c-tb-EE-MPD">Amoxicillin-ratiopharm-750mg-f-c-tb-EE-MPD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-Amoxicillin-ratiopharm-750mg-f-c-tb-EE-PPD-1000450.html" title="PackagedProductDefinition/Amoxicillin-ratiopharm-750mg-f-c-tb-EE-PPD-1000450">Amoxicillin-ratiopharm-750mg-f-c-tb-EE-PPD-1000450</a>
+               </td>
+               <td>
+<p>PVC/PVDC blister, mis sisaldab 10 õhukese polümeerikattega tabletti.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="RegulatedAuthorization-Amoxicillin-ratiopharm-750mg-f-c-tb-EE-RA.html" title="RegulatedAuthorization/Amoxicillin-ratiopharm-750mg-f-c-tb-EE-RA">Amoxicillin-ratiopharm-750mg-f-c-tb-EE-RA</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-Amoxicillinratiopharm750mg.html" title="Bundle/Amoxicillinratiopharm750mg">Amoxicillinratiopharm750mg</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-Anafranil-25mg-Coated-tablet-EE-APD.html" title="AdministrableProductDefinition/Anafranil-25mg-Coated-tablet-EE-APD">Anafranil-25mg-Coated-tablet-EE-APD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-Anafranil-25mg-Coated-tablet-EE-I.html" title="Ingredient/Anafranil-25mg-Coated-tablet-EE-I">Anafranil-25mg-Coated-tablet-EE-I</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-Anafranil-25mg-Coated-tablet-EE-MID.html" title="ManufacturedItemDefinition/Anafranil-25mg-Coated-tablet-EE-MID">Anafranil-25mg-Coated-tablet-EE-MID</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicinalProductDefinition-Anafranil-25mg-Coated-tablet-EE-MPD.html" title="MedicinalProductDefinition/Anafranil-25mg-Coated-tablet-EE-MPD">Anafranil-25mg-Coated-tablet-EE-MPD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-Anafranil-25mg-Coated-tablet-EE-PPD-1001462.html" title="PackagedProductDefinition/Anafranil-25mg-Coated-tablet-EE-PPD-1001462">Anafranil-25mg-Coated-tablet-EE-PPD-1001462</a>
+               </td>
+               <td>
+<p>PVC/PE/PVDC/Alumiinium blisterpakend. 10 mg ja 25 mg kaetud tabletid: 30 tabletti pakendis.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="RegulatedAuthorization-Anafranil-25mg-Coated-tablet-EE-RA.html" title="RegulatedAuthorization/Anafranil-25mg-Coated-tablet-EE-RA">Anafranil-25mg-Coated-tablet-EE-RA</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-Anafranil25mg-EE.html" title="Bundle/Anafranil25mg-EE">Anafranil25mg-EE</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-Betaklav-500mg-125mg-f-c-tb-EE-APD.html" title="AdministrableProductDefinition/Betaklav-500mg-125mg-f-c-tb-EE-APD">Betaklav-500mg-125mg-f-c-tb-EE-APD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-Betaklav-500mg-125mg-f-c-tb-EE-I-100000092629.html" title="Ingredient/Betaklav-500mg-125mg-f-c-tb-EE-I-100000092629">Betaklav-500mg-125mg-f-c-tb-EE-I-100000092629</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-Betaklav-500mg-125mg-f-c-tb-EE-I-100000093061.html" title="Ingredient/Betaklav-500mg-125mg-f-c-tb-EE-I-100000093061">Betaklav-500mg-125mg-f-c-tb-EE-I-100000093061</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-Betaklav-500mg-125mg-f-c-tb-EE-MID.html" title="ManufacturedItemDefinition/Betaklav-500mg-125mg-f-c-tb-EE-MID">Betaklav-500mg-125mg-f-c-tb-EE-MID</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicinalProductDefinition-Betaklav-500mg-125mg-f-c-tb-EE-MPD.html" title="MedicinalProductDefinition/Betaklav-500mg-125mg-f-c-tb-EE-MPD">Betaklav-500mg-125mg-f-c-tb-EE-MPD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-Betaklav-500mg-125mg-f-c-tb-EE-PPD-1635117.html" title="PackagedProductDefinition/Betaklav-500mg-125mg-f-c-tb-EE-PPD-1635117">Betaklav-500mg-125mg-f-c-tb-EE-PPD-1635117</a>
+               </td>
+               <td>
+<p>Ribapakend (Al/Al) 10 õhukese polümeerikattega tabletti karbis</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-Betaklav-500mg-125mg-f-c-tb-EE-PPD-1635139.html" title="PackagedProductDefinition/Betaklav-500mg-125mg-f-c-tb-EE-PPD-1635139">Betaklav-500mg-125mg-f-c-tb-EE-PPD-1635139</a>
+               </td>
+               <td>
+<p>Blisterpakend (OPA/Al/PVC foil/Al foil) 14 õhukese polümeerikattega tabletti karbis</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-Betaklav-500mg-125mg-f-c-tb-EE-PPD-1635207.html" title="PackagedProductDefinition/Betaklav-500mg-125mg-f-c-tb-EE-PPD-1635207">Betaklav-500mg-125mg-f-c-tb-EE-PPD-1635207</a>
+               </td>
+               <td>
+<p>Ribapakend (Al/Al) 500 õhukese polümeerikattega tabletti karbis</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="RegulatedAuthorization-Betaklav-500mg-125mg-f-c-tb-EE-RA.html" title="RegulatedAuthorization/Betaklav-500mg-125mg-f-c-tb-EE-RA">Betaklav-500mg-125mg-f-c-tb-EE-RA</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-Betaklav500-125-EE.html" title="Bundle/Betaklav500-125-EE">Betaklav500-125-EE</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-Calcigran-Forte-500mg-400IU-EE.html" title="Bundle/Calcigran-Forte-500mg-400IU-EE">Calcigran-Forte-500mg-400IU-EE</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-Calcigran-Forte-500mg-400IU-chewable-tablet-EE-APD.html" title="AdministrableProductDefinition/Calcigran-Forte-500mg-400IU-chewable-tablet-EE-APD">Calcigran-Forte-500mg-400IU-chewable-tablet-EE-APD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-Calcigran-Forte-500mg-400IU-chewable-tablet-EE-I-100000091518.html" title="Ingredient/Calcigran-Forte-500mg-400IU-chewable-tablet-EE-I-100000091518">Calcigran-Forte-500mg-400IU-chewable-tablet-EE-I-100000091518</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-Calcigran-Forte-500mg-400IU-chewable-tablet-EE-I-100000129222.html" title="Ingredient/Calcigran-Forte-500mg-400IU-chewable-tablet-EE-I-100000129222">Calcigran-Forte-500mg-400IU-chewable-tablet-EE-I-100000129222</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-Calcigran-Forte-500mg-400IU-chewable-tablet-EE-MID.html" title="ManufacturedItemDefinition/Calcigran-Forte-500mg-400IU-chewable-tablet-EE-MID">Calcigran-Forte-500mg-400IU-chewable-tablet-EE-MID</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicinalProductDefinition-Calcigran-Forte-500mg-400IU-chewable-tablet-EE-MPD.html" title="MedicinalProductDefinition/Calcigran-Forte-500mg-400IU-chewable-tablet-EE-MPD">Calcigran-Forte-500mg-400IU-chewable-tablet-EE-MPD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-Calcigran-Forte-500mg-400IU-chewable-tablet-EE-PPD-1392016.html" title="PackagedProductDefinition/Calcigran-Forte-500mg-400IU-chewable-tablet-EE-PPD-1392016">Calcigran-Forte-500mg-400IU-chewable-tablet-EE-PPD-1392016</a>
+               </td>
+               <td>
+<p>HDPE purk väliskarbis.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="RegulatedAuthorization-Calcigran-Forte-500mg-400IU-chewable-tablet-EE-RA.html" title="RegulatedAuthorization/Calcigran-Forte-500mg-400IU-chewable-tablet-EE-RA">Calcigran-Forte-500mg-400IU-chewable-tablet-EE-RA</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-Canesten500mg-EE.html" title="Bundle/Canesten500mg-EE">Canesten500mg-EE</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-Canesten500mg-Vaginal-Soft-Capsule-EE-APD.html" title="AdministrableProductDefinition/Canesten500mg-Vaginal-Soft-Capsule-EE-APD">Canesten500mg-Vaginal-Soft-Capsule-EE-APD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-Canesten500mg-Vaginal-Soft-Capsule-EE-I.html" title="Ingredient/Canesten500mg-Vaginal-Soft-Capsule-EE-I">Canesten500mg-Vaginal-Soft-Capsule-EE-I</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-Canesten500mg-Vaginal-Soft-Capsule-EE-MID.html" title="ManufacturedItemDefinition/Canesten500mg-Vaginal-Soft-Capsule-EE-MID">Canesten500mg-Vaginal-Soft-Capsule-EE-MID</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicinalProductDefinition-Canesten500mg-Vaginal-Soft-Capsule-EE-MPD.html" title="MedicinalProductDefinition/Canesten500mg-Vaginal-Soft-Capsule-EE-MPD">Canesten500mg-Vaginal-Soft-Capsule-EE-MPD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-Canesten500mg-Vaginal-Soft-Capsule-EE-PPD-1670644.html" title="PackagedProductDefinition/Canesten500mg-Vaginal-Soft-Capsule-EE-PPD-1670644">Canesten500mg-Vaginal-Soft-Capsule-EE-PPD-1670644</a>
+               </td>
+               <td>
+<p>Üks vaginaalpehmekapsel on blistris, mis koosneb läbipaistvast kolmekordsest PVC/PVdC/PVC laminaatkilest ja on suletud alumiiniumfooliumist kattega. Blister ja polüpropüleenist aplikaator on pakendatud kartongkarpi.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="RegulatedAuthorization-Canesten500mg-Vaginal-Soft-Capsule-EE-RA.html" title="RegulatedAuthorization/Canesten500mg-Vaginal-Soft-Capsule-EE-RA">Canesten500mg-Vaginal-Soft-Capsule-EE-RA</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-APD.html" title="AdministrableProductDefinition/Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-APD">Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-APD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-I.html" title="Ingredient/Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-I">Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-I</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-MID.html" title="ManufacturedItemDefinition/Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-MID">Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-MID</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicinalProductDefinition-Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-MPD.html" title="MedicinalProductDefinition/Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-MPD">Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-MPD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-PPD-1033647.html" title="PackagedProductDefinition/Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-PPD-1033647">Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-PPD-1033647</a>
+               </td>
+               <td>
+<p>Alumiiniumtuub välispakendis. Tuub, mis sisaldab 20 g vaginaalkreemi ja 3 vaginaalseks kasutamiseks ette nähtud ühekordset aplikaatorit.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="RegulatedAuthorization-Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-RA.html" title="RegulatedAuthorization/Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-RA">Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-RA</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicinalProductDefinition-CanifugCremolum-100mg-10mg1g-Cream-Pessary-EE-MPD.html" title="MedicinalProductDefinition/CanifugCremolum-100mg-10mg1g-Cream-Pessary-EE-MPD">CanifugCremolum-100mg-10mg1g-Cream-Pessary-EE-MPD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-CanifugCremolum-100mg-10mg1g-Cream-Pessary-EE-PPD-1033692.html" title="PackagedProductDefinition/CanifugCremolum-100mg-10mg1g-Cream-Pessary-EE-PPD-1033692">CanifugCremolum-100mg-10mg1g-Cream-Pessary-EE-PPD-1033692</a>
+               </td>
+               <td>
+<p>Alu/PE-fooliumist valmistatud ribapakend, mis on asetatud väliskarpi. Kreem on alumiiniumtuubis ja omakorda pappkarbis. Kombineeritud pakend sisaldab: 6 vaginaalsuposiiti ja 20 g kreemi</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="RegulatedAuthorization-CanifugCremolum-100mg-10mg1g-Cream-Pessary-EE-RA.html" title="RegulatedAuthorization/CanifugCremolum-100mg-10mg1g-Cream-Pessary-EE-RA">CanifugCremolum-100mg-10mg1g-Cream-Pessary-EE-RA</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-CanifugCremolum-100mg-Pessary-EE-APD.html" title="AdministrableProductDefinition/CanifugCremolum-100mg-Pessary-EE-APD">CanifugCremolum-100mg-Pessary-EE-APD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-CanifugCremolum-100mg-Pessary-EE-I.html" title="Ingredient/CanifugCremolum-100mg-Pessary-EE-I">CanifugCremolum-100mg-Pessary-EE-I</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-CanifugCremolum-100mg-Pessary-EE-MID.html" title="ManufacturedItemDefinition/CanifugCremolum-100mg-Pessary-EE-MID">CanifugCremolum-100mg-Pessary-EE-MID</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-CanifugCremolum-10mg1g-Cream-EE-APD.html" title="AdministrableProductDefinition/CanifugCremolum-10mg1g-Cream-EE-APD">CanifugCremolum-10mg1g-Cream-EE-APD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-CanifugCremolum-10mg1g-Cream-EE-I.html" title="Ingredient/CanifugCremolum-10mg1g-Cream-EE-I">CanifugCremolum-10mg1g-Cream-EE-I</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-CanifugCremolum-10mg1g-Cream-EE-MID.html" title="ManufacturedItemDefinition/CanifugCremolum-10mg1g-Cream-EE-MID">CanifugCremolum-10mg1g-Cream-EE-MID</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-CanifugCremolum100mg10mg1g-EE.html" title="Bundle/CanifugCremolum100mg10mg1g-EE">CanifugCremolum100mg10mg1g-EE</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-CanifugVaginalCreme2g100g-EE.html" title="Bundle/CanifugVaginalCreme2g100g-EE">CanifugVaginalCreme2g100g-EE</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-Carbalex-200mg-Tablet-EE-APD.html" title="AdministrableProductDefinition/Carbalex-200mg-Tablet-EE-APD">Carbalex-200mg-Tablet-EE-APD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-Carbalex-200mg-Tablet-EE-I.html" title="Ingredient/Carbalex-200mg-Tablet-EE-I">Carbalex-200mg-Tablet-EE-I</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-Carbalex-200mg-Tablet-EE-MID.html" title="ManufacturedItemDefinition/Carbalex-200mg-Tablet-EE-MID">Carbalex-200mg-Tablet-EE-MID</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicinalProductDefinition-Carbalex-200mg-Tablet-EE-MPD.html" title="MedicinalProductDefinition/Carbalex-200mg-Tablet-EE-MPD">Carbalex-200mg-Tablet-EE-MPD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-Carbalex-200mg-Tablet-EE-PPD-1042311.html" title="PackagedProductDefinition/Carbalex-200mg-Tablet-EE-PPD-1042311">Carbalex-200mg-Tablet-EE-PPD-1042311</a>
+               </td>
+               <td>
+<p>50 tabletti blisterpakendis (PVC-Alu).</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="RegulatedAuthorization-Carbalex-200mg-Tablet-EE-RA.html" title="RegulatedAuthorization/Carbalex-200mg-Tablet-EE-RA">Carbalex-200mg-Tablet-EE-RA</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-Carbalex200mg-EE.html" title="Bundle/Carbalex200mg-EE">Carbalex200mg-EE</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-Cefuroxime-MIP-1500mg-Pdr-solinj-inf-EE-APD.html" title="AdministrableProductDefinition/Cefuroxime-MIP-1500mg-Pdr-solinj-inf-EE-APD">Cefuroxime-MIP-1500mg-Pdr-solinj-inf-EE-APD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-Cefuroxime-MIP-1500mg-Pdr-solinj-inf-EE-I.html" title="Ingredient/Cefuroxime-MIP-1500mg-Pdr-solinj-inf-EE-I">Cefuroxime-MIP-1500mg-Pdr-solinj-inf-EE-I</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-Cefuroxime-MIP-1500mg-Pdr-solinj-inf-EE-MID.html" title="ManufacturedItemDefinition/Cefuroxime-MIP-1500mg-Pdr-solinj-inf-EE-MID">Cefuroxime-MIP-1500mg-Pdr-solinj-inf-EE-MID</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-Cefuroxime-MIP-1500mg-Pdr-solinj-inf-EE-PPD-1529940.html" title="PackagedProductDefinition/Cefuroxime-MIP-1500mg-Pdr-solinj-inf-EE-PPD-1529940">Cefuroxime-MIP-1500mg-Pdr-solinj-inf-EE-PPD-1529940</a>
+               </td>
+               <td>
+<p>I tüüpi klaasist viaal, mis on suletud klorobutüülkummist korgi ning flip-off kattega, 1 viaal</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-Cefuroxime-MIP-1500mg-Pdr-solinj-inf-EE-PPD-1529962.html" title="PackagedProductDefinition/Cefuroxime-MIP-1500mg-Pdr-solinj-inf-EE-PPD-1529962">Cefuroxime-MIP-1500mg-Pdr-solinj-inf-EE-PPD-1529962</a>
+               </td>
+               <td>
+<p>I tüüpi klaasist viaal, mis on suletud klorobutüülkummist korgi ning flip-off kattega, 1 viaal</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="RegulatedAuthorization-Cefuroxime-MIP-1500mg-Pdr-solinj-inf-EE-RA.html" title="RegulatedAuthorization/Cefuroxime-MIP-1500mg-Pdr-solinj-inf-EE-RA">Cefuroxime-MIP-1500mg-Pdr-solinj-inf-EE-RA</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicinalProductDefinition-Cefuroxime-MIP-1500mg-pdr-solinj-inf-EE-MPD.html" title="MedicinalProductDefinition/Cefuroxime-MIP-1500mg-pdr-solinj-inf-EE-MPD">Cefuroxime-MIP-1500mg-pdr-solinj-inf-EE-MPD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-Cefuroxime-MIP1500-EE.html" title="Bundle/Cefuroxime-MIP1500-EE">Cefuroxime-MIP1500-EE</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-Clexane-60mg-0.6ml-EE.html" title="Bundle/Clexane-60mg-0.6ml-EE">Clexane-60mg-0.6ml-EE</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-Clexane-60mg-0.6ml-solinj-EE-APD.html" title="AdministrableProductDefinition/Clexane-60mg-0.6ml-solinj-EE-APD">Clexane-60mg-0.6ml-solinj-EE-APD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-Clexane-60mg-0.6ml-solinj-EE-I.html" title="Ingredient/Clexane-60mg-0.6ml-solinj-EE-I">Clexane-60mg-0.6ml-solinj-EE-I</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-Clexane-60mg-0.6ml-solinj-EE-MID.html" title="ManufacturedItemDefinition/Clexane-60mg-0.6ml-solinj-EE-MID">Clexane-60mg-0.6ml-solinj-EE-MID</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicinalProductDefinition-Clexane-60mg-0.6ml-solinj-EE-MPD.html" title="MedicinalProductDefinition/Clexane-60mg-0.6ml-solinj-EE-MPD">Clexane-60mg-0.6ml-solinj-EE-MPD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-Clexane-60mg-0.6ml-solinj-EE-PPD-1065552.html" title="PackagedProductDefinition/Clexane-60mg-0.6ml-solinj-EE-PPD-1065552">Clexane-60mg-0.6ml-solinj-EE-PPD-1065552</a>
+               </td>
+               <td>
+<p>CLEXANE 6000 RÜ (60 mg)/0,6 ml: süstelahus süstlites (I tüüpi klaas), mis on varustatud kummikorgiga (klorobutüül ja bromobutüül) ning süstimisnõelaga (automaatse ohutussüsteemiga ERIS või PREVENTIS või ilma).</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="RegulatedAuthorization-Clexane-60mg-0.6ml-solinj-EE-RA.html" title="RegulatedAuthorization/Clexane-60mg-0.6ml-solinj-EE-RA">Clexane-60mg-0.6ml-solinj-EE-RA</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-Diclac-10mg1g-Gel-EE-APD.html" title="AdministrableProductDefinition/Diclac-10mg1g-Gel-EE-APD">Diclac-10mg1g-Gel-EE-APD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-Diclac-10mg1g-Gel-EE-I.html" title="Ingredient/Diclac-10mg1g-Gel-EE-I">Diclac-10mg1g-Gel-EE-I</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-Diclac-10mg1g-Gel-EE-MID.html" title="ManufacturedItemDefinition/Diclac-10mg1g-Gel-EE-MID">Diclac-10mg1g-Gel-EE-MID</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicinalProductDefinition-Diclac-10mg1g-Gel-EE-MPD.html" title="MedicinalProductDefinition/Diclac-10mg1g-Gel-EE-MPD">Diclac-10mg1g-Gel-EE-MPD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-Diclac-10mg1g-Gel-EE-PPD-1153257.html" title="PackagedProductDefinition/Diclac-10mg1g-Gel-EE-PPD-1153257">Diclac-10mg1g-Gel-EE-PPD-1153257</a>
+               </td>
+               <td>
+<p>Tuub sisaldab 25 g, 50 g või 100 g geeli.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-Diclac-10mg1g-Gel-EE-PPD-1153268.html" title="PackagedProductDefinition/Diclac-10mg1g-Gel-EE-PPD-1153268">Diclac-10mg1g-Gel-EE-PPD-1153268</a>
+               </td>
+               <td>
+<p>Tuub sisaldab 25 g, 50 g või 100 g geeli.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="RegulatedAuthorization-Diclac-10mg1g-Gel-EE-RA.html" title="RegulatedAuthorization/Diclac-10mg1g-Gel-EE-RA">Diclac-10mg1g-Gel-EE-RA</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-Diclac10mg1g-EE.html" title="Bundle/Diclac10mg1g-EE">Diclac10mg1g-EE</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-Diclofenac-Mylan-180mg-Med-plaster-EE-APD.html" title="AdministrableProductDefinition/Diclofenac-Mylan-180mg-Med-plaster-EE-APD">Diclofenac-Mylan-180mg-Med-plaster-EE-APD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-Diclofenac-Mylan-180mg-Med-plaster-EE-I.html" title="Ingredient/Diclofenac-Mylan-180mg-Med-plaster-EE-I">Diclofenac-Mylan-180mg-Med-plaster-EE-I</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-Diclofenac-Mylan-180mg-Med-plaster-EE-MID.html" title="ManufacturedItemDefinition/Diclofenac-Mylan-180mg-Med-plaster-EE-MID">Diclofenac-Mylan-180mg-Med-plaster-EE-MID</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicinalProductDefinition-Diclofenac-Mylan-180mg-Med-plaster-EE-MPD.html" title="MedicinalProductDefinition/Diclofenac-Mylan-180mg-Med-plaster-EE-MPD">Diclofenac-Mylan-180mg-Med-plaster-EE-MPD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-Diclofenac-Mylan-180mg-Med-plaster-EE-PPD-1788419.html" title="PackagedProductDefinition/Diclofenac-Mylan-180mg-Med-plaster-EE-PPD-1788419">Diclofenac-Mylan-180mg-Med-plaster-EE-PPD-1788419</a>
+               </td>
+               <td>
+<p>Suletava ümbrise materjal on paber/PE/alumiinium/etüleen ja metüülakrüülhappe kopolümeer. Ümbrises on 5 ravimplaastrit. Pakendi suurus: 5 või 10 ravimplaastrit karbis.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-Diclofenac-Mylan-180mg-Med-plaster-EE-PPD-1788420.html" title="PackagedProductDefinition/Diclofenac-Mylan-180mg-Med-plaster-EE-PPD-1788420">Diclofenac-Mylan-180mg-Med-plaster-EE-PPD-1788420</a>
+               </td>
+               <td>
+<p>Suletava ümbrise materjal on paber/PE/alumiinium/etüleen ja metüülakrüülhappe kopolümeer. Ümbrises on 5 ravimplaastrit. Pakendi suurus: 5 või 10 ravimplaastrit karbis.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="RegulatedAuthorization-Diclofenac-Mylan-180mg-Med-plaster-EE-RA.html" title="RegulatedAuthorization/Diclofenac-Mylan-180mg-Med-plaster-EE-RA">Diclofenac-Mylan-180mg-Med-plaster-EE-RA</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-DiclofenacMylan180mg-EE.html" title="Bundle/DiclofenacMylan180mg-EE">DiclofenacMylan180mg-EE</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-Enalapril-Vitabalans-5mg-Tablet-EE-APD.html" title="AdministrableProductDefinition/Enalapril-Vitabalans-5mg-Tablet-EE-APD">Enalapril-Vitabalans-5mg-Tablet-EE-APD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-Enalapril-Vitabalans-5mg-Tablet-EE-I.html" title="Ingredient/Enalapril-Vitabalans-5mg-Tablet-EE-I">Enalapril-Vitabalans-5mg-Tablet-EE-I</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-Enalapril-Vitabalans-5mg-Tablet-EE-MID.html" title="ManufacturedItemDefinition/Enalapril-Vitabalans-5mg-Tablet-EE-MID">Enalapril-Vitabalans-5mg-Tablet-EE-MID</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicinalProductDefinition-Enalapril-Vitabalans-5mg-Tablet-EE-MPD.html" title="MedicinalProductDefinition/Enalapril-Vitabalans-5mg-Tablet-EE-MPD">Enalapril-Vitabalans-5mg-Tablet-EE-MPD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-Enalapril-Vitabalans-5mg-Tablet-EE-PPD-1359918.html" title="PackagedProductDefinition/Enalapril-Vitabalans-5mg-Tablet-EE-PPD-1359918">Enalapril-Vitabalans-5mg-Tablet-EE-PPD-1359918</a>
+               </td>
+               <td>
+<p>28, 30, 56, 60, 98, 100 tabletti blistris (Al/Al).</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-Enalapril-Vitabalans-5mg-Tablet-EE-PPD-1359952.html" title="PackagedProductDefinition/Enalapril-Vitabalans-5mg-Tablet-EE-PPD-1359952">Enalapril-Vitabalans-5mg-Tablet-EE-PPD-1359952</a>
+               </td>
+               <td>
+<p>28, 30, 56, 60, 98, 100 tabletti blistris (Al/Al).</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="RegulatedAuthorization-Enalapril-Vitabalans-5mg-Tablet-EE-RA.html" title="RegulatedAuthorization/Enalapril-Vitabalans-5mg-Tablet-EE-RA">Enalapril-Vitabalans-5mg-Tablet-EE-RA</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-EnalaprilVitabalans5mg-EE.html" title="Bundle/EnalaprilVitabalans5mg-EE">EnalaprilVitabalans5mg-EE</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-Gasec-Gastrocaps-40mg-Hard-Capsules-EE-APD.html" title="AdministrableProductDefinition/Gasec-Gastrocaps-40mg-Hard-Capsules-EE-APD">Gasec-Gastrocaps-40mg-Hard-Capsules-EE-APD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-Gasec-Gastrocaps-40mg-Hard-Capsules-EE-I.html" title="Ingredient/Gasec-Gastrocaps-40mg-Hard-Capsules-EE-I">Gasec-Gastrocaps-40mg-Hard-Capsules-EE-I</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-Gasec-Gastrocaps-40mg-Hard-Capsules-EE-MID.html" title="ManufacturedItemDefinition/Gasec-Gastrocaps-40mg-Hard-Capsules-EE-MID">Gasec-Gastrocaps-40mg-Hard-Capsules-EE-MID</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicinalProductDefinition-Gasec-Gastrocaps-40mg-Hard-Capsules-EE-MPD.html" title="MedicinalProductDefinition/Gasec-Gastrocaps-40mg-Hard-Capsules-EE-MPD">Gasec-Gastrocaps-40mg-Hard-Capsules-EE-MPD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-Gasec-Gastrocaps-40mg-Hard-Capsules-EE-PPD-1112814-A.html" title="PackagedProductDefinition/Gasec-Gastrocaps-40mg-Hard-Capsules-EE-PPD-1112814-A">Gasec-Gastrocaps-40mg-Hard-Capsules-EE-PPD-1112814-A</a>
+               </td>
+               <td>
+<p>Kapslid on saadaval alumiinium/alumiinium blisterpakendites või keeratavate korkidega kõrgtihedusega  polüetüleenpudelites (HDPE pudelid).</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-Gasec-Gastrocaps-40mg-Hard-Capsules-EE-PPD-1112814-B.html" title="PackagedProductDefinition/Gasec-Gastrocaps-40mg-Hard-Capsules-EE-PPD-1112814-B">Gasec-Gastrocaps-40mg-Hard-Capsules-EE-PPD-1112814-B</a>
+               </td>
+               <td>
+<p>Kapslid on saadaval alumiinium/alumiinium blisterpakendites või keeratavate korkidega kõrgtihedusega  polüetüleenpudelites (HDPE pudelid).</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-Gasec-Gastrocaps-40mg-Hard-Capsules-EE-PPD-1112825-A.html" title="PackagedProductDefinition/Gasec-Gastrocaps-40mg-Hard-Capsules-EE-PPD-1112825-A">Gasec-Gastrocaps-40mg-Hard-Capsules-EE-PPD-1112825-A</a>
+               </td>
+               <td>
+<p>Kapslid on saadaval alumiinium/alumiinium blisterpakendites või keeratavate korkidega kõrgtihedusega  polüetüleenpudelites (HDPE pudelid).</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-Gasec-Gastrocaps-40mg-Hard-Capsules-EE-PPD-1112825-B.html" title="PackagedProductDefinition/Gasec-Gastrocaps-40mg-Hard-Capsules-EE-PPD-1112825-B">Gasec-Gastrocaps-40mg-Hard-Capsules-EE-PPD-1112825-B</a>
+               </td>
+               <td>
+<p>Kapslid on saadaval alumiinium/alumiinium blisterpakendites või keeratavate korkidega kõrgtihedusega  polüetüleenpudelites (HDPE pudelid).</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="RegulatedAuthorization-Gasec-Gastrocaps-40mg-Hard-Capsules-EE-RA.html" title="RegulatedAuthorization/Gasec-Gastrocaps-40mg-Hard-Capsules-EE-RA">Gasec-Gastrocaps-40mg-Hard-Capsules-EE-RA</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-GasecGastrocaps40mg-EE.html" title="Bundle/GasecGastrocaps40mg-EE">GasecGastrocaps40mg-EE</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-Hydrocortisone-DAK-10mg1g-Ointment-EE-APD.html" title="AdministrableProductDefinition/Hydrocortisone-DAK-10mg1g-Ointment-EE-APD">Hydrocortisone-DAK-10mg1g-Ointment-EE-APD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-Hydrocortisone-DAK-10mg1g-Ointment-EE-I.html" title="Ingredient/Hydrocortisone-DAK-10mg1g-Ointment-EE-I">Hydrocortisone-DAK-10mg1g-Ointment-EE-I</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-Hydrocortisone-DAK-10mg1g-Ointment-EE-MID.html" title="ManufacturedItemDefinition/Hydrocortisone-DAK-10mg1g-Ointment-EE-MID">Hydrocortisone-DAK-10mg1g-Ointment-EE-MID</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicinalProductDefinition-Hydrocortisone-DAK-10mg1g-Ointment-EE-MPD.html" title="MedicinalProductDefinition/Hydrocortisone-DAK-10mg1g-Ointment-EE-MPD">Hydrocortisone-DAK-10mg1g-Ointment-EE-MPD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-Hydrocortisone-DAK-10mg1g-Ointment-EE-PPD-1137013.html" title="PackagedProductDefinition/Hydrocortisone-DAK-10mg1g-Ointment-EE-PPD-1137013">Hydrocortisone-DAK-10mg1g-Ointment-EE-PPD-1137013</a>
+               </td>
+               <td>
+<p>30 g salvi alumiiniumtuubis.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="RegulatedAuthorization-Hydrocortisone-DAK-10mg1g-Ointment-EE-RA.html" title="RegulatedAuthorization/Hydrocortisone-DAK-10mg1g-Ointment-EE-RA">Hydrocortisone-DAK-10mg1g-Ointment-EE-RA</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-HydrocortisoneDAK-10mg1g-EE.html" title="Bundle/HydrocortisoneDAK-10mg1g-EE">HydrocortisoneDAK-10mg1g-EE</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-Kadcyla-100mg-EE.html" title="Bundle/Kadcyla-100mg-EE">Kadcyla-100mg-EE</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-Kadcyla-100mg-Pdr-fr-conc-for-solinj-EE-APD.html" title="AdministrableProductDefinition/Kadcyla-100mg-Pdr-fr-conc-for-solinj-EE-APD">Kadcyla-100mg-Pdr-fr-conc-for-solinj-EE-APD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-Kadcyla-100mg-Pdr-fr-conc-for-solinj-EE-I.html" title="Ingredient/Kadcyla-100mg-Pdr-fr-conc-for-solinj-EE-I">Kadcyla-100mg-Pdr-fr-conc-for-solinj-EE-I</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-Kadcyla-100mg-Pdr-fr-conc-for-solinj-EE-MID.html" title="ManufacturedItemDefinition/Kadcyla-100mg-Pdr-fr-conc-for-solinj-EE-MID">Kadcyla-100mg-Pdr-fr-conc-for-solinj-EE-MID</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicinalProductDefinition-Kadcyla-100mg-Pdr-fr-conc-for-solinj-EE-MPD.html" title="MedicinalProductDefinition/Kadcyla-100mg-Pdr-fr-conc-for-solinj-EE-MPD">Kadcyla-100mg-Pdr-fr-conc-for-solinj-EE-MPD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-Kadcyla-100mg-Pdr-fr-conc-for-solinj-EE-PPD-1633339.html" title="PackagedProductDefinition/Kadcyla-100mg-Pdr-fr-conc-for-solinj-EE-PPD-1633339">Kadcyla-100mg-Pdr-fr-conc-for-solinj-EE-PPD-1633339</a>
+               </td>
+               <td>
+<p>Kadcyla on pakendatud 15 ml (100 mg) I tüüpi klaasist viaali, mis on suletud fluorovaiguga lamineeritud halli butüülkummist korgi, alumiiniumsulguri ja valge plastmassist eemaldatava kattega</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="RegulatedAuthorization-Kadcyla-100mg-Pdr-fr-conc-for-solinj-EE-RA.html" title="RegulatedAuthorization/Kadcyla-100mg-Pdr-fr-conc-for-solinj-EE-RA">Kadcyla-100mg-Pdr-fr-conc-for-solinj-EE-RA</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-APD.html" title="AdministrableProductDefinition/Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-APD">Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-APD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-I.html" title="Ingredient/Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-I">Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-I</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-MID.html" title="ManufacturedItemDefinition/Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-MID">Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-MID</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicinalProductDefinition-Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-MPD.html" title="MedicinalProductDefinition/Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-MPD">Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-MPD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-PPD-1018774.html" title="PackagedProductDefinition/Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-PPD-1018774">Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-PPD-1018774</a>
+               </td>
+               <td>
+<p>5 ml klaasampullid, 5 ampulli alusel. 2 alust pakendis.  Pakendi suurus: 10 ampulli.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="RegulatedAuthorization-Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-RA.html" title="RegulatedAuthorization/Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-RA">Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-RA</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-Lidocaine-Grindeks100mg1ml-EE.html" title="Bundle/Lidocaine-Grindeks100mg1ml-EE">Lidocaine-Grindeks100mg1ml-EE</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-MXL-30mg-EE.html" title="Bundle/MXL-30mg-EE">MXL-30mg-EE</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-MXL-30mg-prol-rel-hard-cap-EE-APD.html" title="AdministrableProductDefinition/MXL-30mg-prol-rel-hard-cap-EE-APD">MXL-30mg-prol-rel-hard-cap-EE-APD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-MXL-30mg-prol-rel-hard-cap-EE-I.html" title="Ingredient/MXL-30mg-prol-rel-hard-cap-EE-I">MXL-30mg-prol-rel-hard-cap-EE-I</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-MXL-30mg-prol-rel-hard-cap-EE-MID.html" title="ManufacturedItemDefinition/MXL-30mg-prol-rel-hard-cap-EE-MID">MXL-30mg-prol-rel-hard-cap-EE-MID</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicinalProductDefinition-MXL-30mg-prol-rel-hard-cap-EE-MPD.html" title="MedicinalProductDefinition/MXL-30mg-prol-rel-hard-cap-EE-MPD">MXL-30mg-prol-rel-hard-cap-EE-MPD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-MXL-30mg-prol-rel-hard-cap-EE-PPD-1080403-a.html" title="PackagedProductDefinition/MXL-30mg-prol-rel-hard-cap-EE-PPD-1080403-a">MXL-30mg-prol-rel-hard-cap-EE-PPD-1080403-a</a>
+               </td>
+               <td>
+<p>Polüetüleenkorgiga suletud polüpropüleenpakend.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-MXL-30mg-prol-rel-hard-cap-EE-PPD-1080403-b.html" title="PackagedProductDefinition/MXL-30mg-prol-rel-hard-cap-EE-PPD-1080403-b">MXL-30mg-prol-rel-hard-cap-EE-PPD-1080403-b</a>
+               </td>
+               <td>
+<p>PVdC-kihiga (&gt; 40 gsm) kaetud PVC (250 um) blisterpakend alumiiniumfooliumis. Blisterpakendid on paigutatud kartongkarpidesse.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-MXL-30mg-prol-rel-hard-cap-EE-PPD-1339422-a.html" title="PackagedProductDefinition/MXL-30mg-prol-rel-hard-cap-EE-PPD-1339422-a">MXL-30mg-prol-rel-hard-cap-EE-PPD-1339422-a</a>
+               </td>
+               <td>
+<p>Polüetüleenkorgiga suletud polüpropüleenpakend.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-MXL-30mg-prol-rel-hard-cap-EE-PPD-1339422-b.html" title="PackagedProductDefinition/MXL-30mg-prol-rel-hard-cap-EE-PPD-1339422-b">MXL-30mg-prol-rel-hard-cap-EE-PPD-1339422-b</a>
+               </td>
+               <td>
+<p>PVdC-kihiga (&gt; 40 gsm) kaetud PVC (250 um) blisterpakend alumiiniumfooliumis. Blisterpakendid on paigutatud kartongkarpidesse.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="RegulatedAuthorization-MXL-30mg-prol-rel-hard-cap-EE-RA.html" title="RegulatedAuthorization/MXL-30mg-prol-rel-hard-cap-EE-RA">MXL-30mg-prol-rel-hard-cap-EE-RA</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-Metfogamma850-850mg-EE.html" title="Bundle/Metfogamma850-850mg-EE">Metfogamma850-850mg-EE</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-Metfogamma850-850mg-f-c-tb-EE-APD.html" title="AdministrableProductDefinition/Metfogamma850-850mg-f-c-tb-EE-APD">Metfogamma850-850mg-f-c-tb-EE-APD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-Metfogamma850-850mg-f-c-tb-EE-I.html" title="Ingredient/Metfogamma850-850mg-f-c-tb-EE-I">Metfogamma850-850mg-f-c-tb-EE-I</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-Metfogamma850-850mg-f-c-tb-EE-MID.html" title="ManufacturedItemDefinition/Metfogamma850-850mg-f-c-tb-EE-MID">Metfogamma850-850mg-f-c-tb-EE-MID</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicinalProductDefinition-Metfogamma850-850mg-f-c-tb-EE-MPD.html" title="MedicinalProductDefinition/Metfogamma850-850mg-f-c-tb-EE-MPD">Metfogamma850-850mg-f-c-tb-EE-MPD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-Metfogamma850-850mg-f-c-tb-EE-PPD-1111251.html" title="PackagedProductDefinition/Metfogamma850-850mg-f-c-tb-EE-PPD-1111251">Metfogamma850-850mg-f-c-tb-EE-PPD-1111251</a>
+               </td>
+               <td>
+<p>PVC/Al blister</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-Metfogamma850-850mg-f-c-tb-EE-PPD-1111262.html" title="PackagedProductDefinition/Metfogamma850-850mg-f-c-tb-EE-PPD-1111262">Metfogamma850-850mg-f-c-tb-EE-PPD-1111262</a>
+               </td>
+               <td>
+<p>PVC/Al blister</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="RegulatedAuthorization-Metfogamma850-850mg-f-c-tb-EE-RA.html" title="RegulatedAuthorization/Metfogamma850-850mg-f-c-tb-EE-RA">Metfogamma850-850mg-f-c-tb-EE-RA</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-Paracetamol-Kabi-10mg-1ml-solinj-EE-APD-1424034.html" title="AdministrableProductDefinition/Paracetamol-Kabi-10mg-1ml-solinj-EE-APD-1424034">Paracetamol-Kabi-10mg-1ml-solinj-EE-APD-1424034</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-Paracetamol-Kabi-10mg-1ml-solinj-EE-APD-1424056.html" title="AdministrableProductDefinition/Paracetamol-Kabi-10mg-1ml-solinj-EE-APD-1424056">Paracetamol-Kabi-10mg-1ml-solinj-EE-APD-1424056</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-Paracetamol-Kabi-10mg-1ml-solinj-EE-APD-1799905.html" title="AdministrableProductDefinition/Paracetamol-Kabi-10mg-1ml-solinj-EE-APD-1799905">Paracetamol-Kabi-10mg-1ml-solinj-EE-APD-1799905</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-Paracetamol-Kabi-10mg-1ml-solinj-EE-I.html" title="Ingredient/Paracetamol-Kabi-10mg-1ml-solinj-EE-I">Paracetamol-Kabi-10mg-1ml-solinj-EE-I</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-Paracetamol-Kabi-10mg-1ml-solinj-EE-MID-1424034.html" title="ManufacturedItemDefinition/Paracetamol-Kabi-10mg-1ml-solinj-EE-MID-1424034">Paracetamol-Kabi-10mg-1ml-solinj-EE-MID-1424034</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-Paracetamol-Kabi-10mg-1ml-solinj-EE-MID-1424056.html" title="ManufacturedItemDefinition/Paracetamol-Kabi-10mg-1ml-solinj-EE-MID-1424056">Paracetamol-Kabi-10mg-1ml-solinj-EE-MID-1424056</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-Paracetamol-Kabi-10mg-1ml-solinj-EE-MID-1799905.html" title="ManufacturedItemDefinition/Paracetamol-Kabi-10mg-1ml-solinj-EE-MID-1799905">Paracetamol-Kabi-10mg-1ml-solinj-EE-MID-1799905</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicinalProductDefinition-Paracetamol-Kabi-10mg-1ml-solinj-EE-MPD.html" title="MedicinalProductDefinition/Paracetamol-Kabi-10mg-1ml-solinj-EE-MPD">Paracetamol-Kabi-10mg-1ml-solinj-EE-MPD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-Paracetamol-Kabi-10mg-1ml-solinj-EE-PPD-1424034.html" title="PackagedProductDefinition/Paracetamol-Kabi-10mg-1ml-solinj-EE-PPD-1424034">Paracetamol-Kabi-10mg-1ml-solinj-EE-PPD-1424034</a>
+               </td>
+               <td>
+<p>50 ml ja 100 ml II tüüpi klaasist viaalid, mis on suletud bromobutüülkorgi ja alumiinium/plastik  äratõmmatava korgiga.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-Paracetamol-Kabi-10mg-1ml-solinj-EE-PPD-1424056.html" title="PackagedProductDefinition/Paracetamol-Kabi-10mg-1ml-solinj-EE-PPD-1424056">Paracetamol-Kabi-10mg-1ml-solinj-EE-PPD-1424056</a>
+               </td>
+               <td>
+<p>50 ml ja 100 ml plastkotid, millel on manustamisport (infusiooniport) ja lisamisport (süsteport); kotid koosnevad polüolefiinist sisekihist ja alumiiniumisisaldusega kattekihist ning sisaldavad hapnikuabsorbenti. Kotid on suletud polüisopreenist korgi ja polüpropüleenist kaanega.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-Paracetamol-Kabi-10mg-1ml-solinj-EE-PPD-1799905.html" title="PackagedProductDefinition/Paracetamol-Kabi-10mg-1ml-solinj-EE-PPD-1799905">Paracetamol-Kabi-10mg-1ml-solinj-EE-PPD-1799905</a>
+               </td>
+               <td>
+<p>10 ml I tüüpi värvitust klaasist ampullid.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="RegulatedAuthorization-Paracetamol-Kabi-10mg-1ml-solinj-EE-RA.html" title="RegulatedAuthorization/Paracetamol-Kabi-10mg-1ml-solinj-EE-RA">Paracetamol-Kabi-10mg-1ml-solinj-EE-RA</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-Paracetamol-Kabi10mg-1ml-EE.html" title="Bundle/Paracetamol-Kabi10mg-1ml-EE">Paracetamol-Kabi10mg-1ml-EE</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-Prokanazol-100mg-Hard-capsule-EE-APD.html" title="AdministrableProductDefinition/Prokanazol-100mg-Hard-capsule-EE-APD">Prokanazol-100mg-Hard-capsule-EE-APD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-Prokanazol-100mg-Hard-capsule-EE-I.html" title="Ingredient/Prokanazol-100mg-Hard-capsule-EE-I">Prokanazol-100mg-Hard-capsule-EE-I</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-Prokanazol-100mg-Hard-capsule-EE-MID.html" title="ManufacturedItemDefinition/Prokanazol-100mg-Hard-capsule-EE-MID">Prokanazol-100mg-Hard-capsule-EE-MID</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicinalProductDefinition-Prokanazol-100mg-Hard-capsule-EE-MPD.html" title="MedicinalProductDefinition/Prokanazol-100mg-Hard-capsule-EE-MPD">Prokanazol-100mg-Hard-capsule-EE-MPD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-Prokanazol-100mg-Hard-capsule-EE-PPD-1164035.html" title="PackagedProductDefinition/Prokanazol-100mg-Hard-capsule-EE-PPD-1164035">Prokanazol-100mg-Hard-capsule-EE-PPD-1164035</a>
+               </td>
+               <td>
+<p>Termovormitud alumiiniumblister. Pakendis 4, 14, 18, 28 või 30 kapslit. Kõik pakendi suurused ei pruugi olla müügil.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-Prokanazol-100mg-Hard-capsule-EE-PPD-1164057.html" title="PackagedProductDefinition/Prokanazol-100mg-Hard-capsule-EE-PPD-1164057">Prokanazol-100mg-Hard-capsule-EE-PPD-1164057</a>
+               </td>
+               <td>
+<p>Termovormitud alumiiniumblister. Pakendis 4, 14, 18, 28 või 30 kapslit. Kõik pakendi suurused ei pruugi olla müügil.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="RegulatedAuthorization-Prokanazol-100mg-Hard-capsule-EE-RA.html" title="RegulatedAuthorization/Prokanazol-100mg-Hard-capsule-EE-RA">Prokanazol-100mg-Hard-capsule-EE-RA</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-Prokanazol100mg-EE.html" title="Bundle/Prokanazol100mg-EE">Prokanazol100mg-EE</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-Qlaira.html" title="Bundle/Qlaira">Qlaira</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-Qlaira-f-c-tb-EE-APD-dark-red.html" title="AdministrableProductDefinition/Qlaira-f-c-tb-EE-APD-dark-red">Qlaira-f-c-tb-EE-APD-dark-red</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-Qlaira-f-c-tb-EE-APD-dark-yellow.html" title="AdministrableProductDefinition/Qlaira-f-c-tb-EE-APD-dark-yellow">Qlaira-f-c-tb-EE-APD-dark-yellow</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-Qlaira-f-c-tb-EE-APD-light-yellow.html" title="AdministrableProductDefinition/Qlaira-f-c-tb-EE-APD-light-yellow">Qlaira-f-c-tb-EE-APD-light-yellow</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-Qlaira-f-c-tb-EE-APD-medium-red.html" title="AdministrableProductDefinition/Qlaira-f-c-tb-EE-APD-medium-red">Qlaira-f-c-tb-EE-APD-medium-red</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-Qlaira-f-c-tb-EE-APD-white.html" title="AdministrableProductDefinition/Qlaira-f-c-tb-EE-APD-white">Qlaira-f-c-tb-EE-APD-white</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-Qlaira-f-c-tb-EE-I-dark-red.html" title="Ingredient/Qlaira-f-c-tb-EE-I-dark-red">Qlaira-f-c-tb-EE-I-dark-red</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-Qlaira-f-c-tb-EE-I-dark-yellow.html" title="Ingredient/Qlaira-f-c-tb-EE-I-dark-yellow">Qlaira-f-c-tb-EE-I-dark-yellow</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-Qlaira-f-c-tb-EE-I-light-yellow-A.html" title="Ingredient/Qlaira-f-c-tb-EE-I-light-yellow-A">Qlaira-f-c-tb-EE-I-light-yellow-A</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-Qlaira-f-c-tb-EE-I-light-yellow-B.html" title="Ingredient/Qlaira-f-c-tb-EE-I-light-yellow-B">Qlaira-f-c-tb-EE-I-light-yellow-B</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-Qlaira-f-c-tb-EE-I-medium-red-A.html" title="Ingredient/Qlaira-f-c-tb-EE-I-medium-red-A">Qlaira-f-c-tb-EE-I-medium-red-A</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-Qlaira-f-c-tb-EE-I-medium-red-B.html" title="Ingredient/Qlaira-f-c-tb-EE-I-medium-red-B">Qlaira-f-c-tb-EE-I-medium-red-B</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-Qlaira-f-c-tb-EE-I-white.html" title="Ingredient/Qlaira-f-c-tb-EE-I-white">Qlaira-f-c-tb-EE-I-white</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-Qlaira-f-c-tb-EE-MID-dark-red.html" title="ManufacturedItemDefinition/Qlaira-f-c-tb-EE-MID-dark-red">Qlaira-f-c-tb-EE-MID-dark-red</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-Qlaira-f-c-tb-EE-MID-dark-yellow.html" title="ManufacturedItemDefinition/Qlaira-f-c-tb-EE-MID-dark-yellow">Qlaira-f-c-tb-EE-MID-dark-yellow</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-Qlaira-f-c-tb-EE-MID-light-yellow.html" title="ManufacturedItemDefinition/Qlaira-f-c-tb-EE-MID-light-yellow">Qlaira-f-c-tb-EE-MID-light-yellow</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-Qlaira-f-c-tb-EE-MID-medium-red.html" title="ManufacturedItemDefinition/Qlaira-f-c-tb-EE-MID-medium-red">Qlaira-f-c-tb-EE-MID-medium-red</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-Qlaira-f-c-tb-EE-MID-white.html" title="ManufacturedItemDefinition/Qlaira-f-c-tb-EE-MID-white">Qlaira-f-c-tb-EE-MID-white</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicinalProductDefinition-Qlaira-f-c-tb-EE-MPD.html" title="MedicinalProductDefinition/Qlaira-f-c-tb-EE-MPD">Qlaira-f-c-tb-EE-MPD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-Qlaira-f-c-tb-EE-PPD-1322660.html" title="PackagedProductDefinition/Qlaira-f-c-tb-EE-PPD-1322660">Qlaira-f-c-tb-EE-PPD-1322660</a>
+               </td>
+               <td>
+<p>Läbipaistev PVC/alumiinium blister kartongist voldikpakendis.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="RegulatedAuthorization-Qlaira-f-c-tb-EE-RA.html" title="RegulatedAuthorization/Qlaira-f-c-tb-EE-RA">Qlaira-f-c-tb-EE-RA</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-Sandimmun-Neoral-25mg-Soft-Capsule-EE-APD.html" title="AdministrableProductDefinition/Sandimmun-Neoral-25mg-Soft-Capsule-EE-APD">Sandimmun-Neoral-25mg-Soft-Capsule-EE-APD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-Sandimmun-Neoral-25mg-Soft-Capsule-EE-I.html" title="Ingredient/Sandimmun-Neoral-25mg-Soft-Capsule-EE-I">Sandimmun-Neoral-25mg-Soft-Capsule-EE-I</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-Sandimmun-Neoral-25mg-Soft-Capsule-EE-MID.html" title="ManufacturedItemDefinition/Sandimmun-Neoral-25mg-Soft-Capsule-EE-MID">Sandimmun-Neoral-25mg-Soft-Capsule-EE-MID</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicinalProductDefinition-Sandimmun-Neoral-25mg-Soft-Capsule-EE-MPD.html" title="MedicinalProductDefinition/Sandimmun-Neoral-25mg-Soft-Capsule-EE-MPD">Sandimmun-Neoral-25mg-Soft-Capsule-EE-MPD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-Sandimmun-Neoral-25mg-Soft-Capsule-EE-PPD-1008526.html" title="PackagedProductDefinition/Sandimmun-Neoral-25mg-Soft-Capsule-EE-PPD-1008526">Sandimmun-Neoral-25mg-Soft-Capsule-EE-PPD-1008526</a>
+               </td>
+               <td>
+<p>Kahepoolsest alumiiniumist blisterpakendid, mis koosnevad polüamiid/alumiinium/polüvinüülkloriidist (PA/alu/PVC) alumisel poolel ja alumiiniumfooliumist ülemisel poolel.25 mg, 50 mg või 100 mg pehmekapslid: 50 tk blisterpakendis.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="RegulatedAuthorization-Sandimmun-Neoral-25mg-Soft-Capsule-EE-RA.html" title="RegulatedAuthorization/Sandimmun-Neoral-25mg-Soft-Capsule-EE-RA">Sandimmun-Neoral-25mg-Soft-Capsule-EE-RA</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-SandimmunNeoral25mg-EE.html" title="Bundle/SandimmunNeoral25mg-EE">SandimmunNeoral25mg-EE</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-Simvacor-10mg-f-c-tb-EE-APD.html" title="AdministrableProductDefinition/Simvacor-10mg-f-c-tb-EE-APD">Simvacor-10mg-f-c-tb-EE-APD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-Simvacor-10mg-f-c-tb-EE-I.html" title="Ingredient/Simvacor-10mg-f-c-tb-EE-I">Simvacor-10mg-f-c-tb-EE-I</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-Simvacor-10mg-f-c-tb-EE-MID.html" title="ManufacturedItemDefinition/Simvacor-10mg-f-c-tb-EE-MID">Simvacor-10mg-f-c-tb-EE-MID</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicinalProductDefinition-Simvacor-10mg-f-c-tb-EE-MPD.html" title="MedicinalProductDefinition/Simvacor-10mg-f-c-tb-EE-MPD">Simvacor-10mg-f-c-tb-EE-MPD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-Simvacor-10mg-f-c-tb-EE-PPD-1080166-A.html" title="PackagedProductDefinition/Simvacor-10mg-f-c-tb-EE-PPD-1080166-A">Simvacor-10mg-f-c-tb-EE-PPD-1080166-A</a>
+               </td>
+               <td>
+<p>Blister (Al/PVC) - pakendi suurused: 30 õhukese polümeerikattega tabletti.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-Simvacor-10mg-f-c-tb-EE-PPD-1080166-B.html" title="PackagedProductDefinition/Simvacor-10mg-f-c-tb-EE-PPD-1080166-B">Simvacor-10mg-f-c-tb-EE-PPD-1080166-B</a>
+               </td>
+               <td>
+<p>Polüetüleenist tabletipurk sulguriga - pakendi suurused: 30 õhukese polümeerikattega tabletti.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="RegulatedAuthorization-Simvacor-10mg-f-c-tb-EE-RA.html" title="RegulatedAuthorization/Simvacor-10mg-f-c-tb-EE-RA">Simvacor-10mg-f-c-tb-EE-RA</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-Simvacor10mg-EE.html" title="Bundle/Simvacor10mg-EE">Simvacor10mg-EE</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-Taflotan-0.015mg-1ml-EE.html" title="Bundle/Taflotan-0.015mg-1ml-EE">Taflotan-0.015mg-1ml-EE</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-Taflotan-0.015mg-1ml-eye-drops-solution-EE-APD.html" title="AdministrableProductDefinition/Taflotan-0.015mg-1ml-eye-drops-solution-EE-APD">Taflotan-0.015mg-1ml-eye-drops-solution-EE-APD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-Taflotan-0.015mg-1ml-eye-drops-solution-EE-I.html" title="Ingredient/Taflotan-0.015mg-1ml-eye-drops-solution-EE-I">Taflotan-0.015mg-1ml-eye-drops-solution-EE-I</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-Taflotan-0.015mg-1ml-eye-drops-solution-EE-MID.html" title="ManufacturedItemDefinition/Taflotan-0.015mg-1ml-eye-drops-solution-EE-MID">Taflotan-0.015mg-1ml-eye-drops-solution-EE-MID</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicinalProductDefinition-Taflotan-0.015mg-1ml-eye-drops-solution-EE-MPD.html" title="MedicinalProductDefinition/Taflotan-0.015mg-1ml-eye-drops-solution-EE-MPD">Taflotan-0.015mg-1ml-eye-drops-solution-EE-MPD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-Taflotan-0.015mg-1ml-eye-drops-solution-EE-PPD-1753703.html" title="PackagedProductDefinition/Taflotan-0.015mg-1ml-eye-drops-solution-EE-PPD-1753703">Taflotan-0.015mg-1ml-eye-drops-solution-EE-PPD-1753703</a>
+               </td>
+               <td>
+<p>Läbipaistvad väikese tihedusega polüetüleenpudelid (LDPE) valge Aptari tilgutiga (polüetüleen, polüpropüleen, tsükliline olefiin-kopolümeer), mis on kaetud sinise polüetüleenkorgiga. Iga pudel  sisaldab 3 ml, 5 ml või 7 ml lahust.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="RegulatedAuthorization-Taflotan-0.015mg-1ml-eye-drops-solution-EE-RA.html" title="RegulatedAuthorization/Taflotan-0.015mg-1ml-eye-drops-solution-EE-RA">Taflotan-0.015mg-1ml-eye-drops-solution-EE-RA</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-Toujeo-300units-ml-solinj-pen-EE-APD.html" title="AdministrableProductDefinition/Toujeo-300units-ml-solinj-pen-EE-APD">Toujeo-300units-ml-solinj-pen-EE-APD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-Toujeo-300units-ml-solinj-pen-EE-I.html" title="Ingredient/Toujeo-300units-ml-solinj-pen-EE-I">Toujeo-300units-ml-solinj-pen-EE-I</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-Toujeo-300units-ml-solinj-pen-EE-MID.html" title="ManufacturedItemDefinition/Toujeo-300units-ml-solinj-pen-EE-MID">Toujeo-300units-ml-solinj-pen-EE-MID</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicinalProductDefinition-Toujeo-300units-ml-solinj-pen-EE-MPD.html" title="MedicinalProductDefinition/Toujeo-300units-ml-solinj-pen-EE-MPD">Toujeo-300units-ml-solinj-pen-EE-MPD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-Toujeo-300units-ml-solinj-pen-EE-PPD-1684043.html" title="PackagedProductDefinition/Toujeo-300units-ml-solinj-pen-EE-PPD-1684043">Toujeo-300units-ml-solinj-pen-EE-PPD-1684043</a>
+               </td>
+               <td>
+<p>Kolbampull (I tüüpi värvitu klaas) halli värvi kolvi (broombutüülkumm), pealdisega (alumiiniumäärik) ja korgiga (polüisopreenlaminaat ja broombutüülkumm). Kolbampull on  paigaldatud mittetäidetavasse pen-süstlisse. Üks kolbampull sisaldab 1,5 ml lahust.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="RegulatedAuthorization-Toujeo-300units-ml-solinj-pen-EE-RA.html" title="RegulatedAuthorization/Toujeo-300units-ml-solinj-pen-EE-RA">Toujeo-300units-ml-solinj-pen-EE-RA</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-Toujeo300U-ml-SoloStar-EE.html" title="Bundle/Toujeo300U-ml-SoloStar-EE">Toujeo300U-ml-SoloStar-EE</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-Tramadol-KRKA-100mg-EE.html" title="Bundle/Tramadol-KRKA-100mg-EE">Tramadol-KRKA-100mg-EE</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-APD.html" title="AdministrableProductDefinition/Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-APD">Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-APD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-I.html" title="Ingredient/Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-I">Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-I</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-MID.html" title="ManufacturedItemDefinition/Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-MID">Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-MID</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicinalProductDefinition-Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-MPD.html" title="MedicinalProductDefinition/Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-MPD">Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-MPD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-PPD-1043525.html" title="PackagedProductDefinition/Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-PPD-1043525">Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-PPD-1043525</a>
+               </td>
+               <td>
+<p>100 mg toimeainet prolongeeritult vabastavad tabletid Al/PVC blisterpakendis - 30 tk.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="RegulatedAuthorization-Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-RA.html" title="RegulatedAuthorization/Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-RA">Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-RA</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-Valocordin-Diazepam-10mg-1ml-Oral-drps-sol-EE-APD.html" title="AdministrableProductDefinition/Valocordin-Diazepam-10mg-1ml-Oral-drps-sol-EE-APD">Valocordin-Diazepam-10mg-1ml-Oral-drps-sol-EE-APD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-Valocordin-Diazepam-10mg-1ml-Oral-drps-sol-EE-I.html" title="Ingredient/Valocordin-Diazepam-10mg-1ml-Oral-drps-sol-EE-I">Valocordin-Diazepam-10mg-1ml-Oral-drps-sol-EE-I</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-Valocordin-Diazepam-10mg-1ml-Oral-drps-sol-EE-MID.html" title="ManufacturedItemDefinition/Valocordin-Diazepam-10mg-1ml-Oral-drps-sol-EE-MID">Valocordin-Diazepam-10mg-1ml-Oral-drps-sol-EE-MID</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicinalProductDefinition-Valocordin-Diazepam-10mg-1ml-Oral-drps-sol-EE-MPD.html" title="MedicinalProductDefinition/Valocordin-Diazepam-10mg-1ml-Oral-drps-sol-EE-MPD">Valocordin-Diazepam-10mg-1ml-Oral-drps-sol-EE-MPD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-Valocordin-Diazepam-10mg-1ml-Oral-drps-sol-EE-PPD-1001462.html" title="PackagedProductDefinition/Valocordin-Diazepam-10mg-1ml-Oral-drps-sol-EE-PPD-1001462">Valocordin-Diazepam-10mg-1ml-Oral-drps-sol-EE-PPD-1001462</a>
+               </td>
+               <td>
+<p>Ümar, kollakast klaasist pudel, mis sisaldab 25 ml lahust.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="RegulatedAuthorization-Valocordin-Diazepam-10mg-1ml-Oral-drps-sol-EE-RA.html" title="RegulatedAuthorization/Valocordin-Diazepam-10mg-1ml-Oral-drps-sol-EE-RA">Valocordin-Diazepam-10mg-1ml-Oral-drps-sol-EE-RA</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-ValocordinDiazepam10mg1ml-EE.html" title="Bundle/ValocordinDiazepam10mg1ml-EE">ValocordinDiazepam10mg1ml-EE</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-Vendal-retard-60mg-EE.html" title="Bundle/Vendal-retard-60mg-EE">Vendal-retard-60mg-EE</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-Vendal-retard-60mg-Prolonged-release-tablet-EE-APD.html" title="AdministrableProductDefinition/Vendal-retard-60mg-Prolonged-release-tablet-EE-APD">Vendal-retard-60mg-Prolonged-release-tablet-EE-APD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-Vendal-retard-60mg-Prolonged-release-tablet-EE-I.html" title="Ingredient/Vendal-retard-60mg-Prolonged-release-tablet-EE-I">Vendal-retard-60mg-Prolonged-release-tablet-EE-I</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-Vendal-retard-60mg-Prolonged-release-tablet-EE-MID.html" title="ManufacturedItemDefinition/Vendal-retard-60mg-Prolonged-release-tablet-EE-MID">Vendal-retard-60mg-Prolonged-release-tablet-EE-MID</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicinalProductDefinition-Vendal-retard-60mg-Prolonged-release-tablet-EE-MPD.html" title="MedicinalProductDefinition/Vendal-retard-60mg-Prolonged-release-tablet-EE-MPD">Vendal-retard-60mg-Prolonged-release-tablet-EE-MPD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-Vendal-retard-60mg-Prolonged-release-tablet-EE-PPD-1035739.html" title="PackagedProductDefinition/Vendal-retard-60mg-Prolonged-release-tablet-EE-PPD-1035739">Vendal-retard-60mg-Prolonged-release-tablet-EE-PPD-1035739</a>
+               </td>
+               <td>
+<p>Pakendi tüüp: blister (PVC ja alumiiniumfoolium). Pakendi suurus: karbis 30 tabletti.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="RegulatedAuthorization-Vendal-retard-60mg-Prolonged-release-tablet-EE-RA.html" title="RegulatedAuthorization/Vendal-retard-60mg-Prolonged-release-tablet-EE-RA">Vendal-retard-60mg-Prolonged-release-tablet-EE-RA</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-Ventolin-100mcg-Press-inh-susp-EE-APD.html" title="AdministrableProductDefinition/Ventolin-100mcg-Press-inh-susp-EE-APD">Ventolin-100mcg-Press-inh-susp-EE-APD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-Ventolin-100mcg-Press-inh-susp-EE-I.html" title="Ingredient/Ventolin-100mcg-Press-inh-susp-EE-I">Ventolin-100mcg-Press-inh-susp-EE-I</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-Ventolin-100mcg-Press-inh-susp-EE-MID.html" title="ManufacturedItemDefinition/Ventolin-100mcg-Press-inh-susp-EE-MID">Ventolin-100mcg-Press-inh-susp-EE-MID</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicinalProductDefinition-Ventolin-100mcg-Press-inh-susp-EE-MPD.html" title="MedicinalProductDefinition/Ventolin-100mcg-Press-inh-susp-EE-MPD">Ventolin-100mcg-Press-inh-susp-EE-MPD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-Ventolin-100mcg-Press-inh-susp-EE-PPD-1005512.html" title="PackagedProductDefinition/Ventolin-100mcg-Press-inh-susp-EE-PPD-1005512">Ventolin-100mcg-Press-inh-susp-EE-PPD-1005512</a>
+               </td>
+               <td>
+<p>Annustatud inhalatsiooniaerosoolis on 200 annust alumiiniumballoonis, mis asetub spetsiaalselt disainitud suletava huulikuga inhalaatori sisse.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="RegulatedAuthorization-Ventolin-100mcg-Press-inh-susp-EE-RA.html" title="RegulatedAuthorization/Ventolin-100mcg-Press-inh-susp-EE-RA">Ventolin-100mcg-Press-inh-susp-EE-RA</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-Ventolin100mcg-EE.html" title="Bundle/Ventolin100mcg-EE">Ventolin100mcg-EE</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-Zoladex-3.6mg-Implant-EE-APD.html" title="AdministrableProductDefinition/Zoladex-3.6mg-Implant-EE-APD">Zoladex-3.6mg-Implant-EE-APD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-Zoladex-3.6mg-Implant-EE-I.html" title="Ingredient/Zoladex-3.6mg-Implant-EE-I">Zoladex-3.6mg-Implant-EE-I</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-Zoladex-3.6mg-Implant-EE-MID.html" title="ManufacturedItemDefinition/Zoladex-3.6mg-Implant-EE-MID">Zoladex-3.6mg-Implant-EE-MID</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicinalProductDefinition-Zoladex-3.6mg-Implant-EE-MPD.html" title="MedicinalProductDefinition/Zoladex-3.6mg-Implant-EE-MPD">Zoladex-3.6mg-Implant-EE-MPD</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-Zoladex-3.6mg-Implant-EE-PPD-1002621.html" title="PackagedProductDefinition/Zoladex-3.6mg-Implant-EE-PPD-1002621">Zoladex-3.6mg-Implant-EE-PPD-1002621</a>
+               </td>
+               <td>
+<p>Üht implantaati sisaldav Safe System nõela kaitsva kattega süstel.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="RegulatedAuthorization-Zoladex-3.6mg-Implant-EE-RA.html" title="RegulatedAuthorization/Zoladex-3.6mg-Implant-EE-RA">Zoladex-3.6mg-Implant-EE-RA</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-Zoladex3.6mg-EE.html" title="Bundle/Zoladex3.6mg-EE">Zoladex3.6mg-EE</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+</div>
+
+</div>
+        </div>    <!-- /inner-wrapper -->
+      </div>    <!-- /row -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-content -->
+
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
+    <div class="container">    <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &copy; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://medigree.net">Medigree</a>.  Package ee.fhir.idmp#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://build.fhir.org/">FHIR 5.0.0-snapshot1</a>. Generated <span title="Mon, Sep 5, 2022 10:08+0000">2022-09-05</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)"></span>
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          
+        </p>
+      </div>    <!-- /inner-wrapper -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
+    <div class="container">    <!-- container -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-post-footer -->
+  
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
+  ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
+  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+  <!-- feedback form - Google forms -->
+  <!-- v0.1, 2021-01-09 -->
+
+
+
+  <!-- / feedback form -->
+
+    <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>

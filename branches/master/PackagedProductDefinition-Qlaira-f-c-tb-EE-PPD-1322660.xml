@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PackagedProductDefinition xmlns="http://hl7.org/fhir">
+  <id value="Qlaira-f-c-tb-EE-PPD-1322660"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: PackagedProductDefinition</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource PackagedProductDefinition "Qlaira-f-c-tb-EE-PPD-1322660" </p></div><p><b>Extension Definition for PackagedProductDefinition.containedItemQuantity for Version 5.0</b>: 28 Tablet<span style="background: LightGoldenRodYellow"> (Details: http://spor.ema.europa.eu/v1/lists/200000000014 code 200000002152 = '200000002152')</span></p><p><b>identifier</b>: id: EE-100001505-22493-1322660</p><p><b>packageFor</b>: <a href="MedicinalProductDefinition-Qlaira-f-c-tb-EE-MPD.html">MedicinalProductDefinition/Qlaira-f-c-tb-EE-MPD</a></p><p><b>description</b>: Läbipaistev PVC/alumiinium blister kartongist voldikpakendis.</p><blockquote><p><b>package</b></p><p><b>type</b>: Box <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073346#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000003199#200000003529)</span></p><blockquote><p><b>package</b></p><p><b>type</b>: Blister <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073346#100000073496)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Aluminium <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000003199#200000003200)</span>, PolyVinyl Chloride <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000003199#200000003222)</span></p></blockquote></blockquote></div>
+  </text>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-PackagedProductDefinition.containedItemQuantity">
+    <valueQuantity>
+      <value value="28"/>
+      <unit value="Tablet"/>
+      <system value="http://spor.ema.europa.eu/v1/lists/200000000014"/>
+      <code value="200000002152"/>
+    </valueQuantity>
+  </extension>
+  <identifier>
+    <system value="http://ema.europa.eu/example/pcid"/>
+    <value value="EE-100001505-22493-1322660"/>
+  </identifier>
+  <packageFor>
+    <reference value="MedicinalProductDefinition/Qlaira-f-c-tb-EE-MPD"/>
+  </packageFor>
+  <description value="Läbipaistev PVC/alumiinium blister kartongist voldikpakendis.">
+    <extension url="http://ema.europa.eu/fhir/extension/language">
+      <valueCoding>
+        <system value="https://spor.ema.europa.eu/v1/lists/100000072057"/>
+        <code value="100000072172"/>
+        <display value="Estonian"/>
+      </valueCoding>
+    </extension>
+  </description>
+  <marketingStatus>
+    <country>
+      <coding>
+        <system value="https://spor.ema.europa.eu/v1/lists/100000000002"/>
+        <code value="100000000388"/>
+        <display value="Republic of Estonia"/>
+      </coding>
+    </country>
+    <status>
+      <coding>
+        <system value="https://spor.ema.europa.eu/v1/lists/100000072052"/>
+        <code value="100000072083"/>
+        <display value="Marketed"/>
+      </coding>
+    </status>
+  </marketingStatus>
+  <package>
+    <type>
+      <coding>
+        <system value="https://spor.ema.europa.eu/v1/lists/100000073346"/>
+        <code value="100000073498"/>
+        <display value="Box"/>
+      </coding>
+    </type>
+    <quantity value="1"/>
+    <material>
+      <coding>
+        <system value="https://spor.ema.europa.eu/v1/lists/200000003199"/>
+        <code value="200000003529"/>
+        <display value="Cardboard"/>
+      </coding>
+    </material>
+    <package>
+      <type>
+        <coding>
+          <system value="https://spor.ema.europa.eu/v1/lists/100000073346"/>
+          <code value="100000073496"/>
+          <display value="Blister"/>
+        </coding>
+      </type>
+      <quantity value="1"/>
+      <material>
+        <coding>
+          <system value="https://spor.ema.europa.eu/v1/lists/200000003199"/>
+          <code value="200000003200"/>
+          <display value="Aluminium"/>
+        </coding>
+      </material>
+      <material>
+        <coding>
+          <system value="https://spor.ema.europa.eu/v1/lists/200000003199"/>
+          <code value="200000003222"/>
+          <display value="PolyVinyl Chloride"/>
+        </coding>
+      </material>
+      <containedItem>
+        <item>
+          <reference>
+            <reference value="ManufacturedItemDefinition/Qlaira-f-c-tb-EE-MID-dark-yellow"/>
+          </reference>
+        </item>
+        <amount>
+          <value value="2"/>
+        </amount>
+      </containedItem>
+      <containedItem>
+        <item>
+          <reference>
+            <reference value="ManufacturedItemDefinition/Qlaira-f-c-tb-EE-MID-medium-red"/>
+          </reference>
+        </item>
+        <amount>
+          <value value="5"/>
+        </amount>
+      </containedItem>
+      <containedItem>
+        <item>
+          <reference>
+            <reference value="ManufacturedItemDefinition/Qlaira-f-c-tb-EE-MID-light-yellow"/>
+          </reference>
+        </item>
+        <amount>
+          <value value="17"/>
+        </amount>
+      </containedItem>
+      <containedItem>
+        <item>
+          <reference>
+            <reference value="ManufacturedItemDefinition/Qlaira-f-c-tb-EE-MID-dark-red"/>
+          </reference>
+        </item>
+        <amount>
+          <value value="2"/>
+        </amount>
+      </containedItem>
+      <containedItem>
+        <item>
+          <reference>
+            <reference value="ManufacturedItemDefinition/Qlaira-f-c-tb-EE-MID-white"/>
+          </reference>
+        </item>
+        <amount>
+          <value value="2"/>
+        </amount>
+      </containedItem>
+    </package>
+  </package>
+</PackagedProductDefinition>

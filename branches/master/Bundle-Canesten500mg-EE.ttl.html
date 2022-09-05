@@ -1,0 +1,677 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <title>EE.FHIR.IDMP\Canesten500mg-EE - TTL Representation - FHIR v5.0.0-snapshot1</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link rel="stylesheet" href="fhir.css"/>
+
+      <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+
+      <!-- Project extras -->
+    <link rel="stylesheet" href="assets/css/project.css"/>
+    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
+    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
+  	<link rel="stylesheet" href="assets/css/prism.css"/>
+      <!-- Placeholder for child template CSS declarations -->
+<link rel="stylesheet" href="assets/css/hl7-be.css"/>
+  <!-- Placeholder for child template CSS declarations -->
+<link rel="stylesheet" href="assets/css/colors.css"/>
+
+    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+  <!-- Questionnaire: -->
+    <link rel="stylesheet" href="assets/css/lforms.min.css"/>
+
+
+
+
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- [if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif] -->
+
+      <!-- Favicons -->
+    <link sizes="144x144" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
+    <link sizes="114x114" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
+    <link sizes="72x72" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"2.57"}
+    h3,h4,h5,h6{--heading-prefix:"2.57"}</style>
+    <div id="segment-header" class="segment">    <!-- segment-header -->
+      <div class="container">    <!-- container -->
+          <!-- Placeholder for child template header declarations -->
+
+        <div id="ig-nav">
+          <a no-external="true" id="hl7-logo" href="https://hl7-be.github.io">
+            <img src="assets/images/hl7be-logo-header.png" alt="HL7 Belgium" height="65"/>
+          </a>
+        </div>
+        <div id="fhir-nav">
+          <a no-external="true" id="fhir-logo" href="http://hl7.org/fhir"><img src="assets/images/fhir-logo-www.png" alt="Visit the FHIR website" height="50"/> </a>
+        </div>
+        <div id="ig-search">
+          <a no-external="true" id="hl7-search-lnk" href="http://hl7.org/fhir/search.cfm"><img src="assets/images/search.png" alt="Search FHIR"/></a>
+        </div>
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">EE-IDMP</span><br/>0.1.0 - ci-build</p>
+        </div>
+      </div>   <!-- /container -->
+    </div>    <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">    <!-- container -->
+          <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+            <!-- status-bar -->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a href="http://build.fhir.org/index.html" class="navbar-brand hidden">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <ul class="nav navbar-nav">
+	<li>
+		<a href="index.html">IG Home</a>
+	</li>
+	<li>
+		<a href="toc.html">Table of Contents</a>
+	</li>
+  <!-- <li class="dropdown">
+		<a data-toggle="dropdown" href="#" class="dropdown-toggle">Background<b class="caret"></b>
+		</a>
+
+	</li>
+	<li class="dropdown">
+		<a data-toggle="dropdown" href="#" class="dropdown-toggle">Functional Description<b class="caret"></b>
+		</a>
+
+	</li> -->
+	<li class="dropdown">
+		<a data-toggle="dropdown" href="#" class="dropdown-toggle">Specifications<b class="caret"></b>
+		</a>
+		<ul class="dropdown-menu">
+			<li>
+				<a href="artifacts.html">Artifact Index</a>
+			</li>
+		</ul>
+	</li>
+	<li class="dropdown">
+		<a data-toggle="dropdown" href="#" class="dropdown-toggle">Implementation<b class="caret"></b></a>
+		<ul class="dropdown-menu">
+			<li><a name="l195">​</a><a href="downloads.html">Downloads</a></li>
+		</ul>
+	</li>
+</ul>      
+            </div>    <!-- /.nav-collapse -->
+          </div>    <!-- /.container -->
+        </nav>    <!-- /.navbar -->
+        <!-- /HEADER CONTENT -->
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-navbar -->
+      <!-- status-bar -->
+    
+    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
+      <div class="container">    <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>Canesten500mg-EE</b></li>
+          
+        </ul>
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">    <!-- segment-content -->
+      <div class="container">    <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div style="counter-reset: section 9" class="col-12">
+  <!-- ReleaseHeader --><p id="publish-box">EE-IDMP - Local Development build (v0.1.0). See the <a href="http://medigree.net/fhir/ee/idmp/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="Bundle-Canesten500mg-EE.html">Narrative Content</a>
+  </li>
+
+
+  
+    <li>
+      <a href="Bundle-Canesten500mg-EE.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-Canesten500mg-EE.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li class="active">
+      <a href="#">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+<a name="root"> </a>
+
+
+<h2 id="root">: Canesten500mg-EE - TTL Representation</h2>
+  <table class="null">
+    <tr>
+
+      <td colspan="2">
+        
+          
+          
+        
+      </td>
+
+    </tr>
+  </table>
+
+
+<p><a href="Bundle-Canesten500mg-EE.ttl" no-download="true">Raw ttl</a> | <a download="null" href="Bundle-Canesten500mg-EE.ttl">Download</a></p>
+
+    <!-- insert intro if present -->
+  
+
+
+
+  <pre class="rdf"><code class="language-turtle">
+@prefix fhir: &lt;http://hl7.org/fhir/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+# - resource -------------------------------------------------------------------
+
+ a fhir:Bundle;
+  <a href="http://build.fhir.org/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot;
+  <a href="http://build.fhir.org/bundle.html#Bundle.id">fhir:Resource.id</a> [ <a href="http://build.fhir.org/datatypes.html#id">fhir:value</a> "Canesten500mg-EE"];
+  <a href="http://build.fhir.org/bundle.html#Bundle.meta">fhir:Resource.meta</a> [
+     <a href="http://build.fhir.org/resource.html#Meta#Meta.versionId">fhir:Meta.versionId</a> [ <a href="http://build.fhir.org/datatypes.html#id">fhir:value</a> "1" ];
+     <a href="http://build.fhir.org/resource.html#Meta#Meta.lastUpdated">fhir:Meta.lastUpdated</a> [ <a href="http://build.fhir.org/datatypes.html#instant">fhir:value</a> "2022-08-23T06:28:27.258+00:00"^^xsd:dateTime ]
+  ];
+  <a href="http://build.fhir.org/bundle.html#Bundle.type">fhir:Bundle.type</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> "transaction"];
+  <a href="http://build.fhir.org/bundle.html#Bundle.entry">fhir:Bundle.entry</a> [
+     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+     <a href="http://build.fhir.org/medicinalproductdefinition.html#MedicinalProductDefinition">fhir:Bundle.entry.resource</a> [
+       <a href="http://build.fhir.org/medicinalproductdefinition.html">a</a> fhir:MedicinalProductDefinition;
+       <a href="http://build.fhir.org/medicinalproductdefinition.html#MedicinalProductDefinition.id">fhir:Resource.id</a> [ <a href="http://build.fhir.org/datatypes.html#id">fhir:value</a> "Canesten500mg-Vaginal-Soft-Capsule-EE-MPD" ];
+       <a href="http://build.fhir.org/medicinalproductdefinition.html#MedicinalProductDefinition.text">fhir:DomainResource.text</a> [
+         <a href="http://build.fhir.org/narrative.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> "generated" ];
+         fhir:Narrative.div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: MedicinalProductDefinition&lt;/b&gt;&lt;/p&gt;&lt;div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Resource MedicinalProductDefinition \"Canesten500mg-Vaginal-Soft-Capsule-EE-MPD\" &lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: id: 0000000000005, id: EE-100005443-31758&lt;/p&gt;&lt;p&gt;&lt;b&gt;domain&lt;/b&gt;: Human use &lt;span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"&gt; (100000000004#100000000012)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Current &lt;span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"&gt; (200000005003#200000005004; &lt;a href=\"http://build.fhir.org/codesystem-publication-status.html\"&gt;PublicationStatus&lt;/a&gt;#active \"Active\")&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;legalStatusOfSupply&lt;/b&gt;: Medicinal product not subject to medical prescription &lt;span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"&gt; (100000072051#100000072076)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;additionalMonitoringIndicator&lt;/b&gt;: False &lt;span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"&gt; (additionalMonitoringIndicator#False)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;classification&lt;/b&gt;: clotrimazole &lt;span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"&gt; (100000093533#100000095693; &lt;a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-atc.html\"&gt;WHO ATC&lt;/a&gt;#G01AF02)&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;productName&lt;/b&gt;: Canesten 500 mg vaginaalpehmekapsel&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;namePart&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;: Canesten&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: Invented name part &lt;span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"&gt; (220000000000#220000000002)&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;namePart&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;: 500 mg&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: Strength part &lt;span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"&gt; (220000000000#220000000004)&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;namePart&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;part&lt;/b&gt;: vaginaalpehmekapsel&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: Pharmaceutical dose form part &lt;span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"&gt; (220000000000#220000000005)&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;h3&gt;CountryLanguages&lt;/h3&gt;&lt;table class=\"grid\"&gt;&lt;tr&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Country&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Language&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;*&lt;/td&gt;&lt;td&gt;Republic of Estonia &lt;span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"&gt; (100000000002#100000000388)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;Estonian &lt;span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"&gt; (100000072057#100000072172)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/blockquote&gt;&lt;/div&gt;"       ];
+       <a href="http://build.fhir.org/medicinalproductdefinition.html#MedicinalProductDefinition.extension">fhir:DomainResource.extension</a> [
+         <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+         <a href="http://build.fhir.org/extensibility.html#Extension#Extension.url">fhir:Extension.url</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> "http://ema.europa.eu/fhir/extension/authorisedDoseForm" ];
+         <a href="http://build.fhir.org/extensibility.html#Extension#Extension.value[x]">fhir:Extension.valueCoding</a> [
+           <a href="http://build.fhir.org/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> "https://spor.ema.europa.eu/v1/lists/200000000004" ];
+           <a href="http://build.fhir.org/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> "100000073816" ];
+           <a href="http://build.fhir.org/datatypes.html#Coding#Coding.display">fhir:Coding.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> "Vaginal capsule, soft" ]         ]       ];
+       <a href="http://build.fhir.org/medicinalproductdefinition.html#MedicinalProductDefinition.identifier">fhir:MedicinalProductDefinition.identifier</a> [
+         <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+         <a href="http://build.fhir.org/datatypes.html#Identifier#Identifier.system">fhir:Identifier.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> "http://ema.europa.eu/fhir/pmsId" ];
+         <a href="http://build.fhir.org/datatypes.html#Identifier#Identifier.value">fhir:Identifier.value</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> "0000000000005" ]       ], [
+         <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 1;
+         <a href="http://build.fhir.org/datatypes.html#Identifier#Identifier.system">fhir:Identifier.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> "http://ema.europa.eu/fhir/mpId" ];
+         <a href="http://build.fhir.org/datatypes.html#Identifier#Identifier.value">fhir:Identifier.value</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> "EE-100005443-31758" ]       ];
+       <a href="http://build.fhir.org/medicinalproductdefinition.html#MedicinalProductDefinition.domain">fhir:MedicinalProductDefinition.domain</a> [
+         <a href="http://build.fhir.org/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+           <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+           <a href="http://build.fhir.org/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> "https://spor.ema.europa.eu/v1/lists/100000000004" ];
+           <a href="http://build.fhir.org/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> "100000000012" ];
+           <a href="http://build.fhir.org/datatypes.html#Coding#Coding.display">fhir:Coding.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> "Human use" ]         ]       ];
+       <a href="http://build.fhir.org/medicinalproductdefinition.html#MedicinalProductDefinition.status">fhir:MedicinalProductDefinition.status</a> [
+         <a href="http://build.fhir.org/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+           <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+           <a href="http://build.fhir.org/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> "https://spor.ema.europa.eu/v1/lists/200000005003" ];
+           <a href="http://build.fhir.org/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> "200000005004" ];
+           <a href="http://build.fhir.org/datatypes.html#Coding#Coding.display">fhir:Coding.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> "Current" ]         ], [
+           <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 1;
+           <a href="http://build.fhir.org/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> "http://hl7.org/fhir/publication-status" ];
+           <a href="http://build.fhir.org/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> "active" ];
+           <a href="http://build.fhir.org/datatypes.html#Coding#Coding.display">fhir:Coding.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> "Active" ]         ]       ];
+       <a href="http://build.fhir.org/medicinalproductdefinition.html#MedicinalProductDefinition.legalStatusOfSupply">fhir:MedicinalProductDefinition.legalStatusOfSupply</a> [
+         <a href="http://build.fhir.org/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+           <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+           <a href="http://build.fhir.org/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> "https://spor.ema.europa.eu/v1/lists/100000072051" ];
+           <a href="http://build.fhir.org/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> "100000072076" ];
+           <a href="http://build.fhir.org/datatypes.html#Coding#Coding.display">fhir:Coding.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> "Medicinal product not subject to medical prescription" ]         ]       ];
+       <a href="http://build.fhir.org/medicinalproductdefinition.html#MedicinalProductDefinition.additionalMonitoringIndicator">fhir:MedicinalProductDefinition.additionalMonitoringIndicator</a> [
+         <a href="http://build.fhir.org/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+           <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+           <a href="http://build.fhir.org/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> "http://ema.europa.eu/fhir/additionalMonitoringIndicator" ];
+           <a href="http://build.fhir.org/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> "False" ];
+           <a href="http://build.fhir.org/datatypes.html#Coding#Coding.display">fhir:Coding.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> "False" ]         ]       ];
+       <a href="http://build.fhir.org/medicinalproductdefinition.html#MedicinalProductDefinition.classification">fhir:MedicinalProductDefinition.classification</a> [
+         <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+         <a href="http://build.fhir.org/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+           <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+           <a href="http://build.fhir.org/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> "https://spor.ema.europa.eu/v1/lists/100000093533" ];
+           <a href="http://build.fhir.org/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> "100000095693" ];
+           <a href="http://build.fhir.org/datatypes.html#Coding#Coding.display">fhir:Coding.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> "clotrimazole" ]         ], [
+           <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 1;
+           <a href="http://build.fhir.org/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> "http://www.whocc.no/atc" ];
+           <a href="http://build.fhir.org/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> "G01AF02" ];
+           <a href="http://build.fhir.org/datatypes.html#Coding#Coding.display">fhir:Coding.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> "clotrimazole" ]         ]       ];
+       <a href="http://build.fhir.org/medicinalproductdefinition.html#MedicinalProductDefinition.name">fhir:MedicinalProductDefinition.name</a> [
+         <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+         <a href="http://build.fhir.org/medicinalproductdefinition.html#MedicinalProductDefinition.name.productName">fhir:MedicinalProductDefinition.name.productName</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> "Canesten 500 mg vaginaalpehmekapsel" ];
+         <a href="http://build.fhir.org/medicinalproductdefinition.html#MedicinalProductDefinition.name.namePart">fhir:MedicinalProductDefinition.name.namePart</a> [
+           <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+           <a href="http://build.fhir.org/medicinalproductdefinition.html#MedicinalProductDefinition.name.namePart.part">fhir:MedicinalProductDefinition.name.namePart.part</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> "Canesten" ];
+           <a href="http://build.fhir.org/medicinalproductdefinition.html#MedicinalProductDefinition.name.namePart.type">fhir:MedicinalProductDefinition.name.namePart.type</a> [
+             <a href="http://build.fhir.org/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+               <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+               <a href="http://build.fhir.org/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> "https://spor.ema.europa.eu/v1/lists/220000000000" ];
+               <a href="http://build.fhir.org/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> "220000000002" ];
+               <a href="http://build.fhir.org/datatypes.html#Coding#Coding.display">fhir:Coding.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> "Invented name part" ]             ]           ]         ], [
+           <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 1;
+           <a href="http://build.fhir.org/medicinalproductdefinition.html#MedicinalProductDefinition.name.namePart.part">fhir:MedicinalProductDefinition.name.namePart.part</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> "500 mg" ];
+           <a href="http://build.fhir.org/medicinalproductdefinition.html#MedicinalProductDefinition.name.namePart.type">fhir:MedicinalProductDefinition.name.namePart.type</a> [
+             <a href="http://build.fhir.org/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+               <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+               <a href="http://build.fhir.org/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> "https://spor.ema.europa.eu/v1/lists/220000000000" ];
+               <a href="http://build.fhir.org/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> "220000000004" ];
+               <a href="http://build.fhir.org/datatypes.html#Coding#Coding.display">fhir:Coding.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> "Strength part" ]             ]           ]         ], [
+           <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 2;
+           <a href="http://build.fhir.org/medicinalproductdefinition.html#MedicinalProductDefinition.name.namePart.part">fhir:MedicinalProductDefinition.name.namePart.part</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> "vaginaalpehmekapsel" ];
+           <a href="http://build.fhir.org/medicinalproductdefinition.html#MedicinalProductDefinition.name.namePart.type">fhir:MedicinalProductDefinition.name.namePart.type</a> [
+             <a href="http://build.fhir.org/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+               <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+               <a href="http://build.fhir.org/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> "https://spor.ema.europa.eu/v1/lists/220000000000" ];
+               <a href="http://build.fhir.org/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> "220000000005" ];
+               <a href="http://build.fhir.org/datatypes.html#Coding#Coding.display">fhir:Coding.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> "Pharmaceutical dose form part" ]             ]           ]         ];
+         <a href="http://build.fhir.org/medicinalproductdefinition.html#MedicinalProductDefinition.name.countryLanguage">fhir:MedicinalProductDefinition.name.countryLanguage</a> [
+           <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+           <a href="http://build.fhir.org/medicinalproductdefinition.html#MedicinalProductDefinition.name.countryLanguage.country">fhir:MedicinalProductDefinition.name.countryLanguage.country</a> [
+             <a href="http://build.fhir.org/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+               <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+               <a href="http://build.fhir.org/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> "https://spor.ema.europa.eu/v1/lists/100000000002" ];
+               <a href="http://build.fhir.org/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> "100000000388" ];
+               <a href="http://build.fhir.org/datatypes.html#Coding#Coding.display">fhir:Coding.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> "Republic of Estonia" ]             ]           ];
+           <a href="http://build.fhir.org/medicinalproductdefinition.html#MedicinalProductDefinition.name.countryLanguage.language">fhir:MedicinalProductDefinition.name.countryLanguage.language</a> [
+             <a href="http://build.fhir.org/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+               <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+               <a href="http://build.fhir.org/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> "https://spor.ema.europa.eu/v1/lists/100000072057" ];
+               <a href="http://build.fhir.org/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> "100000072172" ];
+               <a href="http://build.fhir.org/datatypes.html#Coding#Coding.display">fhir:Coding.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> "Estonian" ]             ]           ]         ]       ]     ];
+     <a href="http://build.fhir.org/bundle.html#Bundle.entry.request">fhir:Bundle.entry.request</a> [
+       <a href="http://build.fhir.org/bundle.html#Bundle.entry.request.method">fhir:Bundle.entry.request.method</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> "PUT" ];
+       <a href="http://build.fhir.org/bundle.html#Bundle.entry.request.url">fhir:Bundle.entry.request.url</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> "MedicinalProductDefinition/Canesten500mg-Vaginal-Soft-Capsule-EE-MPD" ]     ]
+  ], [
+     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 1;
+     <a href="http://build.fhir.org/regulatedauthorization.html#RegulatedAuthorization">fhir:Bundle.entry.resource</a> [
+       <a href="http://build.fhir.org/regulatedauthorization.html">a</a> fhir:RegulatedAuthorization;
+       <a href="http://build.fhir.org/regulatedauthorization.html#RegulatedAuthorization.id">fhir:Resource.id</a> [ <a href="http://build.fhir.org/datatypes.html#id">fhir:value</a> "Canesten500mg-Vaginal-Soft-Capsule-EE-RA" ];
+       <a href="http://build.fhir.org/regulatedauthorization.html#RegulatedAuthorization.text">fhir:DomainResource.text</a> [
+         <a href="http://build.fhir.org/narrative.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> "generated" ];
+         fhir:Narrative.div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: RegulatedAuthorization&lt;/b&gt;&lt;/p&gt;&lt;div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Resource RegulatedAuthorization \"Canesten500mg-Vaginal-Soft-Capsule-EE-RA\" &lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: id: 921416&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=\"#MedicinalProductDefinition_Canesten500mg-Vaginal-Soft-Capsule-EE-MPD\"&gt;See above (MedicinalProductDefinition/Canesten500mg-Vaginal-Soft-Capsule-EE-MPD)&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: Marketing Authorisation &lt;span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"&gt; (220000000060#220000000061)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;region&lt;/b&gt;: Republic of Estonia &lt;span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"&gt; (100000000002#100000000388)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Valid - Renewed/Varied &lt;span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"&gt; (100000072049#200000017708)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;statusDate&lt;/b&gt;: 2016-11-08&lt;/p&gt;&lt;p&gt;&lt;b&gt;holder&lt;/b&gt;: &lt;span&gt;: Bayer UAB&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;"       ];
+       <a href="http://build.fhir.org/regulatedauthorization.html#RegulatedAuthorization.identifier">fhir:RegulatedAuthorization.identifier</a> [
+         <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+         <a href="http://build.fhir.org/datatypes.html#Identifier#Identifier.system">fhir:Identifier.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> "http://ema.europa.eu/fhir/marketingAuthorizationNumber" ];
+         <a href="http://build.fhir.org/datatypes.html#Identifier#Identifier.value">fhir:Identifier.value</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> "921416" ]       ];
+       <a href="http://build.fhir.org/regulatedauthorization.html#RegulatedAuthorization.subject">fhir:RegulatedAuthorization.subject</a> [
+         <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+         <a href="http://build.fhir.org/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> "MedicinalProductDefinition/Canesten500mg-Vaginal-Soft-Capsule-EE-MPD" ]       ];
+       <a href="http://build.fhir.org/regulatedauthorization.html#RegulatedAuthorization.type">fhir:RegulatedAuthorization.type</a> [
+         <a href="http://build.fhir.org/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+           <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+           <a href="http://build.fhir.org/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> "https://spor.ema.europa.eu/v1/lists/220000000060" ];
+           <a href="http://build.fhir.org/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> "220000000061" ];
+           <a href="http://build.fhir.org/datatypes.html#Coding#Coding.display">fhir:Coding.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> "Marketing Authorisation" ]         ]       ];
+       <a href="http://build.fhir.org/regulatedauthorization.html#RegulatedAuthorization.region">fhir:RegulatedAuthorization.region</a> [
+         <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+         <a href="http://build.fhir.org/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+           <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+           <a href="http://build.fhir.org/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> "https://spor.ema.europa.eu/v1/lists/100000000002" ];
+           <a href="http://build.fhir.org/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> "100000000388" ];
+           <a href="http://build.fhir.org/datatypes.html#Coding#Coding.display">fhir:Coding.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> "Republic of Estonia" ]         ]       ];
+       <a href="http://build.fhir.org/regulatedauthorization.html#RegulatedAuthorization.status">fhir:RegulatedAuthorization.status</a> [
+         <a href="http://build.fhir.org/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+           <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+           <a href="http://build.fhir.org/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> "https://spor.ema.europa.eu/v1/lists/100000072049" ];
+           <a href="http://build.fhir.org/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> "200000017708" ];
+           <a href="http://build.fhir.org/datatypes.html#Coding#Coding.display">fhir:Coding.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> "Valid - Renewed/Varied" ]         ]       ];
+       <a href="http://build.fhir.org/regulatedauthorization.html#RegulatedAuthorization.statusDate">fhir:RegulatedAuthorization.statusDate</a> [ <a href="http://build.fhir.org/datatypes.html#dateTime">fhir:value</a> "2016-11-08"^^xsd:date ];
+       <a href="http://build.fhir.org/regulatedauthorization.html#RegulatedAuthorization.holder">fhir:RegulatedAuthorization.holder</a> [
+         <a href="http://build.fhir.org/references.html#Reference#Reference.identifier">fhir:Reference.identifier</a> [
+           <a href="http://build.fhir.org/datatypes.html#Identifier#Identifier.system">fhir:Identifier.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> "https://spor.ema.europa.eu/v1/locations" ];
+           <a href="http://build.fhir.org/datatypes.html#Identifier#Identifier.value">fhir:Identifier.value</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> "LOC-100005443" ]         ];
+         <a href="http://build.fhir.org/references.html#Reference#Reference.display">fhir:Reference.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> "Bayer UAB" ]       ]     ];
+     <a href="http://build.fhir.org/bundle.html#Bundle.entry.request">fhir:Bundle.entry.request</a> [
+       <a href="http://build.fhir.org/bundle.html#Bundle.entry.request.method">fhir:Bundle.entry.request.method</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> "PUT" ];
+       <a href="http://build.fhir.org/bundle.html#Bundle.entry.request.url">fhir:Bundle.entry.request.url</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> "RegulatedAuthorization/Canesten500mg-Vaginal-Soft-Capsule-EE-RA" ]     ]
+  ], [
+     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 2;
+     <a href="http://build.fhir.org/administrableproductdefinition.html#AdministrableProductDefinition">fhir:Bundle.entry.resource</a> [
+       <a href="http://build.fhir.org/administrableproductdefinition.html">a</a> fhir:AdministrableProductDefinition;
+       <a href="http://build.fhir.org/administrableproductdefinition.html#AdministrableProductDefinition.id">fhir:Resource.id</a> [ <a href="http://build.fhir.org/datatypes.html#id">fhir:value</a> "Canesten500mg-Vaginal-Soft-Capsule-EE-APD" ];
+       <a href="http://build.fhir.org/administrableproductdefinition.html#AdministrableProductDefinition.text">fhir:DomainResource.text</a> [
+         <a href="http://build.fhir.org/narrative.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> "generated" ];
+         fhir:Narrative.div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: AdministrableProductDefinition&lt;/b&gt;&lt;/p&gt;&lt;div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Resource AdministrableProductDefinition \"Canesten500mg-Vaginal-Soft-Capsule-EE-APD\" &lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: active&lt;/p&gt;&lt;p&gt;&lt;b&gt;formOf&lt;/b&gt;: &lt;a href=\"#MedicinalProductDefinition_Canesten500mg-Vaginal-Soft-Capsule-EE-MPD\"&gt;See above (MedicinalProductDefinition/Canesten500mg-Vaginal-Soft-Capsule-EE-MPD)&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;administrableDoseForm&lt;/b&gt;: Vaginal capsule, soft &lt;span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"&gt; (200000000004#100000073816)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;unitOfPresentation&lt;/b&gt;: Capsule &lt;span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"&gt; (200000000014#200000002113)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;producedFrom&lt;/b&gt;: &lt;a href=\"#ManufacturedItemDefinition_Canesten500mg-Vaginal-Soft-Capsule-EE-MID\"&gt;See above (ManufacturedItemDefinition/Canesten500mg-Vaginal-Soft-Capsule-EE-MID)&lt;/a&gt;&lt;/p&gt;&lt;h3&gt;RouteOfAdministrations&lt;/h3&gt;&lt;table class=\"grid\"&gt;&lt;tr&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;*&lt;/td&gt;&lt;td&gt;Vaginal use &lt;span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"&gt; (100000073345#100000073639)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"       ];
+       <a href="http://build.fhir.org/administrableproductdefinition.html#AdministrableProductDefinition.status">fhir:AdministrableProductDefinition.status</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> "active" ];
+       <a href="http://build.fhir.org/administrableproductdefinition.html#AdministrableProductDefinition.formOf">fhir:AdministrableProductDefinition.formOf</a> [
+         <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+         <a href="http://build.fhir.org/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> "MedicinalProductDefinition/Canesten500mg-Vaginal-Soft-Capsule-EE-MPD" ]       ];
+       <a href="http://build.fhir.org/administrableproductdefinition.html#AdministrableProductDefinition.administrableDoseForm">fhir:AdministrableProductDefinition.administrableDoseForm</a> [
+         <a href="http://build.fhir.org/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+           <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+           <a href="http://build.fhir.org/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> "https://spor.ema.europa.eu/v1/lists/200000000004" ];
+           <a href="http://build.fhir.org/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> "100000073816" ];
+           <a href="http://build.fhir.org/datatypes.html#Coding#Coding.display">fhir:Coding.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> "Vaginal capsule, soft" ]         ]       ];
+       <a href="http://build.fhir.org/administrableproductdefinition.html#AdministrableProductDefinition.unitOfPresentation">fhir:AdministrableProductDefinition.unitOfPresentation</a> [
+         <a href="http://build.fhir.org/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+           <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+           <a href="http://build.fhir.org/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> "https://spor.ema.europa.eu/v1/lists/200000000014" ];
+           <a href="http://build.fhir.org/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> "200000002113" ];
+           <a href="http://build.fhir.org/datatypes.html#Coding#Coding.display">fhir:Coding.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> "Capsule" ]         ]       ];
+       <a href="http://build.fhir.org/administrableproductdefinition.html#AdministrableProductDefinition.producedFrom">fhir:AdministrableProductDefinition.producedFrom</a> [
+         <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+         <a href="http://build.fhir.org/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> "ManufacturedItemDefinition/Canesten500mg-Vaginal-Soft-Capsule-EE-MID" ]       ];
+       <a href="http://build.fhir.org/administrableproductdefinition.html#AdministrableProductDefinition.routeOfAdministration">fhir:AdministrableProductDefinition.routeOfAdministration</a> [
+         <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+         <a href="http://build.fhir.org/administrableproductdefinition.html#AdministrableProductDefinition.routeOfAdministration.code">fhir:AdministrableProductDefinition.routeOfAdministration.code</a> [
+           <a href="http://build.fhir.org/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+             <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+             <a href="http://build.fhir.org/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> "https://spor.ema.europa.eu/v1/lists/100000073345" ];
+             <a href="http://build.fhir.org/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> "100000073639" ];
+             <a href="http://build.fhir.org/datatypes.html#Coding#Coding.display">fhir:Coding.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> "Vaginal use" ]           ]         ]       ]     ];
+     <a href="http://build.fhir.org/bundle.html#Bundle.entry.request">fhir:Bundle.entry.request</a> [
+       <a href="http://build.fhir.org/bundle.html#Bundle.entry.request.method">fhir:Bundle.entry.request.method</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> "PUT" ];
+       <a href="http://build.fhir.org/bundle.html#Bundle.entry.request.url">fhir:Bundle.entry.request.url</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> "AdministrableProductDefinition/Canesten500mg-Vaginal-Soft-Capsule-EE-APD" ]     ]
+  ], [
+     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 3;
+     <a href="http://build.fhir.org/manufactureditemdefinition.html#ManufacturedItemDefinition">fhir:Bundle.entry.resource</a> [
+       <a href="http://build.fhir.org/manufactureditemdefinition.html">a</a> fhir:ManufacturedItemDefinition;
+       <a href="http://build.fhir.org/manufactureditemdefinition.html#ManufacturedItemDefinition.id">fhir:Resource.id</a> [ <a href="http://build.fhir.org/datatypes.html#id">fhir:value</a> "Canesten500mg-Vaginal-Soft-Capsule-EE-MID" ];
+       <a href="http://build.fhir.org/manufactureditemdefinition.html#ManufacturedItemDefinition.text">fhir:DomainResource.text</a> [
+         <a href="http://build.fhir.org/narrative.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> "generated" ];
+         fhir:Narrative.div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: ManufacturedItemDefinition&lt;/b&gt;&lt;/p&gt;&lt;div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Resource ManufacturedItemDefinition \"Canesten500mg-Vaginal-Soft-Capsule-EE-MID\" &lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: active&lt;/p&gt;&lt;p&gt;&lt;b&gt;manufacturedDoseForm&lt;/b&gt;: Vaginal capsule, soft &lt;span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"&gt; (200000000004#100000073816)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;unitOfPresentation&lt;/b&gt;: Capsule &lt;span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"&gt; (200000000014#200000002113)&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;"       ];
+       <a href="http://build.fhir.org/manufactureditemdefinition.html#ManufacturedItemDefinition.status">fhir:ManufacturedItemDefinition.status</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> "active" ];
+       <a href="http://build.fhir.org/manufactureditemdefinition.html#ManufacturedItemDefinition.manufacturedDoseForm">fhir:ManufacturedItemDefinition.manufacturedDoseForm</a> [
+         <a href="http://build.fhir.org/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+           <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+           <a href="http://build.fhir.org/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> "https://spor.ema.europa.eu/v1/lists/200000000004" ];
+           <a href="http://build.fhir.org/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> "100000073816" ];
+           <a href="http://build.fhir.org/datatypes.html#Coding#Coding.display">fhir:Coding.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> "Vaginal capsule, soft" ]         ]       ];
+       <a href="http://build.fhir.org/manufactureditemdefinition.html#ManufacturedItemDefinition.unitOfPresentation">fhir:ManufacturedItemDefinition.unitOfPresentation</a> [
+         <a href="http://build.fhir.org/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+           <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+           <a href="http://build.fhir.org/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> "https://spor.ema.europa.eu/v1/lists/200000000014" ];
+           <a href="http://build.fhir.org/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> "200000002113" ];
+           <a href="http://build.fhir.org/datatypes.html#Coding#Coding.display">fhir:Coding.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> "Capsule" ]         ]       ]     ];
+     <a href="http://build.fhir.org/bundle.html#Bundle.entry.request">fhir:Bundle.entry.request</a> [
+       <a href="http://build.fhir.org/bundle.html#Bundle.entry.request.method">fhir:Bundle.entry.request.method</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> "PUT" ];
+       <a href="http://build.fhir.org/bundle.html#Bundle.entry.request.url">fhir:Bundle.entry.request.url</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> "ManufacturedItemDefinition/Canesten500mg-Vaginal-Soft-Capsule-EE-MID" ]     ]
+  ], [
+     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 4;
+     <a href="http://build.fhir.org/ingredient.html#Ingredient">fhir:Bundle.entry.resource</a> [
+       <a href="http://build.fhir.org/ingredient.html">a</a> fhir:Ingredient;
+       <a href="http://build.fhir.org/ingredient.html#Ingredient.id">fhir:Resource.id</a> [ <a href="http://build.fhir.org/datatypes.html#id">fhir:value</a> "Canesten500mg-Vaginal-Soft-Capsule-EE-I" ];
+       <a href="http://build.fhir.org/ingredient.html#Ingredient.text">fhir:DomainResource.text</a> [
+         <a href="http://build.fhir.org/narrative.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> "generated" ];
+         fhir:Narrative.div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: Ingredient&lt;/b&gt;&lt;/p&gt;&lt;div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Resource Ingredient \"Canesten500mg-Vaginal-Soft-Capsule-EE-I\" &lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: active&lt;/p&gt;&lt;p&gt;&lt;b&gt;for&lt;/b&gt;: &lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=\"#MedicinalProductDefinition_Canesten500mg-Vaginal-Soft-Capsule-EE-MPD\"&gt;See above (MedicinalProductDefinition/Canesten500mg-Vaginal-Soft-Capsule-EE-MPD)&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\"#ManufacturedItemDefinition_Canesten500mg-Vaginal-Soft-Capsule-EE-MID\"&gt;See above (ManufacturedItemDefinition/Canesten500mg-Vaginal-Soft-Capsule-EE-MID)&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\"#AdministrableProductDefinition_Canesten500mg-Vaginal-Soft-Capsule-EE-APD\"&gt;See above (AdministrableProductDefinition/Canesten500mg-Vaginal-Soft-Capsule-EE-APD)&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;role&lt;/b&gt;: Active &lt;span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"&gt; (100000072050#100000072072)&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;substance&lt;/b&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;b style=\"color: maroon\"&gt;Exception generating Narrative: null&lt;/b&gt;&lt;/p&gt;&lt;/div&gt;"       ];
+       <a href="http://build.fhir.org/ingredient.html#Ingredient.status">fhir:Ingredient.status</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> "active" ];
+       <a href="http://build.fhir.org/ingredient.html#Ingredient.for">fhir:Ingredient.for</a> [
+         <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+         <a href="http://build.fhir.org/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> "MedicinalProductDefinition/Canesten500mg-Vaginal-Soft-Capsule-EE-MPD" ]       ], [
+         <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 1;
+         <a href="http://build.fhir.org/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> "ManufacturedItemDefinition/Canesten500mg-Vaginal-Soft-Capsule-EE-MID" ]       ], [
+         <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 2;
+         <a href="http://build.fhir.org/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> "AdministrableProductDefinition/Canesten500mg-Vaginal-Soft-Capsule-EE-APD" ]       ];
+       <a href="http://build.fhir.org/ingredient.html#Ingredient.role">fhir:Ingredient.role</a> [
+         <a href="http://build.fhir.org/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+           <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+           <a href="http://build.fhir.org/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> "https://spor.ema.europa.eu/v1/lists/100000072050" ];
+           <a href="http://build.fhir.org/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> "100000072072" ];
+           <a href="http://build.fhir.org/datatypes.html#Coding#Coding.display">fhir:Coding.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> "Active" ]         ]       ];
+       <a href="http://build.fhir.org/ingredient.html#Ingredient.substance">fhir:Ingredient.substance</a> [
+         <a href="http://build.fhir.org/ingredient.html#Ingredient.substance.code">fhir:Ingredient.substance.code</a> [
+           <a href="http://build.fhir.org/references.html#CodeableReference#CodeableReference.concept">fhir:CodeableReference.concept</a> [
+             <a href="http://build.fhir.org/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+               <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+               <a href="http://build.fhir.org/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> "https://spor.ema.europa.eu/v2/SubstanceDefinition" ];
+               <a href="http://build.fhir.org/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> "100000092074" ];
+               <a href="http://build.fhir.org/datatypes.html#Coding#Coding.display">fhir:Coding.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> "CLOTRIMAZOLE" ]             ]           ]         ];
+         <a href="http://build.fhir.org/ingredient.html#Ingredient.substance.strength">fhir:Ingredient.substance.strength</a> [
+           <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+           <a href="http://build.fhir.org/ingredient.html#Ingredient.substance.strength.presentation[x]">fhir:Ingredient.substance.strength.presentationRatio</a> [
+             <a href="http://build.fhir.org/datatypes.html#Ratio#Ratio.numerator">fhir:Ratio.numerator</a> [
+               <a href="http://build.fhir.org/datatypes.html#Quantity#Quantity.value">fhir:Quantity.value</a> [ <a href="http://build.fhir.org/datatypes.html#decimal">fhir:value</a> "500"^^xsd:decimal ];
+               <a href="http://build.fhir.org/datatypes.html#Quantity#Quantity.comparator">fhir:Quantity.comparator</a> [
+                 <a href="http://build.fhir.org/datatypes.html#code#code.extension">fhir:Element.extension</a> [
+                   <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+                   <a href="http://build.fhir.org/extensibility.html#Extension#Extension.url">fhir:Extension.url</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> "http://ema.europa.eu/fhir/extension/comparator" ];
+                   <a href="http://build.fhir.org/extensibility.html#Extension#Extension.value[x]">fhir:Extension.valueCoding</a> [
+                     <a href="http://build.fhir.org/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> "https://spor.ema.europa.eu/v1/lists/100000000008" ];
+                     <a href="http://build.fhir.org/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> "100000000049" ];
+                     <a href="http://build.fhir.org/datatypes.html#Coding#Coding.display">fhir:Coding.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> "equal to" ]                   ]                 ]               ];
+               <a href="http://build.fhir.org/datatypes.html#Quantity#Quantity.unit">fhir:Quantity.unit</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> "milligram(s)" ];
+               <a href="http://build.fhir.org/datatypes.html#Quantity#Quantity.system">fhir:Quantity.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> "https://spor.ema.europa.eu/v1/lists/100000110633" ];
+               <a href="http://build.fhir.org/datatypes.html#Quantity#Quantity.code">fhir:Quantity.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> "100000110655" ]             ];
+             <a href="http://build.fhir.org/datatypes.html#Ratio#Ratio.denominator">fhir:Ratio.denominator</a> [
+               <a href="http://build.fhir.org/datatypes.html#SimpleQuantity#Quantity.value">fhir:Quantity.value</a> [ <a href="http://build.fhir.org/datatypes.html#decimal">fhir:value</a> "1"^^xsd:decimal ];
+               <a href="http://build.fhir.org/datatypes.html#SimpleQuantity#Quantity.unit">fhir:Quantity.unit</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> "Capsule" ];
+               <a href="http://build.fhir.org/datatypes.html#SimpleQuantity#Quantity.system">fhir:Quantity.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> "https://spor.ema.europa.eu/v1/lists/200000000014" ];
+               <a href="http://build.fhir.org/datatypes.html#SimpleQuantity#Quantity.code">fhir:Quantity.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> "200000002113" ]             ]           ]         ]       ]     ];
+     <a href="http://build.fhir.org/bundle.html#Bundle.entry.request">fhir:Bundle.entry.request</a> [
+       <a href="http://build.fhir.org/bundle.html#Bundle.entry.request.method">fhir:Bundle.entry.request.method</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> "PUT" ];
+       <a href="http://build.fhir.org/bundle.html#Bundle.entry.request.url">fhir:Bundle.entry.request.url</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> "Ingredient/Canesten500mg-Vaginal-Soft-Capsule-EE-I" ]     ]
+  ], [
+     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 5;
+     <a href="http://build.fhir.org/packagedproductdefinition.html#PackagedProductDefinition">fhir:Bundle.entry.resource</a> [
+       <a href="http://build.fhir.org/packagedproductdefinition.html">a</a> fhir:PackagedProductDefinition;
+       <a href="http://build.fhir.org/packagedproductdefinition.html#PackagedProductDefinition.id">fhir:Resource.id</a> [ <a href="http://build.fhir.org/datatypes.html#id">fhir:value</a> "Canesten500mg-Vaginal-Soft-Capsule-EE-PPD-1670644" ];
+       <a href="http://build.fhir.org/packagedproductdefinition.html#PackagedProductDefinition.text">fhir:DomainResource.text</a> [
+         <a href="http://build.fhir.org/narrative.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> "extensions" ];
+         fhir:Narrative.div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: PackagedProductDefinition&lt;/b&gt;&lt;/p&gt;&lt;div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Resource PackagedProductDefinition \"Canesten500mg-Vaginal-Soft-Capsule-EE-PPD-1670644\" &lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;Extension Definition for PackagedProductDefinition.containedItemQuantity for Version 5.0&lt;/b&gt;: 1 Capsule&lt;span style=\"background: LightGoldenRodYellow\"&gt; (Details: http://spor.ema.europa.eu/v1/lists/200000000014 code 200000002113 = '200000002113')&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: id: EE-100005443-31758-1670644&lt;/p&gt;&lt;p&gt;&lt;b&gt;packageFor&lt;/b&gt;: &lt;a href=\"#MedicinalProductDefinition_Canesten500mg-Vaginal-Soft-Capsule-EE-MPD\"&gt;See above (MedicinalProductDefinition/Canesten500mg-Vaginal-Soft-Capsule-EE-MPD)&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;description&lt;/b&gt;: Üks vaginaalpehmekapsel on blistris, mis koosneb läbipaistvast kolmekordsest PVC/PVdC/PVC laminaatkilest ja on suletud alumiiniumfooliumist kattega. Blister ja polüpropüleenist aplikaator on pakendatud kartongkarpi. &lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;package&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: Box &lt;span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"&gt; (100000073346#100000073498)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;quantity&lt;/b&gt;: 1&lt;/p&gt;&lt;p&gt;&lt;b&gt;material&lt;/b&gt;: Cardboard &lt;span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"&gt; (200000003199#200000003529)&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;package&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: Blister &lt;span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"&gt; (100000073346#100000073496)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;quantity&lt;/b&gt;: 1&lt;/p&gt;&lt;p&gt;&lt;b&gt;material&lt;/b&gt;: Aluminium &lt;span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"&gt; (200000003199#200000003200)&lt;/span&gt;, PolyVinyl Chloride &lt;span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"&gt; (200000003199#200000003222)&lt;/span&gt;, PolyVinylidene Chloride &lt;span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"&gt; (200000003199#200000003225)&lt;/span&gt;, PolyVinyl Chloride &lt;span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"&gt; (200000003199#200000003222)&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/div&gt;"       ];
+       <a href="http://build.fhir.org/packagedproductdefinition.html#PackagedProductDefinition.extension">fhir:DomainResource.extension</a> [
+         <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+         <a href="http://build.fhir.org/extensibility.html#Extension#Extension.url">fhir:Extension.url</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> "http://hl7.org/fhir/5.0/StructureDefinition/extension-PackagedProductDefinition.containedItemQuantity" ];
+         <a href="http://build.fhir.org/extensibility.html#Extension#Extension.value[x]">fhir:Extension.valueQuantity</a> [
+           <a href="http://build.fhir.org/datatypes.html#Quantity#Quantity.value">fhir:Quantity.value</a> [ <a href="http://build.fhir.org/datatypes.html#decimal">fhir:value</a> "1"^^xsd:decimal ];
+           <a href="http://build.fhir.org/datatypes.html#Quantity#Quantity.unit">fhir:Quantity.unit</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> "Capsule" ];
+           <a href="http://build.fhir.org/datatypes.html#Quantity#Quantity.system">fhir:Quantity.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> "http://spor.ema.europa.eu/v1/lists/200000000014" ];
+           <a href="http://build.fhir.org/datatypes.html#Quantity#Quantity.code">fhir:Quantity.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> "200000002113" ]         ]       ];
+       <a href="http://build.fhir.org/packagedproductdefinition.html#PackagedProductDefinition.identifier">fhir:PackagedProductDefinition.identifier</a> [
+         <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+         <a href="http://build.fhir.org/datatypes.html#Identifier#Identifier.system">fhir:Identifier.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> "http://ema.europa.eu/example/pcid" ];
+         <a href="http://build.fhir.org/datatypes.html#Identifier#Identifier.value">fhir:Identifier.value</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> "EE-100005443-31758-1670644" ]       ];
+       <a href="http://build.fhir.org/packagedproductdefinition.html#PackagedProductDefinition.packageFor">fhir:PackagedProductDefinition.packageFor</a> [
+         <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+         <a href="http://build.fhir.org/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> "MedicinalProductDefinition/Canesten500mg-Vaginal-Soft-Capsule-EE-MPD" ]       ];
+       <a href="http://build.fhir.org/packagedproductdefinition.html#PackagedProductDefinition.description">fhir:PackagedProductDefinition.description</a> [
+         <a href="http://build.fhir.org/datatypes.html#markdown">fhir:value</a> "Üks vaginaalpehmekapsel on blistris, mis koosneb läbipaistvast kolmekordsest PVC/PVdC/PVC laminaatkilest ja on suletud alumiiniumfooliumist kattega. Blister ja polüpropüleenist aplikaator on pakendatud kartongkarpi. ";
+         <a href="http://build.fhir.org/datatypes.html#markdown#markdown.extension">fhir:Element.extension</a> [
+           <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+           <a href="http://build.fhir.org/extensibility.html#Extension#Extension.url">fhir:Extension.url</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> "http://ema.europa.eu/fhir/extension/language" ];
+           <a href="http://build.fhir.org/extensibility.html#Extension#Extension.value[x]">fhir:Extension.valueCoding</a> [
+             <a href="http://build.fhir.org/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> "https://spor.ema.europa.eu/v1/lists/100000072057" ];
+             <a href="http://build.fhir.org/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> "100000072172" ];
+             <a href="http://build.fhir.org/datatypes.html#Coding#Coding.display">fhir:Coding.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> "Estonian" ]           ]         ]       ];
+       <a href="http://build.fhir.org/packagedproductdefinition.html#PackagedProductDefinition.marketingStatus">fhir:PackagedProductDefinition.marketingStatus</a> [
+         <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+         <a href="http://build.fhir.org/marketingstatus.html#MarketingStatus#MarketingStatus.country">fhir:MarketingStatus.country</a> [
+           <a href="http://build.fhir.org/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+             <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+             <a href="http://build.fhir.org/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> "https://spor.ema.europa.eu/v1/lists/100000000002" ];
+             <a href="http://build.fhir.org/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> "100000000388" ];
+             <a href="http://build.fhir.org/datatypes.html#Coding#Coding.display">fhir:Coding.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> "Republic of Estonia" ]           ]         ];
+         <a href="http://build.fhir.org/marketingstatus.html#MarketingStatus#MarketingStatus.status">fhir:MarketingStatus.status</a> [
+           <a href="http://build.fhir.org/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+             <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+             <a href="http://build.fhir.org/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> "https://spor.ema.europa.eu/v1/lists/100000072052" ];
+             <a href="http://build.fhir.org/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> "100000072083" ];
+             <a href="http://build.fhir.org/datatypes.html#Coding#Coding.display">fhir:Coding.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> "Marketed" ]           ]         ]       ];
+       <a href="http://build.fhir.org/packagedproductdefinition.html#PackagedProductDefinition.package">fhir:PackagedProductDefinition.package</a> [
+         <a href="http://build.fhir.org/packagedproductdefinition.html#PackagedProductDefinition.package.type">fhir:PackagedProductDefinition.package.type</a> [
+           <a href="http://build.fhir.org/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+             <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+             <a href="http://build.fhir.org/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> "https://spor.ema.europa.eu/v1/lists/100000073346" ];
+             <a href="http://build.fhir.org/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> "100000073498" ];
+             <a href="http://build.fhir.org/datatypes.html#Coding#Coding.display">fhir:Coding.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> "Box" ]           ]         ];
+         <a href="http://build.fhir.org/packagedproductdefinition.html#PackagedProductDefinition.package.quantity">fhir:PackagedProductDefinition.package.quantity</a> [ <a href="http://build.fhir.org/datatypes.html#integer">fhir:value</a> "1"^^xsd:integer ];
+         <a href="http://build.fhir.org/packagedproductdefinition.html#PackagedProductDefinition.package.material">fhir:PackagedProductDefinition.package.material</a> [
+           <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+           <a href="http://build.fhir.org/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+             <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+             <a href="http://build.fhir.org/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> "https://spor.ema.europa.eu/v1/lists/200000003199" ];
+             <a href="http://build.fhir.org/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> "200000003529" ];
+             <a href="http://build.fhir.org/datatypes.html#Coding#Coding.display">fhir:Coding.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> "Cardboard" ]           ]         ];
+         <a href="http://build.fhir.org/packagedproductdefinition.html#PackagedProductDefinition.package.package">fhir:PackagedProductDefinition.package.package</a> [
+           <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+           <a href="http://build.fhir.org/packagedproductdefinition.html#PackagedProductDefinition.package.type">fhir:PackagedProductDefinition.package.type</a> [
+             <a href="http://build.fhir.org/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+               <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+               <a href="http://build.fhir.org/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> "https://spor.ema.europa.eu/v1/lists/100000073346" ];
+               <a href="http://build.fhir.org/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> "100000073496" ];
+               <a href="http://build.fhir.org/datatypes.html#Coding#Coding.display">fhir:Coding.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> "Blister" ]             ]           ];
+           <a href="http://build.fhir.org/packagedproductdefinition.html#PackagedProductDefinition.package.quantity">fhir:PackagedProductDefinition.package.quantity</a> [ <a href="http://build.fhir.org/datatypes.html#integer">fhir:value</a> "1"^^xsd:integer ];
+           <a href="http://build.fhir.org/packagedproductdefinition.html#PackagedProductDefinition.package.material">fhir:PackagedProductDefinition.package.material</a> [
+             <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+             <a href="http://build.fhir.org/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+               <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+               <a href="http://build.fhir.org/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> "https://spor.ema.europa.eu/v1/lists/200000003199" ];
+               <a href="http://build.fhir.org/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> "200000003200" ];
+               <a href="http://build.fhir.org/datatypes.html#Coding#Coding.display">fhir:Coding.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> "Aluminium" ]             ]           ], [
+             <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 1;
+             <a href="http://build.fhir.org/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+               <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+               <a href="http://build.fhir.org/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> "https://spor.ema.europa.eu/v1/lists/200000003199" ];
+               <a href="http://build.fhir.org/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> "200000003222" ];
+               <a href="http://build.fhir.org/datatypes.html#Coding#Coding.display">fhir:Coding.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> "PolyVinyl Chloride" ]             ]           ], [
+             <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 2;
+             <a href="http://build.fhir.org/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+               <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+               <a href="http://build.fhir.org/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> "https://spor.ema.europa.eu/v1/lists/200000003199" ];
+               <a href="http://build.fhir.org/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> "200000003225" ];
+               <a href="http://build.fhir.org/datatypes.html#Coding#Coding.display">fhir:Coding.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> "PolyVinylidene Chloride" ]             ]           ], [
+             <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 3;
+             <a href="http://build.fhir.org/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+               <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+               <a href="http://build.fhir.org/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> "https://spor.ema.europa.eu/v1/lists/200000003199" ];
+               <a href="http://build.fhir.org/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> "200000003222" ];
+               <a href="http://build.fhir.org/datatypes.html#Coding#Coding.display">fhir:Coding.display</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> "PolyVinyl Chloride" ]             ]           ];
+           <a href="http://build.fhir.org/packagedproductdefinition.html#PackagedProductDefinition.package.containedItem">fhir:PackagedProductDefinition.package.containedItem</a> [
+             <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
+             <a href="http://build.fhir.org/packagedproductdefinition.html#PackagedProductDefinition.package.containedItem.item">fhir:PackagedProductDefinition.package.containedItem.item</a> [
+               <a href="http://build.fhir.org/references.html#CodeableReference#CodeableReference.reference">fhir:CodeableReference.reference</a> [
+                 <a href="http://build.fhir.org/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://build.fhir.org/datatypes.html#string">fhir:value</a> "ManufacturedItemDefinition/Canesten500mg-Vaginal-Soft-Capsule-EE-MID" ]               ]             ];
+             <a href="http://build.fhir.org/packagedproductdefinition.html#PackagedProductDefinition.package.containedItem.amount">fhir:PackagedProductDefinition.package.containedItem.amount</a> [
+               <a href="http://build.fhir.org/datatypes.html#Quantity#Quantity.value">fhir:Quantity.value</a> [ <a href="http://build.fhir.org/datatypes.html#decimal">fhir:value</a> "1"^^xsd:decimal ]             ]           ]         ]       ]     ];
+     <a href="http://build.fhir.org/bundle.html#Bundle.entry.request">fhir:Bundle.entry.request</a> [
+       <a href="http://build.fhir.org/bundle.html#Bundle.entry.request.method">fhir:Bundle.entry.request.method</a> [ <a href="http://build.fhir.org/datatypes.html#code">fhir:value</a> "PUT" ];
+       <a href="http://build.fhir.org/bundle.html#Bundle.entry.request.url">fhir:Bundle.entry.request.url</a> [ <a href="http://build.fhir.org/datatypes.html#uri">fhir:value</a> "PackagedProductDefinition/Canesten500mg-Vaginal-Soft-Capsule-EE-PPD-1670644" ]     ]
+  ].
+
+# - ontology header ------------------------------------------------------------
+
+ a owl:Ontology;
+  owl:imports fhir:fhir.ttl.
+
+</code></pre>
+
+
+
+    <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>    <!-- /inner-wrapper -->
+      </div>    <!-- /row -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-content -->
+
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
+    <div class="container">    <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &copy; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://medigree.net">Medigree</a>.  Package ee.fhir.idmp#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://build.fhir.org/">FHIR 5.0.0-snapshot1</a>. Generated <span title="Mon, Sep 5, 2022 10:08+0000">2022-09-05</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)"></span>
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          
+        </p>
+      </div>    <!-- /inner-wrapper -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
+    <div class="container">    <!-- container -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-post-footer -->
+  
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
+  ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
+  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+  <!-- feedback form - Google forms -->
+  <!-- v0.1, 2021-01-09 -->
+
+
+
+  <!-- / feedback form -->
+
+    <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>

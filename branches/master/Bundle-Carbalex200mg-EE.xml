@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="Carbalex200mg-EE"/>
+  <meta>
+    <versionId value="1"/>
+    <lastUpdated value="2022-08-23T06:28:27.584+00:00"/>
+  </meta>
+  <type value="transaction"/>
+  <entry>
+    <resource>
+      <MedicinalProductDefinition>
+        <id value="Carbalex-200mg-Tablet-EE-MPD"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: MedicinalProductDefinition</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource MedicinalProductDefinition "Carbalex-200mg-Tablet-EE-MPD" </p></div><p><b>identifier</b>: id: EE-100004168-12067</p><p><b>domain</b>: Human use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000000004#100000000012)</span></p><p><b>status</b>: Current <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000005003#200000005004; <a href="http://build.fhir.org/codesystem-publication-status.html">PublicationStatus</a>#active "Active")</span></p><p><b>legalStatusOfSupply</b>: Medicinal product subject to medical prescription <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072051#100000072084)</span></p><p><b>classification</b>: carbamazepine <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000093533#100000097377; <a href="http://terminology.hl7.org/3.0.0/CodeSystem-atc.html">WHO ATC</a>#N03AF01)</span></p><blockquote><p><b>name</b></p><p><b>productName</b>: Carbalex 200 mg tabletid </p><blockquote><p><b>namePart</b></p><p><b>part</b>: Carbalex</p><p><b>type</b>: Invented Name Part <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000000#220000000002)</span></p></blockquote><blockquote><p><b>namePart</b></p><p><b>part</b>: 200 mg</p><p><b>type</b>: Strength part <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000000#220000000004)</span></p></blockquote><blockquote><p><b>namePart</b></p><p><b>part</b>: tabletid</p><p><b>type</b>: Pharmaceutical dose form part <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000000#220000000005)</span></p></blockquote><h3>CountryLanguages</h3><table class="grid"><tr><td>-</td><td><b>Country</b></td><td><b>Language</b></td></tr><tr><td>*</td><td>Republic of Estonia <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000000002#100000000388)</span></td><td>Estonian <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072057#100000072172)</span></td></tr></table></blockquote></div>
+        </text>
+        <extension url="http://ema.europa.eu/fhir/extension/authorisedDoseForm">
+          <valueCoding>
+            <system value="https://spor.ema.europa.eu/v1/lists/200000000004"/>
+            <code value="100000073664"/>
+            <display value="Tablet"/>
+          </valueCoding>
+        </extension>
+        <identifier>
+          <system value="http://ema.europa.eu/fhir/mpId"/>
+          <value value="EE-100004168-12067"/>
+        </identifier>
+        <domain>
+          <coding>
+            <system value="https://spor.ema.europa.eu/v1/lists/100000000004"/>
+            <code value="100000000012"/>
+            <display value="Human use"/>
+          </coding>
+        </domain>
+        <status>
+          <coding>
+            <system value="https://spor.ema.europa.eu/v1/lists/200000005003"/>
+            <code value="200000005004"/>
+            <display value="Current"/>
+          </coding>
+          <coding>
+            <system value="http://hl7.org/fhir/publication-status"/>
+            <code value="active"/>
+            <display value="Active"/>
+          </coding>
+        </status>
+        <legalStatusOfSupply>
+          <coding>
+            <system value="https://spor.ema.europa.eu/v1/lists/100000072051"/>
+            <code value="100000072084"/>
+            <display value="Medicinal product subject to medical prescription"/>
+          </coding>
+        </legalStatusOfSupply>
+        <classification>
+          <coding>
+            <system value="https://spor.ema.europa.eu/v1/lists/100000093533"/>
+            <code value="100000097377"/>
+            <display value="carbamazepine"/>
+          </coding>
+          <coding>
+            <system value="http://www.whocc.no/atc"/>
+            <code value="N03AF01"/>
+            <display value="carbamazepine"/>
+          </coding>
+        </classification>
+        <name>
+          <productName value="Carbalex 200 mg tabletid "/>
+          <namePart>
+            <part value="Carbalex"/>
+            <type>
+              <coding>
+                <system value="https://spor.ema.europa.eu/v1/lists/220000000000"/>
+                <code value="220000000002"/>
+                <display value="Invented Name Part"/>
+              </coding>
+            </type>
+          </namePart>
+          <namePart>
+            <part value="200 mg"/>
+            <type>
+              <coding>
+                <system value="https://spor.ema.europa.eu/v1/lists/220000000000"/>
+                <code value="220000000004"/>
+                <display value="Strength part"/>
+              </coding>
+            </type>
+          </namePart>
+          <namePart>
+            <part value="tabletid"/>
+            <type>
+              <coding>
+                <system value="https://spor.ema.europa.eu/v1/lists/220000000000"/>
+                <code value="220000000005"/>
+                <display value="Pharmaceutical dose form part"/>
+              </coding>
+            </type>
+          </namePart>
+          <countryLanguage>
+            <country>
+              <coding>
+                <system value="https://spor.ema.europa.eu/v1/lists/100000000002"/>
+                <code value="100000000388"/>
+                <display value="Republic of Estonia"/>
+              </coding>
+            </country>
+            <language>
+              <coding>
+                <system value="https://spor.ema.europa.eu/v1/lists/100000072057"/>
+                <code value="100000072172"/>
+                <display value="Estonian"/>
+              </coding>
+            </language>
+          </countryLanguage>
+        </name>
+      </MedicinalProductDefinition>
+    </resource>
+    <request>
+      <method value="PUT"/>
+      <url value="MedicinalProductDefinition/Carbalex-200mg-Tablet-EE-MPD"/>
+    </request>
+  </entry>
+  <entry>
+    <resource>
+      <RegulatedAuthorization>
+        <id value="Carbalex-200mg-Tablet-EE-RA"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: RegulatedAuthorization</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource RegulatedAuthorization "Carbalex-200mg-Tablet-EE-RA" </p></div><p><b>identifier</b>: id: 391302</p><p><b>subject</b>: <a href="#MedicinalProductDefinition_Carbalex-200mg-Tablet-EE-MPD">See above (MedicinalProductDefinition/Carbalex-200mg-Tablet-EE-MPD)</a></p><p><b>type</b>: Marketing Authorisation <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000060#220000000061)</span></p><p><b>region</b>: Republic of Estonia <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000000002#100000000388)</span></p><p><b>status</b>: Valid - Renewed/Varied <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072049#200000017708)</span></p><p><b>statusDate</b>: 2012-10-29</p><p><b>holder</b>: <span>: G.L. Pharma GmbH</span></p></div>
+        </text>
+        <identifier>
+          <system value="http://ema.europa.eu/fhir/MarketingAuthorizationNumber"/>
+          <value value="391302"/>
+        </identifier>
+        <subject>
+          <reference value="MedicinalProductDefinition/Carbalex-200mg-Tablet-EE-MPD"/>
+        </subject>
+        <type>
+          <coding>
+            <system value="https://spor.ema.europa.eu/v1/lists/220000000060"/>
+            <code value="220000000061"/>
+            <display value="Marketing Authorisation"/>
+          </coding>
+        </type>
+        <region>
+          <coding>
+            <system value="https://spor.ema.europa.eu/v1/lists/100000000002"/>
+            <code value="100000000388"/>
+            <display value="Republic of Estonia"/>
+          </coding>
+        </region>
+        <status>
+          <coding>
+            <system value="https://spor.ema.europa.eu/v1/lists/100000072049"/>
+            <code value="200000017708"/>
+            <display value="Valid - Renewed/Varied"/>
+          </coding>
+        </status>
+        <statusDate value="2012-10-29"/>
+        <holder>
+          <identifier>
+            <system value="https://spor.ema.europa.eu/v1/locations"/>
+            <value value="LOC-100004168"/>
+          </identifier>
+          <display value="G.L. Pharma GmbH"/>
+        </holder>
+      </RegulatedAuthorization>
+    </resource>
+    <request>
+      <method value="PUT"/>
+      <url value="RegulatedAuthorization/Carbalex-200mg-Tablet-EE-RA"/>
+    </request>
+  </entry>
+  <entry>
+    <resource>
+      <AdministrableProductDefinition>
+        <id value="Carbalex-200mg-Tablet-EE-APD"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: AdministrableProductDefinition</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource AdministrableProductDefinition "Carbalex-200mg-Tablet-EE-APD" </p></div><p><b>status</b>: active</p><p><b>formOf</b>: <a href="#MedicinalProductDefinition_Carbalex-200mg-Tablet-EE-MPD">See above (MedicinalProductDefinition/Carbalex-200mg-Tablet-EE-MPD)</a></p><p><b>administrableDoseForm</b>: Tablet <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000000004#100000073664)</span></p><p><b>unitOfPresentation</b>: Tablet <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000000014#200000002152)</span></p><p><b>producedFrom</b>: <a href="#ManufacturedItemDefinition_Carbalex-200mg-Tablet-EE-MID">See above (ManufacturedItemDefinition/Carbalex-200mg-Tablet-EE-MID)</a></p><h3>RouteOfAdministrations</h3><table class="grid"><tr><td>-</td><td><b>Code</b></td></tr><tr><td>*</td><td>Oral use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073345#100000073619)</span></td></tr></table></div>
+        </text>
+        <status value="active"/>
+        <formOf>
+          <reference value="MedicinalProductDefinition/Carbalex-200mg-Tablet-EE-MPD"/>
+        </formOf>
+        <administrableDoseForm>
+          <coding>
+            <system value="https://spor.ema.europa.eu/v1/lists/200000000004"/>
+            <code value="100000073664"/>
+            <display value="Tablet"/>
+          </coding>
+        </administrableDoseForm>
+        <unitOfPresentation>
+          <coding>
+            <system value="https://spor.ema.europa.eu/v1/lists/200000000014"/>
+            <code value="200000002152"/>
+            <display value="Tablet"/>
+          </coding>
+        </unitOfPresentation>
+        <producedFrom>
+          <reference value="ManufacturedItemDefinition/Carbalex-200mg-Tablet-EE-MID"/>
+        </producedFrom>
+        <routeOfAdministration>
+          <code>
+            <coding>
+              <system value="https://spor.ema.europa.eu/v1/lists/100000073345"/>
+              <code value="100000073619"/>
+              <display value="Oral use"/>
+            </coding>
+          </code>
+        </routeOfAdministration>
+      </AdministrableProductDefinition>
+    </resource>
+    <request>
+      <method value="PUT"/>
+      <url value="AdministrableProductDefinition/Carbalex-200mg-Tablet-EE-APD"/>
+    </request>
+  </entry>
+  <entry>
+    <resource>
+      <ManufacturedItemDefinition>
+        <id value="Carbalex-200mg-Tablet-EE-MID"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: ManufacturedItemDefinition</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource ManufacturedItemDefinition "Carbalex-200mg-Tablet-EE-MID" </p></div><p><b>status</b>: active</p><p><b>manufacturedDoseForm</b>: Tablet <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000000004#100000073664)</span></p><p><b>unitOfPresentation</b>: Tablet <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000000014#200000002152)</span></p></div>
+        </text>
+        <status value="active"/>
+        <manufacturedDoseForm>
+          <coding>
+            <system value="https://spor.ema.europa.eu/v1/lists/200000000004"/>
+            <code value="100000073664"/>
+            <display value="Tablet"/>
+          </coding>
+        </manufacturedDoseForm>
+        <unitOfPresentation>
+          <coding>
+            <system value="https://spor.ema.europa.eu/v1/lists/200000000014"/>
+            <code value="200000002152"/>
+            <display value="Tablet"/>
+          </coding>
+        </unitOfPresentation>
+      </ManufacturedItemDefinition>
+    </resource>
+    <request>
+      <method value="PUT"/>
+      <url value="ManufacturedItemDefinition/Carbalex-200mg-Tablet-EE-MID"/>
+    </request>
+  </entry>
+  <entry>
+    <resource>
+      <Ingredient>
+        <id value="Carbalex-200mg-Tablet-EE-I"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Ingredient</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Ingredient "Carbalex-200mg-Tablet-EE-I" </p></div><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href="#MedicinalProductDefinition_Carbalex-200mg-Tablet-EE-MPD">See above (MedicinalProductDefinition/Carbalex-200mg-Tablet-EE-MPD)</a></li><li><a href="#ManufacturedItemDefinition_Carbalex-200mg-Tablet-EE-MID">See above (ManufacturedItemDefinition/Carbalex-200mg-Tablet-EE-MID)</a></li><li><a href="#AdministrableProductDefinition_Carbalex-200mg-Tablet-EE-APD">See above (AdministrableProductDefinition/Carbalex-200mg-Tablet-EE-APD)</a></li></ul><p><b>role</b>: Active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072050#100000072072)</span></p><blockquote><p><b>substance</b></p></blockquote><p><b style="color: maroon">Exception generating Narrative: null</b></p></div>
+        </text>
+        <status value="active"/>
+        <for>
+          <reference value="MedicinalProductDefinition/Carbalex-200mg-Tablet-EE-MPD"/>
+        </for>
+        <for>
+          <reference value="ManufacturedItemDefinition/Carbalex-200mg-Tablet-EE-MID"/>
+        </for>
+        <for>
+          <reference value="AdministrableProductDefinition/Carbalex-200mg-Tablet-EE-APD"/>
+        </for>
+        <role>
+          <coding>
+            <system value="https://spor.ema.europa.eu/v1/lists/100000072050"/>
+            <code value="100000072072"/>
+            <display value="Active"/>
+          </coding>
+        </role>
+        <substance>
+          <code>
+            <concept>
+              <coding>
+                <system value="https://spor.ema.europa.eu/v2/SubstanceDefinition"/>
+                <code value="100000159588"/>
+                <display value="CARBAMAZEPINE"/>
+              </coding>
+            </concept>
+          </code>
+          <strength>
+            <presentationRatio>
+              <numerator>
+                <value value="200"/>
+                <comparator>
+                  <extension url="http://ema.europa.eu/fhir/extension/comparator">
+                    <valueCoding>
+                      <system value="https://spor.ema.europa.eu/v1/lists/100000000008"/>
+                      <code value="100000000049"/>
+                      <display value="equal to"/>
+                    </valueCoding>
+                  </extension>
+                </comparator>
+                <unit value="milligram(s)"/>
+                <system value="https://spor.ema.europa.eu/v1/lists/100000110633"/>
+                <code value="100000110655"/>
+              </numerator>
+              <denominator>
+                <value value="1"/>
+                <unit value="Tablet"/>
+                <system value="https://spor.ema.europa.eu/v1/lists/200000000014"/>
+                <code value="200000002152"/>
+              </denominator>
+            </presentationRatio>
+          </strength>
+        </substance>
+      </Ingredient>
+    </resource>
+    <request>
+      <method value="PUT"/>
+      <url value="Ingredient/Carbalex-200mg-Tablet-EE-I"/>
+    </request>
+  </entry>
+  <entry>
+    <resource>
+      <PackagedProductDefinition>
+        <id value="Carbalex-200mg-Tablet-EE-PPD-1042311"/>
+        <text>
+          <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: PackagedProductDefinition</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource PackagedProductDefinition "Carbalex-200mg-Tablet-EE-PPD-1042311" </p></div><p><b>Extension Definition for PackagedProductDefinition.containedItemQuantity for Version 5.0</b>: 50 tablet<span style="background: LightGoldenRodYellow"> (Details: http://spor.ema.europa.eu/v1/lists/200000000014 code 200000002152 = '200000002152')</span></p><p><b>identifier</b>: id: EE-100004168-12067-1042311</p><p><b>packageFor</b>: <a href="#MedicinalProductDefinition_Carbalex-200mg-Tablet-EE-MPD">See above (MedicinalProductDefinition/Carbalex-200mg-Tablet-EE-MPD)</a></p><p><b>description</b>: 50 tabletti blisterpakendis (PVC-Alu).</p><blockquote><p><b>package</b></p><p><b>type</b>: Box <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073346#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000003199#200000003529)</span></p><blockquote><p><b>package</b></p><p><b>type</b>: Blister <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073346#100000073496)</span></p><p><b>material</b>: PolyVinyl Chloride <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000003199#200000003222)</span>, Aluminium <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000003199#200000003200)</span></p></blockquote></blockquote></div>
+        </text>
+        <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-PackagedProductDefinition.containedItemQuantity">
+          <valueQuantity>
+            <value value="50"/>
+            <unit value="tablet"/>
+            <system value="http://spor.ema.europa.eu/v1/lists/200000000014"/>
+            <code value="200000002152"/>
+          </valueQuantity>
+        </extension>
+        <identifier>
+          <system value="http://ema.europa.eu/example/pcid"/>
+          <value value="EE-100004168-12067-1042311"/>
+        </identifier>
+        <packageFor>
+          <reference value="MedicinalProductDefinition/Carbalex-200mg-Tablet-EE-MPD"/>
+        </packageFor>
+        <description value="50 tabletti blisterpakendis (PVC-Alu).">
+          <extension url="http://ema.europa.eu/fhir/extension/language">
+            <valueCoding>
+              <system value="https://spor.ema.europa.eu/v1/lists/100000072057"/>
+              <code value="100000072172"/>
+              <display value="Estonian"/>
+            </valueCoding>
+          </extension>
+        </description>
+        <marketingStatus>
+          <country>
+            <coding>
+              <system value="https://spor.ema.europa.eu/v1/lists/100000000002"/>
+              <code value="100000000388"/>
+              <display value="Republic of Estonia"/>
+            </coding>
+          </country>
+          <status>
+            <coding>
+              <system value="https://spor.ema.europa.eu/v1/lists/100000072052"/>
+              <code value="100000072083"/>
+              <display value="Marketed"/>
+            </coding>
+          </status>
+        </marketingStatus>
+        <package>
+          <type>
+            <coding>
+              <system value="https://spor.ema.europa.eu/v1/lists/100000073346"/>
+              <code value="100000073498"/>
+              <display value="Box"/>
+            </coding>
+          </type>
+          <quantity value="1"/>
+          <material>
+            <coding>
+              <system value="https://spor.ema.europa.eu/v1/lists/200000003199"/>
+              <code value="200000003529"/>
+              <display value="Cardboard"/>
+            </coding>
+          </material>
+          <package>
+            <type>
+              <coding>
+                <system value="https://spor.ema.europa.eu/v1/lists/100000073346"/>
+                <code value="100000073496"/>
+                <display value="Blister"/>
+              </coding>
+            </type>
+            <material>
+              <coding>
+                <system value="https://spor.ema.europa.eu/v1/lists/200000003199"/>
+                <code value="200000003222"/>
+                <display value="PolyVinyl Chloride"/>
+              </coding>
+            </material>
+            <material>
+              <coding>
+                <system value="https://spor.ema.europa.eu/v1/lists/200000003199"/>
+                <code value="200000003200"/>
+                <display value="Aluminium"/>
+              </coding>
+            </material>
+            <containedItem>
+              <item>
+                <reference>
+                  <reference value="ManufacturedItemDefinition/Carbalex-200mg-Tablet-EE-MID"/>
+                </reference>
+              </item>
+              <amount>
+                <value value="50"/>
+              </amount>
+            </containedItem>
+          </package>
+        </package>
+      </PackagedProductDefinition>
+    </resource>
+    <request>
+      <method value="PUT"/>
+      <url value="PackagedProductDefinition/Carbalex-200mg-Tablet-EE-PPD-1042311"/>
+    </request>
+  </entry>
+</Bundle>

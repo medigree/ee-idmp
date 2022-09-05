@@ -1,0 +1,125 @@
+{
+  "resourceType": "PackagedProductDefinition",
+  "id": "Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-PPD-1018774",
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PackagedProductDefinition</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition \"Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-PPD-1018774\" </p></div><p><b>Extension Definition for PackagedProductDefinition.containedItemQuantity for Version 5.0</b>: 1 Ampoule <span style=\"background: LightGoldenRodYellow\"> (Details: http://spor.ema.europa.eu/v1/lists/200000000014 code 200000002164 = '200000002164')</span></p><p><b>identifier</b>: id: EE-100001754-11270-1018774</p><p><b>packageFor</b>: <a href=\"MedicinalProductDefinition-Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-MPD.html\">MedicinalProductDefinition/Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-MPD</a></p><p><b>description</b>: 5 ml klaasampullid, 5 ampulli alusel. 2 alust pakendis.  Pakendi suurus: 10 ampulli.</p><blockquote><p><b>package</b></p><p><b>type</b>: Box <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003529)</span></p><blockquote><p><b>package</b></p><p><b>type</b>: Ampoule <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073490)</span></p><p><b>quantity</b>: 10</p><p><b>material</b>: Glass <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003203)</span></p></blockquote></blockquote></div>"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-PackagedProductDefinition.containedItemQuantity",
+      "valueQuantity": {
+        "value": 1,
+        "unit": "Ampoule ",
+        "system": "http://spor.ema.europa.eu/v1/lists/200000000014",
+        "code": "200000002164"
+      }
+    }
+  ],
+  "identifier": [
+    {
+      "system": "http://ema.europa.eu/example/pcid",
+      "value": "EE-100001754-11270-1018774"
+    }
+  ],
+  "packageFor": [
+    {
+      "reference": "MedicinalProductDefinition/Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-MPD"
+    }
+  ],
+  "description": "5 ml klaasampullid, 5 ampulli alusel. 2 alust pakendis.  Pakendi suurus: 10 ampulli.",
+  "_description": {
+    "extension": [
+      {
+        "url": "http://ema.europa.eu/fhir/extension/language",
+        "valueCoding": {
+          "system": "https://spor.ema.europa.eu/v1/lists/100000072057",
+          "code": "100000072172",
+          "display": "Estonian"
+        }
+      }
+    ]
+  },
+  "marketingStatus": [
+    {
+      "country": {
+        "coding": [
+          {
+            "system": "https://spor.ema.europa.eu/v1/lists/100000000002",
+            "code": "100000000388",
+            "display": "Republic of Estonia"
+          }
+        ]
+      },
+      "status": {
+        "coding": [
+          {
+            "system": "https://spor.ema.europa.eu/v1/lists/100000072052",
+            "code": "100000072083",
+            "display": "Marketed"
+          }
+        ]
+      }
+    }
+  ],
+  "package": {
+    "type": {
+      "coding": [
+        {
+          "system": "https://spor.ema.europa.eu/v1/lists/100000073346",
+          "code": "100000073498",
+          "display": "Box"
+        }
+      ]
+    },
+    "quantity": 1,
+    "material": [
+      {
+        "coding": [
+          {
+            "system": "https://spor.ema.europa.eu/v1/lists/200000003199",
+            "code": "200000003529",
+            "display": "Cardboard"
+          }
+        ]
+      }
+    ],
+    "package": [
+      {
+        "type": {
+          "coding": [
+            {
+              "system": "https://spor.ema.europa.eu/v1/lists/100000073346",
+              "code": "100000073490",
+              "display": "Ampoule"
+            }
+          ]
+        },
+        "quantity": 10,
+        "material": [
+          {
+            "coding": [
+              {
+                "system": "https://spor.ema.europa.eu/v1/lists/200000003199",
+                "code": "200000003203",
+                "display": "Glass"
+              }
+            ]
+          }
+        ],
+        "containedItem": [
+          {
+            "item": {
+              "reference": {
+                "reference": "ManufacturedItemDefinition/Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-MID"
+              }
+            },
+            "amount": {
+              "value": 1
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Ingredient xmlns="http://hl7.org/fhir">
+  <id value="Taflotan-0.015mg-1ml-eye-drops-solution-EE-I"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Ingredient</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Ingredient "Taflotan-0.015mg-1ml-eye-drops-solution-EE-I" </p></div><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href="MedicinalProductDefinition-Taflotan-0.015mg-1ml-eye-drops-solution-EE-MPD.html">MedicinalProductDefinition/Taflotan-0.015mg-1ml-eye-drops-solution-EE-MPD</a></li><li><a href="ManufacturedItemDefinition-Taflotan-0.015mg-1ml-eye-drops-solution-EE-MID.html">ManufacturedItemDefinition/Taflotan-0.015mg-1ml-eye-drops-solution-EE-MID</a></li><li><a href="AdministrableProductDefinition-Taflotan-0.015mg-1ml-eye-drops-solution-EE-APD.html">AdministrableProductDefinition/Taflotan-0.015mg-1ml-eye-drops-solution-EE-APD</a></li></ul><p><b>role</b>: Active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072050#100000072072)</span></p><blockquote><p><b>substance</b></p><blockquote><p><b>strength</b></p><p><b>presentation</b>: </p></blockquote></blockquote><p><b style="color: maroon">Exception generating Narrative: null</b></p></div>
+  </text>
+  <status value="active"/>
+  <for>
+    <reference value="MedicinalProductDefinition/Taflotan-0.015mg-1ml-eye-drops-solution-EE-MPD"/>
+  </for>
+  <for>
+    <reference value="ManufacturedItemDefinition/Taflotan-0.015mg-1ml-eye-drops-solution-EE-MID"/>
+  </for>
+  <for>
+    <reference value="AdministrableProductDefinition/Taflotan-0.015mg-1ml-eye-drops-solution-EE-APD"/>
+  </for>
+  <role>
+    <coding>
+      <system value="https://spor.ema.europa.eu/v1/lists/100000072050"/>
+      <code value="100000072072"/>
+      <display value="Active"/>
+    </coding>
+  </role>
+  <substance>
+    <code>
+      <concept>
+        <coding>
+          <system value="https://spor.ema.europa.eu/v2/SubstanceDefinition"/>
+          <code value="100000115886"/>
+          <display value="Tafluprost"/>
+        </coding>
+      </concept>
+    </code>
+    <strength>
+      <presentationRatio>
+        <numerator>
+          <value value="0.45"/>
+          <comparator>
+            <extension url="http://ema.europa.eu/fhir/extension/comparator">
+              <valueCoding>
+                <system value="https://spor.ema.europa.eu/v1/lists/100000000008"/>
+                <code value="100000000049"/>
+                <display value="equal to"/>
+              </valueCoding>
+            </extension>
+          </comparator>
+          <unit value="microgram(s)"/>
+          <system value="https://spor.ema.europa.eu/v1/lists/100000110633"/>
+          <code value="100000110656"/>
+        </numerator>
+        <denominator>
+          <value value="1"/>
+          <unit value="Drop"/>
+          <system value="https://spor.ema.europa.eu/v1/lists/200000000014"/>
+          <code value="200000002121"/>
+        </denominator>
+      </presentationRatio>
+    </strength>
+    <strength>
+      <concentrationRatio>
+        <numerator>
+          <value value="15"/>
+          <comparator>
+            <extension url="http://ema.europa.eu/fhir/extension/comparator">
+              <valueCoding>
+                <system value="https://spor.ema.europa.eu/v1/lists/100000000008"/>
+                <code value="100000000049"/>
+                <display value="equal to"/>
+              </valueCoding>
+            </extension>
+          </comparator>
+          <unit value="microgram(s)"/>
+          <system value="https://spor.ema.europa.eu/v1/lists/100000110633"/>
+          <code value="100000110656"/>
+        </numerator>
+        <denominator>
+          <value value="1"/>
+          <unit value="millilitre(s)"/>
+          <system value="https://spor.ema.europa.eu/v1/lists/100000110633"/>
+          <code value="100000110662"/>
+        </denominator>
+      </concentrationRatio>
+    </strength>
+  </substance>
+</Ingredient>

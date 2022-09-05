@@ -1,0 +1,128 @@
+{
+  "resourceType": "PackagedProductDefinition",
+  "id": "Clexane-60mg-0.6ml-solinj-EE-PPD-1065552",
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PackagedProductDefinition</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition \"Clexane-60mg-0.6ml-solinj-EE-PPD-1065552\" </p></div><p><b>Extension Definition for PackagedProductDefinition.containedItemQuantity for Version 5.0</b>: 2 Syringe<span style=\"background: LightGoldenRodYellow\"> (Details: http://spor.ema.europa.eu/v1/lists/200000000014 code 200000002150 = '200000002150')</span></p><p><b>identifier</b>: id: EE-100001368-34217-1065552</p><p><b>packageFor</b>: <a href=\"MedicinalProductDefinition-Clexane-60mg-0.6ml-solinj-EE-MPD.html\">MedicinalProductDefinition/Clexane-60mg-0.6ml-solinj-EE-MPD</a></p><p><b>description</b>: CLEXANE 6000 RÜ (60 mg)/0,6 ml: süstelahus süstlites (I tüüpi klaas), mis on varustatud kummikorgiga (klorobutüül ja bromobutüül) ning süstimisnõelaga (automaatse ohutussüsteemiga ERIS või PREVENTIS või ilma). </p><blockquote><p><b>package</b></p><p><b>type</b>: Box <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003529)</span></p><blockquote><p><b>package</b></p><p><b>type</b>: Pre-filled syringe <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073544)</span></p><p><b>quantity</b>: 2</p><p><b>material</b>: Glass type I <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003204)</span></p></blockquote></blockquote></div>"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-PackagedProductDefinition.containedItemQuantity",
+      "valueQuantity": {
+        "value": 2,
+        "unit": "Syringe",
+        "system": "http://spor.ema.europa.eu/v1/lists/200000000014",
+        "code": "200000002150"
+      }
+    }
+  ],
+  "identifier": [
+    {
+      "system": "http://ema.europa.eu/example/pcid",
+      "value": "EE-100001368-34217-1065552"
+    }
+  ],
+  "packageFor": [
+    {
+      "reference": "MedicinalProductDefinition/Clexane-60mg-0.6ml-solinj-EE-MPD"
+    }
+  ],
+  "description": "CLEXANE 6000 RÜ (60 mg)/0,6 ml: süstelahus süstlites (I tüüpi klaas), mis on varustatud kummikorgiga (klorobutüül ja bromobutüül) ning süstimisnõelaga (automaatse ohutussüsteemiga ERIS või PREVENTIS või ilma). ",
+  "_description": {
+    "extension": [
+      {
+        "url": "http://ema.europa.eu/fhir/extension/language",
+        "valueCoding": {
+          "system": "https://spor.ema.europa.eu/v1/lists/100000072057",
+          "code": "100000072172",
+          "display": "Estonian"
+        }
+      }
+    ]
+  },
+  "marketingStatus": [
+    {
+      "country": {
+        "coding": [
+          {
+            "system": "https://spor.ema.europa.eu/v1/lists/100000000002",
+            "code": "100000000388",
+            "display": "Republic of Estonia"
+          }
+        ]
+      },
+      "status": {
+        "coding": [
+          {
+            "system": "https://spor.ema.europa.eu/v1/lists/100000072052",
+            "code": "100000072083",
+            "display": "Marketed"
+          }
+        ]
+      }
+    }
+  ],
+  "package": {
+    "type": {
+      "coding": [
+        {
+          "system": "https://spor.ema.europa.eu/v1/lists/100000073346",
+          "code": "100000073498",
+          "display": "Box"
+        }
+      ]
+    },
+    "quantity": 1,
+    "material": [
+      {
+        "coding": [
+          {
+            "system": "https://spor.ema.europa.eu/v1/lists/200000003199",
+            "code": "200000003529",
+            "display": "Cardboard"
+          }
+        ]
+      }
+    ],
+    "package": [
+      {
+        "type": {
+          "coding": [
+            {
+              "system": "https://spor.ema.europa.eu/v1/lists/100000073346",
+              "code": "100000073544",
+              "display": "Pre-filled syringe"
+            }
+          ]
+        },
+        "quantity": 2,
+        "material": [
+          {
+            "coding": [
+              {
+                "system": "https://spor.ema.europa.eu/v1/lists/200000003199",
+                "code": "200000003204",
+                "display": "Glass type I"
+              }
+            ]
+          }
+        ],
+        "containedItem": [
+          {
+            "item": {
+              "reference": {
+                "reference": "ManufacturedItemDefinition/Clexane-60mg-0.6ml-solinj-EE-MID"
+              }
+            },
+            "amount": {
+              "value": 0.6,
+              "unit": "millilitre(s)",
+              "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+              "code": "100000110662"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

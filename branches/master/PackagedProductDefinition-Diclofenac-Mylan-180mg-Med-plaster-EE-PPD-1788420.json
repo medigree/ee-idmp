@@ -1,0 +1,155 @@
+{
+  "resourceType": "PackagedProductDefinition",
+  "id": "Diclofenac-Mylan-180mg-Med-plaster-EE-PPD-1788420",
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PackagedProductDefinition</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition \"Diclofenac-Mylan-180mg-Med-plaster-EE-PPD-1788420\" </p></div><p><b>Extension Definition for PackagedProductDefinition.containedItemQuantity for Version 5.0</b>: 10 Plaster<span style=\"background: LightGoldenRodYellow\"> (Details: http://spor.ema.europa.eu/v1/lists/200000000014 code 200000002140 = '200000002140')</span></p><p><b>identifier</b>: id: EE-100022866-36016-1788420</p><p><b>packageFor</b>: <a href=\"MedicinalProductDefinition-Diclofenac-Mylan-180mg-Med-plaster-EE-MPD.html\">MedicinalProductDefinition/Diclofenac-Mylan-180mg-Med-plaster-EE-MPD</a></p><p><b>description</b>: Suletava ümbrise materjal on paber/PE/alumiinium/etüleen ja metüülakrüülhappe kopolümeer. Ümbrises on 5 ravimplaastrit. Pakendi suurus: 5 või 10 ravimplaastrit karbis.</p><blockquote><p><b>package</b></p><p><b>type</b>: Box <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003529)</span></p><blockquote><p><b>package</b></p><p><b>type</b>: Pouch <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073540)</span></p><p><b>quantity</b>: 2</p><p><b>material</b>: Paper <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003207)</span>, PolyEthylene <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003214)</span>, Ethylene meta-acrylic acid <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000012521)</span>, Aluminium <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003200)</span></p></blockquote></blockquote></div>"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-PackagedProductDefinition.containedItemQuantity",
+      "valueQuantity": {
+        "value": 10,
+        "unit": "Plaster",
+        "system": "http://spor.ema.europa.eu/v1/lists/200000000014",
+        "code": "200000002140"
+      }
+    }
+  ],
+  "identifier": [
+    {
+      "system": "http://ema.europa.eu/example/pcid",
+      "value": "EE-100022866-36016-1788420"
+    }
+  ],
+  "packageFor": [
+    {
+      "reference": "MedicinalProductDefinition/Diclofenac-Mylan-180mg-Med-plaster-EE-MPD"
+    }
+  ],
+  "description": "Suletava ümbrise materjal on paber/PE/alumiinium/etüleen ja metüülakrüülhappe kopolümeer. Ümbrises on 5 ravimplaastrit. Pakendi suurus: 5 või 10 ravimplaastrit karbis.",
+  "_description": {
+    "extension": [
+      {
+        "url": "http://ema.europa.eu/fhir/extension/language",
+        "valueCoding": {
+          "system": "https://spor.ema.europa.eu/v1/lists/100000072057",
+          "code": "100000072172",
+          "display": "Estonian"
+        }
+      }
+    ]
+  },
+  "marketingStatus": [
+    {
+      "country": {
+        "coding": [
+          {
+            "system": "https://spor.ema.europa.eu/v1/lists/100000000002",
+            "code": "100000000388",
+            "display": "Republic of Estonia"
+          }
+        ]
+      },
+      "status": {
+        "coding": [
+          {
+            "system": "https://spor.ema.europa.eu/v1/lists/100000072052",
+            "code": "100000072083",
+            "display": "Marketed"
+          }
+        ]
+      }
+    }
+  ],
+  "package": {
+    "type": {
+      "coding": [
+        {
+          "system": "https://spor.ema.europa.eu/v1/lists/100000073346",
+          "code": "100000073498",
+          "display": "Box"
+        }
+      ]
+    },
+    "quantity": 1,
+    "material": [
+      {
+        "coding": [
+          {
+            "system": "https://spor.ema.europa.eu/v1/lists/200000003199",
+            "code": "200000003529",
+            "display": "Cardboard"
+          }
+        ]
+      }
+    ],
+    "package": [
+      {
+        "type": {
+          "coding": [
+            {
+              "system": "https://spor.ema.europa.eu/v1/lists/100000073346",
+              "code": "100000073540",
+              "display": "Pouch"
+            }
+          ]
+        },
+        "quantity": 2,
+        "material": [
+          {
+            "coding": [
+              {
+                "system": "https://spor.ema.europa.eu/v1/lists/200000003199",
+                "code": "200000003207",
+                "display": "Paper"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "https://spor.ema.europa.eu/v1/lists/200000003199",
+                "code": "200000003214",
+                "display": "PolyEthylene"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "https://spor.ema.europa.eu/v1/lists/200000003199",
+                "code": "200000012521",
+                "display": "Ethylene meta-acrylic acid"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "https://spor.ema.europa.eu/v1/lists/200000003199",
+                "code": "200000003200",
+                "display": "Aluminium"
+              }
+            ]
+          }
+        ],
+        "containedItem": [
+          {
+            "item": {
+              "reference": {
+                "reference": "ManufacturedItemDefinition/Diclofenac-Mylan-180mg-Med-plaster-EE-MID"
+              }
+            },
+            "amount": {
+              "value": 10,
+              "unit": "Plaster",
+              "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+              "code": "200000002140"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

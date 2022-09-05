@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PackagedProductDefinition xmlns="http://hl7.org/fhir">
+  <id value="Zoladex-3.6mg-Implant-EE-PPD-1002621"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: PackagedProductDefinition</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource PackagedProductDefinition "Zoladex-3.6mg-Implant-EE-PPD-1002621" </p></div><p><b>Extension Definition for PackagedProductDefinition.containedItemQuantity for Version 5.0</b>: 1 Syringe<span style="background: LightGoldenRodYellow"> (Details: http://spor.ema.europa.eu/v1/lists/200000000014 code 200000002150 = '200000002150')</span></p><p><b>identifier</b>: id: EE-EE-100014112-12130-1002621</p><p><b>packageFor</b>: <a href="MedicinalProductDefinition-Zoladex-3.6mg-Implant-EE-MPD.html">MedicinalProductDefinition/Zoladex-3.6mg-Implant-EE-MPD</a></p><p><b>description</b>: Üht implantaati sisaldav Safe System nõela kaitsva kattega süstel.</p><blockquote><p><b>package</b></p><p><b>type</b>: Box <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073346#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000003199#200000003529)</span></p><blockquote><p><b>package</b></p><p><b>type</b>: Pre-filled syringe <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073346#100000073544)</span></p><p><b>quantity</b>: 1</p></blockquote></blockquote></div>
+  </text>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-PackagedProductDefinition.containedItemQuantity">
+    <valueQuantity>
+      <value value="1"/>
+      <unit value="Syringe"/>
+      <system value="http://spor.ema.europa.eu/v1/lists/200000000014"/>
+      <code value="200000002150"/>
+    </valueQuantity>
+  </extension>
+  <identifier>
+    <system value="http://ema.europa.eu/example/pcid"/>
+    <value value="EE-EE-100014112-12130-1002621"/>
+  </identifier>
+  <packageFor>
+    <reference value="MedicinalProductDefinition/Zoladex-3.6mg-Implant-EE-MPD"/>
+  </packageFor>
+  <description value="Üht implantaati sisaldav Safe System nõela kaitsva kattega süstel.">
+    <extension url="http://ema.europa.eu/fhir/extension/language">
+      <valueCoding>
+        <system value="https://spor.ema.europa.eu/v1/lists/100000072057"/>
+        <code value="100000072172"/>
+        <display value="Estonian"/>
+      </valueCoding>
+    </extension>
+  </description>
+  <marketingStatus>
+    <country>
+      <coding>
+        <system value="https://spor.ema.europa.eu/v1/lists/100000000002"/>
+        <code value="100000000388"/>
+        <display value="Republic of Estonia"/>
+      </coding>
+    </country>
+    <status>
+      <coding>
+        <system value="https://spor.ema.europa.eu/v1/lists/100000072052"/>
+        <code value="100000072083"/>
+        <display value="Marketed"/>
+      </coding>
+    </status>
+  </marketingStatus>
+  <package>
+    <type>
+      <coding>
+        <system value="https://spor.ema.europa.eu/v1/lists/100000073346"/>
+        <code value="100000073498"/>
+        <display value="Box"/>
+      </coding>
+    </type>
+    <quantity value="1"/>
+    <material>
+      <coding>
+        <system value="https://spor.ema.europa.eu/v1/lists/200000003199"/>
+        <code value="200000003529"/>
+        <display value="Cardboard"/>
+      </coding>
+    </material>
+    <package>
+      <type>
+        <coding>
+          <system value="https://spor.ema.europa.eu/v1/lists/100000073346"/>
+          <code value="100000073544"/>
+          <display value="Pre-filled syringe"/>
+        </coding>
+      </type>
+      <quantity value="1"/>
+      <containedItem>
+        <item>
+          <reference>
+            <reference value="ManufacturedItemDefinition/Zoladex-3.6mg-Implant-EE-MID"/>
+          </reference>
+        </item>
+        <amount>
+          <value value="1"/>
+        </amount>
+      </containedItem>
+    </package>
+  </package>
+</PackagedProductDefinition>

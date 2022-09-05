@@ -1,0 +1,50 @@
+{
+  "resourceType": "AdministrableProductDefinition",
+  "id": "Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-APD",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: AdministrableProductDefinition</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource AdministrableProductDefinition \"Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-APD\" </p></div><p><b>status</b>: active</p><p><b>formOf</b>: <a href=\"MedicinalProductDefinition-Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-MPD.html\">MedicinalProductDefinition/Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-MPD</a></p><p><b>administrableDoseForm</b>: Solution for injection/infusion <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000000004#100000074038)</span></p><p><b>unitOfPresentation</b>: Vial <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000000014#200000002158)</span></p><p><b>producedFrom</b>: <a href=\"ManufacturedItemDefinition-Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-MID.html\">ManufacturedItemDefinition/Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-MID</a></p><h3>RouteOfAdministrations</h3><table class=\"grid\"><tr><td>-</td><td><b>Code</b></td></tr><tr><td>*</td><td>Intravenous use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073345#100000073611)</span></td></tr></table></div>"
+  },
+  "status": "active",
+  "formOf": [
+    {
+      "reference": "MedicinalProductDefinition/Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-MPD"
+    }
+  ],
+  "administrableDoseForm": {
+    "coding": [
+      {
+        "system": "https://spor.ema.europa.eu/v1/lists/200000000004",
+        "code": "100000074038",
+        "display": "Solution for injection/infusion"
+      }
+    ]
+  },
+  "unitOfPresentation": {
+    "coding": [
+      {
+        "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+        "code": "200000002158",
+        "display": "Vial"
+      }
+    ]
+  },
+  "producedFrom": [
+    {
+      "reference": "ManufacturedItemDefinition/Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-MID"
+    }
+  ],
+  "routeOfAdministration": [
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "https://spor.ema.europa.eu/v1/lists/100000073345",
+            "code": "100000073611",
+            "display": "Intravenous use"
+          }
+        ]
+      }
+    }
+  ]
+}

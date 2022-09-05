@@ -1,0 +1,9 @@
+[
+  {
+    "id": "ee.fhir.idmp",
+    "type": "ImplementationGuide",
+    "url": "http://medigree.net/fhir/ee/idmp/ImplementationGuide/ee.fhir.idmp",
+    "version": "0.1.0",
+    "name": "EEIDMP"
+  }
+]
