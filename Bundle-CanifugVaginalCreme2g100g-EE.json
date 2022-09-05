@@ -1,0 +1,558 @@
+{
+  "resourceType": "Bundle",
+  "id": "CanifugVaginalCreme2g100g-EE",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2022-08-23T06:28:27.484+00:00"
+  },
+  "type": "transaction",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "MedicinalProductDefinition",
+        "id": "Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-MPD",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicinalProductDefinition</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicinalProductDefinition \"Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-MPD\" </p></div><p><b>identifier</b>: id: 0000000000004, id: EE-100004795-10275</p><p><b>domain</b>: Human use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000004#100000000012)</span></p><p><b>status</b>: Current <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000005003#200000005004; <a href=\"http://build.fhir.org/codesystem-publication-status.html\">PublicationStatus</a>#active \"Active\")</span></p><p><b>legalStatusOfSupply</b>: Medicinal Product subject to medical prescription <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072051#100000072084)</span></p><p><b>additionalMonitoringIndicator</b>: False <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (additionalMonitoringIndicator#False)</span></p><p><b>classification</b>: Clotrimazole <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000093533#100000095693; <a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-atc.html\">WHO ATC</a>#G01AF02)</span></p><blockquote><p><b>name</b></p><p><b>productName</b>: Canifug Vaginalcreme 2%, vaginaalkreem</p><blockquote><p><b>namePart</b></p><p><b>part</b>: Canifug Vaginalcreme</p><p><b>type</b>: Invented name part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000002)</span></p></blockquote><blockquote><p><b>namePart</b></p><p><b>part</b>: 2g/100g</p><p><b>type</b>: Strength part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000004)</span></p></blockquote><blockquote><p><b>namePart</b></p><p><b>part</b>: vaginaalkreem</p><p><b>type</b>: Pharmaceutical dose form part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000005)</span></p></blockquote><h3>CountryLanguages</h3><table class=\"grid\"><tr><td>-</td><td><b>Country</b></td><td><b>Language</b></td></tr><tr><td>*</td><td>Republic of Estonia <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000002#100000000388)</span></td><td>Estonian <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072057#100000072172)</span></td></tr></table></blockquote></div>"
+        },
+        "extension": [
+          {
+            "url": "http://ema.europa.eu/fhir/extension/authorisedDoseForm",
+            "valueCoding": {
+              "system": "https://spor.ema.europa.eu/v1/lists/200000000004",
+              "code": "100000073811",
+              "display": "Vaginal cream"
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://ema.europa.eu/fhir/pmsId",
+            "value": "0000000000004"
+          },
+          {
+            "system": "http://ema.europa.eu/fhir/mpId",
+            "value": "EE-100004795-10275"
+          }
+        ],
+        "domain": {
+          "coding": [
+            {
+              "system": "https://spor.ema.europa.eu/v1/lists/100000000004",
+              "code": "100000000012",
+              "display": "Human use"
+            }
+          ]
+        },
+        "status": {
+          "coding": [
+            {
+              "system": "https://spor.ema.europa.eu/v1/lists/200000005003",
+              "code": "200000005004",
+              "display": "Current"
+            },
+            {
+              "system": "http://hl7.org/fhir/publication-status",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "legalStatusOfSupply": {
+          "coding": [
+            {
+              "system": "https://spor.ema.europa.eu/v1/lists/100000072051",
+              "code": "100000072084",
+              "display": "Medicinal Product subject to medical prescription"
+            }
+          ]
+        },
+        "additionalMonitoringIndicator": {
+          "coding": [
+            {
+              "system": "http://ema.europa.eu/fhir/additionalMonitoringIndicator",
+              "code": "False",
+              "display": "False"
+            }
+          ]
+        },
+        "classification": [
+          {
+            "coding": [
+              {
+                "system": "https://spor.ema.europa.eu/v1/lists/100000093533",
+                "code": "100000095693",
+                "display": "Clotrimazole"
+              },
+              {
+                "system": "http://www.whocc.no/atc",
+                "code": "G01AF02",
+                "display": "Clotrimazole"
+              }
+            ]
+          }
+        ],
+        "name": [
+          {
+            "productName": "Canifug Vaginalcreme 2%, vaginaalkreem",
+            "namePart": [
+              {
+                "part": "Canifug Vaginalcreme",
+                "type": {
+                  "coding": [
+                    {
+                      "system": "https://spor.ema.europa.eu/v1/lists/220000000000",
+                      "code": "220000000002",
+                      "display": "Invented name part"
+                    }
+                  ]
+                }
+              },
+              {
+                "part": "2g/100g",
+                "type": {
+                  "coding": [
+                    {
+                      "system": "https://spor.ema.europa.eu/v1/lists/220000000000",
+                      "code": "220000000004",
+                      "display": "Strength part"
+                    }
+                  ]
+                }
+              },
+              {
+                "part": "vaginaalkreem",
+                "type": {
+                  "coding": [
+                    {
+                      "system": "https://spor.ema.europa.eu/v1/lists/220000000000",
+                      "code": "220000000005",
+                      "display": "Pharmaceutical dose form part"
+                    }
+                  ]
+                }
+              }
+            ],
+            "countryLanguage": [
+              {
+                "country": {
+                  "coding": [
+                    {
+                      "system": "https://spor.ema.europa.eu/v1/lists/100000000002",
+                      "code": "100000000388",
+                      "display": "Republic of Estonia"
+                    }
+                  ]
+                },
+                "language": {
+                  "coding": [
+                    {
+                      "system": "https://spor.ema.europa.eu/v1/lists/100000072057",
+                      "code": "100000072172",
+                      "display": "Estonian"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "MedicinalProductDefinition/Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-MPD"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "RegulatedAuthorization",
+        "id": "Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-RA",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: RegulatedAuthorization</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource RegulatedAuthorization \"Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-RA\" </p></div><p><b>identifier</b>: id: 260599</p><p><b>subject</b>: <a href=\"#MedicinalProductDefinition_Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-MPD\">See above (MedicinalProductDefinition/Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-MPD)</a></p><p><b>type</b>: Marketing Authorisation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000060#220000000061)</span></p><p><b>region</b>: Republic of Estonia <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000000002#100000000388)</span></p><p><b>status</b>: Valid - Renewed/Varied <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072049#200000017708)</span></p><p><b>statusDate</b>: 2010-06-29</p><p><b>holder</b>: <span>: Dr. August Wolff GmbH &amp; Co. KG Arzneimittel </span></p></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://ema.europa.eu/fhir/marketingAuthorizationNumber",
+            "value": "260599"
+          }
+        ],
+        "subject": [
+          {
+            "reference": "MedicinalProductDefinition/Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-MPD"
+          }
+        ],
+        "type": {
+          "coding": [
+            {
+              "system": "https://spor.ema.europa.eu/v1/lists/220000000060",
+              "code": "220000000061",
+              "display": "Marketing Authorisation"
+            }
+          ]
+        },
+        "region": [
+          {
+            "coding": [
+              {
+                "system": "https://spor.ema.europa.eu/v1/lists/100000000002",
+                "code": "100000000388",
+                "display": "Republic of Estonia"
+              }
+            ]
+          }
+        ],
+        "status": {
+          "coding": [
+            {
+              "system": "https://spor.ema.europa.eu/v1/lists/100000072049",
+              "code": "200000017708",
+              "display": "Valid - Renewed/Varied"
+            }
+          ]
+        },
+        "statusDate": "2010-06-29",
+        "holder": {
+          "identifier": {
+            "system": "https://spor.ema.europa.eu/v1/locations",
+            "value": "LOC-100004795"
+          },
+          "display": "Dr. August Wolff GmbH & Co. KG Arzneimittel "
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "RegulatedAuthorization/Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-RA"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "AdministrableProductDefinition",
+        "id": "Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-APD",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: AdministrableProductDefinition</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource AdministrableProductDefinition \"Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-APD\" </p></div><p><b>status</b>: active</p><p><b>formOf</b>: <a href=\"#MedicinalProductDefinition_Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-MPD\">See above (MedicinalProductDefinition/Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-MPD)</a></p><p><b>administrableDoseForm</b>: Vaginal cream <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000000004#100000073811)</span></p><p><b>unitOfPresentation</b>: Tube <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000000014#200000002156)</span></p><p><b>producedFrom</b>: <a href=\"#ManufacturedItemDefinition_Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-MID\">See above (ManufacturedItemDefinition/Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-MID)</a></p><h3>RouteOfAdministrations</h3><table class=\"grid\"><tr><td>-</td><td><b>Code</b></td></tr><tr><td>*</td><td>Vaginal use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073345#100000073639)</span></td></tr></table></div>"
+        },
+        "status": "active",
+        "formOf": [
+          {
+            "reference": "MedicinalProductDefinition/Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-MPD"
+          }
+        ],
+        "administrableDoseForm": {
+          "coding": [
+            {
+              "system": "https://spor.ema.europa.eu/v1/lists/200000000004",
+              "code": "100000073811",
+              "display": "Vaginal cream"
+            }
+          ]
+        },
+        "unitOfPresentation": {
+          "coding": [
+            {
+              "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+              "code": "200000002156",
+              "display": "Tube"
+            }
+          ]
+        },
+        "producedFrom": [
+          {
+            "reference": "ManufacturedItemDefinition/Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-MID"
+          }
+        ],
+        "routeOfAdministration": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "https://spor.ema.europa.eu/v1/lists/100000073345",
+                  "code": "100000073639",
+                  "display": "Vaginal use"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "AdministrableProductDefinition/Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-APD"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ManufacturedItemDefinition",
+        "id": "Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-MID",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ManufacturedItemDefinition</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ManufacturedItemDefinition \"Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-MID\" </p></div><p><b>status</b>: active</p><p><b>manufacturedDoseForm</b>: Vaginal Cream <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000000004#100000073811)</span></p><p><b>unitOfPresentation</b>: Tube <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000000014#2000000021563)</span></p></div>"
+        },
+        "status": "active",
+        "manufacturedDoseForm": {
+          "coding": [
+            {
+              "system": "https://spor.ema.europa.eu/v1/lists/200000000004",
+              "code": "100000073811",
+              "display": "Vaginal Cream"
+            }
+          ]
+        },
+        "unitOfPresentation": {
+          "coding": [
+            {
+              "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+              "code": "2000000021563",
+              "display": "Tube"
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ManufacturedItemDefinition/Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-MID"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Ingredient",
+        "id": "Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-I",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient \"Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-I\" </p></div><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#MedicinalProductDefinition_Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-MPD\">See above (MedicinalProductDefinition/Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-MPD)</a></li><li><a href=\"#ManufacturedItemDefinition_Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-MID\">See above (ManufacturedItemDefinition/Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-MID)</a></li><li><a href=\"#AdministrableProductDefinition_Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-APD\">See above (AdministrableProductDefinition/Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-APD)</a></li></ul><p><b>role</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000072050#100000072072)</span></p><blockquote><p><b>substance</b></p><blockquote><p><b>strength</b></p><p><b>concentration</b>: </p></blockquote></blockquote><p><b style=\"color: maroon\">Exception generating Narrative: null</b></p></div>"
+        },
+        "status": "active",
+        "for": [
+          {
+            "reference": "MedicinalProductDefinition/Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-MPD"
+          },
+          {
+            "reference": "ManufacturedItemDefinition/Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-MID"
+          },
+          {
+            "reference": "AdministrableProductDefinition/Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-APD"
+          }
+        ],
+        "role": {
+          "coding": [
+            {
+              "system": "https://spor.ema.europa.eu/v1/lists/100000072050",
+              "code": "100000072072",
+              "display": "Active"
+            }
+          ]
+        },
+        "substance": {
+          "code": {
+            "concept": {
+              "coding": [
+                {
+                  "system": "https://spor.ema.europa.eu/v2/SubstanceDefinition",
+                  "code": "100000092074",
+                  "display": "CLOTRIMAZOLE"
+                }
+              ]
+            }
+          },
+          "strength": [
+            {
+              "concentrationRatio": {
+                "numerator": {
+                  "value": 2,
+                  "_comparator": {
+                    "extension": [
+                      {
+                        "url": "http://ema.europa.eu/fhir/extension/comparator",
+                        "valueCoding": {
+                          "system": "https://spor.ema.europa.eu/v1/lists/100000000008",
+                          "code": "100000000049",
+                          "display": "equal to"
+                        }
+                      }
+                    ]
+                  },
+                  "unit": "milligram(s)",
+                  "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+                  "code": "100000110655"
+                },
+                "denominator": {
+                  "value": 1,
+                  "unit": "gram(s)",
+                  "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+                  "code": "100000110654"
+                }
+              }
+            },
+            {
+              "presentationRatio": {
+                "numerator": {
+                  "value": 40,
+                  "_comparator": {
+                    "extension": [
+                      {
+                        "url": "http://ema.europa.eu/fhir/extension/comparator",
+                        "valueCoding": {
+                          "system": "https://spor.ema.europa.eu/v1/lists/100000000008",
+                          "code": "100000000049",
+                          "display": "equal to"
+                        }
+                      }
+                    ]
+                  },
+                  "unit": "milligram(s)",
+                  "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+                  "code": "100000110655"
+                },
+                "denominator": {
+                  "value": 1,
+                  "unit": "Tube",
+                  "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+                  "code": "200000002156"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Ingredient/Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-I"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "PackagedProductDefinition",
+        "id": "Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-PPD-1033647",
+        "text": {
+          "status": "extensions",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PackagedProductDefinition</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition \"Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-PPD-1033647\" </p></div><p><b>Extension Definition for PackagedProductDefinition.containedItemQuantity for Version 5.0</b>: 1 Tube<span style=\"background: LightGoldenRodYellow\"> (Details: http://spor.ema.europa.eu/v1/lists/200000000014 code 200000002156 = '200000002156')</span></p><p><b>identifier</b>: id: EE-100004795-10275-1033647</p><p><b>packageFor</b>: <a href=\"#MedicinalProductDefinition_Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-MPD\">See above (MedicinalProductDefinition/Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-MPD)</a></p><p><b>description</b>: Alumiiniumtuub välispakendis. Tuub, mis sisaldab 20 g vaginaalkreemi ja 3 vaginaalseks kasutamiseks ette nähtud ühekordset aplikaatorit.</p><blockquote><p><b>package</b></p><p><b>type</b>: Box <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003529)</span></p><blockquote><p><b>package</b></p><p><b>type</b>: Tube <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073346)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Aluminium <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003200)</span></p></blockquote></blockquote></div>"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-PackagedProductDefinition.containedItemQuantity",
+            "valueQuantity": {
+              "value": 1,
+              "unit": "Tube",
+              "system": "http://spor.ema.europa.eu/v1/lists/200000000014",
+              "code": "200000002156"
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://ema.europa.eu/example/pcid",
+            "value": "EE-100004795-10275-1033647"
+          }
+        ],
+        "packageFor": [
+          {
+            "reference": "MedicinalProductDefinition/Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-MPD"
+          }
+        ],
+        "description": "Alumiiniumtuub välispakendis. Tuub, mis sisaldab 20 g vaginaalkreemi ja 3 vaginaalseks kasutamiseks ette nähtud ühekordset aplikaatorit.",
+        "_description": {
+          "extension": [
+            {
+              "url": "http://ema.europa.eu/fhir/extension/language",
+              "valueCoding": {
+                "system": "https://spor.ema.europa.eu/v1/lists/100000072057",
+                "code": "100000072172",
+                "display": "Estonian"
+              }
+            }
+          ]
+        },
+        "marketingStatus": [
+          {
+            "country": {
+              "coding": [
+                {
+                  "system": "https://spor.ema.europa.eu/v1/lists/100000000002",
+                  "code": "100000000388",
+                  "display": "Republic of Estonia"
+                }
+              ]
+            },
+            "status": {
+              "coding": [
+                {
+                  "system": "https://spor.ema.europa.eu/v1/lists/100000072052",
+                  "code": "100000072083",
+                  "display": "Marketed"
+                }
+              ]
+            }
+          }
+        ],
+        "package": {
+          "type": {
+            "coding": [
+              {
+                "system": "https://spor.ema.europa.eu/v1/lists/100000073346",
+                "code": "100000073498",
+                "display": "Box"
+              }
+            ]
+          },
+          "quantity": 1,
+          "material": [
+            {
+              "coding": [
+                {
+                  "system": "https://spor.ema.europa.eu/v1/lists/200000003199",
+                  "code": "200000003529",
+                  "display": "Cardboard"
+                }
+              ]
+            }
+          ],
+          "package": [
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "https://spor.ema.europa.eu/v1/lists/100000073346",
+                    "code": "100000073346",
+                    "display": "Tube"
+                  }
+                ]
+              },
+              "quantity": 1,
+              "material": [
+                {
+                  "coding": [
+                    {
+                      "system": "https://spor.ema.europa.eu/v1/lists/200000003199",
+                      "code": "200000003200",
+                      "display": "Aluminium"
+                    }
+                  ]
+                }
+              ],
+              "containedItem": [
+                {
+                  "item": {
+                    "reference": {
+                      "reference": "ManufacturedItemDefinition/Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-MID"
+                    }
+                  },
+                  "amount": {
+                    "value": 20,
+                    "unit": "gram(s)",
+                    "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+                    "code": "100000110654"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "PackagedProductDefinition/Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-PPD-1033647"
+      }
+    }
+  ]
+}

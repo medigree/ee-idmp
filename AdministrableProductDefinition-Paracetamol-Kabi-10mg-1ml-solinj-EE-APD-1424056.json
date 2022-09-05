@@ -1,0 +1,50 @@
+{
+  "resourceType": "AdministrableProductDefinition",
+  "id": "Paracetamol-Kabi-10mg-1ml-solinj-EE-APD-1424056",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: AdministrableProductDefinition</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource AdministrableProductDefinition \"Paracetamol-Kabi-10mg-1ml-solinj-EE-APD-1424056\" </p></div><p><b>status</b>: active</p><p><b>formOf</b>: <a href=\"MedicinalProductDefinition-Paracetamol-Kabi-10mg-1ml-solinj-EE-MPD.html\">MedicinalProductDefinition/Paracetamol-Kabi-10mg-1ml-solinj-EE-MPD</a></p><p><b>administrableDoseForm</b>: Solution for solution for infusion  <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000000004#100000174051)</span></p><p><b>unitOfPresentation</b>: Bag <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000000014#200000002166)</span></p><p><b>producedFrom</b>: <a href=\"ManufacturedItemDefinition-Paracetamol-Kabi-10mg-1ml-solinj-EE-MID-1424056.html\">ManufacturedItemDefinition/Paracetamol-Kabi-10mg-1ml-solinj-EE-MID-1424056</a></p><h3>RouteOfAdministrations</h3><table class=\"grid\"><tr><td>-</td><td><b>Code</b></td></tr><tr><td>*</td><td>Intravenous use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073345#100000073611)</span></td></tr></table></div>"
+  },
+  "status": "active",
+  "formOf": [
+    {
+      "reference": "MedicinalProductDefinition/Paracetamol-Kabi-10mg-1ml-solinj-EE-MPD"
+    }
+  ],
+  "administrableDoseForm": {
+    "coding": [
+      {
+        "system": "https://spor.ema.europa.eu/v1/lists/200000000004",
+        "code": "100000174051",
+        "display": "Solution for solution for infusion "
+      }
+    ]
+  },
+  "unitOfPresentation": {
+    "coding": [
+      {
+        "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+        "code": "200000002166",
+        "display": "Bag"
+      }
+    ]
+  },
+  "producedFrom": [
+    {
+      "reference": "ManufacturedItemDefinition/Paracetamol-Kabi-10mg-1ml-solinj-EE-MID-1424056"
+    }
+  ],
+  "routeOfAdministration": [
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "https://spor.ema.europa.eu/v1/lists/100000073345",
+            "code": "100000073611",
+            "display": "Intravenous use"
+          }
+        ]
+      }
+    }
+  ]
+}

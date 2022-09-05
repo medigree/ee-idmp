@@ -1,0 +1,3055 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ImplementationGuide xmlns="http://hl7.org/fhir">
+  <id value="ee.fhir.idmp"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>EEIDMP</h2><p>The official URL for this implementation guide is: </p><pre>http://medigree.net/fhir/ee/idmp/ImplementationGuide/ee.fhir.idmp</pre><div><p>EE-IDMP</p>
+</div></div>
+  </text>
+  <url value="http://medigree.net/fhir/ee/idmp/ImplementationGuide/ee.fhir.idmp"/>
+  <version value="0.1.0"/>
+  <name value="EEIDMP"/>
+  <title value="EE-IDMP"/>
+  <status value="draft"/>
+  <date value="2022-09-05T10:08:29+00:00"/>
+  <publisher value="Medigree"/>
+  <contact>
+    <name value="Medigree"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://medigree.net"/>
+    </telecom>
+  </contact>
+  <description value="EE-IDMP"/>
+  <packageId value="ee.fhir.idmp"/>
+  <license value="CC0-1.0"/>
+  <fhirVersion value="5.0.0-snapshot1"/>
+  <dependsOn id="hl7tx">
+    <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
+    <packageId value="hl7.terminology.r5"/>
+    <version value="3.0.0"/>
+  </dependsOn>
+  <definition>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="AdministrableProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="AdministrableProductDefinition/Agen-10mg-Tablet-EE-APD"/>
+      </reference>
+      <name value="Agen-10mg-Tablet-EE-APD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/Agen-10mg-Tablet-EE-I"/>
+      </reference>
+      <name value="Agen-10mg-Tablet-EE-I"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ManufacturedItemDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ManufacturedItemDefinition/Agen-10mg-Tablet-EE-MID"/>
+      </reference>
+      <name value="Agen-10mg-Tablet-EE-MID"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicinalProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="MedicinalProductDefinition/Agen-10mg-Tablet-EE-MPD"/>
+      </reference>
+      <name value="Agen-10mg-Tablet-EE-MPD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/Agen-10mg-Tablet-EE-PPD-1109900-A"/>
+      </reference>
+      <name value="Agen-10mg-Tablet-EE-PPD-1109900-A"/>
+      <description value="Tabletid on pakendatud PVC/PVDC/Al blistritesse (valged) või PVC/Al blistritesse (valged)."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/Agen-10mg-Tablet-EE-PPD-1109900-B"/>
+      </reference>
+      <name value="Agen-10mg-Tablet-EE-PPD-1109900-B"/>
+      <description value="Tabletid on pakendatud PVC/PVDC/Al blistritesse (valged) või PVC/Al blistritesse (valged)."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="RegulatedAuthorization"/>
+      </extension>
+      <reference>
+        <reference value="RegulatedAuthorization/Agen-10mg-Tablet-EE-RA"/>
+      </reference>
+      <name value="Agen-10mg-Tablet-EE-RA"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="AdministrableProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="AdministrableProductDefinition/Agen-5mg-Tablet-EE-APD"/>
+      </reference>
+      <name value="Agen-5mg-Tablet-EE-APD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/Agen-5mg-Tablet-EE-I"/>
+      </reference>
+      <name value="Agen-5mg-Tablet-EE-I"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ManufacturedItemDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ManufacturedItemDefinition/Agen-5mg-Tablet-EE-MID"/>
+      </reference>
+      <name value="Agen-5mg-Tablet-EE-MID"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicinalProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD"/>
+      </reference>
+      <name value="Agen-5mg-Tablet-EE-MPD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-A"/>
+      </reference>
+      <name value="Agen-5mg-Tablet-EE-PPD-1109887-A"/>
+      <description value="Tabletid on pakendatud PVC/PVDC/Al blistritesse (valged) või PVC/Al blistritesse (valged)."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-B"/>
+      </reference>
+      <name value="Agen-5mg-Tablet-EE-PPD-1109887-B"/>
+      <description value="Tabletid on pakendatud PVC/PVDC/Al blistritesse (valged) või PVC/Al blistritesse (valged)."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="RegulatedAuthorization"/>
+      </extension>
+      <reference>
+        <reference value="RegulatedAuthorization/Agen-5mg-Tablet-EE-RA"/>
+      </reference>
+      <name value="Agen-5mg-Tablet-EE-RA"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/Agen10mg-EE"/>
+      </reference>
+      <name value="Agen10mg-EE"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/Agen5mg-EE"/>
+      </reference>
+      <name value="Agen5mg-EE"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/Amoksiklav-1000mg-200mg-EE"/>
+      </reference>
+      <name value="Amoksiklav-1000mg-200mg-EE"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="AdministrableProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="AdministrableProductDefinition/Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-APD"/>
+      </reference>
+      <name value="Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-APD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-I-90113"/>
+      </reference>
+      <name value="Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-I-90113"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-I-93061"/>
+      </reference>
+      <name value="Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-I-93061"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ManufacturedItemDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ManufacturedItemDefinition/Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-MID"/>
+      </reference>
+      <name value="Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-MID"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicinalProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="MedicinalProductDefinition/Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-MPD"/>
+      </reference>
+      <name value="Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-MPD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-PPD"/>
+      </reference>
+      <name value="Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-PPD"/>
+      <description value="Amoksiklav'i süste-/infusioonilahuse pulber on pakendatud värvitust klaasist viaalidesse ning suletud  kummikorgi ja alumiiniumist korgikaitsega.  Viaalid on pakendatud karpi. 5 viaali karbis."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="RegulatedAuthorization"/>
+      </extension>
+      <reference>
+        <reference value="RegulatedAuthorization/Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-RA"/>
+      </reference>
+      <name value="Amoksiklav-1000mg-200mg-pdr-solinj-inf-EE-RA"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="AdministrableProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="AdministrableProductDefinition/Amoxicillin-ratiopharm-750mg-f-c-tb-EE-APD"/>
+      </reference>
+      <name value="Amoxicillin-ratiopharm-750mg-f-c-tb-EE-APD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/Amoxicillin-ratiopharm-750mg-f-c-tb-EE-I"/>
+      </reference>
+      <name value="Amoxicillin-ratiopharm-750mg-f-c-tb-EE-I"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ManufacturedItemDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ManufacturedItemDefinition/Amoxicillin-ratiopharm-750mg-f-c-tb-EE-MID"/>
+      </reference>
+      <name value="Amoxicillin-ratiopharm-750mg-f-c-tb-EE-MID"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicinalProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="MedicinalProductDefinition/Amoxicillin-ratiopharm-750mg-f-c-tb-EE-MPD"/>
+      </reference>
+      <name value="Amoxicillin-ratiopharm-750mg-f-c-tb-EE-MPD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/Amoxicillin-ratiopharm-750mg-f-c-tb-EE-PPD-1000450"/>
+      </reference>
+      <name value="Amoxicillin-ratiopharm-750mg-f-c-tb-EE-PPD-1000450"/>
+      <description value="PVC/PVDC blister, mis sisaldab 10 õhukese polümeerikattega tabletti."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="RegulatedAuthorization"/>
+      </extension>
+      <reference>
+        <reference value="RegulatedAuthorization/Amoxicillin-ratiopharm-750mg-f-c-tb-EE-RA"/>
+      </reference>
+      <name value="Amoxicillin-ratiopharm-750mg-f-c-tb-EE-RA"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/Amoxicillinratiopharm750mg"/>
+      </reference>
+      <name value="Amoxicillinratiopharm750mg"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="AdministrableProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="AdministrableProductDefinition/Anafranil-25mg-Coated-tablet-EE-APD"/>
+      </reference>
+      <name value="Anafranil-25mg-Coated-tablet-EE-APD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/Anafranil-25mg-Coated-tablet-EE-I"/>
+      </reference>
+      <name value="Anafranil-25mg-Coated-tablet-EE-I"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ManufacturedItemDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ManufacturedItemDefinition/Anafranil-25mg-Coated-tablet-EE-MID"/>
+      </reference>
+      <name value="Anafranil-25mg-Coated-tablet-EE-MID"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicinalProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="MedicinalProductDefinition/Anafranil-25mg-Coated-tablet-EE-MPD"/>
+      </reference>
+      <name value="Anafranil-25mg-Coated-tablet-EE-MPD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/Anafranil-25mg-Coated-tablet-EE-PPD-1001462"/>
+      </reference>
+      <name value="Anafranil-25mg-Coated-tablet-EE-PPD-1001462"/>
+      <description value="PVC/PE/PVDC/Alumiinium blisterpakend. 10 mg ja 25 mg kaetud tabletid: 30 tabletti pakendis."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="RegulatedAuthorization"/>
+      </extension>
+      <reference>
+        <reference value="RegulatedAuthorization/Anafranil-25mg-Coated-tablet-EE-RA"/>
+      </reference>
+      <name value="Anafranil-25mg-Coated-tablet-EE-RA"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/Anafranil25mg-EE"/>
+      </reference>
+      <name value="Anafranil25mg-EE"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="AdministrableProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="AdministrableProductDefinition/Betaklav-500mg-125mg-f-c-tb-EE-APD"/>
+      </reference>
+      <name value="Betaklav-500mg-125mg-f-c-tb-EE-APD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/Betaklav-500mg-125mg-f-c-tb-EE-I-100000092629"/>
+      </reference>
+      <name value="Betaklav-500mg-125mg-f-c-tb-EE-I-100000092629"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/Betaklav-500mg-125mg-f-c-tb-EE-I-100000093061"/>
+      </reference>
+      <name value="Betaklav-500mg-125mg-f-c-tb-EE-I-100000093061"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ManufacturedItemDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ManufacturedItemDefinition/Betaklav-500mg-125mg-f-c-tb-EE-MID"/>
+      </reference>
+      <name value="Betaklav-500mg-125mg-f-c-tb-EE-MID"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicinalProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="MedicinalProductDefinition/Betaklav-500mg-125mg-f-c-tb-EE-MPD"/>
+      </reference>
+      <name value="Betaklav-500mg-125mg-f-c-tb-EE-MPD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/Betaklav-500mg-125mg-f-c-tb-EE-PPD-1635117"/>
+      </reference>
+      <name value="Betaklav-500mg-125mg-f-c-tb-EE-PPD-1635117"/>
+      <description value="Ribapakend (Al/Al) 10 õhukese polümeerikattega tabletti karbis"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/Betaklav-500mg-125mg-f-c-tb-EE-PPD-1635139"/>
+      </reference>
+      <name value="Betaklav-500mg-125mg-f-c-tb-EE-PPD-1635139"/>
+      <description value="Blisterpakend (OPA/Al/PVC foil/Al foil) 14 õhukese polümeerikattega tabletti karbis"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/Betaklav-500mg-125mg-f-c-tb-EE-PPD-1635207"/>
+      </reference>
+      <name value="Betaklav-500mg-125mg-f-c-tb-EE-PPD-1635207"/>
+      <description value="Ribapakend (Al/Al) 500 õhukese polümeerikattega tabletti karbis"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="RegulatedAuthorization"/>
+      </extension>
+      <reference>
+        <reference value="RegulatedAuthorization/Betaklav-500mg-125mg-f-c-tb-EE-RA"/>
+      </reference>
+      <name value="Betaklav-500mg-125mg-f-c-tb-EE-RA"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/Betaklav500-125-EE"/>
+      </reference>
+      <name value="Betaklav500-125-EE"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/Calcigran-Forte-500mg-400IU-EE"/>
+      </reference>
+      <name value="Calcigran-Forte-500mg-400IU-EE"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="AdministrableProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="AdministrableProductDefinition/Calcigran-Forte-500mg-400IU-chewable-tablet-EE-APD"/>
+      </reference>
+      <name value="Calcigran-Forte-500mg-400IU-chewable-tablet-EE-APD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/Calcigran-Forte-500mg-400IU-chewable-tablet-EE-I-100000091518"/>
+      </reference>
+      <name value="Calcigran-Forte-500mg-400IU-chewable-tablet-EE-I-100000091518"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/Calcigran-Forte-500mg-400IU-chewable-tablet-EE-I-100000129222"/>
+      </reference>
+      <name value="Calcigran-Forte-500mg-400IU-chewable-tablet-EE-I-100000129222"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ManufacturedItemDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ManufacturedItemDefinition/Calcigran-Forte-500mg-400IU-chewable-tablet-EE-MID"/>
+      </reference>
+      <name value="Calcigran-Forte-500mg-400IU-chewable-tablet-EE-MID"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicinalProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="MedicinalProductDefinition/Calcigran-Forte-500mg-400IU-chewable-tablet-EE-MPD"/>
+      </reference>
+      <name value="Calcigran-Forte-500mg-400IU-chewable-tablet-EE-MPD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/Calcigran-Forte-500mg-400IU-chewable-tablet-EE-PPD-1392016"/>
+      </reference>
+      <name value="Calcigran-Forte-500mg-400IU-chewable-tablet-EE-PPD-1392016"/>
+      <description value="HDPE purk väliskarbis."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="RegulatedAuthorization"/>
+      </extension>
+      <reference>
+        <reference value="RegulatedAuthorization/Calcigran-Forte-500mg-400IU-chewable-tablet-EE-RA"/>
+      </reference>
+      <name value="Calcigran-Forte-500mg-400IU-chewable-tablet-EE-RA"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/Canesten500mg-EE"/>
+      </reference>
+      <name value="Canesten500mg-EE"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="AdministrableProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="AdministrableProductDefinition/Canesten500mg-Vaginal-Soft-Capsule-EE-APD"/>
+      </reference>
+      <name value="Canesten500mg-Vaginal-Soft-Capsule-EE-APD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/Canesten500mg-Vaginal-Soft-Capsule-EE-I"/>
+      </reference>
+      <name value="Canesten500mg-Vaginal-Soft-Capsule-EE-I"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ManufacturedItemDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ManufacturedItemDefinition/Canesten500mg-Vaginal-Soft-Capsule-EE-MID"/>
+      </reference>
+      <name value="Canesten500mg-Vaginal-Soft-Capsule-EE-MID"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicinalProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="MedicinalProductDefinition/Canesten500mg-Vaginal-Soft-Capsule-EE-MPD"/>
+      </reference>
+      <name value="Canesten500mg-Vaginal-Soft-Capsule-EE-MPD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/Canesten500mg-Vaginal-Soft-Capsule-EE-PPD-1670644"/>
+      </reference>
+      <name value="Canesten500mg-Vaginal-Soft-Capsule-EE-PPD-1670644"/>
+      <description value="Üks vaginaalpehmekapsel on blistris, mis koosneb läbipaistvast kolmekordsest PVC/PVdC/PVC laminaatkilest ja on suletud alumiiniumfooliumist kattega. Blister ja polüpropüleenist aplikaator on pakendatud kartongkarpi."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="RegulatedAuthorization"/>
+      </extension>
+      <reference>
+        <reference value="RegulatedAuthorization/Canesten500mg-Vaginal-Soft-Capsule-EE-RA"/>
+      </reference>
+      <name value="Canesten500mg-Vaginal-Soft-Capsule-EE-RA"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="AdministrableProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="AdministrableProductDefinition/Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-APD"/>
+      </reference>
+      <name value="Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-APD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-I"/>
+      </reference>
+      <name value="Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-I"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ManufacturedItemDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ManufacturedItemDefinition/Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-MID"/>
+      </reference>
+      <name value="Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-MID"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicinalProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="MedicinalProductDefinition/Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-MPD"/>
+      </reference>
+      <name value="Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-MPD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-PPD-1033647"/>
+      </reference>
+      <name value="Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-PPD-1033647"/>
+      <description value="Alumiiniumtuub välispakendis. Tuub, mis sisaldab 20 g vaginaalkreemi ja 3 vaginaalseks kasutamiseks ette nähtud ühekordset aplikaatorit."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="RegulatedAuthorization"/>
+      </extension>
+      <reference>
+        <reference value="RegulatedAuthorization/Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-RA"/>
+      </reference>
+      <name value="Canifug-Vaginal-Creme-2g100g-Vaginal-Cream-EE-RA"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicinalProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="MedicinalProductDefinition/CanifugCremolum-100mg-10mg1g-Cream-Pessary-EE-MPD"/>
+      </reference>
+      <name value="CanifugCremolum-100mg-10mg1g-Cream-Pessary-EE-MPD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/CanifugCremolum-100mg-10mg1g-Cream-Pessary-EE-PPD-1033692"/>
+      </reference>
+      <name value="CanifugCremolum-100mg-10mg1g-Cream-Pessary-EE-PPD-1033692"/>
+      <description value="Alu/PE-fooliumist valmistatud ribapakend, mis on asetatud väliskarpi. Kreem on alumiiniumtuubis ja omakorda pappkarbis. Kombineeritud pakend sisaldab: 6 vaginaalsuposiiti ja 20 g kreemi"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="RegulatedAuthorization"/>
+      </extension>
+      <reference>
+        <reference value="RegulatedAuthorization/CanifugCremolum-100mg-10mg1g-Cream-Pessary-EE-RA"/>
+      </reference>
+      <name value="CanifugCremolum-100mg-10mg1g-Cream-Pessary-EE-RA"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="AdministrableProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="AdministrableProductDefinition/CanifugCremolum-100mg-Pessary-EE-APD"/>
+      </reference>
+      <name value="CanifugCremolum-100mg-Pessary-EE-APD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/CanifugCremolum-100mg-Pessary-EE-I"/>
+      </reference>
+      <name value="CanifugCremolum-100mg-Pessary-EE-I"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ManufacturedItemDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ManufacturedItemDefinition/CanifugCremolum-100mg-Pessary-EE-MID"/>
+      </reference>
+      <name value="CanifugCremolum-100mg-Pessary-EE-MID"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="AdministrableProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="AdministrableProductDefinition/CanifugCremolum-10mg1g-Cream-EE-APD"/>
+      </reference>
+      <name value="CanifugCremolum-10mg1g-Cream-EE-APD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/CanifugCremolum-10mg1g-Cream-EE-I"/>
+      </reference>
+      <name value="CanifugCremolum-10mg1g-Cream-EE-I"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ManufacturedItemDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ManufacturedItemDefinition/CanifugCremolum-10mg1g-Cream-EE-MID"/>
+      </reference>
+      <name value="CanifugCremolum-10mg1g-Cream-EE-MID"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/CanifugCremolum100mg10mg1g-EE"/>
+      </reference>
+      <name value="CanifugCremolum100mg10mg1g-EE"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/CanifugVaginalCreme2g100g-EE"/>
+      </reference>
+      <name value="CanifugVaginalCreme2g100g-EE"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="AdministrableProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="AdministrableProductDefinition/Carbalex-200mg-Tablet-EE-APD"/>
+      </reference>
+      <name value="Carbalex-200mg-Tablet-EE-APD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/Carbalex-200mg-Tablet-EE-I"/>
+      </reference>
+      <name value="Carbalex-200mg-Tablet-EE-I"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ManufacturedItemDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ManufacturedItemDefinition/Carbalex-200mg-Tablet-EE-MID"/>
+      </reference>
+      <name value="Carbalex-200mg-Tablet-EE-MID"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicinalProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="MedicinalProductDefinition/Carbalex-200mg-Tablet-EE-MPD"/>
+      </reference>
+      <name value="Carbalex-200mg-Tablet-EE-MPD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/Carbalex-200mg-Tablet-EE-PPD-1042311"/>
+      </reference>
+      <name value="Carbalex-200mg-Tablet-EE-PPD-1042311"/>
+      <description value="50 tabletti blisterpakendis (PVC-Alu)."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="RegulatedAuthorization"/>
+      </extension>
+      <reference>
+        <reference value="RegulatedAuthorization/Carbalex-200mg-Tablet-EE-RA"/>
+      </reference>
+      <name value="Carbalex-200mg-Tablet-EE-RA"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/Carbalex200mg-EE"/>
+      </reference>
+      <name value="Carbalex200mg-EE"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="AdministrableProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="AdministrableProductDefinition/Cefuroxime-MIP-1500mg-Pdr-solinj-inf-EE-APD"/>
+      </reference>
+      <name value="Cefuroxime-MIP-1500mg-Pdr-solinj-inf-EE-APD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/Cefuroxime-MIP-1500mg-Pdr-solinj-inf-EE-I"/>
+      </reference>
+      <name value="Cefuroxime-MIP-1500mg-Pdr-solinj-inf-EE-I"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ManufacturedItemDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ManufacturedItemDefinition/Cefuroxime-MIP-1500mg-Pdr-solinj-inf-EE-MID"/>
+      </reference>
+      <name value="Cefuroxime-MIP-1500mg-Pdr-solinj-inf-EE-MID"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/Cefuroxime-MIP-1500mg-Pdr-solinj-inf-EE-PPD-1529940"/>
+      </reference>
+      <name value="Cefuroxime-MIP-1500mg-Pdr-solinj-inf-EE-PPD-1529940"/>
+      <description value="I tüüpi klaasist viaal, mis on suletud klorobutüülkummist korgi ning flip-off kattega, 1 viaal"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/Cefuroxime-MIP-1500mg-Pdr-solinj-inf-EE-PPD-1529962"/>
+      </reference>
+      <name value="Cefuroxime-MIP-1500mg-Pdr-solinj-inf-EE-PPD-1529962"/>
+      <description value="I tüüpi klaasist viaal, mis on suletud klorobutüülkummist korgi ning flip-off kattega, 1 viaal"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="RegulatedAuthorization"/>
+      </extension>
+      <reference>
+        <reference value="RegulatedAuthorization/Cefuroxime-MIP-1500mg-Pdr-solinj-inf-EE-RA"/>
+      </reference>
+      <name value="Cefuroxime-MIP-1500mg-Pdr-solinj-inf-EE-RA"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicinalProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="MedicinalProductDefinition/Cefuroxime-MIP-1500mg-pdr-solinj-inf-EE-MPD"/>
+      </reference>
+      <name value="Cefuroxime-MIP-1500mg-pdr-solinj-inf-EE-MPD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/Cefuroxime-MIP1500-EE"/>
+      </reference>
+      <name value="Cefuroxime-MIP1500-EE"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/Clexane-60mg-0.6ml-EE"/>
+      </reference>
+      <name value="Clexane-60mg-0.6ml-EE"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="AdministrableProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="AdministrableProductDefinition/Clexane-60mg-0.6ml-solinj-EE-APD"/>
+      </reference>
+      <name value="Clexane-60mg-0.6ml-solinj-EE-APD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/Clexane-60mg-0.6ml-solinj-EE-I"/>
+      </reference>
+      <name value="Clexane-60mg-0.6ml-solinj-EE-I"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ManufacturedItemDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ManufacturedItemDefinition/Clexane-60mg-0.6ml-solinj-EE-MID"/>
+      </reference>
+      <name value="Clexane-60mg-0.6ml-solinj-EE-MID"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicinalProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="MedicinalProductDefinition/Clexane-60mg-0.6ml-solinj-EE-MPD"/>
+      </reference>
+      <name value="Clexane-60mg-0.6ml-solinj-EE-MPD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/Clexane-60mg-0.6ml-solinj-EE-PPD-1065552"/>
+      </reference>
+      <name value="Clexane-60mg-0.6ml-solinj-EE-PPD-1065552"/>
+      <description value="CLEXANE 6000 RÜ (60 mg)/0,6 ml: süstelahus süstlites (I tüüpi klaas), mis on varustatud kummikorgiga (klorobutüül ja bromobutüül) ning süstimisnõelaga (automaatse ohutussüsteemiga ERIS või PREVENTIS või ilma)."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="RegulatedAuthorization"/>
+      </extension>
+      <reference>
+        <reference value="RegulatedAuthorization/Clexane-60mg-0.6ml-solinj-EE-RA"/>
+      </reference>
+      <name value="Clexane-60mg-0.6ml-solinj-EE-RA"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="AdministrableProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="AdministrableProductDefinition/Diclac-10mg1g-Gel-EE-APD"/>
+      </reference>
+      <name value="Diclac-10mg1g-Gel-EE-APD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/Diclac-10mg1g-Gel-EE-I"/>
+      </reference>
+      <name value="Diclac-10mg1g-Gel-EE-I"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ManufacturedItemDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ManufacturedItemDefinition/Diclac-10mg1g-Gel-EE-MID"/>
+      </reference>
+      <name value="Diclac-10mg1g-Gel-EE-MID"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicinalProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="MedicinalProductDefinition/Diclac-10mg1g-Gel-EE-MPD"/>
+      </reference>
+      <name value="Diclac-10mg1g-Gel-EE-MPD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/Diclac-10mg1g-Gel-EE-PPD-1153257"/>
+      </reference>
+      <name value="Diclac-10mg1g-Gel-EE-PPD-1153257"/>
+      <description value="Tuub sisaldab 25 g, 50 g või 100 g geeli."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/Diclac-10mg1g-Gel-EE-PPD-1153268"/>
+      </reference>
+      <name value="Diclac-10mg1g-Gel-EE-PPD-1153268"/>
+      <description value="Tuub sisaldab 25 g, 50 g või 100 g geeli."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="RegulatedAuthorization"/>
+      </extension>
+      <reference>
+        <reference value="RegulatedAuthorization/Diclac-10mg1g-Gel-EE-RA"/>
+      </reference>
+      <name value="Diclac-10mg1g-Gel-EE-RA"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/Diclac10mg1g-EE"/>
+      </reference>
+      <name value="Diclac10mg1g-EE"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="AdministrableProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="AdministrableProductDefinition/Diclofenac-Mylan-180mg-Med-plaster-EE-APD"/>
+      </reference>
+      <name value="Diclofenac-Mylan-180mg-Med-plaster-EE-APD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/Diclofenac-Mylan-180mg-Med-plaster-EE-I"/>
+      </reference>
+      <name value="Diclofenac-Mylan-180mg-Med-plaster-EE-I"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ManufacturedItemDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ManufacturedItemDefinition/Diclofenac-Mylan-180mg-Med-plaster-EE-MID"/>
+      </reference>
+      <name value="Diclofenac-Mylan-180mg-Med-plaster-EE-MID"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicinalProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="MedicinalProductDefinition/Diclofenac-Mylan-180mg-Med-plaster-EE-MPD"/>
+      </reference>
+      <name value="Diclofenac-Mylan-180mg-Med-plaster-EE-MPD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/Diclofenac-Mylan-180mg-Med-plaster-EE-PPD-1788419"/>
+      </reference>
+      <name value="Diclofenac-Mylan-180mg-Med-plaster-EE-PPD-1788419"/>
+      <description value="Suletava ümbrise materjal on paber/PE/alumiinium/etüleen ja metüülakrüülhappe kopolümeer. Ümbrises on 5 ravimplaastrit. Pakendi suurus: 5 või 10 ravimplaastrit karbis."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/Diclofenac-Mylan-180mg-Med-plaster-EE-PPD-1788420"/>
+      </reference>
+      <name value="Diclofenac-Mylan-180mg-Med-plaster-EE-PPD-1788420"/>
+      <description value="Suletava ümbrise materjal on paber/PE/alumiinium/etüleen ja metüülakrüülhappe kopolümeer. Ümbrises on 5 ravimplaastrit. Pakendi suurus: 5 või 10 ravimplaastrit karbis."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="RegulatedAuthorization"/>
+      </extension>
+      <reference>
+        <reference value="RegulatedAuthorization/Diclofenac-Mylan-180mg-Med-plaster-EE-RA"/>
+      </reference>
+      <name value="Diclofenac-Mylan-180mg-Med-plaster-EE-RA"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/DiclofenacMylan180mg-EE"/>
+      </reference>
+      <name value="DiclofenacMylan180mg-EE"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="AdministrableProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="AdministrableProductDefinition/Enalapril-Vitabalans-5mg-Tablet-EE-APD"/>
+      </reference>
+      <name value="Enalapril-Vitabalans-5mg-Tablet-EE-APD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/Enalapril-Vitabalans-5mg-Tablet-EE-I"/>
+      </reference>
+      <name value="Enalapril-Vitabalans-5mg-Tablet-EE-I"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ManufacturedItemDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ManufacturedItemDefinition/Enalapril-Vitabalans-5mg-Tablet-EE-MID"/>
+      </reference>
+      <name value="Enalapril-Vitabalans-5mg-Tablet-EE-MID"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicinalProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="MedicinalProductDefinition/Enalapril-Vitabalans-5mg-Tablet-EE-MPD"/>
+      </reference>
+      <name value="Enalapril-Vitabalans-5mg-Tablet-EE-MPD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/Enalapril-Vitabalans-5mg-Tablet-EE-PPD-1359918"/>
+      </reference>
+      <name value="Enalapril-Vitabalans-5mg-Tablet-EE-PPD-1359918"/>
+      <description value="28, 30, 56, 60, 98, 100 tabletti blistris (Al/Al)."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/Enalapril-Vitabalans-5mg-Tablet-EE-PPD-1359952"/>
+      </reference>
+      <name value="Enalapril-Vitabalans-5mg-Tablet-EE-PPD-1359952"/>
+      <description value="28, 30, 56, 60, 98, 100 tabletti blistris (Al/Al)."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="RegulatedAuthorization"/>
+      </extension>
+      <reference>
+        <reference value="RegulatedAuthorization/Enalapril-Vitabalans-5mg-Tablet-EE-RA"/>
+      </reference>
+      <name value="Enalapril-Vitabalans-5mg-Tablet-EE-RA"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/EnalaprilVitabalans5mg-EE"/>
+      </reference>
+      <name value="EnalaprilVitabalans5mg-EE"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="AdministrableProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="AdministrableProductDefinition/Gasec-Gastrocaps-40mg-Hard-Capsules-EE-APD"/>
+      </reference>
+      <name value="Gasec-Gastrocaps-40mg-Hard-Capsules-EE-APD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/Gasec-Gastrocaps-40mg-Hard-Capsules-EE-I"/>
+      </reference>
+      <name value="Gasec-Gastrocaps-40mg-Hard-Capsules-EE-I"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ManufacturedItemDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ManufacturedItemDefinition/Gasec-Gastrocaps-40mg-Hard-Capsules-EE-MID"/>
+      </reference>
+      <name value="Gasec-Gastrocaps-40mg-Hard-Capsules-EE-MID"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicinalProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="MedicinalProductDefinition/Gasec-Gastrocaps-40mg-Hard-Capsules-EE-MPD"/>
+      </reference>
+      <name value="Gasec-Gastrocaps-40mg-Hard-Capsules-EE-MPD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/Gasec-Gastrocaps-40mg-Hard-Capsules-EE-PPD-1112814-A"/>
+      </reference>
+      <name value="Gasec-Gastrocaps-40mg-Hard-Capsules-EE-PPD-1112814-A"/>
+      <description value="Kapslid on saadaval alumiinium/alumiinium blisterpakendites või keeratavate korkidega kõrgtihedusega  polüetüleenpudelites (HDPE pudelid)."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/Gasec-Gastrocaps-40mg-Hard-Capsules-EE-PPD-1112814-B"/>
+      </reference>
+      <name value="Gasec-Gastrocaps-40mg-Hard-Capsules-EE-PPD-1112814-B"/>
+      <description value="Kapslid on saadaval alumiinium/alumiinium blisterpakendites või keeratavate korkidega kõrgtihedusega  polüetüleenpudelites (HDPE pudelid)."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/Gasec-Gastrocaps-40mg-Hard-Capsules-EE-PPD-1112825-A"/>
+      </reference>
+      <name value="Gasec-Gastrocaps-40mg-Hard-Capsules-EE-PPD-1112825-A"/>
+      <description value="Kapslid on saadaval alumiinium/alumiinium blisterpakendites või keeratavate korkidega kõrgtihedusega  polüetüleenpudelites (HDPE pudelid)."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/Gasec-Gastrocaps-40mg-Hard-Capsules-EE-PPD-1112825-B"/>
+      </reference>
+      <name value="Gasec-Gastrocaps-40mg-Hard-Capsules-EE-PPD-1112825-B"/>
+      <description value="Kapslid on saadaval alumiinium/alumiinium blisterpakendites või keeratavate korkidega kõrgtihedusega  polüetüleenpudelites (HDPE pudelid)."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="RegulatedAuthorization"/>
+      </extension>
+      <reference>
+        <reference value="RegulatedAuthorization/Gasec-Gastrocaps-40mg-Hard-Capsules-EE-RA"/>
+      </reference>
+      <name value="Gasec-Gastrocaps-40mg-Hard-Capsules-EE-RA"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/GasecGastrocaps40mg-EE"/>
+      </reference>
+      <name value="GasecGastrocaps40mg-EE"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="AdministrableProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="AdministrableProductDefinition/Hydrocortisone-DAK-10mg1g-Ointment-EE-APD"/>
+      </reference>
+      <name value="Hydrocortisone-DAK-10mg1g-Ointment-EE-APD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/Hydrocortisone-DAK-10mg1g-Ointment-EE-I"/>
+      </reference>
+      <name value="Hydrocortisone-DAK-10mg1g-Ointment-EE-I"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ManufacturedItemDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ManufacturedItemDefinition/Hydrocortisone-DAK-10mg1g-Ointment-EE-MID"/>
+      </reference>
+      <name value="Hydrocortisone-DAK-10mg1g-Ointment-EE-MID"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicinalProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="MedicinalProductDefinition/Hydrocortisone-DAK-10mg1g-Ointment-EE-MPD"/>
+      </reference>
+      <name value="Hydrocortisone-DAK-10mg1g-Ointment-EE-MPD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/Hydrocortisone-DAK-10mg1g-Ointment-EE-PPD-1137013"/>
+      </reference>
+      <name value="Hydrocortisone-DAK-10mg1g-Ointment-EE-PPD-1137013"/>
+      <description value="30 g salvi alumiiniumtuubis."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="RegulatedAuthorization"/>
+      </extension>
+      <reference>
+        <reference value="RegulatedAuthorization/Hydrocortisone-DAK-10mg1g-Ointment-EE-RA"/>
+      </reference>
+      <name value="Hydrocortisone-DAK-10mg1g-Ointment-EE-RA"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/HydrocortisoneDAK-10mg1g-EE"/>
+      </reference>
+      <name value="HydrocortisoneDAK-10mg1g-EE"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/Kadcyla-100mg-EE"/>
+      </reference>
+      <name value="Kadcyla-100mg-EE"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="AdministrableProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="AdministrableProductDefinition/Kadcyla-100mg-Pdr-fr-conc-for-solinj-EE-APD"/>
+      </reference>
+      <name value="Kadcyla-100mg-Pdr-fr-conc-for-solinj-EE-APD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/Kadcyla-100mg-Pdr-fr-conc-for-solinj-EE-I"/>
+      </reference>
+      <name value="Kadcyla-100mg-Pdr-fr-conc-for-solinj-EE-I"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ManufacturedItemDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ManufacturedItemDefinition/Kadcyla-100mg-Pdr-fr-conc-for-solinj-EE-MID"/>
+      </reference>
+      <name value="Kadcyla-100mg-Pdr-fr-conc-for-solinj-EE-MID"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicinalProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="MedicinalProductDefinition/Kadcyla-100mg-Pdr-fr-conc-for-solinj-EE-MPD"/>
+      </reference>
+      <name value="Kadcyla-100mg-Pdr-fr-conc-for-solinj-EE-MPD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/Kadcyla-100mg-Pdr-fr-conc-for-solinj-EE-PPD-1633339"/>
+      </reference>
+      <name value="Kadcyla-100mg-Pdr-fr-conc-for-solinj-EE-PPD-1633339"/>
+      <description value="Kadcyla on pakendatud 15 ml (100 mg) I tüüpi klaasist viaali, mis on suletud fluorovaiguga lamineeritud halli butüülkummist korgi, alumiiniumsulguri ja valge plastmassist eemaldatava kattega"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="RegulatedAuthorization"/>
+      </extension>
+      <reference>
+        <reference value="RegulatedAuthorization/Kadcyla-100mg-Pdr-fr-conc-for-solinj-EE-RA"/>
+      </reference>
+      <name value="Kadcyla-100mg-Pdr-fr-conc-for-solinj-EE-RA"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="AdministrableProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="AdministrableProductDefinition/Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-APD"/>
+      </reference>
+      <name value="Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-APD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-I"/>
+      </reference>
+      <name value="Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-I"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ManufacturedItemDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ManufacturedItemDefinition/Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-MID"/>
+      </reference>
+      <name value="Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-MID"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicinalProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="MedicinalProductDefinition/Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-MPD"/>
+      </reference>
+      <name value="Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-MPD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-PPD-1018774"/>
+      </reference>
+      <name value="Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-PPD-1018774"/>
+      <description value="5 ml klaasampullid, 5 ampulli alusel. 2 alust pakendis.  Pakendi suurus: 10 ampulli."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="RegulatedAuthorization"/>
+      </extension>
+      <reference>
+        <reference value="RegulatedAuthorization/Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-RA"/>
+      </reference>
+      <name value="Lidocaine-Grindeks-100mg1ml-sol-f-inj-EE-RA"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/Lidocaine-Grindeks100mg1ml-EE"/>
+      </reference>
+      <name value="Lidocaine-Grindeks100mg1ml-EE"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/MXL-30mg-EE"/>
+      </reference>
+      <name value="MXL-30mg-EE"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="AdministrableProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="AdministrableProductDefinition/MXL-30mg-prol-rel-hard-cap-EE-APD"/>
+      </reference>
+      <name value="MXL-30mg-prol-rel-hard-cap-EE-APD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/MXL-30mg-prol-rel-hard-cap-EE-I"/>
+      </reference>
+      <name value="MXL-30mg-prol-rel-hard-cap-EE-I"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ManufacturedItemDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ManufacturedItemDefinition/MXL-30mg-prol-rel-hard-cap-EE-MID"/>
+      </reference>
+      <name value="MXL-30mg-prol-rel-hard-cap-EE-MID"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicinalProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="MedicinalProductDefinition/MXL-30mg-prol-rel-hard-cap-EE-MPD"/>
+      </reference>
+      <name value="MXL-30mg-prol-rel-hard-cap-EE-MPD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/MXL-30mg-prol-rel-hard-cap-EE-PPD-1080403-a"/>
+      </reference>
+      <name value="MXL-30mg-prol-rel-hard-cap-EE-PPD-1080403-a"/>
+      <description value="Polüetüleenkorgiga suletud polüpropüleenpakend."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/MXL-30mg-prol-rel-hard-cap-EE-PPD-1080403-b"/>
+      </reference>
+      <name value="MXL-30mg-prol-rel-hard-cap-EE-PPD-1080403-b"/>
+      <description value="PVdC-kihiga (&gt; 40 gsm) kaetud PVC (250 um) blisterpakend alumiiniumfooliumis. Blisterpakendid on paigutatud kartongkarpidesse."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/MXL-30mg-prol-rel-hard-cap-EE-PPD-1339422-a"/>
+      </reference>
+      <name value="MXL-30mg-prol-rel-hard-cap-EE-PPD-1339422-a"/>
+      <description value="Polüetüleenkorgiga suletud polüpropüleenpakend."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/MXL-30mg-prol-rel-hard-cap-EE-PPD-1339422-b"/>
+      </reference>
+      <name value="MXL-30mg-prol-rel-hard-cap-EE-PPD-1339422-b"/>
+      <description value="PVdC-kihiga (&gt; 40 gsm) kaetud PVC (250 um) blisterpakend alumiiniumfooliumis. Blisterpakendid on paigutatud kartongkarpidesse."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="RegulatedAuthorization"/>
+      </extension>
+      <reference>
+        <reference value="RegulatedAuthorization/MXL-30mg-prol-rel-hard-cap-EE-RA"/>
+      </reference>
+      <name value="MXL-30mg-prol-rel-hard-cap-EE-RA"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/Metfogamma850-850mg-EE"/>
+      </reference>
+      <name value="Metfogamma850-850mg-EE"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="AdministrableProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="AdministrableProductDefinition/Metfogamma850-850mg-f-c-tb-EE-APD"/>
+      </reference>
+      <name value="Metfogamma850-850mg-f-c-tb-EE-APD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/Metfogamma850-850mg-f-c-tb-EE-I"/>
+      </reference>
+      <name value="Metfogamma850-850mg-f-c-tb-EE-I"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ManufacturedItemDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ManufacturedItemDefinition/Metfogamma850-850mg-f-c-tb-EE-MID"/>
+      </reference>
+      <name value="Metfogamma850-850mg-f-c-tb-EE-MID"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicinalProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="MedicinalProductDefinition/Metfogamma850-850mg-f-c-tb-EE-MPD"/>
+      </reference>
+      <name value="Metfogamma850-850mg-f-c-tb-EE-MPD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/Metfogamma850-850mg-f-c-tb-EE-PPD-1111251"/>
+      </reference>
+      <name value="Metfogamma850-850mg-f-c-tb-EE-PPD-1111251"/>
+      <description value="PVC/Al blister"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/Metfogamma850-850mg-f-c-tb-EE-PPD-1111262"/>
+      </reference>
+      <name value="Metfogamma850-850mg-f-c-tb-EE-PPD-1111262"/>
+      <description value="PVC/Al blister"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="RegulatedAuthorization"/>
+      </extension>
+      <reference>
+        <reference value="RegulatedAuthorization/Metfogamma850-850mg-f-c-tb-EE-RA"/>
+      </reference>
+      <name value="Metfogamma850-850mg-f-c-tb-EE-RA"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="AdministrableProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="AdministrableProductDefinition/Paracetamol-Kabi-10mg-1ml-solinj-EE-APD-1424034"/>
+      </reference>
+      <name value="Paracetamol-Kabi-10mg-1ml-solinj-EE-APD-1424034"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="AdministrableProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="AdministrableProductDefinition/Paracetamol-Kabi-10mg-1ml-solinj-EE-APD-1424056"/>
+      </reference>
+      <name value="Paracetamol-Kabi-10mg-1ml-solinj-EE-APD-1424056"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="AdministrableProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="AdministrableProductDefinition/Paracetamol-Kabi-10mg-1ml-solinj-EE-APD-1799905"/>
+      </reference>
+      <name value="Paracetamol-Kabi-10mg-1ml-solinj-EE-APD-1799905"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/Paracetamol-Kabi-10mg-1ml-solinj-EE-I"/>
+      </reference>
+      <name value="Paracetamol-Kabi-10mg-1ml-solinj-EE-I"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ManufacturedItemDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ManufacturedItemDefinition/Paracetamol-Kabi-10mg-1ml-solinj-EE-MID-1424034"/>
+      </reference>
+      <name value="Paracetamol-Kabi-10mg-1ml-solinj-EE-MID-1424034"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ManufacturedItemDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ManufacturedItemDefinition/Paracetamol-Kabi-10mg-1ml-solinj-EE-MID-1424056"/>
+      </reference>
+      <name value="Paracetamol-Kabi-10mg-1ml-solinj-EE-MID-1424056"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ManufacturedItemDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ManufacturedItemDefinition/Paracetamol-Kabi-10mg-1ml-solinj-EE-MID-1799905"/>
+      </reference>
+      <name value="Paracetamol-Kabi-10mg-1ml-solinj-EE-MID-1799905"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicinalProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="MedicinalProductDefinition/Paracetamol-Kabi-10mg-1ml-solinj-EE-MPD"/>
+      </reference>
+      <name value="Paracetamol-Kabi-10mg-1ml-solinj-EE-MPD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/Paracetamol-Kabi-10mg-1ml-solinj-EE-PPD-1424034"/>
+      </reference>
+      <name value="Paracetamol-Kabi-10mg-1ml-solinj-EE-PPD-1424034"/>
+      <description value="50 ml ja 100 ml II tüüpi klaasist viaalid, mis on suletud bromobutüülkorgi ja alumiinium/plastik  äratõmmatava korgiga."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/Paracetamol-Kabi-10mg-1ml-solinj-EE-PPD-1424056"/>
+      </reference>
+      <name value="Paracetamol-Kabi-10mg-1ml-solinj-EE-PPD-1424056"/>
+      <description value="50 ml ja 100 ml plastkotid, millel on manustamisport (infusiooniport) ja lisamisport (süsteport); kotid koosnevad polüolefiinist sisekihist ja alumiiniumisisaldusega kattekihist ning sisaldavad hapnikuabsorbenti. Kotid on suletud polüisopreenist korgi ja polüpropüleenist kaanega."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/Paracetamol-Kabi-10mg-1ml-solinj-EE-PPD-1799905"/>
+      </reference>
+      <name value="Paracetamol-Kabi-10mg-1ml-solinj-EE-PPD-1799905"/>
+      <description value="10 ml I tüüpi värvitust klaasist ampullid."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="RegulatedAuthorization"/>
+      </extension>
+      <reference>
+        <reference value="RegulatedAuthorization/Paracetamol-Kabi-10mg-1ml-solinj-EE-RA"/>
+      </reference>
+      <name value="Paracetamol-Kabi-10mg-1ml-solinj-EE-RA"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/Paracetamol-Kabi10mg-1ml-EE"/>
+      </reference>
+      <name value="Paracetamol-Kabi10mg-1ml-EE"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="AdministrableProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="AdministrableProductDefinition/Prokanazol-100mg-Hard-capsule-EE-APD"/>
+      </reference>
+      <name value="Prokanazol-100mg-Hard-capsule-EE-APD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/Prokanazol-100mg-Hard-capsule-EE-I"/>
+      </reference>
+      <name value="Prokanazol-100mg-Hard-capsule-EE-I"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ManufacturedItemDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ManufacturedItemDefinition/Prokanazol-100mg-Hard-capsule-EE-MID"/>
+      </reference>
+      <name value="Prokanazol-100mg-Hard-capsule-EE-MID"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicinalProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="MedicinalProductDefinition/Prokanazol-100mg-Hard-capsule-EE-MPD"/>
+      </reference>
+      <name value="Prokanazol-100mg-Hard-capsule-EE-MPD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/Prokanazol-100mg-Hard-capsule-EE-PPD-1164035"/>
+      </reference>
+      <name value="Prokanazol-100mg-Hard-capsule-EE-PPD-1164035"/>
+      <description value="Termovormitud alumiiniumblister. Pakendis 4, 14, 18, 28 või 30 kapslit. Kõik pakendi suurused ei pruugi olla müügil."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/Prokanazol-100mg-Hard-capsule-EE-PPD-1164057"/>
+      </reference>
+      <name value="Prokanazol-100mg-Hard-capsule-EE-PPD-1164057"/>
+      <description value="Termovormitud alumiiniumblister. Pakendis 4, 14, 18, 28 või 30 kapslit. Kõik pakendi suurused ei pruugi olla müügil."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="RegulatedAuthorization"/>
+      </extension>
+      <reference>
+        <reference value="RegulatedAuthorization/Prokanazol-100mg-Hard-capsule-EE-RA"/>
+      </reference>
+      <name value="Prokanazol-100mg-Hard-capsule-EE-RA"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/Prokanazol100mg-EE"/>
+      </reference>
+      <name value="Prokanazol100mg-EE"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/Qlaira"/>
+      </reference>
+      <name value="Qlaira"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="AdministrableProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="AdministrableProductDefinition/Qlaira-f-c-tb-EE-APD-dark-red"/>
+      </reference>
+      <name value="Qlaira-f-c-tb-EE-APD-dark-red"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="AdministrableProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="AdministrableProductDefinition/Qlaira-f-c-tb-EE-APD-dark-yellow"/>
+      </reference>
+      <name value="Qlaira-f-c-tb-EE-APD-dark-yellow"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="AdministrableProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="AdministrableProductDefinition/Qlaira-f-c-tb-EE-APD-light-yellow"/>
+      </reference>
+      <name value="Qlaira-f-c-tb-EE-APD-light-yellow"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="AdministrableProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="AdministrableProductDefinition/Qlaira-f-c-tb-EE-APD-medium-red"/>
+      </reference>
+      <name value="Qlaira-f-c-tb-EE-APD-medium-red"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="AdministrableProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="AdministrableProductDefinition/Qlaira-f-c-tb-EE-APD-white"/>
+      </reference>
+      <name value="Qlaira-f-c-tb-EE-APD-white"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/Qlaira-f-c-tb-EE-I-dark-red"/>
+      </reference>
+      <name value="Qlaira-f-c-tb-EE-I-dark-red"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/Qlaira-f-c-tb-EE-I-dark-yellow"/>
+      </reference>
+      <name value="Qlaira-f-c-tb-EE-I-dark-yellow"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/Qlaira-f-c-tb-EE-I-light-yellow-A"/>
+      </reference>
+      <name value="Qlaira-f-c-tb-EE-I-light-yellow-A"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/Qlaira-f-c-tb-EE-I-light-yellow-B"/>
+      </reference>
+      <name value="Qlaira-f-c-tb-EE-I-light-yellow-B"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/Qlaira-f-c-tb-EE-I-medium-red-A"/>
+      </reference>
+      <name value="Qlaira-f-c-tb-EE-I-medium-red-A"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/Qlaira-f-c-tb-EE-I-medium-red-B"/>
+      </reference>
+      <name value="Qlaira-f-c-tb-EE-I-medium-red-B"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/Qlaira-f-c-tb-EE-I-white"/>
+      </reference>
+      <name value="Qlaira-f-c-tb-EE-I-white"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ManufacturedItemDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ManufacturedItemDefinition/Qlaira-f-c-tb-EE-MID-dark-red"/>
+      </reference>
+      <name value="Qlaira-f-c-tb-EE-MID-dark-red"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ManufacturedItemDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ManufacturedItemDefinition/Qlaira-f-c-tb-EE-MID-dark-yellow"/>
+      </reference>
+      <name value="Qlaira-f-c-tb-EE-MID-dark-yellow"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ManufacturedItemDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ManufacturedItemDefinition/Qlaira-f-c-tb-EE-MID-light-yellow"/>
+      </reference>
+      <name value="Qlaira-f-c-tb-EE-MID-light-yellow"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ManufacturedItemDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ManufacturedItemDefinition/Qlaira-f-c-tb-EE-MID-medium-red"/>
+      </reference>
+      <name value="Qlaira-f-c-tb-EE-MID-medium-red"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ManufacturedItemDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ManufacturedItemDefinition/Qlaira-f-c-tb-EE-MID-white"/>
+      </reference>
+      <name value="Qlaira-f-c-tb-EE-MID-white"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicinalProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="MedicinalProductDefinition/Qlaira-f-c-tb-EE-MPD"/>
+      </reference>
+      <name value="Qlaira-f-c-tb-EE-MPD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/Qlaira-f-c-tb-EE-PPD-1322660"/>
+      </reference>
+      <name value="Qlaira-f-c-tb-EE-PPD-1322660"/>
+      <description value="Läbipaistev PVC/alumiinium blister kartongist voldikpakendis."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="RegulatedAuthorization"/>
+      </extension>
+      <reference>
+        <reference value="RegulatedAuthorization/Qlaira-f-c-tb-EE-RA"/>
+      </reference>
+      <name value="Qlaira-f-c-tb-EE-RA"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="AdministrableProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="AdministrableProductDefinition/Sandimmun-Neoral-25mg-Soft-Capsule-EE-APD"/>
+      </reference>
+      <name value="Sandimmun-Neoral-25mg-Soft-Capsule-EE-APD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/Sandimmun-Neoral-25mg-Soft-Capsule-EE-I"/>
+      </reference>
+      <name value="Sandimmun-Neoral-25mg-Soft-Capsule-EE-I"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ManufacturedItemDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ManufacturedItemDefinition/Sandimmun-Neoral-25mg-Soft-Capsule-EE-MID"/>
+      </reference>
+      <name value="Sandimmun-Neoral-25mg-Soft-Capsule-EE-MID"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicinalProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="MedicinalProductDefinition/Sandimmun-Neoral-25mg-Soft-Capsule-EE-MPD"/>
+      </reference>
+      <name value="Sandimmun-Neoral-25mg-Soft-Capsule-EE-MPD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/Sandimmun-Neoral-25mg-Soft-Capsule-EE-PPD-1008526"/>
+      </reference>
+      <name value="Sandimmun-Neoral-25mg-Soft-Capsule-EE-PPD-1008526"/>
+      <description value="Kahepoolsest alumiiniumist blisterpakendid, mis koosnevad polüamiid/alumiinium/polüvinüülkloriidist (PA/alu/PVC) alumisel poolel ja alumiiniumfooliumist ülemisel poolel.25 mg, 50 mg või 100 mg pehmekapslid: 50 tk blisterpakendis."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="RegulatedAuthorization"/>
+      </extension>
+      <reference>
+        <reference value="RegulatedAuthorization/Sandimmun-Neoral-25mg-Soft-Capsule-EE-RA"/>
+      </reference>
+      <name value="Sandimmun-Neoral-25mg-Soft-Capsule-EE-RA"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/SandimmunNeoral25mg-EE"/>
+      </reference>
+      <name value="SandimmunNeoral25mg-EE"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="AdministrableProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="AdministrableProductDefinition/Simvacor-10mg-f-c-tb-EE-APD"/>
+      </reference>
+      <name value="Simvacor-10mg-f-c-tb-EE-APD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/Simvacor-10mg-f-c-tb-EE-I"/>
+      </reference>
+      <name value="Simvacor-10mg-f-c-tb-EE-I"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ManufacturedItemDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ManufacturedItemDefinition/Simvacor-10mg-f-c-tb-EE-MID"/>
+      </reference>
+      <name value="Simvacor-10mg-f-c-tb-EE-MID"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicinalProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="MedicinalProductDefinition/Simvacor-10mg-f-c-tb-EE-MPD"/>
+      </reference>
+      <name value="Simvacor-10mg-f-c-tb-EE-MPD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/Simvacor-10mg-f-c-tb-EE-PPD-1080166-A"/>
+      </reference>
+      <name value="Simvacor-10mg-f-c-tb-EE-PPD-1080166-A"/>
+      <description value="Blister (Al/PVC) - pakendi suurused: 30 õhukese polümeerikattega tabletti."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/Simvacor-10mg-f-c-tb-EE-PPD-1080166-B"/>
+      </reference>
+      <name value="Simvacor-10mg-f-c-tb-EE-PPD-1080166-B"/>
+      <description value="Polüetüleenist tabletipurk sulguriga - pakendi suurused: 30 õhukese polümeerikattega tabletti."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="RegulatedAuthorization"/>
+      </extension>
+      <reference>
+        <reference value="RegulatedAuthorization/Simvacor-10mg-f-c-tb-EE-RA"/>
+      </reference>
+      <name value="Simvacor-10mg-f-c-tb-EE-RA"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/Simvacor10mg-EE"/>
+      </reference>
+      <name value="Simvacor10mg-EE"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/Taflotan-0.015mg-1ml-EE"/>
+      </reference>
+      <name value="Taflotan-0.015mg-1ml-EE"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="AdministrableProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="AdministrableProductDefinition/Taflotan-0.015mg-1ml-eye-drops-solution-EE-APD"/>
+      </reference>
+      <name value="Taflotan-0.015mg-1ml-eye-drops-solution-EE-APD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/Taflotan-0.015mg-1ml-eye-drops-solution-EE-I"/>
+      </reference>
+      <name value="Taflotan-0.015mg-1ml-eye-drops-solution-EE-I"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ManufacturedItemDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ManufacturedItemDefinition/Taflotan-0.015mg-1ml-eye-drops-solution-EE-MID"/>
+      </reference>
+      <name value="Taflotan-0.015mg-1ml-eye-drops-solution-EE-MID"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicinalProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="MedicinalProductDefinition/Taflotan-0.015mg-1ml-eye-drops-solution-EE-MPD"/>
+      </reference>
+      <name value="Taflotan-0.015mg-1ml-eye-drops-solution-EE-MPD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/Taflotan-0.015mg-1ml-eye-drops-solution-EE-PPD-1753703"/>
+      </reference>
+      <name value="Taflotan-0.015mg-1ml-eye-drops-solution-EE-PPD-1753703"/>
+      <description value="Läbipaistvad väikese tihedusega polüetüleenpudelid (LDPE) valge Aptari tilgutiga (polüetüleen, polüpropüleen, tsükliline olefiin-kopolümeer), mis on kaetud sinise polüetüleenkorgiga. Iga pudel  sisaldab 3 ml, 5 ml või 7 ml lahust."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="RegulatedAuthorization"/>
+      </extension>
+      <reference>
+        <reference value="RegulatedAuthorization/Taflotan-0.015mg-1ml-eye-drops-solution-EE-RA"/>
+      </reference>
+      <name value="Taflotan-0.015mg-1ml-eye-drops-solution-EE-RA"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="AdministrableProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="AdministrableProductDefinition/Toujeo-300units-ml-solinj-pen-EE-APD"/>
+      </reference>
+      <name value="Toujeo-300units-ml-solinj-pen-EE-APD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/Toujeo-300units-ml-solinj-pen-EE-I"/>
+      </reference>
+      <name value="Toujeo-300units-ml-solinj-pen-EE-I"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ManufacturedItemDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ManufacturedItemDefinition/Toujeo-300units-ml-solinj-pen-EE-MID"/>
+      </reference>
+      <name value="Toujeo-300units-ml-solinj-pen-EE-MID"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicinalProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="MedicinalProductDefinition/Toujeo-300units-ml-solinj-pen-EE-MPD"/>
+      </reference>
+      <name value="Toujeo-300units-ml-solinj-pen-EE-MPD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/Toujeo-300units-ml-solinj-pen-EE-PPD-1684043"/>
+      </reference>
+      <name value="Toujeo-300units-ml-solinj-pen-EE-PPD-1684043"/>
+      <description value="Kolbampull (I tüüpi värvitu klaas) halli värvi kolvi (broombutüülkumm), pealdisega (alumiiniumäärik) ja korgiga (polüisopreenlaminaat ja broombutüülkumm). Kolbampull on  paigaldatud mittetäidetavasse pen-süstlisse. Üks kolbampull sisaldab 1,5 ml lahust."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="RegulatedAuthorization"/>
+      </extension>
+      <reference>
+        <reference value="RegulatedAuthorization/Toujeo-300units-ml-solinj-pen-EE-RA"/>
+      </reference>
+      <name value="Toujeo-300units-ml-solinj-pen-EE-RA"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/Toujeo300U-ml-SoloStar-EE"/>
+      </reference>
+      <name value="Toujeo300U-ml-SoloStar-EE"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/Tramadol-KRKA-100mg-EE"/>
+      </reference>
+      <name value="Tramadol-KRKA-100mg-EE"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="AdministrableProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="AdministrableProductDefinition/Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-APD"/>
+      </reference>
+      <name value="Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-APD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-I"/>
+      </reference>
+      <name value="Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-I"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ManufacturedItemDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ManufacturedItemDefinition/Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-MID"/>
+      </reference>
+      <name value="Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-MID"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicinalProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="MedicinalProductDefinition/Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-MPD"/>
+      </reference>
+      <name value="Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-MPD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-PPD-1043525"/>
+      </reference>
+      <name value="Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-PPD-1043525"/>
+      <description value="100 mg toimeainet prolongeeritult vabastavad tabletid Al/PVC blisterpakendis - 30 tk."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="RegulatedAuthorization"/>
+      </extension>
+      <reference>
+        <reference value="RegulatedAuthorization/Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-RA"/>
+      </reference>
+      <name value="Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-RA"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="AdministrableProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="AdministrableProductDefinition/Valocordin-Diazepam-10mg-1ml-Oral-drps-sol-EE-APD"/>
+      </reference>
+      <name value="Valocordin-Diazepam-10mg-1ml-Oral-drps-sol-EE-APD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/Valocordin-Diazepam-10mg-1ml-Oral-drps-sol-EE-I"/>
+      </reference>
+      <name value="Valocordin-Diazepam-10mg-1ml-Oral-drps-sol-EE-I"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ManufacturedItemDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ManufacturedItemDefinition/Valocordin-Diazepam-10mg-1ml-Oral-drps-sol-EE-MID"/>
+      </reference>
+      <name value="Valocordin-Diazepam-10mg-1ml-Oral-drps-sol-EE-MID"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicinalProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="MedicinalProductDefinition/Valocordin-Diazepam-10mg-1ml-Oral-drps-sol-EE-MPD"/>
+      </reference>
+      <name value="Valocordin-Diazepam-10mg-1ml-Oral-drps-sol-EE-MPD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/Valocordin-Diazepam-10mg-1ml-Oral-drps-sol-EE-PPD-1001462"/>
+      </reference>
+      <name value="Valocordin-Diazepam-10mg-1ml-Oral-drps-sol-EE-PPD-1001462"/>
+      <description value="Ümar, kollakast klaasist pudel, mis sisaldab 25 ml lahust."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="RegulatedAuthorization"/>
+      </extension>
+      <reference>
+        <reference value="RegulatedAuthorization/Valocordin-Diazepam-10mg-1ml-Oral-drps-sol-EE-RA"/>
+      </reference>
+      <name value="Valocordin-Diazepam-10mg-1ml-Oral-drps-sol-EE-RA"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/ValocordinDiazepam10mg1ml-EE"/>
+      </reference>
+      <name value="ValocordinDiazepam10mg1ml-EE"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/Vendal-retard-60mg-EE"/>
+      </reference>
+      <name value="Vendal-retard-60mg-EE"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="AdministrableProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="AdministrableProductDefinition/Vendal-retard-60mg-Prolonged-release-tablet-EE-APD"/>
+      </reference>
+      <name value="Vendal-retard-60mg-Prolonged-release-tablet-EE-APD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/Vendal-retard-60mg-Prolonged-release-tablet-EE-I"/>
+      </reference>
+      <name value="Vendal-retard-60mg-Prolonged-release-tablet-EE-I"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ManufacturedItemDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ManufacturedItemDefinition/Vendal-retard-60mg-Prolonged-release-tablet-EE-MID"/>
+      </reference>
+      <name value="Vendal-retard-60mg-Prolonged-release-tablet-EE-MID"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicinalProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="MedicinalProductDefinition/Vendal-retard-60mg-Prolonged-release-tablet-EE-MPD"/>
+      </reference>
+      <name value="Vendal-retard-60mg-Prolonged-release-tablet-EE-MPD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/Vendal-retard-60mg-Prolonged-release-tablet-EE-PPD-1035739"/>
+      </reference>
+      <name value="Vendal-retard-60mg-Prolonged-release-tablet-EE-PPD-1035739"/>
+      <description value="Pakendi tüüp: blister (PVC ja alumiiniumfoolium). Pakendi suurus: karbis 30 tabletti."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="RegulatedAuthorization"/>
+      </extension>
+      <reference>
+        <reference value="RegulatedAuthorization/Vendal-retard-60mg-Prolonged-release-tablet-EE-RA"/>
+      </reference>
+      <name value="Vendal-retard-60mg-Prolonged-release-tablet-EE-RA"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="AdministrableProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="AdministrableProductDefinition/Ventolin-100mcg-Press-inh-susp-EE-APD"/>
+      </reference>
+      <name value="Ventolin-100mcg-Press-inh-susp-EE-APD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/Ventolin-100mcg-Press-inh-susp-EE-I"/>
+      </reference>
+      <name value="Ventolin-100mcg-Press-inh-susp-EE-I"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ManufacturedItemDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ManufacturedItemDefinition/Ventolin-100mcg-Press-inh-susp-EE-MID"/>
+      </reference>
+      <name value="Ventolin-100mcg-Press-inh-susp-EE-MID"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicinalProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="MedicinalProductDefinition/Ventolin-100mcg-Press-inh-susp-EE-MPD"/>
+      </reference>
+      <name value="Ventolin-100mcg-Press-inh-susp-EE-MPD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/Ventolin-100mcg-Press-inh-susp-EE-PPD-1005512"/>
+      </reference>
+      <name value="Ventolin-100mcg-Press-inh-susp-EE-PPD-1005512"/>
+      <description value="Annustatud inhalatsiooniaerosoolis on 200 annust alumiiniumballoonis, mis asetub spetsiaalselt disainitud suletava huulikuga inhalaatori sisse."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="RegulatedAuthorization"/>
+      </extension>
+      <reference>
+        <reference value="RegulatedAuthorization/Ventolin-100mcg-Press-inh-susp-EE-RA"/>
+      </reference>
+      <name value="Ventolin-100mcg-Press-inh-susp-EE-RA"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/Ventolin100mcg-EE"/>
+      </reference>
+      <name value="Ventolin100mcg-EE"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="AdministrableProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="AdministrableProductDefinition/Zoladex-3.6mg-Implant-EE-APD"/>
+      </reference>
+      <name value="Zoladex-3.6mg-Implant-EE-APD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/Zoladex-3.6mg-Implant-EE-I"/>
+      </reference>
+      <name value="Zoladex-3.6mg-Implant-EE-I"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ManufacturedItemDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ManufacturedItemDefinition/Zoladex-3.6mg-Implant-EE-MID"/>
+      </reference>
+      <name value="Zoladex-3.6mg-Implant-EE-MID"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicinalProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="MedicinalProductDefinition/Zoladex-3.6mg-Implant-EE-MPD"/>
+      </reference>
+      <name value="Zoladex-3.6mg-Implant-EE-MPD"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/Zoladex-3.6mg-Implant-EE-PPD-1002621"/>
+      </reference>
+      <name value="Zoladex-3.6mg-Implant-EE-PPD-1002621"/>
+      <description value="Üht implantaati sisaldav Safe System nõela kaitsva kattega süstel."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="RegulatedAuthorization"/>
+      </extension>
+      <reference>
+        <reference value="RegulatedAuthorization/Zoladex-3.6mg-Implant-EE-RA"/>
+      </reference>
+      <name value="Zoladex-3.6mg-Implant-EE-RA"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/Zoladex3.6mg-EE"/>
+      </reference>
+      <name value="Zoladex3.6mg-EE"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <page>
+      <nameUrl value="toc.html"/>
+      <title value="Table of Contents"/>
+      <generation value="html"/>
+      <page>
+        <nameUrl value="index.html"/>
+        <title value="Home"/>
+        <generation value="markdown"/>
+      </page>
+    </page>
+    <parameter>
+      <code value="copyrightyear"/>
+      <value value="2022+"/>
+    </parameter>
+    <parameter>
+      <code value="releaselabel"/>
+      <value value="ci-build"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/capabilities"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/examples"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/extensions"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/models"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/operations"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/profiles"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/resources"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/vocabulary"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/maps"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/testing"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/history"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="fsh-generated/resources"/>
+    </parameter>
+    <parameter>
+      <code value="path-pages"/>
+      <value value="template/config"/>
+    </parameter>
+    <parameter>
+      <code value="path-pages"/>
+      <value value="input/images"/>
+    </parameter>
+    <parameter>
+      <code value="path-liquid"/>
+      <value value="template/liquid"/>
+    </parameter>
+    <parameter>
+      <code value="path-liquid"/>
+      <value value="input/liquid"/>
+    </parameter>
+    <parameter>
+      <code value="path-qa"/>
+      <value value="temp/qa"/>
+    </parameter>
+    <parameter>
+      <code value="path-temp"/>
+      <value value="temp/pages"/>
+    </parameter>
+    <parameter>
+      <code value="path-output"/>
+      <value value="output"/>
+    </parameter>
+    <parameter>
+      <code value="path-tx-cache"/>
+      <value value="input-cache/txcache"/>
+    </parameter>
+    <parameter>
+      <code value="path-suppressed-warnings"/>
+      <value value="input/ignoreWarnings.txt"/>
+    </parameter>
+    <parameter>
+      <code value="path-history"/>
+      <value value="http://medigree.net/fhir/ee/idmp/history.html"/>
+    </parameter>
+    <parameter>
+      <code value="template-html"/>
+      <value value="template-page.html"/>
+    </parameter>
+    <parameter>
+      <code value="template-md"/>
+      <value value="template-page-md.html"/>
+    </parameter>
+    <parameter>
+      <code value="apply-contact"/>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code value="apply-context"/>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code value="apply-copyright"/>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code value="apply-jurisdiction"/>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code value="apply-license"/>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code value="apply-publisher"/>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code value="apply-version"/>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code value="active-tables"/>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code value="fmm-definition"/>
+      <value value="http://hl7.org/fhir/versions.html#maturity"/>
+    </parameter>
+    <parameter>
+      <code value="propagate-status"/>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code value="excludelogbinaryformat"/>
+      <value value="true"/>
+    </parameter>
+  </definition>
+</ImplementationGuide>

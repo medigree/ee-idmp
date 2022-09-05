@@ -1,0 +1,36 @@
+{
+  "package": "ee.fhir.idmp",
+  "version": "0.1.0",
+  "fhirVersion": "5.0.0-snapshot1",
+  "extensions": [],
+  "profiles": {},
+  "usage": {
+    "http://ema.europa.eu/fhir/extension/authorisedDoseForm": [
+      "Bundle.entry.resource",
+      "MedicinalProductDefinition"
+    ],
+    "http://ema.europa.eu/fhir/extension/comparator": [
+      "Bundle.entry.resource.substance.strength.concentrationRatio.numerator.comparator",
+      "Bundle.entry.resource.substance.strength.presentationRatio.numerator.comparator",
+      "Bundle.entry.resource.substance.strength.referenceStrength.strengthRatio.numerator.comparator",
+      "Ingredient.substance.strength.concentrationRatio.numerator.comparator",
+      "Ingredient.substance.strength.presentationRatio.numerator.comparator",
+      "Ingredient.substance.strength.referenceStrength.strengthRatio.numerator.comparator"
+    ],
+    "http://ema.europa.eu/fhir/extension/containedItemQuantity": [
+      "Bundle.entry.resource",
+      "PackagedProductDefinition"
+    ],
+    "http://ema.europa.eu/fhir/extension/language": [
+      "Bundle.entry.resource.description",
+      "PackagedProductDefinition.description"
+    ],
+    "http://hl7.org/fhir/5.0/StructureDefinition/extension-PackagedProductDefinition.containedItemQuantity": [
+      "Bundle.entry.resource",
+      "PackagedProductDefinition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
+      "ImplementationGuide.definition.resource"
+    ]
+  }
+}

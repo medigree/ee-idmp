@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="DiclofenacMylan180mg-EE"/>
+  <meta>
+    <versionId value="1"/>
+    <lastUpdated value="2022-08-23T06:28:28.366+00:00"/>
+  </meta>
+  <type value="transaction"/>
+  <entry>
+    <resource>
+      <MedicinalProductDefinition>
+        <id value="Diclofenac-Mylan-180mg-Med-plaster-EE-MPD"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: MedicinalProductDefinition</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource MedicinalProductDefinition "Diclofenac-Mylan-180mg-Med-plaster-EE-MPD" </p></div><p><b>identifier</b>: id: 00000000000012, id: EE-100022866-36016</p><p><b>domain</b>: Human use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000000004#100000000012)</span></p><p><b>status</b>: Current <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000005003#200000005004; <a href="http://build.fhir.org/codesystem-publication-status.html">PublicationStatus</a>#active "Active")</span></p><p><b>legalStatusOfSupply</b>: Medicinal product not subject to medical prescription <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072051#100000072076)</span></p><p><b>additionalMonitoringIndicator</b>: False <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (additionalMonitoringIndicator#False)</span></p><p><b>classification</b>: diclofenac <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000093533#100000097012; <a href="http://terminology.hl7.org/3.0.0/CodeSystem-atc.html">WHO ATC</a>#M02AA15)</span></p><blockquote><p><b>name</b></p><p><b>productName</b>: Diclofenac Mylan, 180 mg ravimplaaster </p><blockquote><p><b>namePart</b></p><p><b>part</b>: Diclofenac Mylan</p><p><b>type</b>: Invented name part <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000000#220000000002)</span></p></blockquote><blockquote><p><b>namePart</b></p><p><b>part</b>: 180 mg</p><p><b>type</b>: Strength part <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000000#220000000004)</span></p></blockquote><blockquote><p><b>namePart</b></p><p><b>part</b>: ravimplaaster</p><p><b>type</b>: Pharmaceutical dose form part <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000000#220000000005)</span></p></blockquote><h3>CountryLanguages</h3><table class="grid"><tr><td>-</td><td><b>Country</b></td><td><b>Language</b></td></tr><tr><td>*</td><td>Republic of Estonia <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000000002#100000000388)</span></td><td>Estonian <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072057#100000072172)</span></td></tr></table></blockquote></div>
+        </text>
+        <extension url="http://ema.europa.eu/fhir/extension/authorisedDoseForm">
+          <valueCoding>
+            <system value="https://spor.ema.europa.eu/v1/lists/200000000004"/>
+            <code value="100000073714"/>
+            <display value="Medicated plaster"/>
+          </valueCoding>
+        </extension>
+        <identifier>
+          <system value="http://ema.europa.eu/fhir/pmsId"/>
+          <value value="00000000000012"/>
+        </identifier>
+        <identifier>
+          <system value="http://ema.europa.eu/fhir/mpId"/>
+          <value value="EE-100022866-36016"/>
+        </identifier>
+        <domain>
+          <coding>
+            <system value="https://spor.ema.europa.eu/v1/lists/100000000004"/>
+            <code value="100000000012"/>
+            <display value="Human use"/>
+          </coding>
+        </domain>
+        <status>
+          <coding>
+            <system value="https://spor.ema.europa.eu/v1/lists/200000005003"/>
+            <code value="200000005004"/>
+            <display value="Current"/>
+          </coding>
+          <coding>
+            <system value="http://hl7.org/fhir/publication-status"/>
+            <code value="active"/>
+            <display value="Active"/>
+          </coding>
+        </status>
+        <legalStatusOfSupply>
+          <coding>
+            <system value="https://spor.ema.europa.eu/v1/lists/100000072051"/>
+            <code value="100000072076"/>
+            <display value="Medicinal product not subject to medical prescription"/>
+          </coding>
+        </legalStatusOfSupply>
+        <additionalMonitoringIndicator>
+          <coding>
+            <system value="http://ema.europa.eu/fhir/additionalMonitoringIndicator"/>
+            <code value="False"/>
+            <display value="False"/>
+          </coding>
+        </additionalMonitoringIndicator>
+        <classification>
+          <coding>
+            <system value="https://spor.ema.europa.eu/v1/lists/100000093533"/>
+            <code value="100000097012"/>
+            <display value="diclofenac"/>
+          </coding>
+          <coding>
+            <system value="http://www.whocc.no/atc"/>
+            <code value="M02AA15"/>
+            <display value="diclofenac"/>
+          </coding>
+        </classification>
+        <name>
+          <productName value="Diclofenac Mylan, 180 mg ravimplaaster "/>
+          <namePart>
+            <part value="Diclofenac Mylan"/>
+            <type>
+              <coding>
+                <system value="https://spor.ema.europa.eu/v1/lists/220000000000"/>
+                <code value="220000000002"/>
+                <display value="Invented name part"/>
+              </coding>
+            </type>
+          </namePart>
+          <namePart>
+            <part value="180 mg"/>
+            <type>
+              <coding>
+                <system value="https://spor.ema.europa.eu/v1/lists/220000000000"/>
+                <code value="220000000004"/>
+                <display value="Strength part"/>
+              </coding>
+            </type>
+          </namePart>
+          <namePart>
+            <part value="ravimplaaster"/>
+            <type>
+              <coding>
+                <system value="https://spor.ema.europa.eu/v1/lists/220000000000"/>
+                <code value="220000000005"/>
+                <display value="Pharmaceutical dose form part"/>
+              </coding>
+            </type>
+          </namePart>
+          <countryLanguage>
+            <country>
+              <coding>
+                <system value="https://spor.ema.europa.eu/v1/lists/100000000002"/>
+                <code value="100000000388"/>
+                <display value="Republic of Estonia"/>
+              </coding>
+            </country>
+            <language>
+              <coding>
+                <system value="https://spor.ema.europa.eu/v1/lists/100000072057"/>
+                <code value="100000072172"/>
+                <display value="Estonian"/>
+              </coding>
+            </language>
+          </countryLanguage>
+        </name>
+      </MedicinalProductDefinition>
+    </resource>
+    <request>
+      <method value="PUT"/>
+      <url value="MedicinalProductDefinition/Diclofenac-Mylan-180mg-Med-plaster-EE-MPD"/>
+    </request>
+  </entry>
+  <entry>
+    <resource>
+      <RegulatedAuthorization>
+        <id value="Diclofenac-Mylan-180mg-Med-plaster-EE-RA"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: RegulatedAuthorization</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource RegulatedAuthorization "Diclofenac-Mylan-180mg-Med-plaster-EE-RA" </p></div><p><b>identifier</b>: id: 1008820</p><p><b>subject</b>: <a href="#MedicinalProductDefinition_Diclofenac-Mylan-180mg-Med-plaster-EE-MPD">See above (MedicinalProductDefinition/Diclofenac-Mylan-180mg-Med-plaster-EE-MPD)</a></p><p><b>type</b>: Marketing Authorisation <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000060#220000000061)</span></p><p><b>region</b>: Republic of Estonia <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000000002#100000000388)</span></p><p><b>status</b>: Valid <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072049#100000072099)</span></p><p><b>statusDate</b>: 2020-09-01</p><p><b>holder</b>: <span>: Mylan Ireland Limited</span></p></div>
+        </text>
+        <identifier>
+          <system value="http://ema.europa.eu/fhir/marketingAuthorizationNumber"/>
+          <value value="1008820"/>
+        </identifier>
+        <subject>
+          <reference value="MedicinalProductDefinition/Diclofenac-Mylan-180mg-Med-plaster-EE-MPD"/>
+        </subject>
+        <type>
+          <coding>
+            <system value="https://spor.ema.europa.eu/v1/lists/220000000060"/>
+            <code value="220000000061"/>
+            <display value="Marketing Authorisation"/>
+          </coding>
+        </type>
+        <region>
+          <coding>
+            <system value="https://spor.ema.europa.eu/v1/lists/100000000002"/>
+            <code value="100000000388"/>
+            <display value="Republic of Estonia"/>
+          </coding>
+        </region>
+        <status>
+          <coding>
+            <system value="https://spor.ema.europa.eu/v1/lists/100000072049"/>
+            <code value="100000072099"/>
+            <display value="Valid"/>
+          </coding>
+        </status>
+        <statusDate value="2020-09-01"/>
+        <holder>
+          <identifier>
+            <system value="https://spor.ema.europa.eu/v1/locations"/>
+            <value value="LOC-100022866"/>
+          </identifier>
+          <display value="Mylan Ireland Limited"/>
+        </holder>
+      </RegulatedAuthorization>
+    </resource>
+    <request>
+      <method value="PUT"/>
+      <url value="RegulatedAuthorization/Diclofenac-Mylan-180mg-Med-plaster-EE-RA"/>
+    </request>
+  </entry>
+  <entry>
+    <resource>
+      <AdministrableProductDefinition>
+        <id value="Diclofenac-Mylan-180mg-Med-plaster-EE-APD"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: AdministrableProductDefinition</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource AdministrableProductDefinition "Diclofenac-Mylan-180mg-Med-plaster-EE-APD" </p></div><p><b>status</b>: active</p><p><b>formOf</b>: <a href="#MedicinalProductDefinition_Diclofenac-Mylan-180mg-Med-plaster-EE-MPD">See above (MedicinalProductDefinition/Diclofenac-Mylan-180mg-Med-plaster-EE-MPD)</a></p><p><b>administrableDoseForm</b>: Medicated plaster <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000000004#100000073714)</span></p><p><b>unitOfPresentation</b>: Plaster <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000000014#200000002140)</span></p><p><b>producedFrom</b>: <a href="#ManufacturedItemDefinition_Diclofenac-Mylan-180mg-Med-plaster-EE-MID">See above (ManufacturedItemDefinition/Diclofenac-Mylan-180mg-Med-plaster-EE-MID)</a></p><h3>RouteOfAdministrations</h3><table class="grid"><tr><td>-</td><td><b>Code</b></td></tr><tr><td>*</td><td>Cutaneous use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073345#100000073566)</span></td></tr></table></div>
+        </text>
+        <status value="active"/>
+        <formOf>
+          <reference value="MedicinalProductDefinition/Diclofenac-Mylan-180mg-Med-plaster-EE-MPD"/>
+        </formOf>
+        <administrableDoseForm>
+          <coding>
+            <system value="https://spor.ema.europa.eu/v1/lists/200000000004"/>
+            <code value="100000073714"/>
+            <display value="Medicated plaster"/>
+          </coding>
+        </administrableDoseForm>
+        <unitOfPresentation>
+          <coding>
+            <system value="https://spor.ema.europa.eu/v1/lists/200000000014"/>
+            <code value="200000002140"/>
+            <display value="Plaster"/>
+          </coding>
+        </unitOfPresentation>
+        <producedFrom>
+          <reference value="ManufacturedItemDefinition/Diclofenac-Mylan-180mg-Med-plaster-EE-MID"/>
+        </producedFrom>
+        <routeOfAdministration>
+          <code>
+            <coding>
+              <system value="https://spor.ema.europa.eu/v1/lists/100000073345"/>
+              <code value="100000073566"/>
+              <display value="Cutaneous use"/>
+            </coding>
+          </code>
+        </routeOfAdministration>
+      </AdministrableProductDefinition>
+    </resource>
+    <request>
+      <method value="PUT"/>
+      <url value="AdministrableProductDefinition/Diclofenac-Mylan-180mg-Med-plaster-EE-APD"/>
+    </request>
+  </entry>
+  <entry>
+    <resource>
+      <ManufacturedItemDefinition>
+        <id value="Diclofenac-Mylan-180mg-Med-plaster-EE-MID"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: ManufacturedItemDefinition</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource ManufacturedItemDefinition "Diclofenac-Mylan-180mg-Med-plaster-EE-MID" </p></div><p><b>status</b>: active</p><p><b>manufacturedDoseForm</b>: Medicated plaster <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000000004#100000073714)</span></p><p><b>unitOfPresentation</b>: Plaster <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000000014#200000002140)</span></p></div>
+        </text>
+        <status value="active"/>
+        <manufacturedDoseForm>
+          <coding>
+            <system value="https://spor.ema.europa.eu/v1/lists/200000000004"/>
+            <code value="100000073714"/>
+            <display value="Medicated plaster"/>
+          </coding>
+        </manufacturedDoseForm>
+        <unitOfPresentation>
+          <coding>
+            <system value="https://spor.ema.europa.eu/v1/lists/200000000014"/>
+            <code value="200000002140"/>
+            <display value="Plaster"/>
+          </coding>
+        </unitOfPresentation>
+      </ManufacturedItemDefinition>
+    </resource>
+    <request>
+      <method value="PUT"/>
+      <url value="ManufacturedItemDefinition/Diclofenac-Mylan-180mg-Med-plaster-EE-MID"/>
+    </request>
+  </entry>
+  <entry>
+    <resource>
+      <Ingredient>
+        <id value="Diclofenac-Mylan-180mg-Med-plaster-EE-I"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Ingredient</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Ingredient "Diclofenac-Mylan-180mg-Med-plaster-EE-I" </p></div><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href="#MedicinalProductDefinition_Diclofenac-Mylan-180mg-Med-plaster-EE-MPD">See above (MedicinalProductDefinition/Diclofenac-Mylan-180mg-Med-plaster-EE-MPD)</a></li><li><a href="#ManufacturedItemDefinition_Diclofenac-Mylan-180mg-Med-plaster-EE-MID">See above (ManufacturedItemDefinition/Diclofenac-Mylan-180mg-Med-plaster-EE-MID)</a></li><li><a href="#AdministrableProductDefinition_Diclofenac-Mylan-180mg-Med-plaster-EE-APD">See above (AdministrableProductDefinition/Diclofenac-Mylan-180mg-Med-plaster-EE-APD)</a></li></ul><p><b>role</b>: Active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072050#100000072072)</span></p><blockquote><p><b>substance</b></p><blockquote><p><b>strength</b></p><p><b>presentation</b>: </p></blockquote></blockquote><p><b style="color: maroon">Exception generating Narrative: null</b></p></div>
+        </text>
+        <status value="active"/>
+        <for>
+          <reference value="MedicinalProductDefinition/Diclofenac-Mylan-180mg-Med-plaster-EE-MPD"/>
+        </for>
+        <for>
+          <reference value="ManufacturedItemDefinition/Diclofenac-Mylan-180mg-Med-plaster-EE-MID"/>
+        </for>
+        <for>
+          <reference value="AdministrableProductDefinition/Diclofenac-Mylan-180mg-Med-plaster-EE-APD"/>
+        </for>
+        <role>
+          <coding>
+            <system value="https://spor.ema.europa.eu/v1/lists/100000072050"/>
+            <code value="100000072072"/>
+            <display value="Active"/>
+          </coding>
+        </role>
+        <substance>
+          <code>
+            <concept>
+              <coding>
+                <system value="https://spor.ema.europa.eu/v2/SubstanceDefinition"/>
+                <code value="100000085789"/>
+                <display value="Diclofenac epolamine"/>
+              </coding>
+            </concept>
+          </code>
+          <strength>
+            <presentationRatio>
+              <numerator>
+                <value value="180"/>
+                <comparator>
+                  <extension url="http://ema.europa.eu/fhir/extension/comparator">
+                    <valueCoding>
+                      <system value="https://spor.ema.europa.eu/v1/lists/100000000008"/>
+                      <code value="100000000049"/>
+                      <display value="equal to"/>
+                    </valueCoding>
+                  </extension>
+                </comparator>
+                <unit value="milligram(s)"/>
+                <system value="https://spor.ema.europa.eu/v1/lists/100000110633"/>
+                <code value="100000110655"/>
+              </numerator>
+              <denominator>
+                <value value="1"/>
+                <unit value="Plaster"/>
+                <system value="https://spor.ema.europa.eu/v1/lists/200000000014"/>
+                <code value="200000002140"/>
+              </denominator>
+            </presentationRatio>
+            <referenceStrength>
+              <substance>
+                <concept>
+                  <coding>
+                    <system value="https://spor.ema.europa.eu/v2/SubstanceDefinition"/>
+                    <code value="100000092272"/>
+                    <display value="Diclofenac sodium"/>
+                  </coding>
+                </concept>
+              </substance>
+              <strengthRatio>
+                <numerator>
+                  <value value="140"/>
+                  <comparator>
+                    <extension url="http://ema.europa.eu/fhir/extension/comparator">
+                      <valueCoding>
+                        <system value="https://spor.ema.europa.eu/v1/lists/100000000008"/>
+                        <code value="100000000049"/>
+                        <display value="equal to"/>
+                      </valueCoding>
+                    </extension>
+                  </comparator>
+                  <unit value="milligram(s)"/>
+                  <system value="https://spor.ema.europa.eu/v1/lists/100000110633"/>
+                  <code value="100000110655"/>
+                </numerator>
+                <denominator>
+                  <value value="1"/>
+                  <unit value="Plaster"/>
+                  <system value="https://spor.ema.europa.eu/v1/lists/200000000014"/>
+                  <code value="200000002140"/>
+                </denominator>
+              </strengthRatio>
+            </referenceStrength>
+          </strength>
+        </substance>
+      </Ingredient>
+    </resource>
+    <request>
+      <method value="PUT"/>
+      <url value="Ingredient/Diclofenac-Mylan-180mg-Med-plaster-EE-I"/>
+    </request>
+  </entry>
+  <entry>
+    <resource>
+      <PackagedProductDefinition>
+        <id value="Diclofenac-Mylan-180mg-Med-plaster-EE-PPD-1788419"/>
+        <text>
+          <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: PackagedProductDefinition</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource PackagedProductDefinition "Diclofenac-Mylan-180mg-Med-plaster-EE-PPD-1788419" </p></div><p><b>Extension Definition for PackagedProductDefinition.containedItemQuantity for Version 5.0</b>: 5 Plaster<span style="background: LightGoldenRodYellow"> (Details: http://spor.ema.europa.eu/v1/lists/200000000014 code 200000002140 = '200000002140')</span></p><p><b>identifier</b>: id: EE-100022866-36016-1788419</p><p><b>packageFor</b>: <a href="#MedicinalProductDefinition_Diclofenac-Mylan-180mg-Med-plaster-EE-MPD">See above (MedicinalProductDefinition/Diclofenac-Mylan-180mg-Med-plaster-EE-MPD)</a></p><p><b>description</b>: Suletava ümbrise materjal on paber/PE/alumiinium/etüleen ja metüülakrüülhappe kopolümeer. Ümbrises on 5 ravimplaastrit. Pakendi suurus: 5 või 10 ravimplaastrit karbis.</p><blockquote><p><b>package</b></p><p><b>type</b>: Box <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073346#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000003199#200000003529)</span></p><blockquote><p><b>package</b></p><p><b>type</b>: Pouch <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073346#100000073540)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Paper <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000003199#200000003207)</span>, PolyEthylene <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000003199#200000003214)</span>, Ethylene meta-acrylic acid <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000003199#200000012521)</span>, Aluminium <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000003199#200000003200)</span></p></blockquote></blockquote></div>
+        </text>
+        <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-PackagedProductDefinition.containedItemQuantity">
+          <valueQuantity>
+            <value value="5"/>
+            <unit value="Plaster"/>
+            <system value="http://spor.ema.europa.eu/v1/lists/200000000014"/>
+            <code value="200000002140"/>
+          </valueQuantity>
+        </extension>
+        <identifier>
+          <system value="http://ema.europa.eu/example/pcid"/>
+          <value value="EE-100022866-36016-1788419"/>
+        </identifier>
+        <packageFor>
+          <reference value="MedicinalProductDefinition/Diclofenac-Mylan-180mg-Med-plaster-EE-MPD"/>
+        </packageFor>
+        <description value="Suletava ümbrise materjal on paber/PE/alumiinium/etüleen ja metüülakrüülhappe kopolümeer. Ümbrises on 5 ravimplaastrit. Pakendi suurus: 5 või 10 ravimplaastrit karbis.">
+          <extension url="http://ema.europa.eu/fhir/extension/language">
+            <valueCoding>
+              <system value="https://spor.ema.europa.eu/v1/lists/100000072057"/>
+              <code value="100000072172"/>
+              <display value="Estonian"/>
+            </valueCoding>
+          </extension>
+        </description>
+        <marketingStatus>
+          <country>
+            <coding>
+              <system value="https://spor.ema.europa.eu/v1/lists/100000000002"/>
+              <code value="100000000388"/>
+              <display value="Republic of Estonia"/>
+            </coding>
+          </country>
+          <status>
+            <coding>
+              <system value="https://spor.ema.europa.eu/v1/lists/100000072052"/>
+              <code value="100000072083"/>
+              <display value="Marketed"/>
+            </coding>
+          </status>
+        </marketingStatus>
+        <package>
+          <type>
+            <coding>
+              <system value="https://spor.ema.europa.eu/v1/lists/100000073346"/>
+              <code value="100000073498"/>
+              <display value="Box"/>
+            </coding>
+          </type>
+          <quantity value="1"/>
+          <material>
+            <coding>
+              <system value="https://spor.ema.europa.eu/v1/lists/200000003199"/>
+              <code value="200000003529"/>
+              <display value="Cardboard"/>
+            </coding>
+          </material>
+          <package>
+            <type>
+              <coding>
+                <system value="https://spor.ema.europa.eu/v1/lists/100000073346"/>
+                <code value="100000073540"/>
+                <display value="Pouch"/>
+              </coding>
+            </type>
+            <quantity value="1"/>
+            <material>
+              <coding>
+                <system value="https://spor.ema.europa.eu/v1/lists/200000003199"/>
+                <code value="200000003207"/>
+                <display value="Paper"/>
+              </coding>
+            </material>
+            <material>
+              <coding>
+                <system value="https://spor.ema.europa.eu/v1/lists/200000003199"/>
+                <code value="200000003214"/>
+                <display value="PolyEthylene"/>
+              </coding>
+            </material>
+            <material>
+              <coding>
+                <system value="https://spor.ema.europa.eu/v1/lists/200000003199"/>
+                <code value="200000012521"/>
+                <display value="Ethylene meta-acrylic acid"/>
+              </coding>
+            </material>
+            <material>
+              <coding>
+                <system value="https://spor.ema.europa.eu/v1/lists/200000003199"/>
+                <code value="200000003200"/>
+                <display value="Aluminium"/>
+              </coding>
+            </material>
+            <containedItem>
+              <item>
+                <reference>
+                  <reference value="ManufacturedItemDefinition/Diclofenac-Mylan-180mg-Med-plaster-EE-MID"/>
+                </reference>
+              </item>
+              <amount>
+                <value value="5"/>
+                <unit value="Plaster"/>
+                <system value="https://spor.ema.europa.eu/v1/lists/200000000014"/>
+                <code value="200000002140"/>
+              </amount>
+            </containedItem>
+          </package>
+        </package>
+      </PackagedProductDefinition>
+    </resource>
+    <request>
+      <method value="PUT"/>
+      <url value="PackagedProductDefinition/Diclofenac-Mylan-180mg-Med-plaster-EE-PPD-1788419"/>
+    </request>
+  </entry>
+  <entry>
+    <resource>
+      <PackagedProductDefinition>
+        <id value="Diclofenac-Mylan-180mg-Med-plaster-EE-PPD-1788420"/>
+        <text>
+          <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: PackagedProductDefinition</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource PackagedProductDefinition "Diclofenac-Mylan-180mg-Med-plaster-EE-PPD-1788420" </p></div><p><b>Extension Definition for PackagedProductDefinition.containedItemQuantity for Version 5.0</b>: 10 Plaster<span style="background: LightGoldenRodYellow"> (Details: http://spor.ema.europa.eu/v1/lists/200000000014 code 200000002140 = '200000002140')</span></p><p><b>identifier</b>: id: EE-100022866-36016-1788420</p><p><b>packageFor</b>: <a href="#MedicinalProductDefinition_Diclofenac-Mylan-180mg-Med-plaster-EE-MPD">See above (MedicinalProductDefinition/Diclofenac-Mylan-180mg-Med-plaster-EE-MPD)</a></p><p><b>description</b>: Suletava ümbrise materjal on paber/PE/alumiinium/etüleen ja metüülakrüülhappe kopolümeer. Ümbrises on 5 ravimplaastrit. Pakendi suurus: 5 või 10 ravimplaastrit karbis.</p><blockquote><p><b>package</b></p><p><b>type</b>: Box <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073346#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000003199#200000003529)</span></p><blockquote><p><b>package</b></p><p><b>type</b>: Pouch <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073346#100000073540)</span></p><p><b>quantity</b>: 2</p><p><b>material</b>: Paper <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000003199#200000003207)</span>, PolyEthylene <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000003199#200000003214)</span>, Ethylene meta-acrylic acid <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000003199#200000012521)</span>, Aluminium <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000003199#200000003200)</span></p></blockquote></blockquote></div>
+        </text>
+        <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-PackagedProductDefinition.containedItemQuantity">
+          <valueQuantity>
+            <value value="10"/>
+            <unit value="Plaster"/>
+            <system value="http://spor.ema.europa.eu/v1/lists/200000000014"/>
+            <code value="200000002140"/>
+          </valueQuantity>
+        </extension>
+        <identifier>
+          <system value="http://ema.europa.eu/example/pcid"/>
+          <value value="EE-100022866-36016-1788420"/>
+        </identifier>
+        <packageFor>
+          <reference value="MedicinalProductDefinition/Diclofenac-Mylan-180mg-Med-plaster-EE-MPD"/>
+        </packageFor>
+        <description value="Suletava ümbrise materjal on paber/PE/alumiinium/etüleen ja metüülakrüülhappe kopolümeer. Ümbrises on 5 ravimplaastrit. Pakendi suurus: 5 või 10 ravimplaastrit karbis.">
+          <extension url="http://ema.europa.eu/fhir/extension/language">
+            <valueCoding>
+              <system value="https://spor.ema.europa.eu/v1/lists/100000072057"/>
+              <code value="100000072172"/>
+              <display value="Estonian"/>
+            </valueCoding>
+          </extension>
+        </description>
+        <marketingStatus>
+          <country>
+            <coding>
+              <system value="https://spor.ema.europa.eu/v1/lists/100000000002"/>
+              <code value="100000000388"/>
+              <display value="Republic of Estonia"/>
+            </coding>
+          </country>
+          <status>
+            <coding>
+              <system value="https://spor.ema.europa.eu/v1/lists/100000072052"/>
+              <code value="100000072083"/>
+              <display value="Marketed"/>
+            </coding>
+          </status>
+        </marketingStatus>
+        <package>
+          <type>
+            <coding>
+              <system value="https://spor.ema.europa.eu/v1/lists/100000073346"/>
+              <code value="100000073498"/>
+              <display value="Box"/>
+            </coding>
+          </type>
+          <quantity value="1"/>
+          <material>
+            <coding>
+              <system value="https://spor.ema.europa.eu/v1/lists/200000003199"/>
+              <code value="200000003529"/>
+              <display value="Cardboard"/>
+            </coding>
+          </material>
+          <package>
+            <type>
+              <coding>
+                <system value="https://spor.ema.europa.eu/v1/lists/100000073346"/>
+                <code value="100000073540"/>
+                <display value="Pouch"/>
+              </coding>
+            </type>
+            <quantity value="2"/>
+            <material>
+              <coding>
+                <system value="https://spor.ema.europa.eu/v1/lists/200000003199"/>
+                <code value="200000003207"/>
+                <display value="Paper"/>
+              </coding>
+            </material>
+            <material>
+              <coding>
+                <system value="https://spor.ema.europa.eu/v1/lists/200000003199"/>
+                <code value="200000003214"/>
+                <display value="PolyEthylene"/>
+              </coding>
+            </material>
+            <material>
+              <coding>
+                <system value="https://spor.ema.europa.eu/v1/lists/200000003199"/>
+                <code value="200000012521"/>
+                <display value="Ethylene meta-acrylic acid"/>
+              </coding>
+            </material>
+            <material>
+              <coding>
+                <system value="https://spor.ema.europa.eu/v1/lists/200000003199"/>
+                <code value="200000003200"/>
+                <display value="Aluminium"/>
+              </coding>
+            </material>
+            <containedItem>
+              <item>
+                <reference>
+                  <reference value="ManufacturedItemDefinition/Diclofenac-Mylan-180mg-Med-plaster-EE-MID"/>
+                </reference>
+              </item>
+              <amount>
+                <value value="10"/>
+                <unit value="Plaster"/>
+                <system value="https://spor.ema.europa.eu/v1/lists/200000000014"/>
+                <code value="200000002140"/>
+              </amount>
+            </containedItem>
+          </package>
+        </package>
+      </PackagedProductDefinition>
+    </resource>
+    <request>
+      <method value="PUT"/>
+      <url value="PackagedProductDefinition/Diclofenac-Mylan-180mg-Med-plaster-EE-PPD-1788420"/>
+    </request>
+  </entry>
+</Bundle>

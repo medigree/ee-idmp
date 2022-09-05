@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PackagedProductDefinition xmlns="http://hl7.org/fhir">
+  <id value="Diclac-10mg1g-Gel-EE-PPD-1153268"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: PackagedProductDefinition</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource PackagedProductDefinition "Diclac-10mg1g-Gel-EE-PPD-1153268" </p></div><p><b>Extension Definition for PackagedProductDefinition.containedItemQuantity for Version 5.0</b>: 1 Tube<span style="background: LightGoldenRodYellow"> (Details: http://spor.ema.europa.eu/v1/lists/200000000014 code 200000002156 = '200000002156')</span></p><p><b>identifier</b>: id: EE-100002893-17429-1153268</p><p><b>packageFor</b>: <a href="MedicinalProductDefinition-Diclac-10mg1g-Gel-EE-MPD.html">MedicinalProductDefinition/Diclac-10mg1g-Gel-EE-MPD</a></p><p><b>description</b>: Tuub sisaldab 25 g, 50 g või 100 g geeli.</p><blockquote><p><b>package</b></p><p><b>type</b>: Box <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073346#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000003199#200000003529)</span></p><blockquote><p><b>package</b></p><p><b>type</b>: Tube <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073346#100000073346)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Aluminium <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000003199#200000003200)</span></p></blockquote></blockquote></div>
+  </text>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-PackagedProductDefinition.containedItemQuantity">
+    <valueQuantity>
+      <value value="1"/>
+      <unit value="Tube"/>
+      <system value="http://spor.ema.europa.eu/v1/lists/200000000014"/>
+      <code value="200000002156"/>
+    </valueQuantity>
+  </extension>
+  <identifier>
+    <system value="http://ema.europa.eu/example/pcid"/>
+    <value value="EE-100002893-17429-1153268"/>
+  </identifier>
+  <packageFor>
+    <reference value="MedicinalProductDefinition/Diclac-10mg1g-Gel-EE-MPD"/>
+  </packageFor>
+  <description value="Tuub sisaldab 25 g, 50 g või 100 g geeli.">
+    <extension url="http://ema.europa.eu/fhir/extension/language">
+      <valueCoding>
+        <system value="https://spor.ema.europa.eu/v1/lists/100000072057"/>
+        <code value="100000072172"/>
+        <display value="Estonian"/>
+      </valueCoding>
+    </extension>
+  </description>
+  <marketingStatus>
+    <country>
+      <coding>
+        <system value="https://spor.ema.europa.eu/v1/lists/100000000002"/>
+        <code value="100000000388"/>
+        <display value="Republic of Estonia"/>
+      </coding>
+    </country>
+    <status>
+      <coding>
+        <system value="https://spor.ema.europa.eu/v1/lists/100000072052"/>
+        <code value="100000072083"/>
+        <display value="Marketed"/>
+      </coding>
+    </status>
+  </marketingStatus>
+  <package>
+    <type>
+      <coding>
+        <system value="https://spor.ema.europa.eu/v1/lists/100000073346"/>
+        <code value="100000073498"/>
+        <display value="Box"/>
+      </coding>
+    </type>
+    <quantity value="1"/>
+    <material>
+      <coding>
+        <system value="https://spor.ema.europa.eu/v1/lists/200000003199"/>
+        <code value="200000003529"/>
+        <display value="Cardboard"/>
+      </coding>
+    </material>
+    <package>
+      <type>
+        <coding>
+          <system value="https://spor.ema.europa.eu/v1/lists/100000073346"/>
+          <code value="100000073346"/>
+          <display value="Tube"/>
+        </coding>
+      </type>
+      <quantity value="1"/>
+      <material>
+        <coding>
+          <system value="https://spor.ema.europa.eu/v1/lists/200000003199"/>
+          <code value="200000003200"/>
+          <display value="Aluminium"/>
+        </coding>
+      </material>
+      <containedItem>
+        <item>
+          <reference>
+            <reference value="ManufacturedItemDefinition/Diclac-10mg1g-Gel-EE-MID"/>
+          </reference>
+        </item>
+        <amount>
+          <value value="100"/>
+          <unit value="gram(s)"/>
+          <system value="https://spor.ema.europa.eu/v1/lists/100000110633"/>
+          <code value="100000110654"/>
+        </amount>
+      </containedItem>
+    </package>
+  </package>
+</PackagedProductDefinition>

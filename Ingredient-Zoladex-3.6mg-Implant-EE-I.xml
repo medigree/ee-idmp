@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Ingredient xmlns="http://hl7.org/fhir">
+  <id value="Zoladex-3.6mg-Implant-EE-I"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Ingredient</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Ingredient "Zoladex-3.6mg-Implant-EE-I" </p></div><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href="MedicinalProductDefinition-Zoladex-3.6mg-Implant-EE-MPD.html">MedicinalProductDefinition/Zoladex-3.6mg-Implant-EE-MPD</a></li><li><a href="ManufacturedItemDefinition-Zoladex-3.6mg-Implant-EE-MID.html">ManufacturedItemDefinition/Zoladex-3.6mg-Implant-EE-MID</a></li><li><a href="AdministrableProductDefinition-Zoladex-3.6mg-Implant-EE-APD.html">AdministrableProductDefinition/Zoladex-3.6mg-Implant-EE-APD</a></li></ul><p><b>role</b>: Active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072050#100000072072)</span></p><blockquote><p><b>substance</b></p></blockquote><p><b style="color: maroon">Exception generating Narrative: null</b></p></div>
+  </text>
+  <status value="active"/>
+  <for>
+    <reference value="MedicinalProductDefinition/Zoladex-3.6mg-Implant-EE-MPD"/>
+  </for>
+  <for>
+    <reference value="ManufacturedItemDefinition/Zoladex-3.6mg-Implant-EE-MID"/>
+  </for>
+  <for>
+    <reference value="AdministrableProductDefinition/Zoladex-3.6mg-Implant-EE-APD"/>
+  </for>
+  <role>
+    <coding>
+      <system value="https://spor.ema.europa.eu/v1/lists/100000072050"/>
+      <code value="100000072072"/>
+      <display value="Active"/>
+    </coding>
+  </role>
+  <substance>
+    <code>
+      <concept>
+        <coding>
+          <system value="https://spor.ema.europa.eu/v2/SubstanceDefinition"/>
+          <code value="100000084238"/>
+          <display value="Goserelin"/>
+        </coding>
+      </concept>
+    </code>
+    <strength>
+      <presentationRatio>
+        <numerator>
+          <value value="3.6"/>
+          <comparator>
+            <extension url="http://ema.europa.eu/fhir/extension/comparator">
+              <valueCoding>
+                <system value="https://spor.ema.europa.eu/v1/lists/100000000008"/>
+                <code value="100000000049"/>
+                <display value="equal to"/>
+              </valueCoding>
+            </extension>
+          </comparator>
+          <unit value="milligram(s)"/>
+          <system value="https://spor.ema.europa.eu/v1/lists/100000110633"/>
+          <code value="100000110655"/>
+        </numerator>
+        <denominator>
+          <value value="1"/>
+          <unit value="Implant"/>
+          <system value="https://spor.ema.europa.eu/v1/lists/200000000014"/>
+          <code value="200000002124"/>
+        </denominator>
+      </presentationRatio>
+    </strength>
+  </substance>
+</Ingredient>

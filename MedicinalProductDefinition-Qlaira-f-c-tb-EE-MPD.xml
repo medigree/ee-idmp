@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MedicinalProductDefinition xmlns="http://hl7.org/fhir">
+  <id value="Qlaira-f-c-tb-EE-MPD"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: MedicinalProductDefinition</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource MedicinalProductDefinition "Qlaira-f-c-tb-EE-MPD" </p></div><p><b>identifier</b>: id: 0000000000013, id: EE-100001505-22493</p><p><b>domain</b>: Human use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000000004#100000000012)</span></p><p><b>status</b>: Current <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000005003#200000005004; <a href="http://build.fhir.org/codesystem-publication-status.html">PublicationStatus</a>#active "Active")</span></p><p><b>legalStatusOfSupply</b>: Medicinal Product subject to medical prescription <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072051#100000072084)</span></p><p><b>additionalMonitoringIndicator</b>: False <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (additionalMonitoringIndicator#False)</span></p><p><b>classification</b>: Dienogest and estradiol <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000093533#1100000125013; <a href="http://terminology.hl7.org/3.0.0/CodeSystem-atc.html">WHO ATC</a>#G03AB08 "Dienogest and estradiol ")</span></p><blockquote><p><b>name</b></p><p><b>productName</b>: Qlaira, õhukese polümeerikattega tabletid</p><blockquote><p><b>namePart</b></p><p><b>part</b>: Qlaira</p><p><b>type</b>: Invented name part <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000000#220000000002)</span></p></blockquote><blockquote><p><b>namePart</b></p><p><b>part</b>: 0+3mg/0+1mg/0+0/2mg+2mg/3mg+2mg</p><p><b>type</b>: Strength part <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000000#220000000004)</span></p></blockquote><blockquote><p><b>namePart</b></p><p><b>part</b>: õhukese polümeerikattega tabletid</p><p><b>type</b>: Pharmaceutical dose form part <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000000#220000000005)</span></p></blockquote><h3>CountryLanguages</h3><table class="grid"><tr><td>-</td><td><b>Country</b></td><td><b>Language</b></td></tr><tr><td>*</td><td>Republic of Estonia <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000000002#100000000388)</span></td><td>Estonian <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072057#100000072172)</span></td></tr></table></blockquote></div>
+  </text>
+  <extension url="http://ema.europa.eu/fhir/extension/authorisedDoseForm">
+    <valueCoding>
+      <system value="https://spor.ema.europa.eu/v1/lists/200000000004"/>
+      <code value="100000073665"/>
+      <display value="Film-coated tablet"/>
+    </valueCoding>
+  </extension>
+  <identifier>
+    <system value="http://ema.europa.eu/fhir/pmsId"/>
+    <value value="0000000000013"/>
+  </identifier>
+  <identifier>
+    <system value="http://ema.europa.eu/fhir/mpId"/>
+    <value value="EE-100001505-22493"/>
+  </identifier>
+  <domain>
+    <coding>
+      <system value="https://spor.ema.europa.eu/v1/lists/100000000004"/>
+      <code value="100000000012"/>
+      <display value="Human use"/>
+    </coding>
+  </domain>
+  <status>
+    <coding>
+      <system value="https://spor.ema.europa.eu/v1/lists/200000005003"/>
+      <code value="200000005004"/>
+      <display value="Current"/>
+    </coding>
+    <coding>
+      <system value="http://hl7.org/fhir/publication-status"/>
+      <code value="active"/>
+      <display value="Active"/>
+    </coding>
+  </status>
+  <legalStatusOfSupply>
+    <coding>
+      <system value="https://spor.ema.europa.eu/v1/lists/100000072051"/>
+      <code value="100000072084"/>
+      <display value="Medicinal Product subject to medical prescription"/>
+    </coding>
+  </legalStatusOfSupply>
+  <additionalMonitoringIndicator>
+    <coding>
+      <system value="http://ema.europa.eu/fhir/additionalMonitoringIndicator"/>
+      <code value="False"/>
+      <display value="False"/>
+    </coding>
+  </additionalMonitoringIndicator>
+  <classification>
+    <coding>
+      <system value="https://spor.ema.europa.eu/v1/lists/100000093533"/>
+      <code value="1100000125013"/>
+      <display value="Dienogest and estradiol"/>
+    </coding>
+    <coding>
+      <system value="http://www.whocc.no/atc"/>
+      <code value="G03AB08"/>
+      <display value="Dienogest and estradiol "/>
+    </coding>
+  </classification>
+  <name>
+    <productName value="Qlaira, õhukese polümeerikattega tabletid"/>
+    <namePart>
+      <part value="Qlaira"/>
+      <type>
+        <coding>
+          <system value="https://spor.ema.europa.eu/v1/lists/220000000000"/>
+          <code value="220000000002"/>
+          <display value="Invented name part"/>
+        </coding>
+      </type>
+    </namePart>
+    <namePart>
+      <part value="0+3mg/0+1mg/0+0/2mg+2mg/3mg+2mg"/>
+      <type>
+        <coding>
+          <system value="https://spor.ema.europa.eu/v1/lists/220000000000"/>
+          <code value="220000000004"/>
+          <display value="Strength part"/>
+        </coding>
+      </type>
+    </namePart>
+    <namePart>
+      <part value="õhukese polümeerikattega tabletid"/>
+      <type>
+        <coding>
+          <system value="https://spor.ema.europa.eu/v1/lists/220000000000"/>
+          <code value="220000000005"/>
+          <display value="Pharmaceutical dose form part"/>
+        </coding>
+      </type>
+    </namePart>
+    <countryLanguage>
+      <country>
+        <coding>
+          <system value="https://spor.ema.europa.eu/v1/lists/100000000002"/>
+          <code value="100000000388"/>
+          <display value="Republic of Estonia"/>
+        </coding>
+      </country>
+      <language>
+        <coding>
+          <system value="https://spor.ema.europa.eu/v1/lists/100000072057"/>
+          <code value="100000072172"/>
+          <display value="Estonian"/>
+        </coding>
+      </language>
+    </countryLanguage>
+  </name>
+</MedicinalProductDefinition>

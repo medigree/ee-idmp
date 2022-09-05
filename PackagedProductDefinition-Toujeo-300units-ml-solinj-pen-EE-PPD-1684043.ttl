@@ -1,0 +1,129 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://medigree.net/fhir/ee/idmp/PackagedProductDefinition/Toujeo-300units-ml-solinj-pen-EE-PPD-1684043> a fhir:PackagedProductDefinition;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "Toujeo-300units-ml-solinj-pen-EE-PPD-1684043"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PackagedProductDefinition</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition \"Toujeo-300units-ml-solinj-pen-EE-PPD-1684043\" </p></div><p><b>Extension Definition for PackagedProductDefinition.containedItemQuantity for Version 5.0</b>: 5 Pen<span style=\"background: LightGoldenRodYellow\"> (Details: http://spor.ema.europa.eu/v1/lists/200000000014 code 200000002135 = '200000002135')</span></p><p><b>identifier</b>: id: EE-ML6602-32176-1684043</p><p><b>packageFor</b>: <a href=\"MedicinalProductDefinition-Toujeo-300units-ml-solinj-pen-EE-MPD.html\">MedicinalProductDefinition/Toujeo-300units-ml-solinj-pen-EE-MPD</a></p><p><b>description</b>: Kolbampull (I tüüpi värvitu klaas) halli värvi kolvi (broombutüülkumm), pealdisega (alumiiniumäärik) ja korgiga (polüisopreenlaminaat ja broombutüülkumm). Kolbampull on  paigaldatud mittetäidetavasse pen-süstlisse. Üks kolbampull sisaldab 1,5 ml lahust.</p><blockquote><p><b>package</b></p><p><b>type</b>: Box <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003529)</span></p><blockquote><p><b>package</b></p><p><b>type</b>: Cartridge <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (100000073346#100000073503)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Glass type I <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (200000003199#200000003204)</span></p></blockquote></blockquote></div>"
+  ];
+  fhir:DomainResource.extension [
+     fhir:index 0;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/5.0/StructureDefinition/extension-PackagedProductDefinition.containedItemQuantity" ];
+     fhir:Extension.valueQuantity [
+       fhir:Quantity.value [ fhir:value "5"^^xsd:decimal ];
+       fhir:Quantity.unit [ fhir:value "Pen" ];
+       fhir:Quantity.system [ fhir:value "http://spor.ema.europa.eu/v1/lists/200000000014" ];
+       fhir:Quantity.code [ fhir:value "200000002135" ]
+     ]
+  ];
+  fhir:PackagedProductDefinition.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "http://ema.europa.eu/example/pcid" ];
+     fhir:Identifier.value [ fhir:value "EE-ML6602-32176-1684043" ]
+  ];
+  fhir:PackagedProductDefinition.packageFor [
+     fhir:index 0;
+     fhir:link <http://medigree.net/fhir/ee/idmp/MedicinalProductDefinition/Toujeo-300units-ml-solinj-pen-EE-MPD>;
+     fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/Toujeo-300units-ml-solinj-pen-EE-MPD" ]
+  ];
+  fhir:PackagedProductDefinition.description [
+     fhir:value "Kolbampull (I tüüpi värvitu klaas) halli värvi kolvi (broombutüülkumm), pealdisega (alumiiniumäärik) ja korgiga (polüisopreenlaminaat ja broombutüülkumm). Kolbampull on  paigaldatud mittetäidetavasse pen-süstlisse. Üks kolbampull sisaldab 1,5 ml lahust.";
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "http://ema.europa.eu/fhir/extension/language" ];
+       fhir:Extension.valueCoding [
+         fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000072057" ];
+         fhir:Coding.code [ fhir:value "100000072172" ];
+         fhir:Coding.display [ fhir:value "Estonian" ]
+       ]
+     ]
+  ];
+  fhir:PackagedProductDefinition.marketingStatus [
+     fhir:index 0;
+     fhir:MarketingStatus.country [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000000002" ];
+         fhir:Coding.code [ fhir:value "100000000388" ];
+         fhir:Coding.display [ fhir:value "Republic of Estonia" ]
+       ]
+     ];
+     fhir:MarketingStatus.status [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000072052" ];
+         fhir:Coding.code [ fhir:value "100000072083" ];
+         fhir:Coding.display [ fhir:value "Marketed" ]
+       ]
+     ]
+  ];
+  fhir:PackagedProductDefinition.package [
+     fhir:PackagedProductDefinition.package.type [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000073346" ];
+         fhir:Coding.code [ fhir:value "100000073498" ];
+         fhir:Coding.display [ fhir:value "Box" ]
+       ]
+     ];
+     fhir:PackagedProductDefinition.package.quantity [ fhir:value "1"^^xsd:integer ];
+     fhir:PackagedProductDefinition.package.material [
+       fhir:index 0;
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/200000003199" ];
+         fhir:Coding.code [ fhir:value "200000003529" ];
+         fhir:Coding.display [ fhir:value "Cardboard" ]
+       ]
+     ];
+     fhir:PackagedProductDefinition.package.package [
+       fhir:index 0;
+       fhir:PackagedProductDefinition.package.type [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000073346" ];
+           fhir:Coding.code [ fhir:value "100000073503" ];
+           fhir:Coding.display [ fhir:value "Cartridge" ]
+         ]
+       ];
+       fhir:PackagedProductDefinition.package.quantity [ fhir:value "1"^^xsd:integer ];
+       fhir:PackagedProductDefinition.package.material [
+         fhir:index 0;
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/200000003199" ];
+           fhir:Coding.code [ fhir:value "200000003204" ];
+           fhir:Coding.display [ fhir:value "Glass type I" ]
+         ]
+       ];
+       fhir:PackagedProductDefinition.package.containedItem [
+         fhir:index 0;
+         fhir:PackagedProductDefinition.package.containedItem.item [
+           fhir:CodeableReference.reference [
+             fhir:link <http://medigree.net/fhir/ee/idmp/ManufacturedItemDefinition/Toujeo-300units-ml-solinj-pen-EE-MID>;
+             fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/Toujeo-300units-ml-solinj-pen-EE-MID" ]
+           ]
+         ];
+         fhir:PackagedProductDefinition.package.containedItem.amount [
+           fhir:Quantity.value [ fhir:value "1.5"^^xsd:decimal ];
+           fhir:Quantity.unit [ fhir:value "millilitres(s)" ];
+           fhir:Quantity.system [ fhir:value "https://spor.ema.europa.eu/v1/lists/100000110633" ];
+           fhir:Quantity.code [ fhir:value "100000110662" ]
+         ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://medigree.net/fhir/ee/idmp/PackagedProductDefinition/Toujeo-300units-ml-solinj-pen-EE-PPD-1684043.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

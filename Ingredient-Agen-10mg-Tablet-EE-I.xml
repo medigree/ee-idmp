@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Ingredient xmlns="http://hl7.org/fhir">
+  <id value="Agen-10mg-Tablet-EE-I"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Ingredient</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Ingredient "Agen-10mg-Tablet-EE-I" </p></div><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href="MedicinalProductDefinition-Agen-10mg-Tablet-EE-MPD.html">MedicinalProductDefinition/Agen-10mg-Tablet-EE-MPD</a></li><li><a href="ManufacturedItemDefinition-Agen-10mg-Tablet-EE-MID.html">ManufacturedItemDefinition/Agen-10mg-Tablet-EE-MID</a></li><li><a href="AdministrableProductDefinition-Agen-10mg-Tablet-EE-APD.html">AdministrableProductDefinition/Agen-10mg-Tablet-EE-APD</a></li></ul><p><b>role</b>: Active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072050#100000072072)</span></p><blockquote><p><b>substance</b></p><blockquote><p><b>strength</b></p><p><b>presentation</b>: </p></blockquote></blockquote><p><b style="color: maroon">Exception generating Narrative: null</b></p></div>
+  </text>
+  <status value="active"/>
+  <for>
+    <reference value="MedicinalProductDefinition/Agen-10mg-Tablet-EE-MPD"/>
+  </for>
+  <for>
+    <reference value="ManufacturedItemDefinition/Agen-10mg-Tablet-EE-MID"/>
+  </for>
+  <for>
+    <reference value="AdministrableProductDefinition/Agen-10mg-Tablet-EE-APD"/>
+  </for>
+  <role>
+    <coding>
+      <system value="https://spor.ema.europa.eu/v1/lists/100000072050"/>
+      <code value="100000072072"/>
+      <display value="Active"/>
+    </coding>
+  </role>
+  <substance>
+    <code>
+      <concept>
+        <coding>
+          <system value="https://spor.ema.europa.eu/v2/SubstanceDefinition"/>
+          <code value="100000090079"/>
+          <display value="Amlodipine besilate"/>
+        </coding>
+      </concept>
+    </code>
+    <strength>
+      <presentationRatio>
+        <numerator>
+          <value value="13.87"/>
+          <comparator>
+            <extension url="http://ema.europa.eu/fhir/extension/comparator">
+              <valueCoding>
+                <system value="https://spor.ema.europa.eu/v1/lists/100000000008"/>
+                <code value="100000000049"/>
+                <display value="equal to"/>
+              </valueCoding>
+            </extension>
+          </comparator>
+          <unit value="milligram(s)"/>
+          <system value="https://spor.ema.europa.eu/v1/lists/100000110633"/>
+          <code value="100000110655"/>
+        </numerator>
+        <denominator>
+          <value value="1"/>
+          <unit value="tablet"/>
+          <system value="https://spor.ema.europa.eu/v1/lists/200000000014"/>
+          <code value="200000002152"/>
+        </denominator>
+      </presentationRatio>
+      <referenceStrength>
+        <substance>
+          <concept>
+            <coding>
+              <system value="https://spor.ema.europa.eu/v2/SubstanceDefinition"/>
+              <code value="100000085259"/>
+              <display value="Amlodipine"/>
+            </coding>
+          </concept>
+        </substance>
+        <strengthRatio>
+          <numerator>
+            <value value="10"/>
+            <comparator>
+              <extension url="http://ema.europa.eu/fhir/extension/comparator">
+                <valueCoding>
+                  <system value="https://spor.ema.europa.eu/v1/lists/100000000008"/>
+                  <code value="100000000049"/>
+                  <display value="equal to"/>
+                </valueCoding>
+              </extension>
+            </comparator>
+            <unit value="milligram(s)"/>
+            <system value="https://spor.ema.europa.eu/v1/lists/100000110633"/>
+            <code value="100000110655"/>
+          </numerator>
+          <denominator>
+            <value value="1"/>
+            <unit value="Tablet"/>
+            <system value="https://spor.ema.europa.eu/v1/lists/200000000014"/>
+            <code value="200000002152"/>
+          </denominator>
+        </strengthRatio>
+      </referenceStrength>
+    </strength>
+  </substance>
+</Ingredient>
