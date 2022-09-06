@@ -2,12 +2,9 @@
 
 <Bundle xmlns="http://hl7.org/fhir">
   <id value="Agen5mg-EE"/>
-  <meta>
-    <versionId value="1"/>
-    <lastUpdated value="2022-08-23T06:28:26.529+00:00"/>
-  </meta>
   <type value="transaction"/>
   <entry>
+    <fullUrl value="http://medigree.net/fhir/idmp/ee/MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD"/>
     <resource>
       <MedicinalProductDefinition>
         <id value="Agen-5mg-Tablet-EE-MPD"/>
@@ -115,6 +112,7 @@
     </request>
   </entry>
   <entry>
+    <fullUrl value="http://medigree.net/fhir/idmp/ee/RegulatedAuthorization/Agen-5mg-Tablet-EE-RA"/>
     <resource>
       <RegulatedAuthorization>
         <id value="Agen-5mg-Tablet-EE-RA"/>
@@ -165,6 +163,7 @@
     </request>
   </entry>
   <entry>
+    <fullUrl value="http://medigree.net/fhir/idmp/ee/AdministrableProductDefinition/Agen-5mg-Tablet-EE-APD"/>
     <resource>
       <AdministrableProductDefinition>
         <id value="Agen-5mg-Tablet-EE-APD"/>
@@ -209,6 +208,7 @@
     </request>
   </entry>
   <entry>
+    <fullUrl value="http://medigree.net/fhir/idmp/ee/ManufacturedItemDefinition/Agen-5mg-Tablet-EE-MID"/>
     <resource>
       <ManufacturedItemDefinition>
         <id value="Agen-5mg-Tablet-EE-MID"/>
@@ -238,6 +238,7 @@
     </request>
   </entry>
   <entry>
+    <fullUrl value="http://medigree.net/fhir/idmp/ee/Ingredient/Agen-5mg-Tablet-EE-I"/>
     <resource>
       <Ingredient>
         <id value="Agen-5mg-Tablet-EE-I"/>
@@ -339,6 +340,7 @@
     </request>
   </entry>
   <entry>
+    <fullUrl value="http://medigree.net/fhir/idmp/ee/PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-A"/>
     <resource>
       <PackagedProductDefinition>
         <id value="Agen-5mg-Tablet-EE-PPD-1109887-A"/>
@@ -450,6 +452,7 @@
     </request>
   </entry>
   <entry>
+    <fullUrl value="http://medigree.net/fhir/idmp/ee/PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-B"/>
     <resource>
       <PackagedProductDefinition>
         <id value="Agen-5mg-Tablet-EE-PPD-1109887-B"/>

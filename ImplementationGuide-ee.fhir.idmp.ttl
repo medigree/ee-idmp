@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "EEIDMP"];
   fhir:ImplementationGuide.title [ fhir:value "EE-IDMP"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-09-05T10:08:29+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-09-06T15:58:15+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "Medigree"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
