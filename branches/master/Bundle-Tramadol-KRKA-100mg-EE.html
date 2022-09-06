@@ -1,45 +1,47 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE HTML>
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
     <title>EE.FHIR.IDMP\Tramadol-KRKA-100mg-EE - FHIR v5.0.0-snapshot1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
 
-    <link rel="stylesheet" href="fhir.css"/>
+    <link href="fhir.css" rel="stylesheet"/>
 
-      <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
 
-      <!-- Project extras -->
-    <link rel="stylesheet" href="assets/css/project.css"/>
-    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
-    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
-  	<link rel="stylesheet" href="assets/css/prism.css"/>
-      <!-- Placeholder for child template CSS declarations -->
-<link rel="stylesheet" href="assets/css/hl7-be.css"/>
-  <!-- Placeholder for child template CSS declarations -->
-<link rel="stylesheet" href="assets/css/colors.css"/>
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+<link href="assets/css/hl7-be.css" rel="stylesheet"/>
+<!-- Placeholder for child template CSS declarations -->
+<link href="assets/css/colors.css" rel="stylesheet"/>
 
-    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
-  <!-- Questionnaire: -->
-    <link rel="stylesheet" href="assets/css/lforms.min.css"/>
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+<!--
+  Questionnaire:
+-->
+    <link href="assets/css/lforms.min.css" rel="stylesheet"/>
 
 
 
 
-      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-      <!-- [if lt IE 9]>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
     <script src="assets/js/html5shiv.js"></script>
     <script src="assets/js/respond.min.js"></script>
-    <![endif] -->
+    <![endif]-->
 
-      <!-- Favicons -->
-    <link sizes="144x144" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
-    <link sizes="114x114" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
-    <link sizes="72x72" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
     <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
     <link rel="shortcut icon" href="assets/ico/favicon.png"/>
   </head>
@@ -49,101 +51,78 @@
 
     <style type="text/css">h2{--heading-prefix:"2.247"}
     h3,h4,h5,h6{--heading-prefix:"2.247"}</style>
-    <div id="segment-header" class="segment">    <!-- segment-header -->
-      <div class="container">    <!-- container -->
-          <!-- Placeholder for child template header declarations -->
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        <!-- Placeholder for child template header declarations -->
 
         <div id="ig-nav">
-          <a no-external="true" id="hl7-logo" href="https://hl7-be.github.io">
-            <img src="assets/images/hl7be-logo-header.png" alt="HL7 Belgium" height="65"/>
+          <a id="hl7-logo" no-external="true" href="https://hl7-be.github.io">
+            <img height="65" alt="HL7 Belgium" src="assets/images/hl7be-logo-header.png"/>
           </a>
         </div>
         <div id="fhir-nav">
-          <a no-external="true" id="fhir-logo" href="http://hl7.org/fhir"><img src="assets/images/fhir-logo-www.png" alt="Visit the FHIR website" height="50"/> </a>
+          <a id="fhir-logo" no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
         </div>
         <div id="ig-search">
-          <a no-external="true" id="hl7-search-lnk" href="http://hl7.org/fhir/search.cfm"><img src="assets/images/search.png" alt="Search FHIR"/></a>
+          <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
         </div>
 
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">EE-IDMP</span><br/>0.1.0 - ci-build</p>
         </div>
-      </div>   <!-- /container -->
-    </div>    <!-- /segment-header -->
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
 
-    <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
       <div id="stripe"> </div>
-      <div class="container">    <!-- container -->
-          <!-- HEADER CONTENT -->
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
 
         <nav class="navbar navbar-inverse">
-            <!-- status-bar -->
+          <!--status-bar-->
           <div class="container">
-            <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
               <span class="icon-bar"> </span>
               <span class="icon-bar"> </span>
               <span class="icon-bar"> </span>
             </button>
-            <a href="http://build.fhir.org/index.html" class="navbar-brand hidden">FHIR</a>
+            <a class="navbar-brand hidden" href="http://build.fhir.org/index.html">FHIR</a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
-              <ul class="nav navbar-nav">
-	<li>
-		<a href="index.html">IG Home</a>
-	</li>
-	<li>
-		<a href="toc.html">Table of Contents</a>
-	</li>
-  <!-- <li class="dropdown">
-		<a data-toggle="dropdown" href="#" class="dropdown-toggle">Background<b class="caret"></b>
-		</a>
+              <!-- menu.xml  -->
 
-	</li>
-	<li class="dropdown">
-		<a data-toggle="dropdown" href="#" class="dropdown-toggle">Functional Description<b class="caret"></b>
-		</a>
-
-	</li> -->
-	<li class="dropdown">
-		<a data-toggle="dropdown" href="#" class="dropdown-toggle">Specifications<b class="caret"></b>
-		</a>
-		<ul class="dropdown-menu">
-			<li>
-				<a href="artifacts.html">Artifact Index</a>
-			</li>
-		</ul>
-	</li>
-	<li class="dropdown">
-		<a data-toggle="dropdown" href="#" class="dropdown-toggle">Implementation<b class="caret"></b></a>
-		<ul class="dropdown-menu">
-			<li><a name="l195">​</a><a href="downloads.html">Downloads</a></li>
-		</ul>
-	</li>
-</ul>      
-            </div>    <!-- /.nav-collapse -->
-          </div>    <!-- /.container -->
-        </nav>    <!-- /.navbar -->
-        <!-- /HEADER CONTENT -->
-      </div>    <!-- /container -->
-    </div>    <!-- /segment-navbar -->
-      <!-- status-bar -->
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
     
-    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
-      <div class="container">    <!-- container -->
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>Tramadol-KRKA-100mg-EE</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Tramadol-KRKA-100mg-EE</b></li>
           
         </ul>
-      </div>    <!-- /container -->
-    </div>    <!-- /segment-breadcrumb -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
 
     <a name="top"> </a>
-    <div id="segment-content" class="segment">    <!-- segment-content -->
-      <div class="container">    <!-- container -->
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
         <div class="row">
           <div class="inner-wrapper">
 
 <div class="col-12">
-    <!-- ReleaseHeader --><p id="publish-box">EE-IDMP - Local Development build (v0.1.0). See the <a href="http://medigree.net/fhir/ee/idmp/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+  <!--ReleaseHeader--><p id="publish-box">EE-IDMP - Local Development build (v0.1.0). See the <a href="http://medigree.net/fhir/ee/idmp/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
 
   
 
@@ -191,7 +170,7 @@
 
   <h2 id="root">Example Bundle: Tramadol-KRKA-100mg-EE</h2>
 
-  <table class="null">
+  <table class="">
     <tr>
 
       <td colspan="2">
@@ -206,34 +185,34 @@
 
 
 
-    <!-- insert intro if present -->
+  <!-- insert intro if present -->
   
 
 
 
   <div><p>Bundle Tramadol-KRKA-100mg-EE of type transaction</p><a name="MedicinalProductDefinition_Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-MPD"> </a><hr/><p>Entry 1</p><p>Request:</p><pre>PUT MedicinalProductDefinition/Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-MPD
-</pre><p>Resource MedicinalProductDefinition:</p><blockquote><p><p><b>Generated Narrative: MedicinalProductDefinition</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource MedicinalProductDefinition "Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-MPD" </p></div><p><b>identifier</b>: id: EE-100009540-12260</p><p><b>domain</b>: Human use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000000004#100000000035)</span></p><p><b>status</b>: Current <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000005003#200000005004)</span></p><p><b>legalStatusOfSupply</b>: Medicinal product subject to medical prescription <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072051#100000072084)</span></p><p><b>classification</b>: Tramadol <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000093533#100000097261; <a href="http://terminology.hl7.org/3.0.0/CodeSystem-atc.html">WHO ATC</a>#N02AX02)</span></p><blockquote><p><b>name</b></p><p><b>productName</b>: Tramadol Krka, 100 mg toimeainet prolongeeritult vabastavad tabletid</p><blockquote><p><b>namePart</b></p><p><b>part</b>: Tramadol Krka</p><p><b>type</b>: Invented Name Part <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000000#220000000002)</span></p></blockquote><blockquote><p><b>namePart</b></p><p><b>part</b>: 100 mg</p><p><b>type</b>: Strength part <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000000#220000000004)</span></p></blockquote><blockquote><p><b>namePart</b></p><p><b>part</b>: toimeainet prolongeeritult vabastavad tabletid</p><p><b>type</b>: Pharmaceutical dose form part <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000000#220000000005)</span></p></blockquote><h3>CountryLanguages</h3><table class="grid"><tr><td>-</td><td><b>Country</b></td><td><b>Language</b></td></tr><tr><td>*</td><td>Republic of Estonia <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000000002#100000000388)</span></td><td>Estonian <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072057#100000072172)</span></td></tr></table></blockquote></p></blockquote><a name="RegulatedAuthorization_Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-RA"> </a><hr/><p>Entry 2</p><p>Request:</p><pre>PUT RegulatedAuthorization/Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-RA
-</pre><p>Resource RegulatedAuthorization:</p><blockquote><p><p><b>Generated Narrative: RegulatedAuthorization</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource RegulatedAuthorization "Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-RA" </p></div><p><b>identifier</b>: id: 331200</p><p><b>subject</b>: <a href="MedicinalProductDefinition-Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-MPD.html">MedicinalProductDefinition/Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-MPD</a></p><p><b>type</b>: Marketing Authorisation <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000060#220000000061)</span></p><p><b>region</b>: Republic of Estonia <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000000002#100000000388)</span></p><p><b>status</b>: Valid - Renewed/Varied <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072049#200000017708)</span></p><p><b>statusDate</b>: 2022-06-28</p><p><b>holder</b>: <span>: KRKA, d.d., Novo mesto</span></p></p></blockquote><a name="AdministrableProductDefinition_Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-APD"> </a><hr/><p>Entry 3</p><p>Request:</p><pre>PUT AdministrableProductDefinition/Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-APD
-</pre><p>Resource AdministrableProductDefinition:</p><blockquote><p><p><b>Generated Narrative: AdministrableProductDefinition</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource AdministrableProductDefinition "Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-APD" </p></div><p><b>status</b>: ACTIVE</p><p><b>formOf</b>: <a href="MedicinalProductDefinition-Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-MPD.html">MedicinalProductDefinition/Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-MPD</a></p><p><b>administrableDoseForm</b>: Prolonged-release tablet <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000000004#100000073683)</span></p><p><b>unitOfPresentation</b>: Tablet <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000000014#200000002152)</span></p><p><b>producedFrom</b>: <a href="ManufacturedItemDefinition-Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-MID.html">ManufacturedItemDefinition/Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-MID</a></p><h3>RouteOfAdministrations</h3><table class="grid"><tr><td>-</td><td><b>Code</b></td></tr><tr><td>*</td><td>Oral use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073345#100000073619)</span></td></tr></table></p></blockquote><a name="ManufacturedItemDefinition_Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-MID"> </a><hr/><p>Entry 4</p><p>Request:</p><pre>PUT ManufacturedItemDefinition/Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-MID
-</pre><p>Resource ManufacturedItemDefinition:</p><blockquote><p><p><b>Generated Narrative: ManufacturedItemDefinition</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource ManufacturedItemDefinition "Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-MID" </p></div><p><b>status</b>: ACTIVE</p><p><b>manufacturedDoseForm</b>: Prolonged-release tablet <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000000004#100000073683)</span></p><p><b>unitOfPresentation</b>: Tablet <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000000014#200000002152)</span></p></p></blockquote><a name="Ingredient_Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-I"> </a><hr/><p>Entry 5</p><p>Request:</p><pre>PUT Ingredient/Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-I
-</pre><p>Resource Ingredient:</p><blockquote><p><p><b>Generated Narrative: Ingredient</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Ingredient "Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-I" </p></div><p><b>status</b>: ACTIVE</p><p><b>for</b>: </p><ul><li><a href="MedicinalProductDefinition-Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-MPD.html">MedicinalProductDefinition/Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-MPD</a></li><li><a href="ManufacturedItemDefinition-Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-MID.html">ManufacturedItemDefinition/Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-MID</a></li><li><a href="AdministrableProductDefinition-Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-APD.html">AdministrableProductDefinition/Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-APD</a></li></ul><p><b>role</b>: Active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072050#100000072072)</span></p><blockquote><p><b>substance</b></p><blockquote><p><b>strength</b></p><p><b>presentation</b>: </p></blockquote></blockquote><p><b style="color: maroon">Exception generating Narrative: null</b></p></p></blockquote><a name="PackagedProductDefinition_Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-PPD-1043525"> </a><hr/><p>Entry 6</p><p>Request:</p><pre>PUT PackagedProductDefinition/Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-PPD-1043525
-</pre><p>Resource PackagedProductDefinition:</p><blockquote><p><p><b>Generated Narrative: PackagedProductDefinition</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource PackagedProductDefinition "Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-PPD-1043525" </p></div><p><b>Extension Definition for PackagedProductDefinition.containedItemQuantity for Version 5.0</b>: 30 tablet<span style="background: LightGoldenRodYellow"> (Details: http://spor.ema.europa.eu/v1/lists/200000000014 code 200000002152 = '200000002152')</span></p><p><b>identifier</b>: id: EE-100009540-12260-1043525</p><p><b>packageFor</b>: <a href="MedicinalProductDefinition-Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-MPD.html">MedicinalProductDefinition/Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-MPD</a></p><p><b>description</b>: 100 mg toimeainet prolongeeritult vabastavad tabletid Al/PVC blisterpakendis - 30 tk.</p></p></blockquote></div>
+</pre><p>Resource MedicinalProductDefinition:</p><blockquote><p><p><b>Generated Narrative: MedicinalProductDefinition</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource MedicinalProductDefinition &quot;Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-MPD&quot; </p></div><p><b>identifier</b>: id: EE-100009540-12260</p><p><b>domain</b>: Human use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000000004#100000000035)</span></p><p><b>status</b>: Current <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000005003#200000005004)</span></p><p><b>legalStatusOfSupply</b>: Medicinal product subject to medical prescription <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072051#100000072084)</span></p><p><b>classification</b>: Tramadol <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000093533#100000097261; <a href="http://terminology.hl7.org/3.0.0/CodeSystem-atc.html">WHO ATC</a>#N02AX02)</span></p><blockquote><p><b>name</b></p><p><b>productName</b>: Tramadol Krka, 100 mg toimeainet prolongeeritult vabastavad tabletid</p><blockquote><p><b>namePart</b></p><p><b>part</b>: Tramadol Krka</p><p><b>type</b>: Invented Name Part <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000000#220000000002)</span></p></blockquote><blockquote><p><b>namePart</b></p><p><b>part</b>: 100 mg</p><p><b>type</b>: Strength part <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000000#220000000004)</span></p></blockquote><blockquote><p><b>namePart</b></p><p><b>part</b>: toimeainet prolongeeritult vabastavad tabletid</p><p><b>type</b>: Pharmaceutical dose form part <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000000#220000000005)</span></p></blockquote><h3>CountryLanguages</h3><table class="grid"><tr><td>-</td><td><b>Country</b></td><td><b>Language</b></td></tr><tr><td>*</td><td>Republic of Estonia <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000000002#100000000388)</span></td><td>Estonian <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072057#100000072172)</span></td></tr></table></blockquote></p></blockquote><a name="RegulatedAuthorization_Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-RA"> </a><hr/><p>Entry 2</p><p>Request:</p><pre>PUT RegulatedAuthorization/Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-RA
+</pre><p>Resource RegulatedAuthorization:</p><blockquote><p><p><b>Generated Narrative: RegulatedAuthorization</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource RegulatedAuthorization &quot;Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-RA&quot; </p></div><p><b>identifier</b>: id: 331200</p><p><b>subject</b>: <a href="MedicinalProductDefinition-Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-MPD.html">MedicinalProductDefinition/Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-MPD</a></p><p><b>type</b>: Marketing Authorisation <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000060#220000000061)</span></p><p><b>region</b>: Republic of Estonia <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000000002#100000000388)</span></p><p><b>status</b>: Valid - Renewed/Varied <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072049#200000017708)</span></p><p><b>statusDate</b>: 2022-06-28</p><p><b>holder</b>: <span>: KRKA, d.d., Novo mesto</span></p></p></blockquote><a name="AdministrableProductDefinition_Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-APD"> </a><hr/><p>Entry 3</p><p>Request:</p><pre>PUT AdministrableProductDefinition/Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-APD
+</pre><p>Resource AdministrableProductDefinition:</p><blockquote><p><p><b>Generated Narrative: AdministrableProductDefinition</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource AdministrableProductDefinition &quot;Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-APD&quot; </p></div><p><b>status</b>: ACTIVE</p><p><b>formOf</b>: <a href="MedicinalProductDefinition-Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-MPD.html">MedicinalProductDefinition/Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-MPD</a></p><p><b>administrableDoseForm</b>: Prolonged-release tablet <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000000004#100000073683)</span></p><p><b>unitOfPresentation</b>: Tablet <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000000014#200000002152)</span></p><p><b>producedFrom</b>: <a href="ManufacturedItemDefinition-Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-MID.html">ManufacturedItemDefinition/Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-MID</a></p><h3>RouteOfAdministrations</h3><table class="grid"><tr><td>-</td><td><b>Code</b></td></tr><tr><td>*</td><td>Oral use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000073345#100000073619)</span></td></tr></table></p></blockquote><a name="ManufacturedItemDefinition_Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-MID"> </a><hr/><p>Entry 4</p><p>Request:</p><pre>PUT ManufacturedItemDefinition/Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-MID
+</pre><p>Resource ManufacturedItemDefinition:</p><blockquote><p><p><b>Generated Narrative: ManufacturedItemDefinition</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource ManufacturedItemDefinition &quot;Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-MID&quot; </p></div><p><b>status</b>: ACTIVE</p><p><b>manufacturedDoseForm</b>: Prolonged-release tablet <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000000004#100000073683)</span></p><p><b>unitOfPresentation</b>: Tablet <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (200000000014#200000002152)</span></p></p></blockquote><a name="Ingredient_Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-I"> </a><hr/><p>Entry 5</p><p>Request:</p><pre>PUT Ingredient/Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-I
+</pre><p>Resource Ingredient:</p><blockquote><p><p><b>Generated Narrative: Ingredient</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Ingredient &quot;Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-I&quot; </p></div><p><b>status</b>: ACTIVE</p><p><b>for</b>: </p><ul><li><a href="MedicinalProductDefinition-Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-MPD.html">MedicinalProductDefinition/Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-MPD</a></li><li><a href="ManufacturedItemDefinition-Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-MID.html">ManufacturedItemDefinition/Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-MID</a></li><li><a href="AdministrableProductDefinition-Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-APD.html">AdministrableProductDefinition/Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-APD</a></li></ul><p><b>role</b>: Active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (100000072050#100000072072)</span></p><blockquote><p><b>substance</b></p><blockquote><p><b>strength</b></p><p><b>presentation</b>: </p></blockquote></blockquote><p><b style="color: maroon">Exception generating Narrative: null</b></p></p></blockquote><a name="PackagedProductDefinition_Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-PPD-1043525"> </a><hr/><p>Entry 6</p><p>Request:</p><pre>PUT PackagedProductDefinition/Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-PPD-1043525
+</pre><p>Resource PackagedProductDefinition:</p><blockquote><p><p><b>Generated Narrative: PackagedProductDefinition</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource PackagedProductDefinition &quot;Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-PPD-1043525&quot; </p></div><p><b>Extension Definition for PackagedProductDefinition.containedItemQuantity for Version 5.0</b>: 30 tablet<span style="background: LightGoldenRodYellow"> (Details: http://spor.ema.europa.eu/v1/lists/200000000014 code 200000002152 = '200000002152')</span></p><p><b>identifier</b>: id: EE-100009540-12260-1043525</p><p><b>packageFor</b>: <a href="MedicinalProductDefinition-Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-MPD.html">MedicinalProductDefinition/Tramadol-KRKA-100mg-Prolonged-release-tablet-EE-MPD</a></p><p><b>description</b>: 100 mg toimeainet prolongeeritult vabastavad tabletid Al/PVC blisterpakendis - 30 tk.</p></p></blockquote></div>
 
   
 
-    <!-- insert notes if present -->
+  <!-- insert notes if present -->
   
 
 
 
 </div>
-        </div>    <!-- /inner-wrapper -->
-      </div>    <!-- /row -->
-    </div>    <!-- /container -->
-  </div>    <!-- /segment-content -->
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
 
-  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
-  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
 
   <script type="text/javascript">
     $(document).ready(function(){
@@ -243,49 +222,50 @@
     });
   </script>
   <a name="bottom"> </a>
-  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
-    <div class="container">    <!-- container -->
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
 
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://medigree.net">Medigree</a>.  Package ee.fhir.idmp#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://build.fhir.org/">FHIR 5.0.0-snapshot1</a>. Generated <span title="Mon, Sep 5, 2022 10:08+0000">2022-09-05</span>
+          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://medigree.net">Medigree</a>.  Package ee.fhir.idmp#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://build.fhir.org/">FHIR 5.0.0-snapshot1</a>. Generated <span title="Tue, Sep 6, 2022 15:58+0000">2022-09-06</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
                 
-          
+          </span>
         </p>
-      </div>    <!-- /inner-wrapper -->
-    </div>    <!-- /container -->
-  </div>    <!-- /segment-footer -->
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
   
-  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
-    <div class="container">    <!-- container -->
-    </div>    <!-- /container -->
-  </div>    <!-- /segment-post-footer -->
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
   
-    <!-- JS and analytics only. -->
-    <!-- Bootstrap core JavaScript
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
   ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
-  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
-  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
-  <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
-  <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
   <script>anchors.options.visible = 'hover'
 anchors.add()</script>
   
-  <!-- feedback form - Google forms -->
-  <!-- v0.1, 2021-01-09 -->
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
 
 
 
-  <!-- / feedback form -->
+<!-- / feedback form  -->
 
-    <!-- Analytics Below
+  <!-- Analytics Below
   ================================================== -->
   </body>
 </html>
+

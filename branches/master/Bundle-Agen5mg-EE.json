@@ -1,13 +1,10 @@
 {
   "resourceType": "Bundle",
   "id": "Agen5mg-EE",
-  "meta": {
-    "versionId": "1",
-    "lastUpdated": "2022-08-23T06:28:26.529+00:00"
-  },
   "type": "transaction",
   "entry": [
     {
+      "fullUrl": "http://medigree.net/fhir/idmp/ee/MedicinalProductDefinition/Agen-5mg-Tablet-EE-MPD",
       "resource": {
         "resourceType": "MedicinalProductDefinition",
         "id": "Agen-5mg-Tablet-EE-MPD",
@@ -146,6 +143,7 @@
       }
     },
     {
+      "fullUrl": "http://medigree.net/fhir/idmp/ee/RegulatedAuthorization/Agen-5mg-Tablet-EE-RA",
       "resource": {
         "resourceType": "RegulatedAuthorization",
         "id": "Agen-5mg-Tablet-EE-RA",
@@ -208,6 +206,7 @@
       }
     },
     {
+      "fullUrl": "http://medigree.net/fhir/idmp/ee/AdministrableProductDefinition/Agen-5mg-Tablet-EE-APD",
       "resource": {
         "resourceType": "AdministrableProductDefinition",
         "id": "Agen-5mg-Tablet-EE-APD",
@@ -264,6 +263,7 @@
       }
     },
     {
+      "fullUrl": "http://medigree.net/fhir/idmp/ee/ManufacturedItemDefinition/Agen-5mg-Tablet-EE-MID",
       "resource": {
         "resourceType": "ManufacturedItemDefinition",
         "id": "Agen-5mg-Tablet-EE-MID",
@@ -297,6 +297,7 @@
       }
     },
     {
+      "fullUrl": "http://medigree.net/fhir/idmp/ee/Ingredient/Agen-5mg-Tablet-EE-I",
       "resource": {
         "resourceType": "Ingredient",
         "id": "Agen-5mg-Tablet-EE-I",
@@ -416,6 +417,7 @@
       }
     },
     {
+      "fullUrl": "http://medigree.net/fhir/idmp/ee/PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-A",
       "resource": {
         "resourceType": "PackagedProductDefinition",
         "id": "Agen-5mg-Tablet-EE-PPD-1109887-A",
@@ -564,6 +566,7 @@
       }
     },
     {
+      "fullUrl": "http://medigree.net/fhir/idmp/ee/PackagedProductDefinition/Agen-5mg-Tablet-EE-PPD-1109887-B",
       "resource": {
         "resourceType": "PackagedProductDefinition",
         "id": "Agen-5mg-Tablet-EE-PPD-1109887-B",
